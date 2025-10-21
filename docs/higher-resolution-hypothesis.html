@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Higher-Resolution Hypothesis</title>
+    <style>
+        @page {
+            margin: 1in;
+            size: letter;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+            background: #ffffff;
+        }
+
+        .title-page {
+            text-align: center;
+            margin-top: 2.5in;
+            margin-bottom: 2in;
+        }
+
+        h1.main-title {
+            font-size: 28pt;
+            font-weight: 700;
+            line-height: 1.3;
+            color: #000000;
+            margin: 0 0 0.5in 0;
+        }
+
+        .author {
+            font-size: 14pt;
+            font-weight: 600;
+            margin: 0.4in 0 0.1in 0;
+        }
+
+        .affiliation {
+            font-size: 12pt;
+            margin: 0.1in 0;
+        }
+        
+        .date {
+            font-size: 11pt;
+            margin: 0.3in 0 0 0;
+        }
+
+        h2 {
+            font-size: 14pt;
+            font-weight: 700;
+            margin: 24pt 0 12pt 0;
+            color: #000000;
+            border-bottom: 1px solid #cccccc;
+            padding-bottom: 4pt;
+        }
+
+        h3 {
+            font-size: 12pt;
+            font-weight: 600;
+            margin: 18pt 0 10pt 0;
+            color: #2c2c2c;
+        }
+
+        p {
+            margin: 0 0 12pt 0;
+            text-align: justify;
+            font-size: 11pt;
+        }
+
+        .abstract {
+            font-style: italic;
+            margin: 0 0 12pt 0;
+            text-align: justify;
+        }
+
+        .keywords {
+            margin: 12pt 0 24pt 0;
+            font-size: 11pt;
+        }
+
+        ul {
+            margin: 0 0 12pt 0;
+            padding-left: 24pt;
+        }
+
+        li {
+            margin: 6pt 0;
+            font-size: 11pt;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        em {
+            font-style: italic;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12pt 0;
+            font-size: 10pt;
+        }
+
+        th {
+            background-color: #f5f5f5;
+            border: 1px solid #cccccc;
+            padding: 8pt;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            border: 1px solid #cccccc;
+            padding: 8pt;
+            vertical-align: top;
+        }
+
+        .references {
+            font-size: 9.5pt;
+            line-height: 1.5;
+        }
+
+        .references ol {
+            padding-left: 24pt;
+        }
+
+        .references li {
+            margin: 8pt 0;
+            font-size: 9.5pt;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #cccccc;
+            margin: 24pt 0;
+        }
+
+        .appendix {
+            margin-top: 36pt;
+            padding-top: 24pt;
+            border-top: 2px solid #999999;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+            
+            .title-page {
+                page-break-after: always;
+            }
+            
+            h2 {
+                page-break-after: avoid;
+            }
+            
+            h3 {
+                page-break-after: avoid;
+            }
+            
+            p, ul, table {
+                orphans: 3;
+                widows: 3;
+            }
+
+            table {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title-page">
+        <h1 class="main-title">The Higher-Resolution Hypothesis</h1>
+        <p class="author">Thiago Sindra</p>
+        <p class="affiliation">Independent Researcher</p>
+        <p class="date">October 2025</p>
+    </div>
+
+    <h2>Abstract</h2>
+    <p class="abstract">Autism may arise not from isolated dysfunctions but from a distinct mode of neural organization. I propose the <strong>Higher-Resolution Hypothesis</strong>, which views autism as the emergent cognitive expression of a <strong>Distributed Pathway Model (DPM)</strong> of neural connectivity. In this model, increased local branching and distributed propagation of neural activity allow a single stimulus to engage multiple downstream pathways, producing higher representational density. This architecture enriches perception, memory, and associative thinking—yielding "higher-resolution" experience—but also heightens energetic demand, instability, and overload risk.</p>
+
+    <p class="abstract">The DPM provides a mechanistic bridge between molecular findings (altered pruning, E/I imbalance, interneuron migration deficits) and autistic phenomenology (detail perception, sensory sensitivity, cognitive divergence, emotional intensity). It also explains individual heterogeneity through differences in the ratio and persistence of <strong>active versus reactive pathways</strong>. The model unifies prior theories—E/I imbalance, predictive coding, intense world, weak central coherence—under a single topological framework.</p>
+
+    <p class="abstract">Ultimately, I propose that autism represents a <strong>distributed mode of cognition</strong>, simultaneously capable of extraordinary precision and vulnerable to cascade activation. This document outlines the neurobiological, cognitive, and experiential implications of that framework and invites empirical validation, critique, and integration from the scientific community.</p>
+
+    <p class="keywords"><strong>Keywords:</strong> autism spectrum, distributed connectivity, higher-resolution processing, excitation/inhibition balance, predictive coding, sensory integration, neurodevelopment, neural branching, heterogeneity.</p>
+
+    <hr>
+
+    <h2>Introduction</h2>
+    <p>Autism, as I understand it, is not a collection of behavioral traits or social deficits—it is a fundamentally different mode of neural organization. In this document, I propose that the autistic brain encodes and processes information at a higher level of granularity, a difference that I call the <strong>Higher-Resolution Hypothesis</strong>.</p>
+    
+    <p>This higher resolution of experience means that perception, cognition, and internal states are composed of more micro-signals per unit of experience. Autistic individuals may perceive and represent more of the world at once—more nuance, more detail, more overlapping meaning—but this comes with a cost: increased computational demand, energetic load, and susceptibility to overload or runaway activation.</p>
+    
+    <p>The higher resolution is not an abstract metaphor. It emerges from measurable differences in the wiring and dynamics of cortical and subcortical networks. At the biological core of this hypothesis lies what I call the <strong>Distributed Pathway Model (DPM)</strong>—a mechanistic framework that explains how a neuron's local structure and a circuit's branching behavior can create richer but less filtered propagation of activity through the brain.</p>
+
+    <hr>
+
+    <h2>The Distributed Pathway Model (DPM)</h2>
+    
+    <h3>Overview</h3>
+    <p>In neurotypical development, circuits are optimized for efficiency. Neurons connect into relatively linear or convergent chains, each with a constrained set of possible outputs. Pruning removes redundant branches, and inhibition gates the flow of activity to minimize cross-talk. This creates networks that are streamlined, energy-efficient, and selective.</p>
+    
+    <p>In the autistic brain, multiple converging findings suggest that this balance is shifted. Branching during development is more extensive, pruning is less aggressive, and inhibitory gating is weaker or slower to mature. The result is an architecture where a single input may activate multiple possible downstream pathways—a <strong>distributed propagation</strong> of information.</p>
+    
+    <p>Instead of a single route such as <strong>A → B → C</strong>, autistic circuits may follow <strong>A → B → C</strong> <em>and</em> <strong>A → B → Y → Z</strong>, with B acting as a branch point. This means that one activation can produce more than one outcome, depending on timing, inhibitory tone, and local feedback.</p>
+    
+    <p>This is not merely "hyperconnectivity." It is a qualitative difference in <strong>branching topology</strong>—a more distributed network where neurons participate in multiple, sometimes overlapping, pathways. This architecture naturally increases representational richness: the same stimulus engages a larger and more diverse population of neurons. However, it also introduces instability, as these distributed activations are harder to predict and contain.</p>
+
+    <h3>Mechanistic Summary</h3>
+    <p>The DPM describes three interdependent properties of autistic neural organization:</p>
+    <ol>
+        <li><strong>Increased local branching</strong> — greater axonal and dendritic divergence, producing multiple downstream targets for single neurons.</li>
+        <li><strong>Distributed propagation</strong> — signal flow that engages several parallel microcircuits instead of a single chain.</li>
+        <li><strong>Variable inhibition</strong> — reduced or delayed inhibitory control that allows overlapping activations to persist or echo.</li>
+    </ol>
+    <p>Together, these yield higher representational density but also greater temporal variability, energetic cost, and sensitivity to interference.</p>
+
+    <h3>Branching and Conditional Routing</h3>
+    <p>Branching introduces both spatial and temporal flexibility. A neuron such as <strong>B</strong> may project to <strong>C</strong> and <strong>Y</strong>. Depending on membrane potential, local field effects, or inhibitory gating, it may activate one route, both, or oscillate between them. This context-dependent routing provides adaptive potential—it can represent subtle variations in input—but it also produces unpredictability and internal noise.</p>
+    
+    <p>This may explain the intense perceptual richness and variability in autistic experience: multiple microcircuits partially engaged in parallel, encoding the same event from different angles, frequencies, or associative contexts.</p>
+
+    <h3>Network Cascade Susceptibility</h3>
+    <p>Because each neuron is connected to more branches, each spike recruits a larger set of followers. When inhibition is strong and well-timed, this increases information flow without runaway activity. When inhibition is weak or asynchronous—as seen in many autism-linked genetic disruptions—the result is positive feedback and uncontrolled propagation.</p>
+    
+    <p>This helps explain why autistic individuals have a higher incidence of <strong>epilepsy and subclinical seizure-like activity</strong>. The same architecture that enhances resolution also predisposes the brain to excitatory cascades: one neuron activates two, two activate four, and so on, leading to reverberating waves of excitation.</p>
+    
+    <p>At a systems level, this also explains why stress, fatigue, or sensory saturation can trigger overload or shutdown: too many distributed pathways activate simultaneously, consuming metabolic resources and collapsing coherence.</p>
+
+    <h3>From Micro to Macro</h3>
+    <p>At the micro level, DPM describes changes in dendritic arborization, axonal collateralization, and interneuron recruitment. At the meso level, it predicts increased local functional connectivity and reduced long-range coordination—patterns repeatedly observed in fMRI and MEG studies of autism. At the macro level, it manifests as cognitive features: extraordinary perceptual detail, difficulty filtering noise, associative depth, and vulnerability to overload.</p>
+    
+    <p>Thus, DPM is not a pathology model but a topology model: it describes how information flows differently in the autistic brain, resulting in both abilities and challenges.</p>
+
+    <hr>
+
+    <h2>Genetic and Molecular Foundations</h2>
+    <p>Dozens of genes associated with autism converge on synaptic formation, pruning, inhibition, and excitation balance. I interpret these not as separate mechanisms but as contributors to the same distributed architecture. Each modifies the probability that neurons will form, maintain, or suppress collateral connections.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Functional Role</th>
+                <th>Example Genes</th>
+                <th>Circuit Effect</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Synaptic scaffolding and excitatory branching</td>
+                <td><strong>SHANK3</strong>, <strong>SYNGAP1</strong></td>
+                <td>Increased local synapse formation, reduced specificity, greater collateralization</td>
+            </tr>
+            <tr>
+                <td>Chromatin regulation and developmental timing</td>
+                <td><strong>CHD8</strong>, <strong>ADNP</strong>, <strong>ARID1B</strong>, <strong>WAC</strong></td>
+                <td>Extended proliferation windows and altered pruning thresholds</td>
+            </tr>
+            <tr>
+                <td>Interneuron migration and inhibitory control</td>
+                <td><strong>POGZ</strong>, <strong>SCN2A</strong>, <strong>PTEN</strong>, <strong>DYRK1A</strong></td>
+                <td>Weaker inhibition, disorganized timing, increased excitation</td>
+            </tr>
+            <tr>
+                <td>Ion channel and oscillatory dynamics</td>
+                <td><strong>CACNA1C</strong>, <strong>CACNA1G</strong>, <strong>GRIN2B</strong></td>
+                <td>Alters spike thresholds and oscillatory coherence, amplifying cross-network coupling</td>
+            </tr>
+            <tr>
+                <td>RNA/protein homeostasis</td>
+                <td><strong>DDX3X</strong>, <strong>UBE3A</strong>, <strong>MECP2</strong></td>
+                <td>Modifies synaptic stability and activity-dependent plasticity</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>These genetic influences share a common architectural outcome: a brain that favors distributed activation over selective filtering. The diversity of genetic paths leading to autism therefore reflects convergence on a <strong>connectivity phenotype</strong>, not a single molecular pathway.</p>
+
+    <hr>
+
+    <h2>Developmental and Circuit-Level Evidence</h2>
+    <p>Empirical findings across model systems align with DPM predictions.</p>
+
+    <ol>
+        <li><strong>Local Hyperconnectivity with Long-Range Hypoconnectivity</strong><br>
+        Neuroimaging consistently shows increased short-range coherence and reduced global coordination in autistic brains. This matches the distributed-branching architecture: locally dense, globally fragmented.</li>
+
+        <li><strong>Interneuron Migration Defects and E/I Imbalance</strong><br>
+        In human organoid and assembloid models, inhibitory interneurons derived from autism-linked mutations (e.g., <em>CACNA1C</em>, <em>POGZ</em>) often migrate inefficiently or fail to integrate. Cortical circuits formed under these conditions exhibit delayed inhibition and excess excitation—exactly the balance that would permit distributed propagation.</li>
+
+        <li><strong>Circuit Hyperexcitability and Reduced Long-Range Projection</strong><br>
+        In assembloid studies involving <em>SCN2A</em>, cortical neurons fire excessively yet form fewer long-range axons to striatal targets. This combination—local excess, long-range reduction—is the functional signature of DPM.</li>
+
+        <li><strong>Network Synchrony Alterations</strong><br>
+        Multi-region organoid systems have shown that loss of histone-modifying genes such as <em>ASH1L</em> increases synchronous activity across otherwise independent regions, demonstrating overlapping activation akin to DPM's branching outputs.</li>
+    </ol>
+
+    <p>The convergence of these findings suggests that DPM captures an underlying principle of how multiple autism-linked disruptions produce similar emergent circuit properties.</p>
+
+    <h3>Synaptic Density and Individual Variability</h3>
+    <p>Post-mortem and imaging studies frequently report increased local synaptic density or spine counts in portions of autistic cortex. Within the DPM, this density is interpreted not as uniform excess but as <strong>region-specific retention of microbranches</strong>—areas where pruning remained incomplete. These locally dense fields supply the substrate for higher-resolution encoding: more receptive elements sampling finer differences within the same sensory or cognitive domain.</p>
+
+    <p>However, this is <strong>not an all-or-none trait</strong>. Some autistic individuals show pronounced density in temporal or sensory cortices; others display near-typical profiles or even reduced density in association regions. Such variability mirrors the heterogeneity of autistic perception itself—some experience visual hypersharpening, others auditory or interoceptive amplification. The DPM predicts exactly this pattern: each person's branching topology defines where higher resolution emerges and where efficiency is preserved.</p>
+
+    <p>Thus, rather than a single "hyperconnected brain," autism encompasses <strong>a spectrum of branching expression</strong>—region-specific increases in local connectivity balanced by variable long-range integration. Recognizing this diversity clarifies why the same molecular tendencies can yield vastly different experiential profiles.</p>
+
+    <hr>
+
+    <h2>Sensory and Perceptual Consequences</h2>
+    <p>If the Distributed Pathway Model accurately represents autistic neural architecture, the first and most visible consequence appears at the sensory level. In a distributed system, each sensory input engages a wider array of microcircuits. This means the autistic brain extracts more simultaneous information from the same stimulus.</p>
+
+    <h3>Heightened Sensory Resolution</h3>
+    <p>The increased branching density allows for finer discrimination within each sensory modality. Autistic individuals often report noticing subtle gradients of color, minute pitch variations, or faint background sounds that others miss. This aligns with evidence of increased primary sensory cortex activation in fMRI and MEG studies during simple perceptual tasks. The brain is literally sampling the environment at a higher resolution—activating more neurons per percept.</p>
+
+    <h3>Cross-Sensory Binding and Synesthesia-Like Experiences</h3>
+    <p>Because DPM allows signals to propagate across partially overlapping microcircuits, sensory information that would normally remain segregated may interact. This explains reports of cross-sensory associations—such as sounds evoking color impressions or tactile sensations linked with visual patterns. This is not pathological blending but an expected outcome of distributed propagation across modality-specific boundaries.</p>
+
+    <h3>Sensory Overload and Filtering Limitations</h3>
+    <p>With broader recruitment of neurons comes a reduction in selectivity. Irrelevant or repetitive stimuli can continue to propagate through distributed branches long after their relevance has passed. This yields the subjective experience of "too much input," as well as the objective difficulty in filtering background noise. The brain, in essence, keeps responding to everything because the same stimulus keeps reactivating overlapping routes.</p>
+
+    <h3>Oscillatory Evidence</h3>
+    <p>Electrophysiological studies have shown altered gamma and beta oscillations in autism, reflecting disrupted synchronization in sensory areas. I interpret these findings as signatures of distributed propagation: local hyper-synchrony where branches reinforce one another, and interregional desynchrony where inhibitory coordination fails.</p>
+
+    <hr>
+
+    <h2>Cognitive and Decision-Making Consequences</h2>
+    <p>The DPM does not end at perception—it reshapes cognition itself. If each sensory input generates multiple concurrent representations, the cognitive system must integrate far more possibilities before converging on a single decision. This distributed processing architecture can explain both autistic strengths and difficulties in reasoning, attention, and adaptive control.</p>
+
+    <h3>Parallel Reasoning and Associative Depth</h3>
+    <p>Autistic reasoning often appears nonlinear or multi-threaded. I believe this reflects distributed propagation: a single conceptual "input" activates multiple associative pathways in parallel. This allows for deep pattern recognition and original insights but also increases cognitive load. It may take longer to reach decisions because the brain must reconcile a larger set of simultaneously active representations.</p>
+
+    <h3>Precision-Weighted Cognition</h3>
+    <p>Predictive coding frameworks have suggested that autistic cognition assigns higher precision to incoming data relative to priors. In DPM terms, this means that distributed propagation amplifies the sensory-driven component of processing. More microcircuits are dedicated to representing the raw input, and fewer are reserved for abstract filtering. This yields exceptional accuracy in detail-oriented tasks and difficulty generalizing when context is ambiguous.</p>
+
+    <h3>Decision Paralysis</h3>
+    <p>When each potential outcome triggers a cascade through multiple pathways, choosing among them requires suppressing competing activations. If inhibition is weak or delayed, suppression fails and the system remains in superposition—multiple partial activations persisting simultaneously. This manifests phenomenologically as decision paralysis or prolonged indecision, a direct behavioral reflection of distributed signal persistence.</p>
+
+    <h3>Perfectionism, Procrastination, and the Anticipation Barrier</h3>
+    <p>Under distributed propagation, each creative act or decision branches into many micro-evaluations. What looks like a 10-step task to a neurotypical planner can decompose into 100 micro-steps in my head: each branch demands assessment, comparison, and potential re-routing. This expands the perceived distance between the current state and an acceptable endpoint.</p>
+    
+    <p>Perfectionism here is not vanity; it is resolution-driven accuracy. I can "see" quality at a finer granularity, which makes coarse solutions feel wrong. Procrastination then emerges as an anticipation barrier: before I even start, the brain simulates the branching tree of micro-failures (points where spread might go awry). Starting means committing to a cascade that will be hard to gate later. The result is an oscillation between hyper-standards (driven by high resolution) and initiation friction (driven by distributed branching and gating cost).</p>
+    
+    <p>There is also a triple-judgment loop: (1) my own ultra-fine internal standard, (2) an imagined expert/autistic peer standard, and (3) a neurotypical acceptability standard. Distributed evaluation activates all three simultaneously, raising the bar and the cognitive load. The practical implication is to externalize micro-steps (reduce hidden branching) and pre-commit criteria (lower gating uncertainty) before initiating.</p>
+
+    <h3>Emotional and Affective Consequences</h3>
+    <p>Cognition and emotion share overlapping circuitry in the limbic and prefrontal regions. Distributed activation here can amplify affective responses: an emotion triggered by one cue may spread to many contexts through shared branches. This may contribute to emotional intensity and difficulty "letting go" of distress once triggered—again, an emergent feature of the same propagation logic.</p>
+
+    <h3>Emotional and Autonomic Regulation</h3>
+    <p>Because distributed propagation links limbic, sensory, and autonomic circuits, emotional states often produce widespread physiological activation—changes in heart rate, muscle tone, or gut motility—without conscious intent. These responses reflect overlapping excitatory spread into autonomic centers such as the hypothalamus and brainstem nuclei.</p>
+
+    <p>In this context, heightened reactivity is not purely psychological but systemic: minor stressors engage broad somatic feedback loops. Interventions that emphasize rhythmic regulation—breathing, movement, music, or patterned sensory input—can help synchronize these distributed loops, restoring coherence between cognitive and autonomic domains.</p>
+
+    <hr>
+
+    <h2>Memory and Task Encoding</h2>
+    <p>Within the Distributed Pathway Model, memory is not a static record but a dynamic pattern of overlapping activations. Each event or task engages multiple microcircuits whose boundaries blur through local branching and collateral spread. The result is a memory trace that is <strong>dense, multidimensional, and self-reactivating</strong>—a structural corollary of higher-resolution cognition.</p>
+
+    <h3>Dense and Redundant Encoding</h3>
+    <p>A single experience in a distributed system activates numerous partially redundant pathways. Instead of one compact representation, multiple versions coexist across neighboring ensembles. This redundancy preserves nuance: tone, timing, emotional context, spatial detail—all retained as parallel encodings. The benefit is fidelity; the cost is interference. Partial cues can reignite large memory fields, producing vivid re-experiencing or rumination. This explains the autistic tendency toward detailed episodic recall, flashback-like imagery, and difficulty "letting go" of minor events—the system retrieves <em>too much</em> of the original signal.</p>
+
+    <h3>Temporal Binding and Sequencing</h3>
+    <p>Because distributed activation propagates along many asynchronous branches, temporal order can fragment. Micro-events within a sequence are stored with high accuracy but weak compression. When retrieved, they may appear out of sequence or as simultaneous snapshots. This can make narratives feel nonlinear: every element remains vivid, yet integrating them into a single timeline requires extra effort. Autistic storytelling often mirrors this pattern—faithful detail with minimal abstraction.</p>
+
+    <h3>Task Segmentation and Completion</h3>
+    <p>The same architecture governs how the brain encodes goals and tasks. A neurotypical planner may represent "write email" as a single compact node. In a distributed system, that intention decomposes into many microstates—tone, phrasing, recipient reaction, timing, and potential contingencies—each stored across its own branch. Transitioning between steps demands inhibitory gating to silence the previous microstate before the next engages. When gating is sluggish, <strong>unfinished states remain partially active</strong>, producing a backlog of open loops in working memory. This underlies the feeling of cognitive clutter or fatigue despite having few tasks on paper.</p>
+
+    <h3>Working Memory Load and Anticipation</h3>
+    <p>Because each representation carries more embedded information, the functional capacity of working memory shrinks. Holding three "high-resolution" items can impose the same energetic cost as ten low-resolution ones. The mind thus reaches saturation quickly, generating the subjective experience of overload from a modest workload. Anticipating this cost can itself trigger avoidance—<strong>procrastination becomes an energy-conservation strategy</strong>, not a flaw of motivation.</p>
+
+    <h3>Integration of Detail and Abstraction</h3>
+    <p>Autistic memory favors precision over gist. The DPM explains this by the relative weight of active versus reactive pathways: strong re-entrance within local ensembles reinforces detail, while weak long-range projection limits conceptual compression. Abstract generalization therefore requires deliberate effort to override the system's natural tendency toward fine-grained representation. Conversely, once generalized, memories retain exceptional internal structure—explaining both encyclopedic mastery and difficulty summarizing.</p>
+
+    <h3>Summary</h3>
+    <p>Memory in the autistic brain reflects the same principles as perception and cognition: <strong>branching, distributed persistence, and variable inhibition.</strong> The architecture yields exceptional accuracy and depth but also interference and energetic cost. What appears as forgetfulness or inconsistency is often a trade-off between precision and capacity—the mind preserves high-resolution fragments at the expense of breadth and efficiency.</p>
+
+    <hr>
+
+    <h2>Stimming as Reactive Motor Cascade</h2>
+    <p>Within the Distributed Pathway Model, stimming—or self-stimulatory movement—arises as a <strong>reactive motor cascade</strong>, not as a consciously selected or learned coping strategy. When distributed propagation exceeds inhibitory containment, concurrent activation spreads from emotional and sensory circuits into motor regions through shared or weakly gated branches. The result is a spontaneous discharge of accumulated neural activity into patterned movement.</p>
+
+    <p>These movements are <em>reactive</em>, in that they originate from internal propagation rather than deliberate volition. What appears as an intentional or regulatory act is often the brain’s intrinsic way of offloading excess activation through its most accessible output channels—the motor system. This explains why stimming can emerge suddenly during heightened emotional or sensory states: overlapping networks reach a point of cascade where excitation naturally extends into motor pathways.</p>
+
+    <p>Once the movement begins, rhythmic repetition provides a <strong>stabilizing feedback loop</strong>. Each cycle of motion entrains related sensory and interoceptive circuits, synchronizing oscillations across domains and lowering systemic entropy. In this secondary phase, stimming indeed serves a regulatory function—it restores temporal coherence by converting diffuse excitation into periodic, predictable activity.</p>
+
+    <p>Although these motor cascades can involve perceptual or emotional resonance—movements that <em>feel</em> right, or that align with inner sensory feedback—such synesthetic experiences are <strong>consequential</strong> rather than <strong>definitional</strong>. The primary mechanism is cross-domain propagation leading to involuntary motor activation; the perceptual fusion that sometimes follows reflects the brain’s tendency to integrate concurrent activity streams into a unified event.</p>
+
+    <p>In this light, stimming is not maladaptive but <strong>structurally emergent</strong>: an embodied outcome of distributed architecture where reactive spread finds equilibrium through rhythmic motor expression. Suppressing it interrupts a natural route of stabilization within a high-resolution, cascade-prone neural system.</p>
+
+
+    <hr>
+
+    <h2>Complex Outputs from Reactive Pathways</h2>
+    <p>As seen in reactive motor cascades, distributed propagation can also give rise to rhythmic coherence. In other cases, similar feedback loops emerge within internal or cognitive domains.</p>
+    
+    <p>Reactive propagation in the Distributed Pathway Model does more than create noise or overload—it can also generate <em>structure</em>. When spillover activity re-enters associative or motor circuits with rhythmic stability, it may form <strong>self-sustaining feedback loops</strong> that yield organized, often creative output without conscious intent.</p>
+
+    <h3>Emergence of Autonomous Loops</h3>
+    <p>In a distributed network, once a branch closes upon itself—linking auditory, motor, and cognitive regions—the resulting circuit can oscillate autonomously. This loop behaves like a small self-contained attractor: it consumes little new input yet continues to propagate internally. The outcome can manifest as persistent inner music, repeating imagery, or recursive thought sequences. What appears to be "mind-wandering" is often the network finding a <strong>stable dynamic equilibrium</strong> within its own structure.</p>
+
+    <h3>Involuntary Internal Music and Pattern Replay</h3>
+    <p>Autistic individuals frequently describe continuous musical imagery, rhythmic phrases, or patterned sensations that replay spontaneously. Within the DPM, these experiences arise when auditory and motor-simulation networks share overlapping branches. Reactive spillover from one domain reactivates the other, producing closed-loop entrainment between imagined sound and simulated movement. Because inhibitory gating is weak, the loop persists—experienced as <em>involuntary yet coherent music</em>, analogous to a physical stim occurring entirely in neural space.</p>
+
+    <h3>Background Problem-Solving and Spontaneous Insight</h3>
+    <p>The same principle applies to abstract cognition. When associative networks maintain low-level reverberation, fragments of unfinished problems remain active in the background. These reactive loops continue testing permutations until a stable configuration is reached. The sudden emergence of an idea or solution—the classic "aha" moment—corresponds to the system settling into that stable attractor. Thus, spontaneous creativity in autism can be seen as the <strong>constructive face of reactive persistence</strong>.</p>
+
+    <h3>Interference and Intrusive Replay</h3>
+    <p>When loops form in circuits with strong emotional or sensory content, re-entrance may become intrusive rather than generative. An unpleasant sound, phrase, or image can replay involuntarily because its branch overlaps with highly excitable or weakly gated regions. In DPM terms, the attractor is too shallow: easy to enter, hard to exit. The distinction between productive flow and perseverative replay lies in the <em>depth</em> and <em>stability</em> of these reactive basins.</p>
+
+    <h3>Oscillatory Entrainment and Self-Stabilization</h3>
+    <p>Each autonomous loop functions as an oscillator. When rhythmic, it can entrain other distributed circuits into coherence—explaining why repetitive music, chanting, or patterned motion often calms autistic minds. The brain is using its own spillover to achieve phase alignment: <strong>coherence emerging from chaos</strong>. Conversely, when multiple unsynchronized loops coexist, interference rises, producing internal noise or fragmented attention.</p>
+
+    <h3>Adaptive and Creative Implications</h3>
+    <p>These mechanisms transform how we interpret "repetitive" phenomena. The same architecture that generates stimming and intrusive replay also enables pattern generation, musical composition, linguistic echoing, and conceptual synthesis. What differs is not the mechanism but its <em>context and containment</em>. Structured re-entrance produces creativity; uncontained spread produces overload.</p>
+
+    <h3>Summary</h3>
+    <p>Reactive pathways embody the double-edged nature of the autistic architecture. Branching and persistence can produce involuntary echo, or—when conditions favor stability—generate art, code, melody, or insight seemingly from nowhere. In each case, the outcome is an expression of the same underlying principle: <strong>distributed activation seeking order within itself</strong>.</p>
+
+    <hr>
+
+    <h2>Social and Communication Processing</h2>
+    <p>Social interaction demands rapid prediction across sensory, linguistic, and emotional channels. In a Distributed Pathway architecture, each cue—tone, word choice, posture, microexpression—spawns its own cascade of interpretations. The autistic brain doesn't miss social signals; it <strong>processes too many</strong> at once, with reduced gating to suppress the irrelevant.</p>
+
+    <h3>Masking as Adaptive Compression</h3>
+    <p>Because neurotypical communication relies on compressed heuristics—shared shorthand, emotional inference—the autistic individual often learns to "mask" by simulating this compression. Masking is not deception but <strong>adaptive compression</strong>: suppressing distributed authenticity to reduce social friction. It is metabolically expensive and cognitively draining, as it requires active gating against the brain's natural branching.</p>
+
+    <h3>Evaluation Misalignment and Anxiety Loops</h3>
+    <p>During interaction, I evaluate what I said, what I meant, how it was received, and what others might infer from it—all nearly simultaneously. This <strong>multi-layered evaluation loop</strong> is a direct outcome of distributed propagation: self and other representations co-activate, recursively analyzing one another. When the loop doesn't converge quickly, uncertainty persists as social anxiety. The anxiety is not fear of people but the discomfort of an unresolved feedback system.</p>
+
+    <h3>Empathy and Resonance</h3>
+    <p>Far from lacking empathy, distributed propagation enhances it. Emotional states can activate broad associative maps, making another's distress or excitement almost physically contagious. Without well-timed inhibition, this resonance becomes overwhelming, explaining the oscillation between deep compassion and withdrawal.</p>
+
+    <p>In essence, social difficulties in autism reflect <strong>processing asymmetry, not absence</strong>: two differently organized networks trying to synchronize their prediction systems.</p>
+
+    <hr>
+
+    <h2>Executive Function and Attention</h2>
+    <p>Executive functions—planning, inhibition, and working memory—are particularly sensitive to network balance. In a distributed architecture, the challenge is not activation but control.</p>
+
+    <h3>Distributed Attention</h3>
+    <p>Autistic attention tends to distribute across many stimuli simultaneously. This is a direct behavioral reflection of DPM: multiple pathways remain active, each representing part of the scene. Sustained focus on one item requires actively suppressing the others, which demands significant inhibitory effort and can quickly deplete resources.</p>
+
+    <h3>Task Switching and Cognitive Inertia</h3>
+    <p>Because distributed activations persist longer, switching tasks requires more complete deactivation of prior states. This explains the strong preference for completing one activity before starting another and the distress caused by interruptions. Cognitive inertia is thus a structural consequence of distributed propagation, not a motivational issue.</p>
+
+    <h3>Executive Overload and Shutdown</h3>
+    <p>When too many distributed pathways remain active, the system exceeds its capacity for synchronization. This produces a collapse in functional coherence, experienced subjectively as mental exhaustion or "shutdown." During these periods, the brain may transiently downregulate propagation by retreating into restricted focus or repetitive behavior—its own form of homeostatic rebalancing.</p>
+
+    <h3>Energetic Collapse States (Shutdowns and Meltdowns)</h3>
+    <p>Distributed propagation not only taxes inhibitory control but also depletes metabolic resources. Each branching cascade engages more neurons and synapses per unit of experience, increasing ATP consumption and glial support demand. When excitation persists beyond metabolic replenishment, local energy deficits accumulate, leading to transient functional collapse.</p>
+
+    <p><strong>Meltdowns</strong> occur when distributed activation exceeds regulatory capacity: excitatory spread recruits emotional, sensory, and motor regions simultaneously, producing uncontrollable output. <strong>Shutdowns</strong> represent the opposite boundary—when the system's energy homeostasis fails and circuits silence to restore balance. Both reflect energetic consequences of the same distributed topology: one overshoots activation, the other enforces recovery.</p>
+
+    <p>These collapse states should therefore be viewed not as behavioral anomalies but as emergent metabolic phenomena within a high-resolution, high-demand neural network. Future research may benefit from integrating measures of cortical energy metabolism, mitochondrial efficiency, and glial buffering capacity into studies of autistic overload and recovery.</p>
+
+    <hr>
+
+    <h2>Predictive Coding and Learning</h2>
+    <p>Autistic perception and learning often defy neurotypical predictive models. The DPM framework provides a natural explanation.</p>
+
+    <h3>Reduced Hierarchical Compression</h3>
+    <p>In predictive coding terms, the brain minimizes error by comparing predictions to inputs. In a branching system, predictions are harder to consolidate because too many microfeatures remain active. This prevents efficient top-down compression, yielding precise but less generalized learning.</p>
+
+    <h3>Experience-Driven Learning and Intense Interests</h3>
+    <p>Because distributed networks favor strong local reinforcement, repeated activation of the same pathway strengthens it disproportionately. This explains intense, focused interests: a subset of distributed routes becomes highly stable due to repeated self-consistent activation. These routes form "islands of coherence" within a highly variable system.</p>
+
+    <h3>Resistance to Uncertainty</h3>
+    <p>Distributed propagation makes prediction errors multiply—one surprise in input propagates through multiple branches. This amplifies the subjective impact of unpredictability. The preference for sameness and routine can therefore be viewed as a rational adaptation to reduce the entropy of a distributed system.</p>
+
+    <hr>
+
+    <h2>Special Interests and the Drive for Predictive Stability</h2>
+    <p>Within the Distributed Pathway Model, learning and motivation are shaped by the brain's need to reduce uncertainty across a distributed network. Each branching path represents potential prediction error. When a network repeatedly encounters the same domain—trains, coding, insects, languages—it stabilizes its branches through repeated activation and reinforcement. This produces a <strong>dopaminergic loop</strong>: every cycle of accurate prediction releases dopamine, rewarding the maintenance of a coherent internal model.</p>
+
+    <p>Special interests thus serve as <strong>prediction defense mechanisms</strong>. They reduce entropy in a highly distributed system by creating a domain where the mapping between cause and effect is fully known. Mastery brings relief, and returning to the domain renews stability.</p>
+
+    <p>This process also explains the extraordinary <strong>depth of expertise</strong> often observed in autistic individuals. Because distributed pathways encode details densely, each learning episode refines many micro-associations. Over time, these form hierarchical knowledge trees—deep, internally consistent worlds where prediction error is minimal. This gives rise not only to encyclopedic knowledge but to original insight, as distributed associations generate novel patterns within the well-mapped domain.</p>
+
+    <p>When denied access to these stabilizing loops, the brain remains in a state of unresolved propagation—high prediction error, high entropy, high stress. Thus, special interests are not obsessive anomalies but homeostatic regulators: the autistic brain's natural way of restoring equilibrium through precision and coherence.</p>
+
+    <hr>
+
+    <h2>Summary of Advantages and Costs</h2>
+    <p>The DPM architecture produces a brain that is simultaneously capable of extraordinary detail and vulnerable to overload.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Domain</th>
+                <th>Advantage</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Perception</strong></td>
+                <td>Finer resolution, synesthetic richness</td>
+                <td>Sensory overload, reduced filtering</td>
+            </tr>
+            <tr>
+                <td><strong>Cognition</strong></td>
+                <td>Deep associative mapping, original reasoning</td>
+                <td>Decision paralysis, contextual inflexibility</td>
+            </tr>
+            <tr>
+                <td><strong>Memory</strong></td>
+                <td>Vivid, long-lasting, detail-rich</td>
+                <td>Interference, rumination</td>
+            </tr>
+            <tr>
+                <td><strong>Emotion</strong></td>
+                <td>Intense empathy, strong resonance</td>
+                <td>Emotional overwhelm, difficulty resetting</td>
+            </tr>
+            <tr>
+                <td><strong>Attention</strong></td>
+                <td>Distributed monitoring</td>
+                <td>Fragile sustained focus</td>
+            </tr>
+            <tr>
+                <td><strong>Learning</strong></td>
+                <td>Data precision, local expertise</td>
+                <td>Poor generalization, rigidity</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>These trade-offs are not value judgments—they are natural consequences of distributed propagation in a biological network.</p>
+
+    <hr>
+
+    <h2>Experimental Predictions</h2>
+    <ol>
+        <li><strong>Structural Prediction</strong> — Autistic cortical tissue will exhibit higher dendritic branching and local spine density, measurable through advanced microscopy or diffusion imaging.</li>
+        <li><strong>Functional Prediction</strong> — Electrophysiological recordings will show broader co-activation fields and delayed inhibitory rebound following stimulation.</li>
+        <li><strong>Developmental Prediction</strong> — Critical periods of pruning and inhibitory maturation will occur later or remain incomplete.</li>
+        <li><strong>Behavioral Prediction</strong> — Tasks requiring broad parallel monitoring will favor autistic participants, whereas rapid contextual switching will disadvantage them.</li>
+        <li><strong>Therapeutic Direction</strong> — Interventions should target temporal gating and inhibitory precision, not reduction of connectivity.</li>
+        <li><strong>Energetic Prediction</strong> — Metabolic imaging may reveal higher resting energy consumption in associative cortices and more rapid depletion during cognitive load, consistent with distributed propagation cost.</li>
+    </ol>
+
+    <hr>
+
+    <h2>Applied Implications</h2>
+    <p>The Distributed Pathway Model suggests that autism's challenges and strengths are two expressions of the same architecture. Understanding this balance reframes clinical and educational practice around regulation and adaptation rather than normalization.</p>
+
+    <ul>
+        <li><strong>Clinical Context:</strong> Meltdowns, shutdowns, and stimming are regulatory responses within a distributed system. Interventions should support energy recovery and inhibitory precision (through rest cycles, rhythmic activities, or structured predictability) rather than suppress expression.</li>
+        <li><strong>Sensory Environment Design:</strong> Because distributed systems over-sample input, spaces should minimize unpredictable multimodal noise and provide monotonic or controllable stimuli that reduce branching load.</li>
+        <li><strong>Education and Work:</strong> Deep-focus and special-interest engagement can be harnessed as self-stabilizing loops. Curricula and workplaces that permit autonomy and prolonged focus exploit the system's strengths rather than fight its inertia.</li>
+        <li><strong>Therapeutic Framing:</strong> Therapies that emphasize interoceptive awareness, pacing, and predictable sequencing may enhance self-regulation more effectively than purely behavioral approaches.</li>
+    </ul>
+
+    <p>These implications extend beyond autism to broader models of neurodiversity: understanding distributed versus streamlined processing may inform new approaches to attention, creativity, and resilience in all brains.</p>
+
+    <hr>
+
+    <h2>Individual Variability and Network Expression (Active → Reactive Mappings)</h2>
+    <p>I use <strong>active</strong> to mean pathways that are directly driven by an external or internal trigger (the "on-path" routes), and <strong>reactive</strong> to mean pathways that become engaged secondarily via distributed propagation (branch spillover). In DPM terms, heterogeneity in autism emerges from person-specific differences in:</p>
+    
+    <ul>
+        <li>the branch density near key nodes (how many potential spillover routes exist),</li>
+        <li>the gating characteristics of inhibition (how tightly or loosely spillover is contained), and</li>
+        <li>the temporal profile of activity (how long reactive activity persists once engaged).</li>
+    </ul>
+    
+    <p>Two people can share similar genetic variants yet express very different phenotypes if their active:reactive ratio and reactive topology differ. A high active:reactive ratio (tighter gating, fewer sustained spillovers) yields strong detail processing with relatively stable behavior. A lower ratio (looser gating, broader sustained spillovers) yields the same high resolution but with more overlap, reverberation, and volatility. This simple mapping explains why siblings with similar genetic risk can present differently: the pattern and persistence of reactive spread—not just the presence of branching—shapes the day-to-day experience and support needs.</p>
+    
+    <p>I also expect domain-specific ratios: e.g., high reactive spread in sensory networks but lower spread in language circuits, or vice-versa. This predicts the observed "spiky" profiles (islands of strength and difficulty) common in autism.</p>
+
+    <hr>
+
+    <h2>Relationship Between DPM and the Higher-Resolution Hypothesis</h2>
+    <p>The Distributed Pathway Model describes the underlying mechanism. The Higher-Resolution Hypothesis describes the emergent phenomenon.</p>
+    
+    <p>DPM explains how signals travel: through branching and distributed routes that increase representational density. The Higher-Resolution Hypothesis explains what that feels like: perceiving and thinking in high fidelity, with overlapping associations and reduced abstraction filtering.</p>
+    
+    <p>I view these as two layers of the same framework. DPM is the mechanistic substrate; the Higher-Resolution Hypothesis is the cognitive expression.</p>
+
+    <hr>
+
+    <h2>Relationship to Existing Theories (Synthesis within DPM)</h2>
+    <p>I have cited many theories and empirical strands throughout this document. Here I synthesize how they relate within the DPM framework, to avoid redundancy and to clarify complementarity rather than competition.</p>
+
+    <h3>Excitation/Inhibition (E/I) Imbalance</h3>
+    <p>E/I models describe why spillover is easier: reduced or delayed inhibition raises the probability that activity branches into reactive routes and persists. DPM treats E/I as the control parameter that sets the active:reactive ratio and the lifetime of reactive spread.</p>
+
+    <h3>Intense World Theory</h3>
+    <p>This emphasizes hyper-reactivity and hyper-plasticity. DPM provides the topology behind that intensity: dense local branching and distributed propagation naturally amplify input and promote local overlearning. "Intense" is the phenomenology; distributed pathways are the wiring.</p>
+
+    <h3>Predictive Coding & HIPPEA (Precision Weighting)</h3>
+    <p>HIPPEA proposes high sensory precision vs. priors. DPM explains how structure yields that precision: more local branches dedicate more neurons to encoding incoming data, making bottom-up signals heavier relative to top-down compression. Prediction errors propagate widely in DPM, raising the subjective cost of uncertainty.</p>
+
+    <h3>Weak Central Coherence (WCC) and Enhanced Perceptual Functioning (EPF)</h3>
+    <p>WCC notes reduced global integration; EPF notes superior local processing. DPM unifies them: branch-rich local networks (EPF) coupled with fragile long-range gating (WCC). Local coherence rises as global coherence becomes harder to sustain.</p>
+
+    <h3>Kozima's Granularity Theory</h3>
+    <p>Granularity maps directly to representational density in DPM: more micro-features are concurrently represented because branching increases the sampling resolution of each stimulus.</p>
+
+    <h3>Minicolumn and Pruning Accounts</h3>
+    <p>Findings of narrower minicolumns, altered inhibitory surrounds, and reduced pruning map to DPM's branch retention and weakened lateral gating, giving a histological anchor to the architecture.</p>
+    
+    <p>In short, DPM is not a rival to these accounts; it is a structural bridge. It explains how differences in pruning, inhibition, and channel dynamics manifest as distributed pathway behavior, from which the phenomenology (higher resolution, overload, creativity, replay) follows naturally.</p>
+
+    <hr>
+
+    <h2>Summary</h2>
+    <p>In essence, autism reflects a brain wired for distributed propagation rather than streamlined efficiency. This architecture generates both its beauty and its fragility: greater sensitivity, richer internal worlds, but also greater energetic cost and volatility.</p>
+    
+    <p>I do not see this as a pathology to correct but as an alternative computational mode—one that biology produced, that evolution tolerated, and that society can better understand through models like DPM.</p>
+
+    <hr>
+
+    <h2>Invitation for Further Research</h2>
+    <p>This hypothesis is not a conclusion about how autism works. It is an evolving framework that I offer as an invitation to the scientific community—to test, refine, falsify, or expand. The Distributed Pathway Model can be validated empirically through neuroimaging, electrophysiology, and organoid systems, but it also requires conceptual integration with other theories of predictive coding, excitation/inhibition balance, and neural synchronization.</p>
+    
+    <p>My goal is not to claim certainty but to spark inquiry—to provide a lens that unites molecular, circuit-level, and experiential perspectives into one coherent narrative. If others can use or adapt this model to generate new insights, corrections, or contradictions, then this document has served its purpose.</p>
+
+    <hr>
+
+    <div class="appendix">
+        <h2>Appendix: Conceptual Model Summary</h2>
+        <p>To visualize the Distributed Pathway Model in simple terms, imagine two small chains of neurons.</p>
+        
+        <p>In a typical network, <strong>A → B → C</strong> and <strong>X → Y → Z</strong> operate independently. Each input (A or X) triggers a single predictable output (C or Z).</p>
+        
+        <p>In a Distributed Pathway configuration, neuron <strong>B</strong> also connects to <strong>Y</strong>, forming a cross-branch. Now activation of <strong>A</strong> can lead to <strong>C</strong>, <strong>Z</strong>, or both, depending on timing, inhibition, and input strength. This small structural change multiplies the potential outcomes exponentially.</p>
+        
+        <p>At a large scale, this same principle applies across cortical columns: distributed branching means each activation spreads across multiple potential routes. This produces both <strong>higher-resolution representations</strong> (because more neurons contribute to encoding the same input) and <strong>greater instability</strong> (because inhibition must manage more potential feedback loops).</p>
+        
+        <p>This is the fundamental logic of the Higher-Resolution Hypothesis: a brain that perceives more, connects more, and sometimes, overwhelms itself by doing so.</p>
+
+        <h3>Model Visualization and Mathematical Schema (Placeholder)</h3>
+        <p><em>[Placeholder for future figure]</em> — A simplified diagram or set of equations illustrating branching dynamics, inhibitory gating, and reactive feedback loops will be inserted here. It will formalize the Distributed Pathway Model in computational terms, showing how representational density scales with branch factor, inhibition strength, and temporal decay constants.</p>
+    </div>
+
+    <hr>
+
+    <h2>Acknowledgment of Lived Experience Integration</h2>
+    <p>Although this document is written in scientific language, much of its insight originates from lived experience—direct observation of my own cognitive and sensory processes and comparison with empirical research. I have sought to interpret subjective patterns through an objective lens, aligning phenomenology with neuroscience rather than privileging one over the other. This hypothesis therefore represents both a <strong>personal investigation</strong> and a <strong>scientific proposition</strong>: an attempt to model from within what is typically only measured from without.</p>
+
+    <hr>
+
+    <h2>References</h2>
+    <div class="references">
+        <ol>
+            <li>Courchesne, E., et al. (2019). Neurodevelopmental mechanisms in autism: cortical growth, pruning, and excitatory–inhibitory balance. <em>Nature Reviews Neuroscience, 20</em>(10), 611–626.</li>
+            <li>Paşca, S. P., et al. (2023). Human assembloid models of interneuron migration and circuit integration. <em>Nature, 615</em>(7950), 469–476.</li>
+            <li>Stoner, R., et al. (2014). Patches of disorganization in the neocortex of children with autism. <em>New England Journal of Medicine, 370</em>(13), 1209–1219.</li>
+            <li>Satterstrom, F. K., et al. (2020). Large-scale exome sequencing identifies multiple genes implicated in ASD. <em>Cell, 180</em>(3), 568–584.</li>
+            <li>Rubenstein, J. L. R., & Merzenich, M. M. (2003). Model of autism: increased ratio of excitation/inhibition in key neural systems. <em>Genes, Brain and Behavior, 2</em>(5), 255–267.</li>
+            <li>Nelson, S. B., & Valakh, V. (2015). Excitation–inhibition imbalance and psychiatric disease. <em>Nature Neuroscience, 18</em>(4), 494–503.</li>
+            <li>Hutsler, J. J., & Zhang, H. (2010). Increased dendritic spine densities on cortical projection neurons in autism. <em>Brain Research, 1309</em>, 83–94.</li>
+            <li>Parikshak, N. N., et al. (2016). Systems biology and gene networks in autism spectrum disorder. <em>Nature Neuroscience, 19</em>(11), 1458–1472.</li>
+            <li>Paşca, S. P. (2022). The rise of human neural organoids and assembloids for studying circuit development and disease. <em>Cell, 185</em>(1), 9–24.</li>
+            <li>Gogolla, N., et al. (2009). Common circuit defects of excitatory–inhibitory balance in mouse models of autism. <em>Science, 326</em>(5951), 1121–1125.</li>
+            <li>Robertson, C. E., & Baron-Cohen, S. (2017). Sensory perception in autism. <em>Nature Reviews Neuroscience, 18</em>(11), 671–684.</li>
+            <li>Haigh, S. M., & Heeger, D. J. (2021). Impaired visual perception and cortical hyperexcitability in autism spectrum disorder. <em>Trends in Cognitive Sciences, 25</em>(2), 89–100.</li>
+            <li>Mottron, L., et al. (2006). Enhanced perceptual functioning in autism: an update, and eight principles of autistic perception. <em>Journal of Autism and Developmental Disorders, 36</em>(1), 27–43.</li>
+            <li>Pellicano, E., & Burr, D. (2012). When the world becomes "too real": a Bayesian explanation of autistic perception. <em>Trends in Cognitive Sciences, 16</em>(10), 504–510.</li>
+            <li>Lawson, R. P., Rees, G., & Friston, K. J. (2014). An aberrant precision account of autism. <em>Frontiers in Human Neuroscience, 8</em>, 302.</li>
+            <li>Friston, K. (2010). The free-energy principle: a unified brain theory? <em>Nature Reviews Neuroscience, 11</em>(2), 127–138.</li>
+            <li>Rubenstein, J. L., & Levitt, P. (2021). The developmental pathophysiology of autism spectrum disorder: insights from human and animal studies. <em>Science, 371</em>(6534), eaba4721.</li>
+            <li>Markram, K., & Markram, H. (2010). The intense world theory—a unifying theory of the neurobiology of autism. <em>Frontiers in Human Neuroscience, 4</em>, 224.</li>
+            <li>Sinha, P., et al. (2014). Autism as a disorder of prediction. <em>Proceedings of the National Academy of Sciences, 111</em>(42), 15220–15225.</li>
+            <li>Uhlhaas, P. J., & Singer, W. (2006). Neural synchrony in brain disorders: relevance for cognitive dysfunctions and pathophysiology. <em>Neuron, 52</em>(1), 155–168.</li>
+            <li>Kana, R. K., et al. (2015). Brain connectivity in autism. <em>Frontiers in Human Neuroscience, 9</em>, 159.</li>
+            <li>Belmonte, M. K., et al. (2004). Autism and abnormal development of brain connectivity. <em>Journal of Neuroscience, 24</em>(42), 9228–9231.</li>
+            <li>Caroni, P., Donato, F., & Muller, D. (2012). Structural plasticity upon learning: regulation and functions. <em>Nature Reviews Neuroscience, 13</em>(7), 478–490.</li>
+            <li>Paakki, J. J., et al. (2010). Alterations in regional homogeneity of resting-state brain activity in autism spectrum disorders. <em>Brain Research, 1321</em>, 169–179.</li>
+            <li>Di Martino, A., et al. (2014). The autism brain imaging data exchange: towards a large-scale evaluation of the intrinsic brain architecture in autism. <em>Molecular Psychiatry, 19</em>(6), 659–667.</li>
+            <li>Yizhar, O., et al. (2011). Neocortical excitation/inhibition balance in information processing and social dysfunction. <em>Nature, 477</em>(7363), 171–178.</li>
+            <li>Baron-Cohen, S. (2009). Autism: the empathizing–systemizing (E-S) theory. <em>Annals of the New York Academy of Sciences, 1156</em>(1), 68–80.</li>
+            <li>Happé, F., & Frith, U. (2006). The weak coherence account: detail-focused cognitive style in autism spectrum disorders. <em>Journal of Autism and Developmental Disorders, 36</em>(1), 5–25.</li>
+            <li>Hutsler, J. J., et al. (2005). The minicolumn hypothesis in autism. <em>Cerebral Cortex, 15</em>(1), 17–25.</li>
+            <li>Ecker, C., et al. (2013). Brain anatomy and activity in autism: a review of structural MRI and functional connectivity findings. <em>European Journal of Neuroscience, 37</em>(1), 6–24.</li>
+            <li>Geurts, H. M., et al. (2009). Memory and executive function in autism spectrum disorders. <em>Journal of Child Psychology and Psychiatry, 50</em>(7), 853–861.</li>
+            <li>Solomon, M., et al. (2011). Cognitive control in autism spectrum disorders. <em>Current Opinion in Neurobiology, 21</em>(2), 298–304.</li>
+            <li>Luna, B., et al. (2007). Maturation of cognitive processes from late childhood to adulthood. <em>Child Development, 78</em>(4), 1352–1369.</li>
+            <li>Just, M. A., et al. (2012). Autistic brain connectivity. <em>Nature Reviews Neuroscience, 13</em>(3), 155–168.</li>
+            <li>Haigh, S. M., et al. (2022). Neural excitation/inhibition imbalance in autism and its relation to sensory processing. <em>Frontiers in Human Neuroscience, 16</em>, 1020391.</li>
+            <li>Paşca, S. P. (2018). The rise of human neural circuits in a dish. <em>Nature Methods, 15</em>(1), 1–9.</li>
+            <li>Chao, H. T., et al. (2020). Dysfunction in GABA signaling as a mechanism for autism. <em>Nature Neuroscience, 23</em>(6), 826–838.</li>
+            <li>Markram, H., Rinaldi, T., & Markram, K. (2007). The intense world syndrome—an alternative hypothesis for autism. <em>Frontiers in Neuroscience, 1</em>(1), 77–96.</li>
+            <li>Stam, C. J., et al. (2013). Brain connectivity and network architecture in autism. <em>Frontiers in Human Neuroscience, 7</em>, 15.</li>
+            <li>Uddin, L. Q., et al. (2013). Reconceptualizing functional brain connectivity in autism. <em>Frontiers in Human Neuroscience, 7</em>, 458.</li>
+        </ol>
+    </div>
+</body>
+</html>

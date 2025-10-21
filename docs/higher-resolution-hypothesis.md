@@ -329,21 +329,17 @@ Memory in the autistic brain reflects the same principles as perception and cogn
 ---
 
 
-## Stimming as Motor Synesthesia
+## Stimming as Reactive Motor Cascade
 
+Within the Distributed Pathway Model, stimming—or self-stimulatory movement—arises as a **reactive motor cascade**, not as a consciously selected or learned coping strategy. When distributed propagation exceeds inhibitory containment, concurrent activation spreads from emotional and sensory circuits into motor regions through shared or weakly gated branches. The result is a spontaneous discharge of accumulated neural activity into patterned movement.
 
-Within the Distributed Pathway Model, stimming—or self-stimulatory behavior—emerges as a direct manifestation of overlapping network activity rather than a learned coping strategy. When distributed propagation exceeds inhibitory containment, sensory, motor, and emotional pathways remain partially co-activated, generating internal noise. Rhythmic movement, sound, or tactile repetition provides a **closed feedback loop** linking motor output to sensory input, thereby channeling excess activation into a stable, predictable rhythm.
+These movements are *reactive*, in that they originate from internal propagation rather than deliberate volition. What appears as an intentional or regulatory act is often the brain’s intrinsic way of offloading excess activation through its most accessible output channels—the motor system. This explains why stimming can emerge suddenly during heightened emotional or sensory states: overlapping networks reach a point of cascade where excitation naturally extends into motor pathways.
 
+Once the movement begins, rhythmic repetition provides a **stabilizing feedback loop**. Each cycle of motion entrains related sensory and interoceptive circuits, synchronizing oscillations across domains and lowering systemic entropy. In this secondary phase, stimming indeed serves a regulatory function—it restores temporal coherence by converting diffuse excitation into periodic, predictable activity.
 
-Each repetition synchronizes oscillations across these circuits, reducing entropy in the system. The act becomes **a self-generated pacemaker**, restoring temporal coherence where internal propagation had become diffuse. The subjective relief that follows is not merely emotional but neurophysiological—the network has re-established phase alignment through periodic input of its own making.
+Although these motor cascades can involve perceptual or emotional resonance—movements that *feel* right, or that align with inner sensory feedback—such synesthetic experiences are **consequential** rather than **definitional**. The primary mechanism is cross-domain propagation leading to involuntary motor activation; the perceptual fusion that sometimes follows reflects the brain’s tendency to integrate concurrent activity streams into a unified event.
 
-
-This coupling of perception and motion has a synesthetic quality: the movement is felt, heard, and emotionally registered as one blended event. Hence stimming represents a form of **motor synesthesia**—a cross-modal resonance where action and sensation fuse within a single distributed loop. Far from maladaptive, it is a **neuroregulatory act** that re-stabilizes the high-resolution system by converting uncontrolled propagation into rhythmic coherence.
-
-
-In this light, attempts to suppress stimming disrupt a natural stabilizing mechanism. Supporting predictable, rhythmic self-input respects the architecture of the autistic brain and allows it to regain equilibrium through its own circuitry.
-
-
+In this light, stimming is not maladaptive but **structurally emergent**: an embodied outcome of distributed architecture where reactive spread finds equilibrium through rhythmic motor expression. Suppressing it interrupts a natural route of stabilization within a high-resolution, cascade-prone neural system.
 
 
 ---
@@ -351,6 +347,8 @@ In this light, attempts to suppress stimming disrupt a natural stabilizing mecha
 
 ## Complex Outputs from Reactive Pathways
 
+
+As seen in reactive motor cascades, distributed propagation can also give rise to rhythmic coherence. In other cases, similar feedback loops emerge within internal or cognitive domains.
 
 Reactive propagation in the Distributed Pathway Model does more than create noise or overload—it can also generate *structure*. When spillover activity re-enters associative or motor circuits with rhythmic stability, it may form **self-sustaining feedback loops** that yield organized, often creative output without conscious intent.
 

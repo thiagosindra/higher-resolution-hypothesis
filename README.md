@@ -17,6 +17,15 @@ The model provides a structural bridge between molecular genetics, circuit-level
 
 ---
 
+## Note on Research Status
+
+This document is shared as an **open theoretical framework**, not a formal publication.  
+It represents a working model intended to invite interdisciplinary discussion, critique, and potential empirical exploration.  
+The ideas presented here are expected to evolve through dialogue with researchers in neuroscience, psychology, computational modeling, and related fields.  
+All content remains © 2025 Thiago Sindra and may be updated as the framework develops.
+
+---
+
 ## Abstract
 
 Autism may arise from distributed rather than streamlined neural architectures.  
@@ -35,7 +44,7 @@ It reframes autism as a *distributed computational mode* of the brain: capable o
 index.md                       → Full document (markdown version)
 distributed-pathway-model.md   → Core mechanism
 sensory-cognition.md           → Sensory and cognitive implications
-stimming-motor-synesthesia.md  → Motor-synesthetic feedback and regulation
+stimming-reactive-motor-cascade.md  → Reactive Motor Cascade
 implications.md                → Predictions and applied considerations
 references.md                  → Literature cited
 /scripts/
