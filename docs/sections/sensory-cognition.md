@@ -2,9 +2,9 @@
 <script src="../assets/js/tabstate.js"></script>
 
 <div class="navline">
-  <a data-nav href="./distributed-pathway-model.md">← Prev</a>
-  <a data-nav href="../index.md">Overview</a>
-  <a data-nav href="./stimming-reactive-loops.md">Next →</a>
+  <a data-nav href="./distributed-pathway-model">← Prev</a>
+  <a data-nav href="../index">Overview</a>
+  <a data-nav href="./stimming-reactive-loops">Next →</a>
 </div>
 
 # Sensory & Cognitive Effects

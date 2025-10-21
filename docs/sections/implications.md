@@ -2,9 +2,9 @@
 <script src="../assets/js/tabstate.js"></script>
 
 <div class="navline">
-  <a data-nav href="./energetic-collapse.md">← Prev</a>
-  <a data-nav href="../index.md">Overview</a>
-  <a data-nav href="./distributed-pathway-model.md">Next →</a>
+  <a data-nav href="./energetic-collapse">← Prev</a>
+  <a data-nav href="../index">Overview</a>
+  <a data-nav href="./distributed-pathway-model">Next →</a>
 </div>
 
 # Applied Implications

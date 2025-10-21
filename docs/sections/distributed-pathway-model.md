@@ -2,9 +2,9 @@
 <script src="../assets/js/tabstate.js"></script>
 
 <div class="navline">
-  <a data-nav href="./implications.md">← Prev</a>
-  <a data-nav href="../index.md">Overview</a>
-  <a data-nav href="./sensory-cognition.md">Next →</a>
+  <a data-nav href="./implications">← Prev</a>
+  <a data-nav href="../index">Overview</a>
+  <a data-nav href="./sensory-cognition">Next →</a>
 </div>
 
 # Distributed Pathway Model (DPM)

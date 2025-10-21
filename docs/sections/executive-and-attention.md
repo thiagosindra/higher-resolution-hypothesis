@@ -2,9 +2,9 @@
 <script src="../assets/js/tabstate.js"></script>
 
 <div class="navline">
-  <a data-nav href="./stimming-reactive-loops.md">← Prev</a>
-  <a data-nav href="../index.md">Overview</a>
-  <a data-nav href="./predictive-coding-learning.md">Next →</a>
+  <a data-nav href="./stimming-reactive-loops">← Prev</a>
+  <a data-nav href="../index">Overview</a>
+  <a data-nav href="./predictive-coding-learning">Next →</a>
 </div>
 
 # Executive Function & Attention

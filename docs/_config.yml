@@ -1,6 +1,6 @@
 title: "The Higher-Resolution Hypothesis"
 description: "Autism as a distributed neural architecture producing higher-resolution cognition through overlapping network activation."
-theme: null
+theme: minima
 markdown: kramdown
 kramdown:
   input: GFM
