@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="../assets/css/tabs.css">
-<script src="../assets/js/tabstate.js"></script>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/tabs.css">
+<script src="{{ site.baseurl }}/assets/js/tabstate.js"></script>
 
 <div class="navline">
   <a data-nav href="./distributed-pathway-model">← Prev</a>
