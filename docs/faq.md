@@ -1,12 +1,7 @@
-# Frequently Asked Questions
+# FAQ
 
-**Is this a medical theory?**  
-No. It’s a computational and systems-neuroscience model intended to guide future research.
+**Is this a formal publication?**
+No. It's an open theoretical framework intended to invite critique and collaboration. The canonical paper is provided for convenience and citation.
 
-**Does it pathologize autism?**  
-Quite the opposite — it treats autistic cognition as an alternative but valid neural architecture.
-
-**Who can use this?**  
-Researchers, clinicians, educators, AI scientists, and autistic individuals interested in understanding distributed cognition.
-
-For deeper reading: [Formal Document](higher-resolution-hypothesis.md)
+**How do I read at different technical depths?**
+Each topic page offers three tabs: **In-Depth Technical**, **Standard Technical**, and **General Explanation**. Use the tabs to switch levels; your selection is preserved as you navigate.
