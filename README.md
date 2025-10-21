@@ -38,22 +38,38 @@ It reframes autism as a *distributed computational mode* of the brain: capable o
 
 ## Repository Structure
 
-```
-
-/docs/
-index.md                       → Full document (markdown version)
-distributed-pathway-model.md   → Core mechanism
-sensory-cognition.md           → Sensory and cognitive implications
-stimming-reactive-motor-cascade.md  → Reactive Motor Cascade
-implications.md                → Predictions and applied considerations
-references.md                  → Literature cited
-/scripts/
-synaptic_density_mapping.py    → Data collection and analysis (future)
-gene_network_visualizer.ipynb  → ASD gene and connectivity visualization (future)
-/assets/
-figures/                       → Diagrams, network models, and schemas
+The repository is organized as a GitHub Pages site with a canonical paper and topic-based exploration pages.
 
 ```
+/docs/                                    → GitHub Pages site (published from main branch)
+  index.md                                → Landing page with overview and topic links
+  about.md                                → Author information and contact
+  higher-resolution-hypothesis.md         → Canonical paper (markdown)
+  higher-resolution-hypothesis.pdf        → Canonical paper (PDF)
+  faq.md                                  → Frequently asked questions
+  404.md                                  → Error page
+  _config.yml                             → Jekyll configuration
+
+  /sections/                              → Topic pages with 3 reading levels
+    distributed-pathway-model.md          → The mechanistic substrate (DPM)
+    sensory-cognition.md                  → Sensory and cognitive effects
+    stimming-reactive-loops.md            → Stimming and reactive pathways
+    executive-and-attention.md            → Executive function and attention
+    predictive-coding-learning.md         → Predictive coding and learning
+    energetic-collapse.md                 → Energetic collapse states
+    implications.md                       → Applied implications
+
+  /assets/
+    /css/
+      tabs.css                            → Tab styling for multi-level content
+    /js/
+      tabstate.js                         → Tab state management with ?level= support
+```
+
+Each topic page offers three reading levels:
+- **In-Depth Technical** — Links to canonical paper sections
+- **Standard Technical** — Rigorous cross-disciplinary summary (120-220 words)
+- **General Explanation** — Accessible lay description (90-150 words)
 
 ---
 
