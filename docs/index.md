@@ -1,6 +1,9 @@
-<link rel="stylesheet" href="./assets/css/tabs.css">
+---
+layout: default
+title: Overview
+---
 
-# The Higher-Resolution Hypothesis
+<link rel="stylesheet" href="./assets/css/tabs.css">
 
 The **Higher-Resolution Hypothesis (HRH)** proposes that autism arises from a distinct mode of neural organization—a **Distributed Pathway Model (DPM)**—where increased local branching and distributed propagation create higher representational density. This architecture yields richer, more detailed perception and cognition but also raises energetic demand, instability, and vulnerability to overload. The model unifies sensory, cognitive, and energetic phenomena under a single topological framework, explaining how executive strain escalates into predictive overload and ultimately metabolic collapse when competing activations exceed the brain's capacity to synchronize and sustain them.
 
@@ -26,18 +29,6 @@ Each topic page offers three reading levels: **In-Depth Technical** (links to ca
 - [Predictive Coding & Learning](./sections/predictive-coding-learning?level=std) — Precision-weighting, special interests, and the path to informational overload
 - [Energetic Collapse States](./sections/energetic-collapse?level=std) — Metabolic exhaustion underlying shutdowns and meltdowns
 - [Applied Implications](./sections/implications?level=std) — Clinical, educational, and environmental applications
-
----
-
-## About & Contact
-
-Learn more about the framework and its origins: **[About](./about)**
-
----
-
-## FAQ
-
-Common questions about the hypothesis: **[FAQ](./faq)**
 
 ---
 

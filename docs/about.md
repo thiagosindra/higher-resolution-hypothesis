@@ -1,3 +1,8 @@
+---
+layout: default
+title: About
+---
+
 # About the Higher-Resolution Hypothesis
 
 **Author:** Thiago Sindra, Independent Researcher
@@ -11,7 +16,3 @@ This is not a formal publication in a peer-reviewed venue. It is an evolving hyp
 - Email: [hrh@emailaccount.cc](mailto:hrh@emailaccount.cc)
 
 **Acknowledgment:** This work integrates direct observation of internal cognitive and sensory processes with neuroscientific research. It represents both a personal investigation and a scientific proposition—an attempt to model from within what is typically only measured from without.
-
----
-
-Return to [Overview](./index)
