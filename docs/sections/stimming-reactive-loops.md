@@ -1,3 +1,8 @@
+---
+layout: default
+title: Stimming & Reactive Loops
+---
+
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/tabs.css">
 <script src="{{ site.baseurl }}/assets/js/tabstate.js"></script>
 
@@ -18,8 +23,8 @@
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical: <a href="../higher-resolution-hypothesis.md#stimming-as-reactive-motor-cascade">Stimming</a> and
-      <a href="../higher-resolution-hypothesis.md#complex-outputs-from-reactive-pathways">Reactive Pathways</a>.
+      See canonical: <a href="../higher-resolution-hypothesis#stimming-as-reactive-motor-cascade">Stimming</a> and
+      <a href="../higher-resolution-hypothesis#complex-outputs-from-reactive-pathways">Reactive Pathways</a>.
     </p>
     <p>Stimming originates as a reactive motor cascade—distributed propagation overflowing into motor regions—that secondarily entrains sensory and interoceptive circuits into stabilizing feedback loops, reducing systemic entropy through rhythmic coherence.</p>
   </div>

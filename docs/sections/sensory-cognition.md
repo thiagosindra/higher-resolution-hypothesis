@@ -1,3 +1,8 @@
+---
+layout: default
+title: Sensory & Cognitive Effects
+---
+
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/tabs.css">
 <script src="{{ site.baseurl }}/assets/js/tabstate.js"></script>
 
@@ -18,8 +23,8 @@
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical: <a href="../higher-resolution-hypothesis.md#sensory-and-perceptual-consequences">Sensory</a> and
-      <a href="../higher-resolution-hypothesis.md#cognitive-and-decision-making-consequences">Cognition</a>.
+      See canonical: <a href="../higher-resolution-hypothesis#sensory-and-perceptual-consequences">Sensory</a> and
+      <a href="../higher-resolution-hypothesis#cognitive-and-decision-making-consequences">Cognition</a>.
     </p>
     <p>Distributed branching reshapes both sensory encoding and cognitive processing: wider microcircuit recruitment increases discrimination precision and cross-modal binding while reducing selectivity and raising overload thresholds.</p>
   </div>
@@ -31,6 +36,6 @@
   </div>
 
   <div id="tab-gen" class="tab-panel">
-    <p>Imagine turning up the brain's "resolution" dial: suddenly you notice the hum of fluorescent lights, individual threads in fabric, or micro-expressions others miss. This sensory richness is real—autistic brains activate more circuits per input, capturing finer detail. But with more channels open, it becomes harder to ignore what's irrelevant. Background noise doesn't fade; it competes for attention. This same architecture reshapes thinking: ideas branch into many possible paths at once, which can yield creative connections but also makes choosing between options exhausting. Emotions spread more widely through overlapping brain regions, intensifying feelings and making them harder to release. The trade-off is inherent: higher resolution means richer experience but at greater energetic cost and reduced filtering capacity.</p>
+    <p>Imagine turning up the brain's "resolution" dial: suddenly you notice the hum of fluorescent lights, individual threads in fabric, or micro-expressions others miss. That's the sensory side of distributed processing—your brain samples more detail from the same input. It can also blend senses together: a sound might evoke a color, or a texture might trigger a taste memory. But this richness comes with a cost: your brain doesn't easily tune out irrelevant details. Background chatter keeps activating circuits long after it should fade, creating the sensation of "too much at once." In thinking, this means you consider multiple angles simultaneously—great for spotting patterns and making connections, but it can slow decisions because you're weighing more possibilities. Emotions feel more intense too, because the same distributed circuits amplify their signal across more brain regions. Higher resolution means both sharper insights and heavier processing loads.</p>
   </div>
 </div>

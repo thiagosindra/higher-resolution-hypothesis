@@ -1,3 +1,8 @@
+---
+layout: default
+title: Distributed Pathway Model
+---
+
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/tabs.css">
 <script src="{{ site.baseurl }}/assets/js/tabstate.js"></script>
 
@@ -18,7 +23,7 @@
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical text: <a href="../higher-resolution-hypothesis.md#the-distributed-pathway-model-dpm">DPM in the paper</a>.
+      See canonical text: <a href="../higher-resolution-hypothesis#the-distributed-pathway-model-dpm">DPM in the paper</a>.
     </p>
     <p>The Distributed Pathway Model provides the mechanistic substrate for the Higher-Resolution Hypothesis, describing how increased axonal and dendritic branching, combined with delayed or weakened inhibition, transforms signal propagation from streamlined pathways into distributed cascades.</p>
   </div>
@@ -28,6 +33,6 @@
   </div>
 
   <div id="tab-gen" class="tab-panel">
-    <p>In most brains, neurons connect in relatively straight lines: one signal triggers one predictable outcome. In the autistic brain, development preserves extra branches at key junctions, so a single input can split into multiple parallel routes. This creates a kind of "high-definition" perception—you notice subtle details others miss—but it also means the brain is juggling more active signals at once. When inhibitory controls (the brain's "off switches") are slower or weaker, these extra signals can echo longer, making it harder to filter noise or shift focus. The result is a system that sees and thinks in finer detail but at greater energetic cost and with heightened sensitivity to chaos.</p>
+    <p>In most brains, neurons connect in relatively straight lines: one signal triggers one predictable outcome. In the autistic brain, development preserves extra branches at key junctions, so a single input can split into multiple parallel routes. This creates a kind of "high-definition" perception—you notice subtle details others miss—but it also means the brain is juggling more active signals at once. When inhibitory controls (the brain's "off switches") are slower or weaker, these extra signals can echo longer, making it harder to filter noise or shift focus. This branching doesn't mean "broken"—it means processing information in higher resolution, with both strengths (pattern detection, sensory richness) and challenges (overload, slower task-switching). The architecture itself explains why different people experience autism so differently: each individual's branching map varies, producing unique cognitive and perceptual profiles.</p>
   </div>
 </div>
