@@ -2,9 +2,9 @@
 <script src="{{ site.baseurl }}/assets/js/tabstate.js"></script>
 
 <div class="navline">
-  <a data-nav href="./stimming-reactive-loops">← Prev</a>
-  <a data-nav href="../index">Overview</a>
-  <a data-nav href="./predictive-coding-learning">Next →</a>
+  <a data-nav href="{{ site.baseurl }}/sections/stimming-reactive-loops">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/predictive-coding-learning">Next →</a>
 </div>
 
 # Executive Function & Attention

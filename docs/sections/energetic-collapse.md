@@ -2,9 +2,9 @@
 <script src="{{ site.baseurl }}/assets/js/tabstate.js"></script>
 
 <div class="navline">
-  <a data-nav href="./predictive-coding-learning">← Prev</a>
-  <a data-nav href="../index">Overview</a>
-  <a data-nav href="./implications">Next →</a>
+  <a data-nav href="{{ site.baseurl }}/sections/predictive-coding-learning">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/implications">Next →</a>
 </div>
 
 # Energetic Collapse States

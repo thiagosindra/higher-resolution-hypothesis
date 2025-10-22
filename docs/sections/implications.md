@@ -2,9 +2,9 @@
 <script src="{{ site.baseurl }}/assets/js/tabstate.js"></script>
 
 <div class="navline">
-  <a data-nav href="./energetic-collapse">← Prev</a>
-  <a data-nav href="../index">Overview</a>
-  <a data-nav href="./distributed-pathway-model">Next →</a>
+  <a data-nav href="{{ site.baseurl }}/sections/energetic-collapse">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/distributed-pathway-model">Next →</a>
 </div>
 
 # Applied Implications

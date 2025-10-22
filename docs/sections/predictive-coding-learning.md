@@ -2,9 +2,9 @@
 <script src="{{ site.baseurl }}/assets/js/tabstate.js"></script>
 
 <div class="navline">
-  <a data-nav href="./executive-and-attention">← Prev</a>
-  <a data-nav href="../index">Overview</a>
-  <a data-nav href="./energetic-collapse">Next →</a>
+  <a data-nav href="{{ site.baseurl }}/sections/executive-and-attention">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/energetic-collapse">Next →</a>
 </div>
 
 # Predictive Coding & Learning

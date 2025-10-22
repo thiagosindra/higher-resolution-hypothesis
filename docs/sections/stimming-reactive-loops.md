@@ -2,9 +2,9 @@
 <script src="{{ site.baseurl }}/assets/js/tabstate.js"></script>
 
 <div class="navline">
-  <a data-nav href="./sensory-cognition">← Prev</a>
-  <a data-nav href="../index">Overview</a>
-  <a data-nav href="./executive-and-attention">Next →</a>
+  <a data-nav href="{{ site.baseurl }}/sections/sensory-cognition">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/executive-and-attention">Next →</a>
 </div>
 
 # Stimming & Reactive Loops
