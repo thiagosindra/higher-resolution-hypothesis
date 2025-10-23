@@ -5,31 +5,87 @@ title: Overview
 
 <link rel="stylesheet" href="./assets/css/tabs.css">
 
-The **Higher-Resolution Hypothesis (HRH)** proposes that autism arises from a distinct mode of neural organization—a **Distributed Pathway Model (DPM)**—where increased local branching and distributed propagation create higher representational density. This architecture yields richer, more detailed perception and cognition but also raises energetic demand, instability, and vulnerability to overload. The model unifies sensory, cognitive, and energetic phenomena under a single topological framework, explaining how executive strain escalates into predictive overload and ultimately metabolic collapse when competing activations exceed the brain's capacity to synchronize and sustain them.
+# The Higher-Resolution Hypothesis
+
+## What This Hypothesis Proposes
+
+The **Higher-Resolution Hypothesis (HRH)** offers a unified framework for understanding autism as a distinct mode of neural organization rather than a collection of deficits or dysfunctions. At its core, the hypothesis proposes that autistic cognition arises from a **Distributed Pathway Model (DPM)** of neural connectivity—an architecture characterized by increased local branching, reduced synaptic pruning, and weaker inhibitory gating during development.
+
+This architectural difference produces what can be understood as higher-resolution information processing: the autistic brain engages more neurons per stimulus, encodes finer distinctions within sensory and cognitive domains, and maintains richer representational detail. This yields both exceptional capabilities—pattern detection, sensory acuity, deep expertise, associative thinking—and significant challenges—sensory overload, decision paralysis, energetic exhaustion, and vulnerability to cascade activation.
+
+## Why This Matters
+
+The Distributed Pathway Model provides a mechanistic bridge between:
+
+- **Molecular findings** — dozens of autism-associated genes converging on synaptic formation, pruning, and inhibition
+- **Circuit-level observations** — local hyperconnectivity, long-range hypoconnectivity, altered oscillatory dynamics
+- **Cognitive phenomenology** — sensory sensitivity, intense interests, executive challenges, social processing differences
+- **Energetic phenomena** — shutdowns, meltdowns, and the metabolic cost of high-resolution processing
+
+By explaining how these levels relate through a single topological framework, the hypothesis unifies previously separate theories (E/I imbalance, intense world, predictive coding, weak central coherence) and provides testable predictions about neural structure, function, development, and intervention.
+
+## About this Paper
+
+The Higher-Resolution Hypothesis emerged from a convergence of scientific curiosity and personal observation. Over the past few years, I have devoted much of my attention to neuroscience—particularly cognitive neuroscience—driven by an enduring interest in how subjective experience maps onto neural organization. Naturally introspective, I have long analyzed my own cognitive patterns and reactions through a neuroscientific lens, comparing them to what is known from research and to the experiences of others. As I deepened my understanding of neurodivergent cognition and how it may differ from neurotypical patterns, I began to notice recurring mechanisms that seemed to explain both enhanced sensitivity and overload within the same framework.
+
+This realization arose not from long-term data collection or laboratory work, but from connecting insights across existing studies, theoretical models, and empirical observations. By aligning known findings in synaptic development, excitation/inhibition balance, and predictive processing with lived cognitive dynamics, a coherent architectural picture began to form: that differences in branching, propagation, and inhibitory timing could account for a wide spectrum of neurocognitive traits. These dots gradually aligned into what I came to call the **Distributed Pathway Model (DPM)**—the mechanistic foundation of the Higher-Resolution Hypothesis.
+
+I decided to formalize this hypothesis in writing to open it to collective scrutiny and dialogue. It is not presented as a conclusion, but as an evolving framework intended to be tested, refined, or challenged by others. My invitation to the scientific community is to engage with these ideas critically and creatively—to explore whether the proposed model can bridge subjective and biological perspectives, and to determine where further empirical or computational research might substantiate, revise, or refute its claims.
+
+**Read the full paper:**
+- 📄 [Read online (Markdown)](./higher-resolution-hypothesis) — Full academic text with references
+- 🖨️ [Download PDF](./higher-resolution-hypothesis.pdf) — For printing or offline reading
+
+> For academic citations, please reference the canonical paper linked above.
+
+## What This Site Offers
+
+This website presents the Higher-Resolution Hypothesis at multiple levels of technical depth, allowing readers from different backgrounds to engage with the material appropriately:
+
+**For researchers and clinicians:** The canonical paper provides full technical detail, empirical grounding, and integration with existing literature. Section pages offer **In-Depth Technical** content linked directly to the paper's text.
+
+**For interdisciplinary audiences:** Each section includes **Standard Technical** summaries that maintain rigor while remaining accessible to readers outside neuroscience.
+
+**For autistic individuals, families, and educators:** **General Explanation** versions present the key concepts in clear language, assuming basic familiarity with autism but no technical background.
 
 ---
 
-## Read the Canonical Paper
+## Navigate by Topic
 
-- 📄 **[Read online (Markdown)](./higher-resolution-hypothesis)**
-- 🖨️ **[Download PDF](./higher-resolution-hypothesis.pdf)**
+Each topic page offers three reading levels via tabs: **In-Depth Technical**, **Standard Technical**, and **General Explanation**. Choose the level that matches your background and goals. The default view is **Standard Technical**.
 
-> For academic citations, please reference the canonical paper above.
+### Core Framework
+- [**Distributed Pathway Model**](./sections/distributed-pathway-model?level=std) — The mechanistic substrate: how branching topology creates higher-resolution processing
+- [**Genetic and Molecular Foundations**](./sections/genetic-molecular?level=std) — How diverse autism-related genes converge on distributed architecture
+- [**Individual Variability**](./sections/individual-variability?level=std) — Why autism manifests differently across individuals: active:reactive ratios and domain-specific expression
+
+### Cognitive and Perceptual Effects
+- [**Sensory & Cognitive Effects**](./sections/sensory-cognition?level=std) — Heightened discrimination, cross-modal binding, parallel reasoning, and decision paralysis
+- [**Memory and Task Encoding**](./sections/memory-task-encoding?level=std) — Dense encoding, temporal fragmentation, working memory load, and task decomposition
+- [**Social and Communication Processing**](./sections/social-communication?level=std) — Information overload, masking, evaluation loops, and emotional resonance
+
+### Regulation and Collapse
+- [**Stimming & Reactive Loops**](./sections/stimming-reactive-loops?level=std) — Regulatory entrainment, autonomous oscillators, and complex outputs from reactive pathways
+- [**Executive Function & Attention**](./sections/executive-and-attention?level=std) — The cascade from executive strain to predictive overload to energetic collapse
+- [**Predictive Coding & Learning**](./sections/predictive-coding-learning?level=std) — Precision-weighting, special interests as stability zones, and the path to informational overload
+- [**Energetic Collapse States**](./sections/energetic-collapse?level=std) — Metabolic exhaustion underlying shutdowns and meltdowns
+
+### Integration and Application
+- [**Relationship to Existing Theories**](./sections/existing-theories?level=std) — How DPM unifies E/I imbalance, intense world, predictive coding, WCC, and other frameworks
+- [**Applied Implications**](./sections/implications?level=std) — Clinical, educational, environmental, and therapeutic applications
 
 ---
 
-## Explore by Topic
+## Nature of This Work
 
-Each topic page offers three reading levels: **In-Depth Technical** (links to canonical sections), **Standard Technical** (rigorous cross-disciplinary summary), and **General Explanation** (accessible lay description). The default level is **Standard Technical**.
+This hypothesis originates from both lived experience as an autistic individual and rigorous engagement with neuroscience literature. It is offered as an **open theoretical framework**—not a formal publication or definitive conclusion, but an invitation for interdisciplinary critique, empirical testing, and collaborative refinement.
 
-- [Distributed Pathway Model](./sections/distributed-pathway-model?level=std) — The mechanistic substrate: how branching topology creates higher-resolution processing
-- [Sensory & Cognitive Effects](./sections/sensory-cognition?level=std) — Heightened discrimination, cross-modal binding, and decision paralysis
-- [Stimming & Reactive Loops](./sections/stimming-reactive-loops?level=std) — Regulatory entrainment and autonomous oscillators
-- [Executive Function & Attention](./sections/executive-and-attention?level=std) — The cascade from executive strain to predictive overload to energetic collapse
-- [Predictive Coding & Learning](./sections/predictive-coding-learning?level=std) — Precision-weighting, special interests, and the path to informational overload
-- [Energetic Collapse States](./sections/energetic-collapse?level=std) — Metabolic exhaustion underlying shutdowns and meltdowns
-- [Applied Implications](./sections/implications?level=std) — Clinical, educational, and environmental applications
+The framework is particularly intended to:
+- Integrate disparate research findings into a coherent mechanistic model
+- Generate testable predictions for experimental validation
+- Inform more effective clinical and educational approaches
+- Provide autistic individuals with a scientifically grounded understanding of their own cognition
 
 ---
 
-**Note:** This is an open theoretical framework, not a formal publication. It is offered to invite interdisciplinary critique, empirical testing, and collaborative refinement.
+**License:** CC BY-NC-SA 4.0 — Free to share and adapt with attribution, for non-commercial purposes.

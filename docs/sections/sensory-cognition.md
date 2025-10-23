@@ -7,9 +7,9 @@ title: Sensory & Cognitive Effects
 <script src="{{ site.baseurl }}/assets/js/tabstate.js"></script>
 
 <div class="navline">
-  <a data-nav href="{{ site.baseurl }}/sections/distributed-pathway-model">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/sections/individual-variability">← Prev</a>
   <a data-nav href="{{ site.baseurl }}/">Overview</a>
-  <a data-nav href="{{ site.baseurl }}/sections/stimming-reactive-loops">Next →</a>
+  <a data-nav href="{{ site.baseurl }}/sections/memory-task-encoding">Next →</a>
 </div>
 
 # Sensory & Cognitive Effects
@@ -36,6 +36,12 @@ title: Sensory & Cognitive Effects
   </div>
 
   <div id="tab-gen" class="tab-panel">
-    <p>Imagine turning up the brain's "resolution" dial: suddenly you notice the hum of fluorescent lights, individual threads in fabric, or micro-expressions others miss. That's the sensory side of distributed processing—your brain samples more detail from the same input. It can also blend senses together: a sound might evoke a color, or a texture might trigger a taste memory. But this richness comes with a cost: your brain doesn't easily tune out irrelevant details. Background chatter keeps activating circuits long after it should fade, creating the sensation of "too much at once." In thinking, this means you consider multiple angles simultaneously—great for spotting patterns and making connections, but it can slow decisions because you're weighing more possibilities. Emotions feel more intense too, because the same distributed circuits amplify their signal across more brain regions. Higher resolution means both sharper insights and heavier processing loads.</p>
+    <p>The sensory effects of distributed neural architecture can be understood as processing input at higher resolution. Autistic individuals commonly report noticing details that others filter out automatically—the hum of fluorescent lights, subtle texture variations, minor pitch changes, or fleeting micro-expressions. This heightened sensitivity reflects the recruitment of more neurons in sensory processing regions, effectively sampling the environment with greater precision.</p>
+
+    <p>In some cases, this distributed processing can create cross-sensory associations, where stimulation in one modality (such as sound) produces perceptual experiences in another (such as color). This occurs when signals propagate across partially overlapping circuits that typically remain more segregated in neurotypical brains.</p>
+
+    <p>The trade-off is reduced selectivity. Because more neural pathways respond to and maintain activity from each stimulus, the brain has difficulty filtering irrelevant or repetitive information. Background sounds or ambient sensory input continue engaging circuits longer than necessary, producing subjective overload and difficulty concentrating in complex sensory environments.</p>
+
+    <p>Cognitively, this architecture affects reasoning and decision-making. Processing a single concept or problem activates multiple associative pathways concurrently, enabling sophisticated pattern recognition and novel insights. However, this parallel activation also increases the time and mental effort required to reach decisions, as more possibilities must be evaluated. Emotional experiences are similarly amplified, as affective signals propagate through broader limbic and prefrontal networks, producing greater intensity and longer persistence of emotional states.</p>
   </div>
 </div>

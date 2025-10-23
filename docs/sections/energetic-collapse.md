@@ -9,7 +9,7 @@ title: Energetic Collapse States
 <div class="navline">
   <a data-nav href="{{ site.baseurl }}/sections/predictive-coding-learning">← Prev</a>
   <a data-nav href="{{ site.baseurl }}/">Overview</a>
-  <a data-nav href="{{ site.baseurl }}/sections/implications">Next →</a>
+  <a data-nav href="{{ site.baseurl }}/sections/existing-theories">Next →</a>
 </div>
 
 # Energetic Collapse States
@@ -35,6 +35,14 @@ title: Energetic Collapse States
   </div>
 
   <div id="tab-gen" class="tab-panel">
-    <p>Think of your brain as a city running on limited power. Each thought, sensation, and prediction consumes electricity. In a distributed system, the same task uses more power because more neighborhoods are active at once. When too many things happen simultaneously—sensory overload, unpredictability, prolonged focus—the power demand spikes. Your brain's generators (mitochondria) and backup batteries (glial cells) have a ceiling: they can only supply so much energy per minute. When demand exceeds supply for too long, circuits start to brown out. A <strong>shutdown</strong> is when the power fails completely: you can't think, speak, or move normally because there's literally no fuel left for those circuits. Your brain forces a blackout to recharge. A <strong>meltdown</strong> is when overload hits the emotional and motor systems before the shutdown can happen—everything fires at once in a chaotic surge, then collapses. Neither is a choice or a failure of willpower. They're biological limits: the high-resolution system ran out of gas. Recovery takes time because the brain has to physically restore chemical balance and energy reserves.</p>
+    <p>Neural activity requires continuous energy supply in the form of ATP, which is generated primarily through mitochondrial metabolism. In distributed neural architecture, each cognitive or perceptual event engages substantially more neurons and synaptic connections than in typical brains. This broader recruitment increases ATP consumption proportionally. When multiple demands occur concurrently—sensory processing, cognitive tasks, emotional regulation, and prediction updating—energy demand scales rapidly.</p>
+
+    <p>The brain's capacity to generate ATP and maintain the ionic gradients necessary for neural firing has biological limits. Mitochondria can only produce energy at a certain rate, and glial cells can only buffer ions and provide metabolic support up to a threshold. When concurrent distributed activations push energy demand beyond these supply limits for sustained periods, local energy deficits accumulate in affected circuits.</p>
+
+    <p><strong>Shutdowns</strong> occur when these energy deficits reach critical levels. Neural circuits cease functioning not through voluntary control but because insufficient ATP remains to sustain synaptic transmission and action potentials. The inability to process information, speak, move, or regulate normally during shutdown reflects genuine metabolic depletion. The brain essentially enforces rest to allow ATP regeneration, ion gradient restoration, and clearance of metabolic byproducts.</p>
+
+    <p><strong>Meltdowns</strong> represent a different trajectory within the same energetic framework. When distributed excitation spreads rapidly through emotional, sensory, and motor systems before metabolic limits force cessation, the result is uncontrolled behavioral output—emotional dysregulation, motor agitation, or sensory overwhelm—followed by collapse once energy reserves are exhausted. The behavioral expression differs, but the underlying mechanism is the same: metabolic demand exceeding supply capacity.</p>
+
+    <p>Both collapse states reflect biophysical limits rather than psychological responses. Recovery requires time for actual physiological restoration—ATP synthesis, ionic balance, and metabolic waste removal. Understanding these states as energetic phenomena rather than behavioral choices or failures of emotional regulation is essential for appropriate support and accommodation.</p>
   </div>
 </div>

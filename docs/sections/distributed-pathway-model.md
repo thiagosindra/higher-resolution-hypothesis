@@ -9,7 +9,7 @@ title: Distributed Pathway Model
 <div class="navline">
   <a data-nav href="{{ site.baseurl }}/sections/implications">← Prev</a>
   <a data-nav href="{{ site.baseurl }}/">Overview</a>
-  <a data-nav href="{{ site.baseurl }}/sections/sensory-cognition">Next →</a>
+  <a data-nav href="{{ site.baseurl }}/sections/genetic-molecular">Next →</a>
 </div>
 
 # Distributed Pathway Model (DPM)
@@ -33,6 +33,10 @@ title: Distributed Pathway Model
   </div>
 
   <div id="tab-gen" class="tab-panel">
-    <p>In most brains, neurons connect in relatively straight lines: one signal triggers one predictable outcome. In the autistic brain, development preserves extra branches at key junctions, so a single input can split into multiple parallel routes. This creates a kind of "high-definition" perception—you notice subtle details others miss—but it also means the brain is juggling more active signals at once. When inhibitory controls (the brain's "off switches") are slower or weaker, these extra signals can echo longer, making it harder to filter noise or shift focus. This branching doesn't mean "broken"—it means processing information in higher resolution, with both strengths (pattern detection, sensory richness) and challenges (overload, slower task-switching). The architecture itself explains why different people experience autism so differently: each individual's branching map varies, producing unique cognitive and perceptual profiles.</p>
+    <p>In typical neural development, connections between neurons are streamlined through pruning, creating relatively direct pathways where one signal produces one predictable response. In autistic neurodevelopment, this pruning is less aggressive, preserving additional branches at critical junctions. As a result, a single input can activate multiple parallel routes rather than following a single pathway.</p>
+
+    <p>This architectural difference creates what can be understood as higher-resolution information processing. Autistic individuals often detect subtle details, patterns, and sensory distinctions that others do not register. However, this same architecture means the brain maintains more concurrent activations, requiring greater resources to manage. When inhibitory control—the neural mechanisms that terminate or contain signals—develops more slowly or operates less efficiently, these additional activations persist longer than in typical brains. This makes it more difficult to filter irrelevant information or transition between tasks.</p>
+
+    <p>This distributed architecture is not a dysfunction but a different mode of neural organization, one that produces both capabilities and challenges. Enhanced pattern detection and sensory acuity coexist with increased vulnerability to overload and reduced efficiency in task-switching. The substantial variability in how autism manifests across individuals reflects differences in where and how extensively this branching develops, creating distinct cognitive and perceptual profiles.</p>
   </div>
 </div>

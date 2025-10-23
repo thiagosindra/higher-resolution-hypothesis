@@ -7,7 +7,7 @@ title: Stimming & Reactive Loops
 <script src="{{ site.baseurl }}/assets/js/tabstate.js"></script>
 
 <div class="navline">
-  <a data-nav href="{{ site.baseurl }}/sections/sensory-cognition">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/sections/social-communication">← Prev</a>
   <a data-nav href="{{ site.baseurl }}/">Overview</a>
   <a data-nav href="{{ site.baseurl }}/sections/executive-and-attention">Next →</a>
 </div>
@@ -36,6 +36,12 @@ title: Stimming & Reactive Loops
   </div>
 
   <div id="tab-gen" class="tab-panel">
-    <p>When the brain juggles too many signals at once, the overflow can "leak" into the motor system, producing spontaneous repetitive movement—hand-flapping, rocking, pacing. This isn't a conscious choice but the system finding an outlet for accumulated energy. Once started, the rhythm itself helps: each cycle creates a predictable beat that other brain regions can sync to, like a metronome calming scattered musicians. The same principle applies internally—melodies that loop in your head, thoughts that keep circling back. These are "reactive pathways" reaching stable patterns on their own. Whether that stability produces useful creativity or unwanted intrusion depends on the loop's structure. Stimming, in this view, is the body's way of re-tuning a high-resolution system that's momentarily out of sync.</p>
+    <p>Stimming—repetitive self-stimulatory movements such as hand-flapping, rocking, or pacing—arises through a specific mechanism within distributed neural architecture. When concurrent activation across sensory, emotional, and cognitive circuits exceeds the capacity of inhibitory systems to contain it, this excess activity can propagate into motor regions through weakly gated connections. The resulting movements are not consciously initiated but represent the brain's intrinsic response to accumulated neural activation that lacks other outlets.</p>
+
+    <p>Once these movements begin, they serve a secondary regulatory function. Rhythmic, repetitive motion creates predictable patterns of sensory and motor feedback that help synchronize distributed neural activity. This rhythmic entrainment reduces the temporal variability and interference that characterize overload states, effectively stabilizing the system through predictable oscillation.</p>
+
+    <p>Similar mechanisms operate internally, producing phenomena such as persistent internal music, recurring thought patterns, or spontaneous problem-solving that continues without conscious direction. These reflect closed feedback loops within distributed circuits—patterns of activity that become self-sustaining. Whether such loops produce creative insights or intrusive repetition depends on their stability characteristics and how well they can be modulated by inhibitory control.</p>
+
+    <p>Suppressing stimming interrupts this natural stabilization process, forcing a high-resolution system experiencing overload to maintain coherence without access to one of its primary regulatory mechanisms. Understanding stimming as reactive motor cascade rather than purposeless behavior reframes it as a structural feature of how distributed neural architecture maintains equilibrium under strain.</p>
   </div>
 </div>
