@@ -81,6 +81,220 @@ Thus, DPM is not a pathology model but a topology model: it describes how inform
 
 ---
 
+## Mechanistic Deep Dive: The Distributed Pathway Model in Action
+
+The Distributed Pathway Model (DPM) can be expressed quantitatively, but the following section should be understood as a conceptual formulation rather than an empirical measurement. The framework introduces illustrative parameters to describe how changes in branching, inhibition, persistence, and energetic cost might interact to produce the distributed activation patterns proposed by the Higher-Resolution Hypothesis (HRH). The goal is to outline one possible way to formalize these ideas so they can be tested, refined, or falsified by future research—not to assert definitive or observed numerical values.
+
+### 1. Core Mechanistic Parameters (Illustrative Framework)
+
+At the microcircuit level, the DPM can be parameterized by four interacting variables. These parameters are conceptual placeholders for measurable properties, not established constants:
+
+| Symbol | Parameter                | Conceptual Role                                                                                     | Approximate Range (illustrative) |
+| ------ | ------------------------ | --------------------------------------------------------------------------------------------------- | -------------------------------- |
+| **B**  | *Branching Factor*       | Average number of downstream targets per neuron (reflecting axonal and dendritic arborization).     | NT ≈ 1.2–1.5 → DPM ≈ 2.0–3.5     |
+| **I**  | *Inhibition Coefficient* | Strength and temporal precision of inhibitory control relative to excitation.                       | NT ≈ 0.7–0.9 → DPM ≈ 0.3–0.6     |
+| **τ**  | *Persistence Constant*   | Duration of post-activation reverberation within local circuits (milliseconds).                     | NT ≈ 50–150 ms → DPM ≈ 200–800 ms |
+| **E**  | *Energetic Cost*         | Relative metabolic demand for sustaining distributed activation.                                    | Scales as *E* ∝ *B*^α / *I*, α ≈ 1.5–2.0 |
+
+These parameters could be estimated through:
+- **B**: Anatomical reconstruction, synaptic-density metrics, dendritic spine counts
+- **I**: Inhibitory amplitude and timing measures (PV/SST interneuron activity, IPSC latencies)
+- **τ**: Decay constants in electrophysiological recordings or calcium imaging
+- **E**: Metabolic indicators such as ATP turnover, glucose utilization (FDG-PET), or lactate accumulation
+
+Two heuristic relationships capture their qualitative interactions:
+
+*R* ∝ (*B* · τ) / *I*,  and  *E* ∝ *B*^1.7 · (τ / *I*)
+
+where *R* represents information density. These are illustrative equations—intended to convey proportional relationships and generate testable predictions, not to claim quantitative precision.
+
+**Note on terminology:** The parameters *B*, *I*, τ, and *E* are introduced as a minimal modeling vocabulary for discussion and testing. They summarize known biological features—branching, inhibition, persistence, and metabolism—in a simplified form. Researchers are encouraged to reinterpret, refine, or disprove these relationships through direct measurement, modeling, or comparative analysis.
+
+### 2. Active and Reactive Pathways
+
+The DPM distinguishes between two proposed classes of pathway activation:
+
+- **Active pathways** are those directly driven by external input or task demands (the intended signal flow).
+- **Reactive pathways** are collateral activations that emerge when excitatory propagation exceeds inhibitory containment (spillover recruitment).
+
+The **active:reactive ratio (A:R)** is proposed as a conceptual tool to describe system balance:
+
+A:R = *N*_active / *N*_reactive ≈ *I* / (*B* · τ)
+
+**Hypothetical ranges:**
+- **Neurotypical processing**: A:R ≈ 3:1 to 5:1 (most activity remains on-path)
+- **Distributed processing**: A:R ≈ 1:1 to 1:3 (reactive spread matches or exceeds active processing)
+
+These figures are not measured constants, but rather a hypothesis illustrating how changes in branching, inhibition, or persistence could influence circuit stability. They define a direction for empirical testing rather than a statement of fact. Individual variability in these ratios across domains (sensory, motor, linguistic) could predict "spiky" ability profiles characteristic of autism.
+
+### 3. Representational Density: A Worked Example
+
+To illustrate how these parameters might translate into measurable outcomes, consider representational density (ρ)—the number of distinct neural microstates encoding a single stimulus. A simplified heuristic model:
+
+ρ ≈ *N*_input × *B*^*d* × (1 + τ/τ_ref) / *I*
+
+where *N*_input is the initial activated population, *d* is circuit depth (number of synaptic steps), and τ_ref is a reference time constant.
+
+**For a hypothetical two-layer sensory circuit with 50 initial neurons:**
+- **Neurotypical scenario**: ρ_NT = 50 × (1.3)² × 1.5 / 0.8 ≈ **126 microstates**
+- **Distributed scenario**: ρ_DPM = 50 × (2.4)² × 5.0 / 0.45 ≈ **1,422 microstates**
+
+This ~11× increase in representational density would explain "higher resolution" phenomenology—but would also predict 11× more potential interference, prediction error, and energetic demand. This calculation is illustrative, but it generates a testable prediction: if the DPM parameters can be measured empirically, representational density should scale according to this relationship. Individual differences in *B*, *I*, and τ would produce different ρ profiles, potentially explaining phenotypic heterogeneity in autism.
+
+### 4. Circuit Walkthrough: Hypothetical Sensory Encoding Example
+
+To demonstrate how this framework could be operationalized, consider a simplified model of edge detection in **primary visual cortex (V1)**. The values below are not measurements, but illustrative contrasts showing how varying the DPM parameters might qualitatively affect signal propagation and energy demand.
+
+**Neurotypical processing (B ≈ 1.3, I ≈ 0.8, τ ≈ 80 ms):**
+> Photoreceptor → LGN relay → V1 layer 4 simple cells → layer 2/3 complex cells → V2  
+> (*A* → *B* → *C*)
+
+Fast feedforward inhibition (15–20 ms latency) suppresses non-vertical-tuned neighbors. The edge signal propagates cleanly to V2 with minimal cross-talk to color or motion pathways.
+
+**Hypothetical outcomes:**
+- Neurons recruited: ~80
+- Activity duration: ~100 ms
+- Relative energy cost: baseline
+
+**Distributed processing (B ≈ 2.4, I ≈ 0.45, τ ≈ 450 ms):**
+> *A* → *B* → *C*  
+> *A* → *B* → *Y* → *Z*  
+> *A* → *D* → *F* → *C*
+
+Weaker inhibition (delayed to 35–50 ms, reduced to 45% of NT strength) allows spillover into orientation-adjacent columns, color-processing streams, and motion-sensitive areas. Reactive recruitment continues well beyond stimulus offset.
+
+**Hypothetical outcomes:**
+- Neurons recruited: ~350 (including ~280 via reactive pathways)
+- Activity duration: ~500 ms
+- Relative energy cost: 7–8× baseline
+
+**Predicted phenomenology:** If this model is correct, the edge would be detected with additional texture granularity, possible color associations, and motion aftereffects—producing richer visual detail but at significant metabolic cost. This would explain why "just seeing" can be exhausting in autism, transforming a prediction of the model into a testable hypothesis about subjective experience.
+
+### 5. Temporal Dynamics: Proposed Cascade Propagation
+
+The distributed topology could create characteristic temporal signatures, testable through electrophysiology or calcium imaging:
+
+**Feedforward phase (0–100 ms):** Initial activation spreads through branching architecture. In NT circuits, inhibition gates this quickly. In DPM, weaker *I* might allow continued propagation into secondary branches.
+
+**Reactive phase (100–500 ms):** Spillover activity could reach reactive pathways. If these loop back onto active regions (recurrent connectivity), they might create local reverberation. The persistence constant τ would govern duration.
+
+**Decay phase (500–1200 ms):** Inhibition eventually quenches reactive activity, but longer τ would mean substantial "tail" activation. New stimuli during this period might interact with lingering reactive signals, producing interference or facilitation.
+
+**Testable prediction:** If DPM is correct, calcium imaging should show broader spatial activation (2–3× more neurons responding to identical stimulus), longer response duration (τ elevated by factor of 3–6), and secondary activation peaks 200–400 ms post-stimulus reflecting reactive loop reentry.
+
+### 6. Inhibitory Timing and Control Mechanisms
+
+The DPM does not propose absence of inhibition—rather, it hypothesizes altered timing and recruitment patterns of specific interneuron subtypes. These are proposed as candidate mechanisms to be tested:
+
+**Parvalbumin (PV) interneurons** provide fast feedforward inhibition (typically 10–20 ms latency in NT circuits). If PV recruitment were delayed (25–45 ms) or reduced in strength, this would widen the temporal window for branching propagation.
+
+**Somatostatin (SST) interneurons** provide dendritic inhibition modulating input integration. Reduced SST function could permit more dendritic branches to reach spike threshold simultaneously, increasing *B*.
+
+**VIP interneurons** disinhibit principal cells by suppressing SST interneurons. Altered VIP timing might paradoxically increase reactive spread by removing the brake on dendritic integration.
+
+**Testable hypothesis:** Optogenetic manipulation in autism-linked organoid systems (SCN2A, POGZ, CHD8) should reveal whether restoring PV timing to NT ranges reduces *B* and increases A:R ratio, and whether enhancing SST dendritic inhibition reduces τ and limits reactive persistence. These experiments would directly test the proposed inhibitory mechanisms.
+
+### 7. Energetic Accounting and Metabolic Predictions
+
+If distributed architecture operates as proposed, energetic costs should scale predictably with the parameters:
+
+Each neuron consumes approximately 4.7 billion ATP molecules per second at rest. Action potentials add ~10⁸ ATP per spike. In a distributed architecture:
+
+**Spatial cost:** *B* = 2.5 would mean each spike recruits 2.5× more downstream neurons.  
+**Temporal cost:** τ = 450 ms would mean each recruitment event consumes energy for 3–6× longer duration.  
+**Nonlinear interaction:** If reactive pathways re-excite active pathways (creating loops), energy scaling might follow *E* ∝ *B*^1.7 × (τ / *I*).
+
+**Predicted consequence:** Sustained cognitive tasks could consume 5–10× more energy per unit time than NT processing. This would predict:
+- Faster depletion of glucose/oxygen in associative cortices (measurable via fMRI or PET)
+- Greater glial metabolic support demand (testable via astrocyte calcium imaging)
+- Lower threshold for energetic collapse (shutdown) under sustained load
+
+**Clinical observation alignment:** If this model is correct, the exhaustion autistic individuals report from apparently "passive" activities (being in busy environments, following conversation) would reflect genuine metabolic depletion rather than psychological factors—a distinction that could be empirically tested through metabolic imaging.
+
+### 8. Synaptic-Level Mechanisms: Developmental Substrate
+
+The distributed topology could arise through known developmental processes, which this model treats as candidate mechanisms rather than verified causes:
+
+**Dendritic pruning:** In NT development, ~40–50% of initial dendritic branches are removed by adolescence. If autism-linked variants (CHD8, ARID1B, PTEN) extend critical periods and reduce pruning thresholds, 60–80% of branches might remain intact—directly increasing *B*. This is measurable through dendritic reconstruction in post-mortem tissue or organoid models.
+
+**Axonal collateralization:** If pyramidal neurons form 2–4 stable collaterals (vs. 1–2 NT), each reaching different downstream populations, this would physically instantiate increased *B*. Tract-tracing studies could test this prediction.
+
+**Spine density:** Post-mortem studies report 15–30% higher spine density on pyramidal dendrites in autistic cortex. If accurate, each additional spine represents a potential branch point for signal integration, contributing to increased *B*.
+
+These phenomena are empirically documented in autism research, but their precise contribution to a distributed network mode remains to be experimentally confirmed through causally controlled studies.
+
+### 9. Falsification Tests: Specific Experimental Predictions
+
+Rather than asserting results, the DPM framework generates specific, falsifiable predictions. If the model captures meaningful biological relationships, the following outcomes would be expected and would serve as tests of the hypothesis:
+
+**1. Human organoid and assembloid systems:**
+
+If cortical organoids derived from autism-linked iPSCs (CHD8, SCN2A, POGZ, SYNGAP1) exhibit distributed architecture:
+- Dendritic branch density should be 1.5–2.5× higher than NT controls (measurable via MAP2 staining and morphological reconstruction)
+- Calcium wave propagation following glutamate uncaging should spread 2–4× broader spatially
+- Multi-electrode array recordings should show elevated τ (300–600 ms vs. 100–200 ms NT)
+- PV interneuron migration distance should be reduced, with delayed functional integration into circuits
+
+**2. High-density electrophysiology in animal models:**
+
+Neuropixels or multi-electrode recordings in Shank3, Cntnap2, or Scn2a mouse models during sensory stimulation should reveal:
+- Broader spatial co-activation (2–3× recruitment radius from stimulation site)
+- Delayed inhibitory rebound (30–50 ms vs. 15–20 ms in wild-type)
+- Secondary activation peaks 200–400 ms post-stimulus (reactive reentry signature)
+- If these patterns are not observed, the temporal dynamics proposed by DPM would require revision
+
+**3. Human neuroimaging:**
+
+Ultra-high-field fMRI (7T) with laminar resolution during simple sensory tasks could test whether:
+- BOLD signal spreads more broadly in layer 2/3 (where horizontal branching dominates)
+- Hemodynamic response functions show prolonged tail in autistic participants
+- FDG-PET or ¹³C-MRS metabolic imaging reveals higher baseline glucose consumption in sensory and associative cortices
+- Faster depletion rates occur during sustained cognitive load
+
+**4. Computational modeling:**
+
+Spiking neural network simulations varying *B*, *I*, and τ should be able to reproduce:
+- Higher representational density with increased *B*
+- Cascade susceptibility and runaway activation with low *I*
+- Spontaneous oscillatory attractors (potentially matching stimming behaviors or internal music) when τ is elevated
+- If these computational relationships fail to hold, the parameter framework would need modification
+
+**5. Therapeutic intervention predictions:**
+
+If the model is correct, pharmacological or optogenetic enhancement of PV interneuron function should:
+- Reduce reactive spread (increase A:R ratio)
+- Lower τ toward NT baseline
+- Reduce sensory overload symptoms without eliminating detail perception
+- Non-sedating GABAergic agents targeting temporal precision (not overall inhibition level) could be therapeutic
+
+Each prediction provides a pathway for falsification—a necessary condition for transforming this framework into a validated model.
+
+### 10. Integration with Established Phenomenological Patterns
+
+If the mechanistic parameters proposed above operate as described, they could provide a common substrate for diverse autistic experiences detailed elsewhere in this document:
+
+**Stimming as motor synesthesia:** If reactive spillover from motor planning regions into sensory cortex creates proprioceptive-auditory-visual binding loops, and if elevated τ allows these loops to persist, this would explain rhythmic coherence. Because the loop would be self-contained (low *B* within the loop), stimming could function as an energetically efficient self-regulation mechanism—a testable prediction through combined motor and sensory imaging.
+
+**Memory encoding differences:** Higher ρ during initial encoding would store more microstates per episodic event, potentially producing richer recall but also more interference between similar memories. Elevated τ could explain why memories loop or intrude—reactive reentry keeps reactivating stored patterns. Memory paradigms comparing detail retention and interference susceptibility could test this.
+
+**Interoceptive intensity:** If visceral signals propagate through distributed brainstem-cortical pathways, recruiting broader insular and cingulate territories, and if low *I* amplifies this spread, this would explain amplified interoceptive awareness. Combined with low *I*, internal states (hunger, pain, emotion) could dominate consciousness and trigger cascade activation—testable through interoceptive attention tasks with concurrent imaging.
+
+**Special interests as predictive stability:** Repeated activation of the same domain could stabilize distributed branches through reinforcement, creating "islands of coherence" where prediction error is minimal. Mastery would reduce entropy in a high-τ, low-*I* system. The dopaminergic reward response to predictable domains could be measured directly.
+
+**Autonomic dysregulation:** If distributed propagation in autonomic circuits produces broad, sustained sympathetic or parasympathetic activation, and if elevated τ prevents quick resetting, this would explain prolonged stress responses and difficulty with transitions. Heart rate variability and autonomic recovery time could be correlated with estimated circuit parameters.
+
+Each of these represents not a confirmed relationship but a hypothesis derived from the parameter framework—an opportunity for targeted empirical investigation.
+
+### 11. Summary and Invitation
+
+This mechanistic outline offers a working vocabulary for exploring how distributed architectures might operate. The parameters *B*, *I*, τ, and *E* are not endpoints but tools for connecting structural features to measurable outcomes. The equations and numerical examples are illustrative—designed to generate testable predictions rather than assert definitive values.
+
+The DPM reframes autism as a biophysical mode of neural organization that can be described, modeled, and empirically tested. It proposes that increased representational density and temporal persistence yield higher-resolution experience at the cost of metabolic strain and cascade susceptibility. This framework does not claim certainty but offers explicit relationships that can be quantified, modeled, or disproven.
+
+The Higher-Resolution Hypothesis and its mechanistic substrate, the DPM, are thus presented as an open framework—an evolving invitation for interdisciplinary investigation across anatomy, electrophysiology, computation, metabolic imaging, and lived cognition. Researchers are encouraged to test these relationships, refine the parameters, or demonstrate where the model fails. Through such engagement, we can move from conceptual synthesis toward validated understanding of autism as an alternative neural architecture.
+
+---
+
 ## Genetic and Molecular Foundations
 
 Dozens of genes associated with autism converge on synaptic formation, pruning, inhibition, and excitation balance. I interpret these not as separate mechanisms but as contributors to the same distributed architecture. Each modifies the probability that neurons will form, maintain, or suppress collateral connections.
