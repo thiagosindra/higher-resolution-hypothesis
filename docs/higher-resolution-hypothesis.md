@@ -17,13 +17,21 @@ October 2025
 
 ## Abstract
 
-Autism may arise not from isolated dysfunctions but from a distinct mode of neural organization. I propose the **Higher-Resolution Hypothesis**, which views autism as the emergent cognitive expression of a **Distributed Pathway Model (DPM)** of neural connectivity. In this model, increased local branching and distributed propagation of neural activity allow a single stimulus to engage multiple downstream pathways, producing higher representational density. This architecture enriches perception, memory, and associative thinking—yielding "higher-resolution" experience—but also heightens energetic demand, instability, and overload risk.
+Autism spectrum conditions present a paradox: exceptional perceptual abilities and detail-focused processing coexist with challenges in generalization, flexibility, and sensory overload. We propose the **Higher-Resolution Hypothesis (HRH)** and its mechanistic implementation via the **Distributed Pathway Model (DPM)** as a unifying architectural explanation. Rather than viewing autism as a collection of deficits or isolated enhancements, we reframe autistic cognition as operating in a fundamentally different computational mode—one that achieves higher-resolution neural representation through distributed, overlapping pathways rather than streamlined, efficient circuits.
 
-The DPM provides a mechanistic bridge between molecular findings (altered pruning, E/I imbalance, interneuron migration deficits) and autistic phenomenology (detail perception, sensory sensitivity, cognitive divergence, emotional intensity). It also explains individual heterogeneity through differences in the ratio and persistence of **active versus reactive pathways**. The model unifies prior theories—E/I imbalance, predictive coding, intense world, weak central coherence—under a single topological framework.
+The DPM posits that autistic neural architecture relies on 3-5× more neurons processing equivalent sensory and cognitive information, with extensive circuit overlap creating higher-dimensional representational spaces. This architecture directly explains enhanced discrimination ability, detail sensitivity, and precise pattern recognition. However, distributed processing creates two orthogonal constraints that produce the broader autistic phenotype:
 
-Ultimately, I propose that autism represents a **distributed mode of cognition**, simultaneously capable of extraordinary precision and vulnerable to cascade activation. This document outlines the neurobiological, cognitive, and experiential implications of that framework and invites empirical validation, critique, and integration from the scientific community.
+1. **Enhanced inhibition**: Greater circuit overlap recruits stronger inhibitory networks, actively suppressing competing pathways and reducing flexible integration across domains.
 
-**Keywords:** autism spectrum, distributed connectivity, higher-resolution processing, excitation/inhibition balance, predictive coding, sensory integration, neurodevelopment, neural branching, heterogeneity.
+2. **Energy competition**: Distributed pathways consume 3-5× more local metabolic resources (ATP), passively starving nearby circuits by depleting shared energy pools within cortical microregions.
+
+These dual constraints interact non-linearly: inhibitory efficacy itself depends on energy availability, creating regime transitions from effective competition (high energy, strong inhibition) to diffuse, ineffective processing (low energy, weakened inhibition). The autistic brain under sustained cognitive load operates in a metabolically-constrained regime where both mechanisms fail simultaneously—explaining the progression from focused competence to overload collapse.
+
+We demonstrate how this framework integrates and extends existing theories (Enhanced Perceptual Functioning, Intense World Theory, Predictive Coding accounts) as special cases, provides mechanistic specificity for clinical phenomena (sensory sensitivity, executive dysfunction, meltdowns), and generates testable predictions across scales from molecular energetics to systems-level neuroimaging. The model explains autism heterogeneity through individual variation in pathway distribution, metabolic buffering capacity, and compensatory strategy development, while maintaining a single core architectural principle.
+
+The Higher-Resolution Hypothesis reframes autism not as disordered cognition requiring correction, but as an alternative computational architecture with intrinsic trade-offs: exceptional local precision at the cost of global flexibility, achieved through neural systems operating at capacity limits where both active (inhibition) and passive (energetics) constraints shape cognitive function. This perspective opens therapeutic avenues focused on resource management rather than pathway normalization, and suggests that autistic cognitive strengths and challenges emerge from the same underlying architecture—higher resolution through distributed processing, limited by inhibition and energy.
+
+**Keywords:** autism spectrum, distributed connectivity, higher-resolution processing, excitation/inhibition balance, energy competition, metabolic constraints, predictive coding, sensory integration, neurodevelopment, neural branching, heterogeneity.
 
 ---
 
@@ -292,6 +300,176 @@ This mechanistic outline offers a working vocabulary for exploring how distribut
 The DPM reframes autism as a biophysical mode of neural organization that can be described, modeled, and empirically tested. It proposes that increased representational density and temporal persistence yield higher-resolution experience at the cost of metabolic strain and cascade susceptibility. This framework does not claim certainty but offers explicit relationships that can be quantified, modeled, or disproven.
 
 The Higher-Resolution Hypothesis and its mechanistic substrate, the DPM, are thus presented as an open framework—an evolving invitation for interdisciplinary investigation across anatomy, electrophysiology, computation, metabolic imaging, and lived cognition. Researchers are encouraged to test these relationships, refine the parameters, or demonstrate where the model fails. Through such engagement, we can move from conceptual synthesis toward validated understanding of autism as an alternative neural architecture.
+
+---
+
+## 2.3 Energetic Constraints on Parallel Processing
+
+### 2.3.1 The Metabolic Cost of Distributed Architecture
+
+Neural computation is inherently energy-intensive, with the brain consuming approximately 20% of the body's metabolic resources despite comprising only 2% of body mass. This energy demand is not uniformly distributed: it scales directly with the number of active neurons, synaptic transmission frequency, and the spatial extent of engaged circuits. The Distributed Pathway Model (DPM) proposes that autistic neural architecture relies on 3-5× more neurons to process equivalent information compared to streamlined neurotypical pathways. This architectural difference creates a fundamental metabolic consequence: **distributed pathways consume proportionally more energy within localized cortical regions**.
+
+Consider a simple sensory discrimination task. A streamlined pathway might engage N neurons within a cortical column to extract relevant features and suppress irrelevant ones. A distributed pathway performing the same task engages 3-5N neurons across overlapping circuits, each contributing partially redundant information that collectively achieves higher-resolution representation. While this architecture enables enhanced perceptual precision, it creates a localized energy demand that can exceed the metabolic capacity of the microregion—not because individual neurons are more expensive, but because **more neurons are simultaneously active in the same spatial domain**.
+
+### 2.3.2 Spatial Scales of Energy Competition
+
+Neural energy metabolism operates across multiple spatial scales, but competition becomes critical at the level of **cortical columns** (300-600 μm diameter). These functional units share local capillary beds and ATP delivery systems, creating an "energy domain" within which neurons compete for limited metabolic resources. When distributed pathways span multiple overlapping columns, they create sustained high demand within these shared energy domains.
+
+The critical insight is that energy competition occurs not at the whole-brain level (where total metabolic capacity is sufficient) but at the **microregional level** where local ATP delivery cannot keep pace with spike-driven demand. A cortical column can sustain baseline activity across all its neurons, but when a distributed pathway transiently hyperactivates 3-5× the typical number of neurons within that column, local ATP stores deplete faster than capillary delivery can replenish them. This creates a **metabolic bottleneck window**—typically lasting hundreds of milliseconds to several seconds—during which other pathways competing for the same energy pool face insufficient resources to activate.
+
+### 2.3.3 Timescale Dynamics: ATP Buffering and Demand Spikes
+
+The temporal dynamics of neural energetics reveal why distributed pathways create selective processing failures. ATP turnover operates on 1-10 second timescales, while neural firing occurs on 1-10 millisecond timescales. This mismatch creates vulnerability to **demand spikes**: brief periods (100-500 ms) of intense co-activation can transiently deplete local ATP faster than delivery mechanisms can compensate.
+
+Neural tissue maintains ATP buffering capacity—a reserve pool that enables transient high-frequency firing without immediate metabolic collapse. However, this buffer is finite and regionally limited. When a distributed pathway engages, it draws heavily from this local buffer. If a second pathway attempts to activate in the same microregion during this depletion window, it encounters insufficient energy to cross activation threshold, despite receiving adequate input drive. The pathway fails to engage—not because it lacks input signal, not because it is actively inhibited, but because **the local metabolic substrate is exhausted**.
+
+Recovery occurs over seconds as ATP delivery catches up with demand and buffers refill. This creates **metabolic refractory periods**: intervals during which a microregion is less responsive to new inputs, regardless of their strength or salience. These refractory periods are distinct from neural refractory periods (milliseconds) and represent a fundamentally energy-limited constraint on parallel processing.
+
+### 2.3.4 Mathematical Framework
+
+We formalize this as an energy-constrained activation model. Let a cortical microregion r have energy availability E_r(t) governed by:
+
+**dE_r/dt = Supply_r(t) − ∑_i Consumption_i(t) − Baseline_r**
+
+where:
+- Supply_r(t) represents ATP delivery via local blood flow (timescale ~5-10 seconds)
+- Consumption_i(t) ∝ firing_rate_i · duration_i for each active pathway i
+- Baseline_r is the resting metabolic cost
+
+A candidate pathway j with input drive D_j receives energy-dependent amplification and faces energy-dependent inhibition. Its effective drive is:
+
+**EffectiveDrive_j(r,t) = D_j(r,t) · f(E_r(t)) − g(I_r(t), E_r(t))**
+
+Activation occurs when: **EffectiveDrive_j ≥ θ_j**
+
+The energy modulation function f(E_r) exhibits threshold behavior:
+
+**f(E_r) = 1 / (1 + exp(−k(E_r − E_critical)))**
+
+Below E_critical, pathways struggle to activate regardless of input strength. The inhibitory term g(I_r, E_r) shows that inhibition itself is energy-dependent:
+
+**g(I_r, E_r) = I_r · h(E_r)** where h(E_r) decreases as energy depletes
+
+This creates non-intuitive dynamics: when energy drops, both pathway activation AND inhibitory suppression weaken simultaneously. The result is not disinhibited chaos, but rather a state where winner-take-all competition transitions to **winner-starves-all**: the currently active distributed pathway maintains activity by depleting shared resources, passively blocking competitors that would normally be viable.
+
+### 2.3.5 Why Distributed Pathways Create Differential Energy Demand
+
+The key question is: why would autistic brains be uniquely vulnerable to this constraint? Neurotypical brains also consume energy, yet do not exhibit the same profile of selective processing failures. The answer lies in the **architectural multiplication factor**.
+
+When a neurotypical brain processes sensory input via streamlined pathways, it activates the minimal set of neurons necessary to extract task-relevant features. Energy consumption is proportional to N neurons over duration T. When an autistic brain processes the same input via distributed pathways, it activates 3-5N neurons over the same duration T, resulting in 3-5× local energy consumption.
+
+Critically, this multiplication occurs **within the same cortical volume**. The autistic brain is not larger in proportion to its increased neural engagement; rather, it concentrates more concurrent activity into the same spatial domains. This creates localized energy demand that exceeds what neurotypical processing would require, rendering the autistic system vulnerable to metabolic bottlenecks that neurotypical systems avoid through efficiency.
+
+The consequence is a trade-off inherent to the architecture: **higher-resolution processing via distributed pathways provides enhanced discrimination capacity, but consumes limited local metabolic resources, transiently starving competing pathways that would have been viable under lower energy demand**.
+
+### 2.3.6 Empirical Support and Open Questions
+
+While direct measurement of ATP dynamics at cortical column resolution during active cognitive tasks remains technically challenging, several lines of evidence support energy competition as a mechanistic constraint:
+
+1. **Metabolic imaging studies** show elevated lactate accumulation in sensory cortices of autistic individuals during sustained processing tasks, suggesting higher glycolytic demand and potential exhaustion of oxidative capacity.
+
+2. **Mitochondrial dysfunction** is consistently implicated in autism genetics and neuropathology, with evidence of reduced ATP synthesis efficiency in post-mortem tissue and organoid models.
+
+3. **Functional connectivity studies** reveal that autistic brains show reduced capacity for simultaneous activation of spatially distributed networks, consistent with energy-limited parallel processing.
+
+4. **Behavioral observations** of autistic individuals frequently note exceptional performance in focused, single-domain tasks alongside marked difficulty with multi-domain integration—precisely the pattern expected from energy competition between co-localized circuits.
+
+Outstanding questions include: What is the spatial resolution of energy competition (single columns vs. multi-column domains)? How quickly do metabolic buffers recover after depletion? Do compensatory mechanisms develop (increased capillary density, enhanced mitochondrial function) in response to chronic high demand? Can metabolic support (ketogenic metabolism, creatine supplementation) alleviate energy-limited processing failures? These questions define a research program linking molecular energetics to systems-level cognitive architecture.
+
+---
+
+## 2.4 Dual-Constraint Framework: Inhibition × Energy
+
+### 2.4.1 Two Orthogonal Mechanisms
+
+The Distributed Pathway Model generates processing constraints through two distinct, complementary mechanisms:
+
+1. **Active inhibition**: Distributed pathways recruit broader inhibitory networks, actively suppressing competing circuits through synaptic inhibition.
+
+2. **Energy competition**: Distributed pathways consume greater local metabolic resources, passively starving competing circuits by depleting shared ATP pools.
+
+These mechanisms are **orthogonal** in their operation: inhibition is an active, synaptic process operating on millisecond timescales, while energy competition is a passive, metabolic constraint operating on sub-second to second timescales. Neither alone fully explains the phenomenology of autistic cognition; their interaction creates the complete picture.
+
+Consider a competing pathway receiving input: If it faces only inhibition, sufficient drive can overcome suppression (inhibition is modulable). If it faces only energy depletion, given enough time the metabolic buffer will recover (energy competition is transient). But when both constraints operate simultaneously, the pathway faces a **double barrier**: even strong drive cannot overcome inhibition while energy is insufficient to power the circuit, and by the time energy recovers, inhibition may have shifted the competitive balance to other circuits.
+
+### 2.4.2 Energy-Dependent Inhibition
+
+A critical interaction arises because **inhibitory efficacy itself requires energy**. Interneurons must maintain ionic gradients, sustain high-frequency firing, and engage extensive axonal arborizations to suppress target circuits. When local energy availability drops, inhibitory neurons draw from the same depleted ATP pool as excitatory neurons, weakening their suppressive capability.
+
+This creates a non-linear relationship between inhibition strength and energy availability:
+
+**InhibitionEfficacy ∝ Strength_0 · h(E_r)** where h(E_r) → 0 as E_r → E_critical
+
+At high energy availability, inhibition operates at full strength, creating sharp winner-take-all dynamics. At low energy availability, inhibition weakens even while excitatory drive also weakens, creating a regime where **neither activation nor suppression operate effectively**. The system enters a state of blurred competition where boundaries between pathways become indistinct—not through disinhibited hyperactivity, but through diffuse, weak activation across multiple circuits none of which have sufficient resources to dominate.
+
+Critically, this means that distributed pathway hyperactivation creates a paradox: **The same energy consumption that starves competitors also weakens the inhibition that would suppress them**. The result is not clean switching between pathways, but rather sluggish, incomplete transitions where residual activity persists in supposedly-suppressed circuits while target circuits struggle to fully engage.
+
+### 2.4.3 Phase Space Analysis
+
+We can visualize the dual-constraint framework as a phase space with axes representing energy availability and inhibition strength:
+
+**High Energy, High Inhibition (Neurotypical Regime)**
+- Streamlined pathways activate efficiently
+- Strong inhibition cleanly suppresses competitors
+- Rapid, decisive switching between processing modes
+- Metabolic reserve buffers against transient spikes
+- System operates far from capacity limits
+
+**High Energy, Enhanced Inhibition (Autistic, Focused State)**
+- Distributed pathways hyperactivate
+- Stronger inhibition actively suppresses competitors
+- Metabolic demand elevated but still within capacity
+- Single-domain processing achieves exceptional precision
+- System approaching but not exceeding capacity limits
+
+**Low Energy, Weakened Inhibition (Autistic, Overload State)**
+- Distributed pathways have depleted local reserves
+- Inhibition loses effectiveness as interneurons starve
+- Competitors cannot activate (insufficient energy) but also cannot be cleanly suppressed (weak inhibition)
+- Diffuse, ineffective processing across multiple circuits
+- System exceeds capacity, enters metabolic refractory period
+
+**Low Energy, Strong Inhibition (Neurotypical, Fatigue)**
+- Streamlined pathways continue operating at reduced capacity
+- Inhibition remains functional due to lower energy demand
+- System degrades gracefully: slower but still effective
+- Metabolic recovery restores normal function quickly
+
+The key insight: **Autistic cognition under load occupies the Low Energy/Weakened Inhibition regime**, where both mechanisms fail simultaneously. This creates qualitatively different processing breakdown compared to neurotypical fatigue, which maintains inhibitory boundaries even as energy depletes.
+
+### 2.4.4 Winner-Take-All → Winner-Starves-All Transition
+
+In typical neural competition, winner-take-all dynamics ensure that the strongest input dominates while suppressing alternatives. This requires sufficient energy to both activate the winner AND power the inhibition that suppresses losers. When energy is abundant, this operates efficiently.
+
+Distributed pathways alter this dynamic. By engaging 3-5× more neurons, they consume local energy faster than neurotypical competition. This creates a transition to **winner-starves-all**: the currently active pathway maintains dominance not primarily through inhibition, but through **metabolic monopolization**. Competing pathways receive inputs, attempt to activate, but encounter depleted energy reserves before they can cross threshold.
+
+Crucially, this happens even when those competing pathways would be behaviorally relevant. Unlike inhibition (which can be modulated by top-down control or strong input), energy competition is not cognitively controllable—you cannot "will" ATP into existence. The result is involuntary selectivity: the brain becomes locked into whatever processing mode currently dominates the energy budget, unable to flexibly reallocate resources to newly relevant stimuli.
+
+This explains a core autistic experience: **knowing** that attention should shift to a new input (auditory name-call while focused on visual task), **attempting** to shift attention, yet finding the circuit non-responsive—not ignored, but metabolically unavailable.
+
+### 2.4.5 Timescale Separation and Sequential Effects
+
+The dual mechanisms operate on different timescales, creating sequential effects:
+
+**Milliseconds (0-10 ms):** Synaptic inhibition rapidly suppresses competitors upon distributed pathway activation. This is the fast, initial response that shapes immediate processing.
+
+**Hundreds of milliseconds (100-500 ms):** Energy consumption from sustained distributed activity begins depleting local ATP buffers. Competitors face both inhibition AND emerging energy constraints.
+
+**Seconds (1-10 s):** Local energy reserves significantly depleted. Inhibition weakens as interneurons draw from exhausted pools. System enters metabolic refractory period where new inputs struggle to engage regardless of strength.
+
+**Tens of seconds (10-60 s):** ATP delivery catches up with demand. Buffers refill. Inhibition regains strength. System recovers capacity for new activations.
+
+This temporal structure explains the progressive degradation observed in autistic cognitive performance: initial competence (inhibition-dominant), gradual loss of flexibility (energy competition emerges), eventual collapse (both mechanisms fail), and slow recovery (metabolic restoration).
+
+Importantly, these timescales suggest **intervention windows**: Strategies that reduce energy demand during the early phases (100-500 ms) could prevent the later cascade into full metabolic exhaustion. This creates a theoretical foundation for understanding why brief breaks, reduced sensory load, or task modifications can disproportionately improve performance—they interrupt the energy depletion cycle before reaching the crisis regime.
+
+### 2.4.6 Synthesis: A Complete Picture
+
+Neither inhibition nor energy competition alone suffices to explain autistic neural processing. Inhibition explains why distributed pathways actively exclude competitors but cannot explain why those pathways sometimes fail to activate despite receiving strong inputs. Energy competition explains why circuits become unavailable but cannot explain why some information is sharply excluded even when energy is abundant.
+
+The dual-constraint framework provides the complete picture: **Distributed architecture creates both enhanced inhibition (active suppression) and elevated energy demand (passive constraint), and these mechanisms interact non-linearly through energy-dependent inhibitory efficacy**. The result is a cognitive system that achieves exceptional precision within focused domains at the cost of flexible parallel processing—not through computational inability, but through architectural trade-offs inherent to higher-resolution neural representation.
+
+This framework makes the strong prediction that interventions targeting either mechanism alone (e.g., GABA modulation without metabolic support, or metabolic support without addressing inhibitory imbalance) will show limited efficacy. Effective interventions must address both the active inhibitory constraints and the passive metabolic constraints simultaneously.
 
 ---
 
