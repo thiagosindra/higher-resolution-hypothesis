@@ -1,0 +1,585 @@
+/* Intro Pages Styling */
+
+/* Progress Indicator */
+.intro-progress {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4CAF50, #2196F3);
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 1.3rem;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+/* Examples Grid (Page 1) */
+.examples-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.example-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.exceptional, .challenging {
+  padding: 1rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.exceptional {
+  background: #e8f5e9;
+  border-left: 4px solid #4CAF50;
+}
+
+.challenging {
+  background: #fff3e0;
+  border-left: 4px solid #FF9800;
+}
+
+.icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+/* Comparison Grid (Page 2) */
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.comparison-item {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+}
+
+.comparison-item h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.comparison-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comparison-item li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.comparison-item li:last-child {
+  border-bottom: none;
+}
+
+/* Callout boxes */
+.callout {
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  border-left: 4px solid #2196F3;
+  background: #e3f2fd;
+}
+
+.callout.primary {
+  border-left-color: #2196F3;
+  background: #e3f2fd;
+}
+
+.callout.warning {
+  border-left-color: #FF9800;
+  background: #fff3e0;
+}
+
+.callout.danger {
+  border-left-color: #f44336;
+  background: #ffebee;
+}
+
+.callout p {
+  margin: 0;
+}
+
+/* Trade-offs Grid (Page 2) */
+.tradeoffs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.advantage, .constraint {
+  padding: 1rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.advantage {
+  background: #e8f5e9;
+  border-left: 3px solid #4CAF50;
+}
+
+.constraint {
+  background: #ffebee;
+  border-left: 3px solid #f44336;
+}
+
+.advantage .icon, .constraint .icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  font-weight: bold;
+}
+
+/* Architecture Comparison (Page 3) */
+.architecture-comparison {
+  display: grid;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.arch-item {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+  background: #fafafa;
+}
+
+.arch-item.highlighted {
+  border-color: #2196F3;
+  background: #e3f2fd;
+}
+
+.arch-item h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.overlap-example {
+  padding: 1.5rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+/* Constraints Preview (Page 3) */
+.constraints-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.constraint-box {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+  background: #fafafa;
+}
+
+.constraint-box h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Effects Grid (Page 4) */
+.effects-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.effect {
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 3px solid #ccc;
+}
+
+.effect.positive {
+  background: #e8f5e9;
+  border-left-color: #4CAF50;
+}
+
+.effect.negative {
+  background: #fff3e0;
+  border-left-color: #FF9800;
+}
+
+.effect strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* Phase Space (Page 4) */
+.phase-space {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.state-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.state-grid .state {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+}
+
+.state.optimal {
+  background: #e8f5e9;
+  border-color: #4CAF50;
+}
+
+.state.neurotypical {
+  background: #e3f2fd;
+  border-color: #2196F3;
+}
+
+.state.struggling {
+  background: #fff3e0;
+  border-color: #FF9800;
+}
+
+.state.overload {
+  background: #ffebee;
+  border-color: #f44336;
+}
+
+.state-label {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+  margin: 0.5rem 0;
+}
+
+.state h4 {
+  margin-top: 0;
+}
+
+/* Features List (Page 4) */
+.features-list {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.feature-item {
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 6px;
+  border-left: 3px solid #2196F3;
+}
+
+.feature-item strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* Framework Summary (Page 5) */
+.framework-summary {
+  display: grid;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.framework-box {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #ccc;
+  background: #f9f9f9;
+}
+
+.framework-box.foundation {
+  border-left-color: #9C27B0;
+  background: #f3e5f5;
+}
+
+.framework-box.primary-effect {
+  border-left-color: #2196F3;
+  background: #e3f2fd;
+}
+
+.framework-box.constraints {
+  border-left-color: #FF9800;
+  background: #fff3e0;
+}
+
+.framework-box.result {
+  border-left-color: #4CAF50;
+  background: #e8f5e9;
+}
+
+.framework-box h3 {
+  margin-top: 0;
+}
+
+/* Features Explained (Page 5) */
+.features-explained {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.feature-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.learn-more {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #2196F3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+/* Heterogeneity Grid (Page 5) */
+.heterogeneity-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.variation-source {
+  padding: 1.5rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.variation-source h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Reframing Grid (Page 5) */
+.reframing-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.reframe-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.reframe-item .old {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.reframe-item .arrow {
+  font-size: 1.5rem;
+  color: #2196F3;
+}
+
+.reframe-item .new {
+  font-weight: 600;
+  color: #2196F3;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 3rem 0 2rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: #2196F3;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #1976D2;
+}
+
+.btn-secondary {
+  background: #757575;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #616161;
+}
+
+.btn-large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+
+/* Skip Link */
+.skip-link {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.skip-link a {
+  color: #757575;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.skip-link a:hover {
+  text-decoration: underline;
+}
+
+/* Sections Preview (Page 5) */
+.sections-preview {
+  margin: 3rem 0;
+}
+
+.category-box {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border-left: 4px solid #2196F3;
+}
+
+.category-box h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.category-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category-box li {
+  padding: 0.5rem 0;
+}
+
+.category-box a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.category-box a:hover {
+  text-decoration: underline;
+}
+
+/* CTA Buttons (Page 5) */
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+/* Final Message (Page 5) */
+.final-message {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .example-pair,
+  .comparison-grid,
+  .constraints-preview,
+  .state-grid,
+  .features-explained,
+  .heterogeneity-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tradeoffs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+}

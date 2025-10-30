@@ -4,8 +4,29 @@ title: Overview
 ---
 
 <link rel="stylesheet" href="./assets/css/tabs.css">
+<link rel="stylesheet" href="./assets/css/gateway.css">
 
 # The Higher-Resolution Hypothesis
+
+<div class="two-path-entry">
+  <div class="path-card path-intro">
+    <h2>New to This Framework?</h2>
+    <p>Start with our 5-page guided introduction that explains the core concepts in accessible language, building from the autism paradox to the complete framework.</p>
+    <p><strong>Perfect for:</strong> First-time visitors, autistic individuals, families, educators, general audiences</p>
+    <a href="./intro/1-the-paradox" class="btn btn-primary btn-large">Start the Introduction →</a>
+    <p class="time-estimate">⏱ 15-20 minute read</p>
+  </div>
+
+  <div class="path-card path-technical">
+    <h2>Looking for Technical Details?</h2>
+    <p>Go directly to the detailed section pages or read the full academic paper. Each section offers three reading levels from general to in-depth technical.</p>
+    <p><strong>Perfect for:</strong> Researchers, clinicians, interdisciplinary scholars, those seeking evidence and predictions</p>
+    <a href="./gateway" class="btn btn-secondary btn-large">Browse All Sections →</a>
+    <p class="time-estimate">Or <a href="./higher-resolution-hypothesis">read the full paper</a></p>
+  </div>
+</div>
+
+---
 
 ## What This Hypothesis Proposes
 
