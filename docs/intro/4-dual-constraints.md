@@ -222,10 +222,10 @@ Now you understand the complete framework:
 Ready to see how this explains everything from sensory sensitivity to memory, from motor coordination to social processing?
 
 <div class="nav-buttons">
-  <a href="3-distributed-pathways" class="btn btn-secondary">← Previous: Distributed Pathways</a>
-  <a href="5-complete-picture" class="btn btn-primary">See The Complete Picture →</a>
+  <a href="{{ site.baseurl }}/intro/3-distributed-pathways" class="btn btn-secondary">← Previous: Distributed Pathways</a>
+  <a href="{{ site.baseurl }}/intro/5-complete-picture" class="btn btn-primary">See The Complete Picture →</a>
 </div>
 
 <div class="skip-link">
-  <a href="../gateway">Skip intro, go to sections →</a>
+  <a href="{{ site.baseurl }}/gateway">Skip intro, go to sections →</a>
 </div>

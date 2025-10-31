@@ -140,10 +140,10 @@ Now we understand the architecture: distributed pathways using 3-5× more neuron
 But it also creates two unavoidable constraints: enhanced inhibition and energy competition. Understanding how these constraints work—and interact—is the key to understanding autism.
 
 <div class="nav-buttons">
-  <a href="2-higher-resolution" class="btn btn-secondary">← Previous: Higher Resolution</a>
-  <a href="4-dual-constraints" class="btn btn-primary">Explore the Dual Constraints →</a>
+  <a href="{{ site.baseurl }}/intro/2-higher-resolution" class="btn btn-secondary">← Previous: Higher Resolution</a>
+  <a href="{{ site.baseurl }}/intro/4-dual-constraints" class="btn btn-primary">Explore the Dual Constraints →</a>
 </div>
 
 <div class="skip-link">
-  <a href="../gateway">Skip intro, go to sections →</a>
+  <a href="{{ site.baseurl }}/gateway">Skip intro, go to sections →</a>
 </div>

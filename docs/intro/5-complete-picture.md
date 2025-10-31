@@ -60,49 +60,49 @@ Let's bring it all together:
   <div class="feature-card">
     <h3>1. Sensory Sensitivity</h3>
     <p>Distributed pathways process sensory input with 3-5× more neurons, creating both enhanced discrimination AND greater total neural activity. Under energy depletion, inhibition weakens, creating sensory flooding. Same architecture creates hyper-sensitivity (engaged domain) and hypo-sensitivity (energy-starved competing domains).</p>
-    <a href="../sections/sensory-cognition" class="learn-more">Learn more: Sensory Processing →</a>
+    <a href="{{ site.baseurl }}/sections/sensory-cognition" class="learn-more">Learn more: Sensory Processing →</a>
   </div>
 
   <div class="feature-card">
     <h3>2. Executive Dysfunction</h3>
     <p>Task-switching requires releasing inhibition from current task AND providing energy for new task. Enhanced inhibition creates switching lag; energy competition prevents new task activation. Result: knowing you should switch but circuits being unresponsive.</p>
-    <a href="../sections/executive-and-attention" class="learn-more">Learn more: Executive Function →</a>
+    <a href="{{ site.baseurl }}/sections/executive-and-attention" class="learn-more">Learn more: Executive Function →</a>
   </div>
 
   <div class="feature-card">
     <h3>3. Special Interests</h3>
     <p>Distributed pathways in interest domains provide rich, rewarding processing. Strong inhibition maintains focus. If topics can be engaged with sustainable energy expenditure, they become preferred because they leverage architectural strengths.</p>
-    <a href="../sections/predictive-coding-learning" class="learn-more">Learn more: Cognition & Learning →</a>
+    <a href="{{ site.baseurl }}/sections/predictive-coding-learning" class="learn-more">Learn more: Cognition & Learning →</a>
   </div>
 
   <div class="feature-card">
     <h3>4. Communication Differences</h3>
     <p>If distributed pathways concentrate in non-social domains, social processing receives fewer resources (breadth-over-depth trade-off). Social communication is also multi-domain (language + facial + gestural + prosody), making it energy-intensive when all must be processed simultaneously.</p>
-    <a href="../sections/social-communication" class="learn-more">Learn more: Social Processing →</a>
+    <a href="{{ site.baseurl }}/sections/social-communication" class="learn-more">Learn more: Social Processing →</a>
   </div>
 
   <div class="feature-card">
     <h3>5. Motor Coordination</h3>
     <p>Motor planning engages distributed pathways competing energetically with sensory processing. Coordination degrades under cognitive load (energy competition) or when planning cannot complete before execution begins (insufficient switching time).</p>
-    <a href="../sections/stimming-reactive-loops" class="learn-more">Learn more: Motor Systems →</a>
+    <a href="{{ site.baseurl }}/sections/stimming-reactive-loops" class="learn-more">Learn more: Motor Systems →</a>
   </div>
 
   <div class="feature-card">
     <h3>6. Meltdowns/Shutdowns</h3>
     <p>Extended distributed processing depletes energy faster than restoration. Eventually both processing AND inhibitory control fail simultaneously—complete overwhelm. Requires hours of recovery for energy restoration and metabolic debt repayment.</p>
-    <a href="../sections/energetic-collapse" class="learn-more">Learn more: Overload & Recovery →</a>
+    <a href="{{ site.baseurl }}/sections/energetic-collapse" class="learn-more">Learn more: Overload & Recovery →</a>
   </div>
 
   <div class="feature-card">
     <h3>7. Memory Differences</h3>
     <p>Distributed encoding captures more detail, creating vivid, detailed memories for attended information. But encoding is energy-expensive, creating selectivity: excellent memory for focused material, poor incidental memory for ignored information during energy competition.</p>
-    <a href="../sections/memory-task-encoding" class="learn-more">Learn more: Memory & Learning →</a>
+    <a href="{{ site.baseurl }}/sections/memory-task-encoding" class="learn-more">Learn more: Memory & Learning →</a>
   </div>
 
   <div class="feature-card">
     <h3>8. Stimming & Self-Regulation</h3>
     <p>Repetitive movements provide rich, predictable proprioceptive input (engaging distributed processing beneficially) using energy-efficient motor programs. Stimming serves energy regulation, sensory satisfaction, and controlled engagement.</p>
-    <a href="../sections/stimming-reactive-loops" class="learn-more">Learn more: Motor Systems →</a>
+    <a href="{{ site.baseurl }}/sections/stimming-reactive-loops" class="learn-more">Learn more: Motor Systems →</a>
   </div>
 
 </div>
@@ -187,44 +187,44 @@ Explore the detailed sections to see the evidence, predictions, and implications
   <div class="category-box">
     <h4>Core Mechanisms</h4>
     <ul>
-      <li><a href="../sections/distributed-pathway-model">Distributed Pathway Architecture</a></li>
-      <li><a href="../sections/genetic-molecular">Genetic & Molecular Basis</a></li>
-      <li><a href="../sections/individual-variability">Individual Differences</a></li>
+      <li><a href="{{ site.baseurl }}/sections/distributed-pathway-model">Distributed Pathway Architecture</a></li>
+      <li><a href="{{ site.baseurl }}/sections/genetic-molecular">Genetic & Molecular Basis</a></li>
+      <li><a href="{{ site.baseurl }}/sections/individual-variability">Individual Differences</a></li>
     </ul>
   </div>
 
   <div class="category-box">
     <h4>Phenomena Explained</h4>
     <ul>
-      <li><a href="../sections/sensory-cognition">Sensory & Cognitive Effects</a></li>
-      <li><a href="../sections/executive-and-attention">Executive Function & Attention</a></li>
-      <li><a href="../sections/memory-task-encoding">Memory & Task Encoding</a></li>
-      <li><a href="../sections/social-communication">Social Communication</a></li>
-      <li><a href="../sections/stimming-reactive-loops">Stimming & Reactive Loops</a></li>
+      <li><a href="{{ site.baseurl }}/sections/sensory-cognition">Sensory & Cognitive Effects</a></li>
+      <li><a href="{{ site.baseurl }}/sections/executive-and-attention">Executive Function & Attention</a></li>
+      <li><a href="{{ site.baseurl }}/sections/memory-task-encoding">Memory & Task Encoding</a></li>
+      <li><a href="{{ site.baseurl }}/sections/social-communication">Social Communication</a></li>
+      <li><a href="{{ site.baseurl }}/sections/stimming-reactive-loops">Stimming & Reactive Loops</a></li>
     </ul>
   </div>
 
   <div class="category-box">
     <h4>Evidence & Integration</h4>
     <ul>
-      <li><a href="../sections/predictive-coding-learning">Predictive Processing</a></li>
-      <li><a href="../sections/energetic-collapse">Energetic Collapse States</a></li>
-      <li><a href="../sections/existing-theories">Integration with Existing Theories</a></li>
+      <li><a href="{{ site.baseurl }}/sections/predictive-coding-learning">Predictive Processing</a></li>
+      <li><a href="{{ site.baseurl }}/sections/energetic-collapse">Energetic Collapse States</a></li>
+      <li><a href="{{ site.baseurl }}/sections/existing-theories">Integration with Existing Theories</a></li>
     </ul>
   </div>
 
   <div class="category-box">
     <h4>Implications</h4>
     <ul>
-      <li><a href="../sections/implications">Clinical & Educational Applications</a></li>
-      <li><a href="../higher-resolution-hypothesis">Full Academic Paper</a></li>
+      <li><a href="{{ site.baseurl }}/sections/implications">Clinical & Educational Applications</a></li>
+      <li><a href="{{ site.baseurl }}/higher-resolution-hypothesis">Full Academic Paper</a></li>
     </ul>
   </div>
 </div>
 
 <div class="cta-buttons">
-  <a href="../gateway" class="btn btn-primary btn-large">Browse All Sections</a>
-  <a href="../higher-resolution-hypothesis.pdf" class="btn btn-secondary">Download Full Paper (PDF)</a>
+  <a href="{{ site.baseurl }}/gateway" class="btn btn-primary btn-large">Browse All Sections</a>
+  <a href="{{ site.baseurl }}/higher-resolution-hypothesis.pdf" class="btn btn-secondary">Download Full Paper (PDF)</a>
 </div>
 
 ---
@@ -242,8 +242,8 @@ You now understand the Higher-Resolution Hypothesis:
 **Explore the detailed sections to see the evidence, predictions, and implications of this framework.**
 
 <div class="nav-buttons">
-  <a href="4-dual-constraints" class="btn btn-secondary">← Previous: Dual Constraints</a>
-  <a href="../gateway" class="btn btn-primary">Browse All Sections →</a>
+  <a href="{{ site.baseurl }}/intro/4-dual-constraints" class="btn btn-secondary">← Previous: Dual Constraints</a>
+  <a href="{{ site.baseurl }}/gateway" class="btn btn-primary">Browse All Sections →</a>
 </div>
 
 <div class="final-message">

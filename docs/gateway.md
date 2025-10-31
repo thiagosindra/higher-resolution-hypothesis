@@ -3,14 +3,14 @@ layout: default
 title: "Explore the Framework"
 ---
 
-<link rel="stylesheet" href="./assets/css/gateway.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/gateway.css">
 
 # Explore the Framework
 
 <p class="page-subtitle">Deep dive into the mechanisms, evidence, and implications of the Higher-Resolution Hypothesis</p>
 
 <div class="intro-callout">
-  <p><strong>New to this framework?</strong> <a href="./intro/1-the-paradox">Start with the 5-page introduction</a> for a guided overview.</p>
+  <p><strong>New to this framework?</strong> <a href="{{ site.baseurl }}/intro/1-the-paradox">Start with the 5-page introduction</a> for a guided overview.</p>
 </div>
 
 ---
@@ -22,7 +22,7 @@ title: "Explore the Framework"
 <div class="section-grid">
 
   <div class="section-card">
-    <h3><a href="./sections/distributed-pathway-model">Distributed Pathway Model</a></h3>
+    <h3><a href="{{ site.baseurl }}/sections/distributed-pathway-model">Distributed Pathway Model</a></h3>
     <p class="card-description">The mechanistic substrate: how branching topology and overlapping circuits create higher-resolution processing through 3-5× more neurons per representation.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 8 min read</span>
@@ -31,7 +31,7 @@ title: "Explore the Framework"
   </div>
 
   <div class="section-card">
-    <h3><a href="./sections/genetic-molecular">Genetic & Molecular Foundations</a></h3>
+    <h3><a href="{{ site.baseurl }}/sections/genetic-molecular">Genetic & Molecular Foundations</a></h3>
     <p class="card-description">How diverse autism-related genes converge on synaptic formation, pruning, and inhibition—creating the distributed architecture through developmental mechanisms.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 7 min read</span>
@@ -40,7 +40,7 @@ title: "Explore the Framework"
   </div>
 
   <div class="section-card">
-    <h3><a href="./sections/individual-variability">Individual Differences & Heterogeneity</a></h3>
+    <h3><a href="{{ site.baseurl }}/sections/individual-variability">Individual Differences & Heterogeneity</a></h3>
     <p class="card-description">Why autism manifests differently across individuals: active:reactive ratios, domain-specific expression, and the spectrum of branching patterns.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 7 min read</span>
@@ -59,7 +59,7 @@ title: "Explore the Framework"
 <div class="section-grid">
 
   <div class="section-card">
-    <h3><a href="./sections/sensory-cognition">Sensory & Cognitive Effects</a></h3>
+    <h3><a href="{{ site.baseurl }}/sections/sensory-cognition">Sensory & Cognitive Effects</a></h3>
     <p class="card-description">Heightened sensory resolution, cross-modal binding, parallel reasoning, decision paralysis, and the mechanisms behind both hyper- and hypo-sensitivity.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 6 min read</span>
@@ -68,7 +68,7 @@ title: "Explore the Framework"
   </div>
 
   <div class="section-card">
-    <h3><a href="./sections/executive-and-attention">Executive Function & Attention</a></h3>
+    <h3><a href="{{ site.baseurl }}/sections/executive-and-attention">Executive Function & Attention</a></h3>
     <p class="card-description">The cascade from distributed attention through executive strain to predictive overload and energetic collapse—mechanisms of task-switching difficulty and cognitive inflexibility.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 9 min read</span>
@@ -77,7 +77,7 @@ title: "Explore the Framework"
   </div>
 
   <div class="section-card">
-    <h3><a href="./sections/memory-task-encoding">Memory & Task Encoding</a></h3>
+    <h3><a href="{{ site.baseurl }}/sections/memory-task-encoding">Memory & Task Encoding</a></h3>
     <p class="card-description">Dense, redundant encoding; temporal fragmentation; working memory constraints; and why tasks decompose into overwhelming micro-steps.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 8 min read</span>
@@ -86,7 +86,7 @@ title: "Explore the Framework"
   </div>
 
   <div class="section-card">
-    <h3><a href="./sections/social-communication">Social & Communication Processing</a></h3>
+    <h3><a href="{{ site.baseurl }}/sections/social-communication">Social & Communication Processing</a></h3>
     <p class="card-description">Information overload in multi-channel social processing, masking as adaptive compression, evaluation loops, and empathy through resonance.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 9 min read</span>
@@ -95,7 +95,7 @@ title: "Explore the Framework"
   </div>
 
   <div class="section-card">
-    <h3><a href="./sections/stimming-reactive-loops">Stimming & Reactive Motor Loops</a></h3>
+    <h3><a href="{{ site.baseurl }}/sections/stimming-reactive-loops">Stimming & Reactive Motor Loops</a></h3>
     <p class="card-description">Stimming as reactive motor cascade, regulatory entrainment, autonomous oscillators, and the emergence of complex patterns from distributed architecture.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 6 min read</span>
@@ -114,7 +114,7 @@ title: "Explore the Framework"
 <div class="section-grid">
 
   <div class="section-card">
-    <h3><a href="./sections/predictive-coding-learning">Predictive Processing & Learning</a></h3>
+    <h3><a href="{{ site.baseurl }}/sections/predictive-coding-learning">Predictive Processing & Learning</a></h3>
     <p class="card-description">Precision-weighting, special interests as stability zones, resistance to uncertainty, and the path from predictive overload to informational exhaustion.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 7 min read</span>
@@ -123,7 +123,7 @@ title: "Explore the Framework"
   </div>
 
   <div class="section-card">
-    <h3><a href="./sections/energetic-collapse">Energetic Collapse States</a></h3>
+    <h3><a href="{{ site.baseurl }}/sections/energetic-collapse">Energetic Collapse States</a></h3>
     <p class="card-description">Metabolic exhaustion underlying shutdowns and meltdowns—the cascade from distributed energy demands to system-wide failure and the need for extended recovery.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 7 min read</span>
@@ -142,7 +142,7 @@ title: "Explore the Framework"
 <div class="section-grid">
 
   <div class="section-card">
-    <h3><a href="./sections/existing-theories">Integration with Existing Theories</a></h3>
+    <h3><a href="{{ site.baseurl }}/sections/existing-theories">Integration with Existing Theories</a></h3>
     <p class="card-description">How the Distributed Pathway Model unifies E/I imbalance, Intense World Theory, predictive coding accounts, weak central coherence, enhanced perceptual functioning, and minicolumn research.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 10 min read</span>
@@ -161,7 +161,7 @@ title: "Explore the Framework"
 <div class="section-grid">
 
   <div class="section-card">
-    <h3><a href="./sections/implications">Applied Implications</a></h3>
+    <h3><a href="{{ site.baseurl }}/sections/implications">Applied Implications</a></h3>
     <p class="card-description">Clinical approaches, environmental design, educational accommodations, and therapeutic strategies informed by understanding distributed processing and dual constraints.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 7 min read</span>
@@ -179,8 +179,8 @@ title: "Explore the Framework"
   <h3>The Higher-Resolution Hypothesis: Full Technical Paper</h3>
   <p>Read the complete academic paper with full technical detail, mathematical formalization, empirical grounding, experimental predictions, and comprehensive references.</p>
   <div class="paper-links">
-    <a href="./higher-resolution-hypothesis" class="btn btn-primary">Read Online (HTML)</a>
-    <a href="./higher-resolution-hypothesis.pdf" class="btn btn-secondary">Download PDF</a>
+    <a href="{{ site.baseurl }}/higher-resolution-hypothesis" class="btn btn-primary">Read Online (HTML)</a>
+    <a href="{{ site.baseurl }}/higher-resolution-hypothesis.pdf" class="btn btn-secondary">Download PDF</a>
   </div>
 </div>
 
@@ -214,6 +214,6 @@ Each section page offers three reading levels accessible via tabs:
 ---
 
 <div class="bottom-nav">
-  <a href="./intro/1-the-paradox" class="btn btn-secondary">← Start with Intro Sequence</a>
-  <a href="./index" class="btn btn-secondary">← Back to Home</a>
+  <a href="{{ site.baseurl }}/intro/1-the-paradox" class="btn btn-secondary">← Start with Intro Sequence</a>
+  <a href="{{ site.baseurl }}/" class="btn btn-secondary">← Back to Home</a>
 </div>

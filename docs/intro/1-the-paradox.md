@@ -119,10 +119,10 @@ Over the next four pages, we'll unpack:
 The key to understanding this paradox lies in recognizing that brains, like cameras or sensors, can be optimized for different goals. Let's explore what that means.
 
 <div class="nav-buttons">
-  <a href="../index" class="btn btn-secondary">← Back to Home</a>
-  <a href="2-higher-resolution" class="btn btn-primary">Understand Higher Resolution →</a>
+  <a href="{{ site.baseurl }}/" class="btn btn-secondary">← Back to Home</a>
+  <a href="{{ site.baseurl }}/intro/2-higher-resolution" class="btn btn-primary">Understand Higher Resolution →</a>
 </div>
 
 <div class="skip-link">
-  <a href="../gateway">Skip intro, go to sections →</a>
+  <a href="{{ site.baseurl }}/gateway">Skip intro, go to sections →</a>
 </div>
