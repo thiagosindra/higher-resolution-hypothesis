@@ -23,7 +23,7 @@ title: Energetic Collapse States
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical paper: <a href="../higher-resolution-hypothesis#energetic-collapse-states-shutdowns-and-meltdowns">Energetic Collapse States: Shutdowns and Meltdowns</a>.
+      See canonical paper: <a href="../hrh-paper#energetic-collapse-states-shutdowns-and-meltdowns">Energetic Collapse States: Shutdowns and Meltdowns</a>.
     </p>
 
     <h2>Energetic Collapse States: Metabolic Limits of Distributed Processing</h2>

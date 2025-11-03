@@ -23,7 +23,7 @@ title: Memory and Task Encoding
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical paper: <a href="../higher-resolution-hypothesis#memory-and-task-encoding">Memory and Task Encoding</a>.
+      See canonical paper: <a href="../hrh-paper#memory-and-task-encoding">Memory and Task Encoding</a>.
     </p>
 
     <h2>Memory and Task Encoding in Distributed Architecture</h2>

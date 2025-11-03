@@ -217,14 +217,14 @@ Explore the detailed sections to see the evidence, predictions, and implications
     <h4>Implications</h4>
     <ul>
       <li><a href="{{ site.baseurl }}/sections/implications">Clinical & Educational Applications</a></li>
-      <li><a href="{{ site.baseurl }}/higher-resolution-hypothesis">Full Academic Paper</a></li>
+      <li><a href="{{ site.baseurl }}/hrh-paper">Full Academic Paper</a></li>
     </ul>
   </div>
 </div>
 
 <div class="cta-buttons">
   <a href="{{ site.baseurl }}/gateway" class="btn btn-primary btn-large">Browse All Sections</a>
-  <a href="{{ site.baseurl }}/higher-resolution-hypothesis.pdf" class="btn btn-secondary">Download Full Paper (PDF)</a>
+  <a href="{{ site.baseurl }}/hrh-paper.pdf" class="btn btn-secondary">Download Full Paper (PDF)</a>
 </div>
 
 ---

@@ -23,7 +23,7 @@ title: Distributed Pathway Model
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical paper: <a href="../higher-resolution-hypothesis#the-distributed-pathway-model-dpm">The Distributed Pathway Model (DPM)</a>.
+      See canonical paper: <a href="../hrh-paper#the-distributed-pathway-model-dpm">The Distributed Pathway Model (DPM)</a>.
     </p>
 
     <h2>The Distributed Pathway Model: Mechanistic Foundation</h2>

@@ -23,7 +23,7 @@ title: Relationship to Existing Theories
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical text: <a href="../higher-resolution-hypothesis#relationship-to-existing-theories-synthesis-within-dpm">Relationship to Existing Theories in the paper</a>.
+      See canonical text: <a href="../hrh-paper#relationship-to-existing-theories-synthesis-within-dpm">Relationship to Existing Theories in the paper</a>.
     </p>
 
     <h2>DPM as Unifying Structural Framework</h2>

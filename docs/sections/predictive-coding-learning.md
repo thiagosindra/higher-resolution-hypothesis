@@ -23,8 +23,8 @@ title: Predictive Coding & Learning
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical paper: <a href="../higher-resolution-hypothesis#predictive-coding-and-learning">Predictive Coding and Learning</a>.
-      Unresolved predictive conflicts accumulate into <a href="../higher-resolution-hypothesis#predictive-overload-and-interference">predictive overload</a>, linking informational uncertainty to metabolic exhaustion.
+      See canonical paper: <a href="../hrh-paper#predictive-coding-and-learning">Predictive Coding and Learning</a>.
+      Unresolved predictive conflicts accumulate into <a href="../hrh-paper#predictive-overload-and-interference">predictive overload</a>, linking informational uncertainty to metabolic exhaustion.
     </p>
 
     <h2>Predictive Processing and Learning in Distributed Architecture</h2>

@@ -179,8 +179,8 @@ title: "Explore the Framework"
   <h3>The Higher-Resolution Hypothesis: Full Technical Paper</h3>
   <p>Read the complete academic paper with full technical detail, mathematical formalization, empirical grounding, experimental predictions, and comprehensive references.</p>
   <div class="paper-links">
-    <a href="{{ site.baseurl }}/higher-resolution-hypothesis" class="btn btn-primary">Read Online (HTML)</a>
-    <a href="{{ site.baseurl }}/higher-resolution-hypothesis.pdf" class="btn btn-secondary">Download PDF</a>
+    <a href="{{ site.baseurl }}/hrh-paper" class="btn btn-primary">Read Online (HTML)</a>
+    <a href="{{ site.baseurl }}/hrh-paper.pdf" class="btn btn-secondary">Download PDF</a>
   </div>
 </div>
 

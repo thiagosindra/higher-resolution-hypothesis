@@ -23,8 +23,8 @@ title: Sensory & Cognitive Effects
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical paper: <a href="../higher-resolution-hypothesis#sensory-and-perceptual-consequences">Sensory Consequences</a> and
-      <a href="../higher-resolution-hypothesis#cognitive-and-decision-making-consequences">Cognitive Consequences</a>.
+      See canonical paper: <a href="../hrh-paper#sensory-and-perceptual-consequences">Sensory Consequences</a> and
+      <a href="../hrh-paper#cognitive-and-decision-making-consequences">Cognitive Consequences</a>.
     </p>
 
     <h2>Sensory and Perceptual Consequences</h2>

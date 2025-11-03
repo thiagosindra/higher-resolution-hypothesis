@@ -23,8 +23,8 @@ title: Stimming & Reactive Loops
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical paper: <a href="../higher-resolution-hypothesis#stimming-as-reactive-motor-cascade">Stimming as Reactive Motor Cascade</a> and
-      <a href="../higher-resolution-hypothesis#complex-outputs-from-reactive-pathways">Complex Outputs from Reactive Pathways</a>.
+      See canonical paper: <a href="../hrh-paper#stimming-as-reactive-motor-cascade">Stimming as Reactive Motor Cascade</a> and
+      <a href="../hrh-paper#complex-outputs-from-reactive-pathways">Complex Outputs from Reactive Pathways</a>.
     </p>
 
     <h2>Stimming and Reactive Motor Loops</h2>

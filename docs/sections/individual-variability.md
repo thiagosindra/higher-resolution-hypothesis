@@ -23,7 +23,7 @@ title: Individual Variability and Network Expression
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical paper: <a href="../higher-resolution-hypothesis#individual-variability-and-network-expression-active--reactive-mappings">Individual Variability and Network Expression: Active / Reactive Mappings</a>.
+      See canonical paper: <a href="../hrh-paper#individual-variability-and-network-expression-active--reactive-mappings">Individual Variability and Network Expression: Active / Reactive Mappings</a>.
     </p>
 
     <h2>Individual Variability Through Active:Reactive Ratios</h2>

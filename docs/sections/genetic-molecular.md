@@ -23,7 +23,7 @@ title: Genetic and Molecular Foundations
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical paper: <a href="../higher-resolution-hypothesis#genetic-and-molecular-foundations">Genetic and Molecular Foundations</a>.
+      See canonical paper: <a href="../hrh-paper#genetic-and-molecular-foundations">Genetic and Molecular Foundations</a>.
     </p>
 
     <h2>Genetic and Molecular Convergence on Distributed Architecture</h2>

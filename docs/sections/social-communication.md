@@ -23,7 +23,7 @@ title: Social and Communication Processing
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical paper: <a href="../higher-resolution-hypothesis#social-and-communication-processing">Social and Communication Processing</a>.
+      See canonical paper: <a href="../hrh-paper#social-and-communication-processing">Social and Communication Processing</a>.
     </p>
 
     <h2>Social and Communication Processing in Distributed Architecture</h2>

@@ -39,7 +39,7 @@ By explaining how these levels relate through a single topological framework, th
     <h2>Summary of Individual Sections</h2>
     <p>Each section offers a summary of individual sections of the paper with three reading levels from general to in-depth technical.</p>
     <a href="./gateway" class="btn btn-secondary btn-large">Browse Sections →</a>
-    <p class="time-estimate">Or <a href="./higher-resolution-hypothesis">read the full paper</a></p>
+    <p class="time-estimate">Or <a href="./hrh-paper">read the full paper</a></p>
   </div>
 </div>
 
@@ -54,8 +54,8 @@ This is an open theoretical framework, not a definitive conclusion. I’m sharin
 My goal is to bridge subjective and biological perspectives and to make the claims specific enough to be substantiated, revised, or refuted by further research.
 
 **Read the full paper:**
-- 📄 [Read online (Markdown)](./higher-resolution-hypothesis) — Full academic text with references
-- 🖨️ [Download PDF](./higher-resolution-hypothesis.pdf) — For printing or offline reading
+- 📄 [Read online (Markdown)](./hrh-paper) — Full academic text with references
+- 🖨️ [Download PDF](./hrh-paper.pdf) — For printing or offline reading
 
 > For academic citations, please reference the canonical paper linked above.
 

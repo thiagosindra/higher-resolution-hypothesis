@@ -23,7 +23,7 @@ title: Applied Implications
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical: <a href="../higher-resolution-hypothesis#applied-implications">Applied Implications</a>.
+      See canonical: <a href="../hrh-paper#applied-implications">Applied Implications</a>.
     </p>
 
     <h2>Reframing Intervention: From Normalization to Optimization</h2>

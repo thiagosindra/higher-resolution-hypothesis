@@ -23,10 +23,10 @@ title: Executive Function & Attention
 
   <div id="tab-tech" class="tab-panel">
     <p class="note">
-      See canonical paper: <a href="../higher-resolution-hypothesis#executive-function-and-attention">Executive Function</a> including
-      <a href="../higher-resolution-hypothesis#executive-overload-and-shutdown">Executive Overload and Shutdown</a>,
-      <a href="../higher-resolution-hypothesis#predictive-overload-and-interference">Predictive Overload and Interference</a>, and
-      <a href="../higher-resolution-hypothesis#energetic-collapse-states-shutdowns-and-meltdowns">Energetic Collapse States</a>.
+      See canonical paper: <a href="../hrh-paper#executive-function-and-attention">Executive Function</a> including
+      <a href="../hrh-paper#executive-overload-and-shutdown">Executive Overload and Shutdown</a>,
+      <a href="../hrh-paper#predictive-overload-and-interference">Predictive Overload and Interference</a>, and
+      <a href="../hrh-paper#energetic-collapse-states-shutdowns-and-meltdowns">Energetic Collapse States</a>.
     </p>
 
     <h2>Executive Function and Attention</h2>
