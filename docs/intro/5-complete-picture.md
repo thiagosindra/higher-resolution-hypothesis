@@ -64,43 +64,49 @@ Let's bring it all together:
   </div>
 
   <div class="feature-card">
-    <h3>2. Executive Dysfunction</h3>
+    <h3>2. Affective Amplification</h3>
+    <p>In this model, the brain sometimes routes a simple sight or sound into <strong>emotion and body-state circuits</strong>. That spillover can make neutral things feel <strong>extra delightful</strong> or <strong>extra irritating</strong>, and the feeling can <strong>stick around</strong> a bit longer. This isn't being "overly emotional"—it's the brain's pathway overlap creating amplified feelings from everyday experiences.</p>
+    <a href="{{ site.baseurl }}/sections/sensory-cognition" class="learn-more">Learn more: Sensory Processing →</a>
+  </div>
+
+  <div class="feature-card">
+    <h3>3. Executive Dysfunction</h3>
     <p>Task-switching requires releasing inhibition from current task AND providing energy for new task. Enhanced inhibition creates switching lag; energy competition prevents new task activation. Result: knowing you should switch but circuits being unresponsive.</p>
     <a href="{{ site.baseurl }}/sections/executive-and-attention" class="learn-more">Learn more: Executive Function →</a>
   </div>
 
   <div class="feature-card">
-    <h3>3. Special Interests</h3>
+    <h3>4. Special Interests</h3>
     <p>Distributed pathways in interest domains provide rich, rewarding processing. Strong inhibition maintains focus. If topics can be engaged with sustainable energy expenditure, they become preferred because they leverage architectural strengths.</p>
     <a href="{{ site.baseurl }}/sections/predictive-coding-learning" class="learn-more">Learn more: Cognition & Learning →</a>
   </div>
 
   <div class="feature-card">
-    <h3>4. Communication Differences</h3>
+    <h3>5. Communication Differences</h3>
     <p>If distributed pathways concentrate in non-social domains, social processing receives fewer resources (breadth-over-depth trade-off). Social communication is also multi-domain (language + facial + gestural + prosody), making it energy-intensive when all must be processed simultaneously.</p>
     <a href="{{ site.baseurl }}/sections/social-communication" class="learn-more">Learn more: Social Processing →</a>
   </div>
 
   <div class="feature-card">
-    <h3>5. Motor Coordination</h3>
+    <h3>6. Motor Coordination</h3>
     <p>Motor planning engages distributed pathways competing energetically with sensory processing. Coordination degrades under cognitive load (energy competition) or when planning cannot complete before execution begins (insufficient switching time).</p>
     <a href="{{ site.baseurl }}/sections/stimming-reactive-loops" class="learn-more">Learn more: Motor Systems →</a>
   </div>
 
   <div class="feature-card">
-    <h3>6. Meltdowns/Shutdowns</h3>
+    <h3>7. Meltdowns/Shutdowns</h3>
     <p>Extended distributed processing depletes energy faster than restoration. Eventually both processing AND inhibitory control fail simultaneously—complete overwhelm. Requires hours of recovery for energy restoration and metabolic debt repayment.</p>
     <a href="{{ site.baseurl }}/sections/energetic-collapse" class="learn-more">Learn more: Overload & Recovery →</a>
   </div>
 
   <div class="feature-card">
-    <h3>7. Memory Differences</h3>
+    <h3>8. Memory Differences</h3>
     <p>Distributed encoding captures more detail, creating vivid, detailed memories for attended information. But encoding is energy-expensive, creating selectivity: excellent memory for focused material, poor incidental memory for ignored information during energy competition.</p>
     <a href="{{ site.baseurl }}/sections/memory-task-encoding" class="learn-more">Learn more: Memory & Learning →</a>
   </div>
 
   <div class="feature-card">
-    <h3>8. Stimming & Reactive Loops</h3>
+    <h3>9. Stimming & Reactive Loops</h3>
     <p>Repetitive movements emerge as reactive motor cascades—when distributed activation exceeds inhibitory containment, it spills into motor circuits via weakly gated pathways. Suppressing these cascades recruits additional control networks, raising energetic load without addressing the underlying activation overflow.</p>
     <a href="{{ site.baseurl }}/sections/stimming-reactive-loops" class="learn-more">Learn more: Motor Systems →</a>
   </div>

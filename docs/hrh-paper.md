@@ -472,6 +472,8 @@ Neither inhibition nor energy competition alone suffices to explain autistic neu
 
 The dual-constraint framework provides the complete picture: **Distributed architecture creates both enhanced inhibition (active suppression) and elevated energy demand (passive constraint), and these mechanisms interact non-linearly through energy-dependent inhibitory efficacy**. The result is a cognitive system that achieves exceptional precision within focused domains at the cost of flexible parallel processing—not through computational inability, but through architectural trade-offs inherent to higher-resolution neural representation.
 
+Once affective branches engage, **local metabolic use** increases while inhibitory efficacy declines, **extending the window** for amplified feeling to persist. The same dual constraint that limits flexible switching also **prolongs** valence-loaded states until energy buffers refill. Thus, affective amplification is not merely informational—it is **energetically sustained**. This creates a path-dependent trajectory where the first engaged affective route shapes what follows.
+
 This framework makes the strong prediction that interventions targeting either mechanism alone (e.g., GABA modulation without metabolic support, or metabolic support without addressing inhibitory imbalance) will show limited efficacy. Effective interventions must address both the active inhibitory constraints and the passive metabolic constraints simultaneously.
 
 ---
@@ -529,6 +531,10 @@ The increased branching density allows for finer discrimination within each sens
 
 Because DPM allows signals to propagate across partially overlapping microcircuits, sensory information that would normally remain segregated may interact. This explains reports of cross-sensory associations—such as sounds evoking color impressions or tactile sensations linked with visual patterns. This is not pathological blending but an expected outcome of distributed propagation across modality-specific boundaries.
 
+### Affective Amplification of Neutral Inputs
+
+In a branch-rich architecture with lagged inhibition, ordinary sensory inputs can **overlap into limbic and interoceptive circuits**. As a result, stimuli that are neutral or mildly valenced in neurotypical processing may feel **unexpectedly pleasant** or **disproportionately aversive**. Elevated persistence (τ) keeps these affective routes active longer, biasing subsequent appraisals. This is an architectural susceptibility, not a universal state—the degree of amplification depends on individual branching patterns, inhibitory timing, and current energy availability.
+
 ### Sensory Overload and Filtering Limitations
 
 With broader recruitment of neurons comes a reduction in selectivity. Irrelevant or repetitive stimuli can continue to propagate through distributed branches long after their relevance has passed. This yields the subjective experience of "too much input," as well as the objective difficulty in filtering background noise. The brain, in essence, keeps responding to everything because the same stimulus keeps reactivating overlapping routes.
@@ -565,11 +571,13 @@ There is also a triple-judgment loop: (1) my own ultra-fine internal standard, (
 
 ### Emotional and Affective Consequences
 
-Cognition and emotion share overlapping circuitry in the limbic and prefrontal regions. Distributed activation here can amplify affective responses: an emotion triggered by one cue may spread to many contexts through shared branches. This may contribute to emotional intensity and difficulty "letting go" of distress once triggered—again, an emergent feature of the same propagation logic.
+Cognition and emotion share overlapping circuitry in the limbic and prefrontal regions. Reactive overlap offers a simple account of valence shifts: **neutral cues can inherit emotional weight** when collateral pathways recruit amygdala, vmPFC, insula, or hippocampal ensembles. When inhibition is delayed and τ is high, these branches **linger and re-enter**, creating "sticky" positivity (intense fascination, pleasure) or "sticky" negativity (frustration, aversion) depending on which network dominates. The model therefore predicts **greater variance** in felt intensity for otherwise ordinary events. This prediction follows from topology and timing, not from differences in motivation or intent.
 
 ### Emotional and Autonomic Regulation
 
 Because distributed propagation links limbic, sensory, and autonomic circuits, emotional states often produce widespread physiological activation—changes in heart rate, muscle tone, or gut motility—without conscious intent. These responses reflect overlapping excitatory spread into autonomic centers such as the hypothalamus and brainstem nuclei.
+
+Collateral routing into **insular and autonomic** circuits can make benign cues feel **viscerally strong**—changes in heart rate, muscle tension, or gut sensation that would not be engaged in streamlined processing. Once interoceptive loops engage, local energy demand rises and inhibitory efficacy falls, **prolonging** the state until buffers recover. This mechanism explains why some experiences feel "in the body" even when the trigger appears minor. The claim is architectural: overlap and persistence, not a regulatory function.
 
 In this context, heightened reactivity is not purely psychological but systemic: minor stressors engage broad somatic feedback loops. Some individuals report that rhythmic activities—breathing, movement, music, or patterned sensory input—are experienced as calming, though this document does not model or assert a mechanistic stabilization function for such activities.
 
@@ -699,6 +707,8 @@ This condition creates **predictive interference** — a competition between par
 
 **Predictive overload** occurs when this competition exceeds the brain's capacity to reconcile concurrent expectations. Perceptual stability deteriorates as predictive coherence collapses: the system can no longer decide which representation to trust. Subjectively, this may manifest as confusion, sensory flooding, or a transient loss of meaning.
 
+When multiple predictions remain co-active, **valence-laden branches** often outcompete neutral interpretations because reactive overlap and τ keep them above threshold longer. The result is a **bias toward amplified feeling**—either unusually pleasant salience or disproportionate irritation—while the system struggles to consolidate a single model. This is not a judgment about accuracy but a consequence of **competition dynamics** in a distributed network. Under load, that bias can propagate into broader perception and choice.
+
 Crucially, predictive overload marks the **informational threshold** that often precedes **energetic overload**. Each unresolved predictive branch continues to draw metabolic resources, and as their number grows, the energetic cost scales nonlinearly. The brain's attempt to sustain multiple overlapping predictions thus leads directly to depletion, linking **informational interference** with **metabolic exhaustion**. In this sense, predictive overload represents the informational precursor to shutdown — the moment where excessive internal modeling transforms into physical fatigue.
 
 ### Energetic Collapse States (Shutdowns and Meltdowns)
@@ -752,7 +762,7 @@ The DPM architecture produces a brain that is simultaneously capable of extraord
 | **Perception** | Finer resolution, synesthetic richness | Sensory overload, reduced filtering |
 | **Cognition** | Deep associative mapping, original reasoning | Decision paralysis, contextual inflexibility |
 | **Memory** | Vivid, long-lasting, detail-rich | Interference, rumination |
-| **Emotion** | Intense empathy, strong resonance | Emotional overwhelm, difficulty resetting |
+| **Emotion/Valence** | Intense enjoyment, deep fascination via positive amplification | Disproportionate aversion/frustration; sticky negative valence under load |
 | **Attention** | Distributed monitoring | Fragile sustained focus |
 | **Learning** | Data precision, local expertise | Poor generalization, rigidity |
 

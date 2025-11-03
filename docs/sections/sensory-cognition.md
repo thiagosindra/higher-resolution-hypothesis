@@ -37,6 +37,9 @@ title: Sensory & Cognitive Effects
     <h3>Cross-Sensory Binding and Synesthesia-Like Experiences</h3>
     <p>Because DPM allows signals to propagate across partially overlapping microcircuits, sensory information that would normally remain segregated may interact. This explains reports of cross-sensory associations—such as sounds evoking color impressions or tactile sensations linked with visual patterns. This is not pathological blending but an expected outcome of distributed propagation across modality-specific boundaries.</p>
 
+    <h3>Affective Amplification of Neutral Inputs</h3>
+    <p>In a branch-rich architecture with lagged inhibition, ordinary sensory inputs can <strong>overlap into limbic and interoceptive circuits</strong>. As a result, stimuli that are neutral or mildly valenced in neurotypical processing may feel <strong>unexpectedly pleasant</strong> or <strong>disproportionately aversive</strong>. Elevated persistence (τ) keeps these affective routes active longer, biasing subsequent appraisals. This is an architectural susceptibility, not a universal state—the degree of amplification depends on individual branching patterns, inhibitory timing, and current energy availability. See also: <a href="../glossary#affective-amplification">Affective Amplification</a>, <a href="../glossary#reactive-overlap">Reactive Overlap</a>.</p>
+
     <h3>Sensory Overload and Filtering Limitations</h3>
     <p>With broader recruitment of neurons comes a reduction in selectivity. Irrelevant or repetitive stimuli can continue to propagate through distributed branches long after their relevance has passed. This yields the subjective experience of "too much input," as well as the objective difficulty in filtering background noise. The brain, in essence, keeps responding to everything because the same stimulus keeps reactivating overlapping routes.</p>
 
@@ -82,6 +85,9 @@ title: Sensory & Cognitive Effects
 
     <h3>Emotional Intensity and Persistence</h3>
     <p>Emotional responses similarly amplify through distributed limbic-prefrontal spread, contributing to intensity and persistence of affective states. An emotional trigger doesn't just activate a single emotional circuit—it spreads through multiple associative pathways, creating strong resonance that's difficult to disengage from. This isn't emotional dysregulation in the traditional sense; it's the natural consequence of emotional processing distributed across numerous interconnected circuits.</p>
+
+    <h3>Affective Amplification and Valence Bias</h3>
+    <p>In distributed architecture with weakened inhibitory gating, sensory or cognitive processing can spill into circuits monitoring emotion and internal body states. <strong>Reactive overlap</strong> causes neutral cues to inherit emotional weight when collateral pathways recruit amygdala, vmPFC, insula, or hippocampal ensembles. When inhibition is delayed and τ is high, these branches linger and re-enter, creating "sticky" positivity (intense fascination, pleasure) or "sticky" negativity (frustration, aversion) depending on which network dominates. This architectural susceptibility explains why some stimuli feel unexpectedly pleasant while others trigger disproportionate aversion—not through differences in motivation, but through topology and timing. Once affective branches engage, local metabolic use increases while inhibitory efficacy declines, prolonging amplified states until energy buffers refill.</p>
   </div>
 
   <div id="tab-gen" class="tab-panel">
@@ -112,6 +118,9 @@ title: Sensory & Cognitive Effects
 
     <h3>Emotions Feel Stronger and Last Longer</h3>
     <p>Emotional experiences are similarly amplified, as emotional signals propagate through broader brain networks, producing greater intensity and longer persistence of emotional states. Once an emotion triggers, it spreads through many thought pathways, creating strong feelings that are difficult to set aside. This isn't being "too sensitive"—it's the natural result of emotions activating more of the brain at once and staying active longer.</p>
+
+    <h3>When Neutral Things Feel Extra-Strong</h3>
+    <p>Sometimes the brain routes a simple sight or sound into <strong>emotion and body-state circuits</strong>. That spillover can make neutral things feel <strong>extra delightful</strong> or <strong>extra irritating</strong>, and the feeling can <strong>stick around</strong> a bit longer. This happens because of how the brain's pathways overlap—sensory signals can accidentally activate emotion areas, making ordinary things feel much more intense than expected. It's not about being dramatic or overreacting; it's the brain architecture creating stronger feelings from everyday experiences.</p>
 
     <h3>The Core Pattern</h3>
     <p>All of these experiences share a common source: the autistic brain processes information with more detail, more connections, and more active brain areas. This creates exceptional abilities—pattern recognition, attention to detail, deep analysis—alongside genuine challenges with filtering, deciding, and managing the sheer amount of internal activity. Understanding this helps explain why the same brain that excels at noticing subtle patterns might struggle with everyday transitions or feel exhausted from situations that don't seem demanding to others.</p>
