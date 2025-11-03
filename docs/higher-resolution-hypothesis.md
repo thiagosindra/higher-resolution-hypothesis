@@ -2,7 +2,7 @@
 title: "The Higher-Resolution Hypothesis"
 author: "Thiago Sindra"
 affiliation: "Independent Researcher"
-date: "October 2025"
+date: "November 2025"
 license: "CC BY-NC-SA 4.0"
 description: "Autism as a distributed neural architecture producing higher-resolution cognition through overlapping network activation."
 ---
@@ -13,7 +13,7 @@ Thiago Sindra
 
 Independent Researcher
 
-October 2025
+November 2025
 
 ## Abstract
 
@@ -281,7 +281,7 @@ Each prediction provides a pathway for falsification—a necessary condition for
 
 If the mechanistic parameters proposed above operate as described, they could provide a common substrate for diverse autistic experiences detailed elsewhere in this document:
 
-**Stimming as motor synesthesia:** If reactive spillover from motor planning regions into sensory cortex creates proprioceptive-auditory-visual binding loops, and if elevated τ allows these loops to persist, this would explain rhythmic coherence. Because the loop would be self-contained (low *B* within the loop), stimming could function as an energetically efficient self-regulation mechanism—a testable prediction through combined motor and sensory imaging.
+**Stimming as reactive motor cascade:** Reactive spillover from distributed propagation into motor circuits can produce patterned movement. This document does not model such movements as regulatory or stabilizing—only as architectural outputs of cross-domain propagation.
 
 **Memory encoding differences:** Higher ρ during initial encoding would store more microstates per episodic event, potentially producing richer recall but also more interference between similar memories. Elevated τ could explain why memories loop or intrude—reactive reentry keeps reactivating stored patterns. Memory paradigms comparing detail retention and interference susceptibility could test this.
 
@@ -568,7 +568,7 @@ Cognition and emotion share overlapping circuitry in the limbic and prefrontal r
 
 Because distributed propagation links limbic, sensory, and autonomic circuits, emotional states often produce widespread physiological activation—changes in heart rate, muscle tone, or gut motility—without conscious intent. These responses reflect overlapping excitatory spread into autonomic centers such as the hypothalamus and brainstem nuclei.
 
-In this context, heightened reactivity is not purely psychological but systemic: minor stressors engage broad somatic feedback loops. Interventions that emphasize rhythmic regulation—breathing, movement, music, or patterned sensory input—can help synchronize these distributed loops, restoring coherence between cognitive and autonomic domains.
+In this context, heightened reactivity is not purely psychological but systemic: minor stressors engage broad somatic feedback loops. Some individuals report that rhythmic activities—breathing, movement, music, or patterned sensory input—are experienced as calming, though this document does not model or assert a mechanistic stabilization function for such activities.
 
 ---
 
@@ -608,11 +608,9 @@ Within the Distributed Pathway Model, stimming—or self-stimulatory movement—
 
 These movements are *reactive*, in that they originate from internal propagation rather than deliberate volition. What appears as an intentional or regulatory act is often the brain's intrinsic way of offloading excess activation through its most accessible output channels—the motor system. This explains why stimming can emerge suddenly during heightened emotional or sensory states: overlapping networks reach a point of cascade where excitation naturally extends into motor pathways.
 
-Once the movement begins, rhythmic repetition provides a **stabilizing feedback loop**. Each cycle of motion entrains related sensory and interoceptive circuits, synchronizing oscillations across domains and lowering systemic entropy. In this secondary phase, stimming indeed serves a regulatory function—it restores temporal coherence by converting diffuse excitation into periodic, predictable activity.
+Once the movement begins, repetition can continue as long as reactive propagation remains above threshold. In this document, stimming is treated strictly as a **reactive motor cascade**—an output of cross-domain spillover into motor pathways. Any secondary effects (e.g., a person reporting that it "feels calming") are **outside the scope** of this paper and are **not** asserted here as mechanistic stabilization.
 
-Although these motor cascades can involve perceptual or emotional resonance—movements that *feel* right, or that align with inner sensory feedback—such synesthetic experiences are **consequential** rather than **definitional**. The primary mechanism is cross-domain propagation leading to involuntary motor activation; the perceptual fusion that sometimes follows reflects the brain's tendency to integrate concurrent activity streams into a unified event.
-
-In this light, stimming is not maladaptive but **structurally emergent**: an embodied outcome of distributed architecture where reactive spread finds equilibrium through rhythmic motor expression. Suppressing it interrupts a natural route of stabilization within a high-resolution, cascade-prone neural system.
+Perceptual or emotional resonance that may accompany stimming is described here as a **consequence of co-activation**, not as a purposeful regulatory process. The core claim remains architectural: distributed propagation can involuntarily recruit motor circuits, yielding patterned movement.
 
 ---
 
@@ -620,11 +618,11 @@ In this light, stimming is not maladaptive but **structurally emergent**: an emb
 
 As seen in reactive motor cascades, distributed propagation can also give rise to rhythmic coherence. In other cases, similar feedback loops emerge within internal or cognitive domains.
 
-Reactive propagation in the Distributed Pathway Model does more than create noise or overload—it can also generate *structure*. When spillover activity re-enters associative or motor circuits with rhythmic stability, it may form **self-sustaining feedback loops** that yield organized, often creative output without conscious intent.
+Reactive propagation in the Distributed Pathway Model does more than create noise or overload—it can also generate *structure*. When spillover activity re-enters associative or motor circuits with rhythmic stability, it may form **closed reactive loops** that yield organized, often creative output **without implying regulation**.
 
 ### Emergence of Autonomous Loops
 
-In a distributed network, once a branch closes upon itself—linking auditory, motor, and cognitive regions—the resulting circuit can oscillate autonomously. This loop behaves like a small self-contained attractor: it consumes little new input yet continues to propagate internally. The outcome can manifest as persistent inner music, repeating imagery, or recursive thought sequences. What appears to be "mind-wandering" is often the network finding a **stable dynamic equilibrium** within its own structure.
+In a distributed network, once a branch closes upon itself—linking auditory, motor, and cognitive regions—the resulting circuit can oscillate autonomously. This loop behaves like a small self-contained attractor: it consumes little new input yet continues to propagate internally. The outcome can manifest as persistent inner music, repeating imagery, or recursive thought sequences. What appears to be "mind-wandering" is often the network **sustaining a closed reactive loop** within its own structure.
 
 ### Involuntary Internal Music and Pattern Replay
 
@@ -638,9 +636,9 @@ The same principle applies to abstract cognition. When associative networks main
 
 When loops form in circuits with strong emotional or sensory content, re-entrance may become intrusive rather than generative. An unpleasant sound, phrase, or image can replay involuntarily because its branch overlaps with highly excitable or weakly gated regions. In DPM terms, the attractor is too shallow: easy to enter, hard to exit. The distinction between productive flow and perseverative replay lies in the *depth* and *stability* of these reactive basins.
 
-### Oscillatory Entrainment and Self-Stabilization
+### Oscillatory Entrainment (phenomenology only)
 
-Each autonomous loop functions as an oscillator. When rhythmic, it can entrain other distributed circuits into coherence—explaining why repetitive music, chanting, or patterned motion often calms autistic minds. The brain is using its own spillover to achieve phase alignment: **coherence emerging from chaos**. Conversely, when multiple unsynchronized loops coexist, interference rises, producing internal noise or fragmented attention.
+Each autonomous loop functions as an oscillator. Repetitive inputs (music, chanting, patterned motion) **may be experienced as calming by some individuals**, but this document does **not** model or claim a mechanistic stabilization function; it simply notes that oscillatory patterns can arise from reactive re-entry. When multiple unsynchronized loops coexist, interference rises, producing internal noise or fragmented attention.
 
 ### Adaptive and Creative Implications
 
@@ -686,7 +684,7 @@ Because distributed activations persist longer, switching tasks requires more co
 
 ### Executive Overload and Shutdown
 
-When too many distributed pathways remain active, the system exceeds its capacity for synchronization. This produces a collapse in functional coherence, experienced subjectively as mental exhaustion or "shutdown." During these periods, the brain may transiently downregulate propagation by retreating into restricted focus or repetitive behavior—its own form of homeostatic rebalancing.
+When too many distributed pathways remain active, the system exceeds its capacity for synchronization. This produces a collapse in functional coherence, experienced subjectively as mental exhaustion or "shutdown." During these periods, the brain may transiently downregulate propagation by retreating into restricted focus or repetitive behavior—an outcome of reactive propagation.
 
 As distributed pathways compete for control of attention and response selection, the executive system reaches a point where it can no longer synchronize the flow of competing signals. At this threshold, control failure extends inward: the same distributed competition that disrupts executive coordination also destabilizes predictive processes themselves. This transition marks the onset of **predictive overload**, where informational interference begins to drive the very energetic instability that culminates in collapse.
 
@@ -774,9 +772,9 @@ These trade-offs are not value judgments—they are natural consequences of dist
 
 The Distributed Pathway Model suggests that autism's challenges and strengths are two expressions of the same architecture. Understanding this balance reframes clinical and educational practice around regulation and adaptation rather than normalization.
 
-* **Clinical Context:** Meltdowns, shutdowns, and stimming are regulatory responses within a distributed system. Interventions should support energy recovery and inhibitory precision (through rest cycles, rhythmic activities, or structured predictability) rather than suppress expression.
+* **Clinical Context:** Meltdowns, shutdowns, and stimming are common outcomes within a distributed system. Interventions should support energy recovery and inhibitory precision (through rest cycles, rhythmic activities, or structured predictability) rather than suppress expression.
 * **Sensory Environment Design:** Because distributed systems over-sample input, spaces should minimize unpredictable multimodal noise and provide monotonic or controllable stimuli that reduce branching load.
-* **Education and Work:** Deep-focus and special-interest engagement can be harnessed as self-stabilizing loops. Curricula and workplaces that permit autonomy and prolonged focus exploit the system's strengths rather than fight its inertia.
+* **Education and Work:** Deep-focus and special-interest engagement can be harnessed as domains of sustained focus. Curricula and workplaces that permit autonomy and prolonged focus exploit the system's strengths rather than fight its inertia.
 * **Therapeutic Framing:** Therapies that emphasize interoceptive awareness, pacing, and predictable sequencing may enhance self-regulation more effectively than purely behavioral approaches.
 
 These implications extend beyond autism to broader models of neurodiversity: understanding distributed versus streamlined processing may inform new approaches to attention, creativity, and resilience in all brains.

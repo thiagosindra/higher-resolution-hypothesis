@@ -106,7 +106,7 @@ title: Applied Implications
 
     <h3>Clinical Reconceptualization</h3>
 
-    <p>Meltdowns, shutdowns, and stimming are not behavioral problems requiring suppression but regulatory responses within distributed architecture. Meltdowns represent excitatory cascade exceeding inhibitory capacity; shutdowns represent metabolic collapse when energy demand exceeds supply; stimming provides rhythmic entrainment that synchronizes distributed circuits.</p>
+    <p>Meltdowns, shutdowns, and stimming are not behavioral problems requiring suppression but common outcomes within distributed architecture. Meltdowns represent excitatory cascade exceeding inhibitory capacity; shutdowns represent metabolic collapse when energy demand exceeds supply; stimming represents reactive motor cascade emerging from cross-domain propagation.</p>
 
     <p>Clinical intervention should focus on identifying individual energy budgets, recognizing early warning signs of approaching collapse (increased stimming, reduced speech, cognitive slowdown), and reducing load before thresholds are reached. Recovery from collapse requires genuine metabolic restoration—hours to days—not behavioral redirection. Attempting to function during recovery reinitates energy depletion and prolongs or deepens the collapse state.</p>
 
