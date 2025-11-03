@@ -637,7 +637,7 @@ In a distributed network, once a branch closes upon itself—linking auditory, m
 
 ### Involuntary Internal Music and Pattern Replay
 
-Autistic individuals frequently describe continuous musical imagery, rhythmic phrases, or patterned sensations that replay spontaneously. Within the DPM, these experiences arise when auditory and motor-simulation networks share overlapping branches. Reactive spillover from one domain reactivates the other, producing closed-loop entrainment between imagined sound and simulated movement. Because inhibitory gating is weak, the loop persists—experienced as *involuntary yet coherent music*, analogous to a physical stim occurring entirely in neural space.
+Autistic individuals frequently describe continuous musical imagery, rhythmic phrases, or patterned sensations that replay spontaneously. Within the DPM, these experiences arise when auditory and motor-simulation networks share overlapping branches. Reactive spillover from one domain reactivates the other, producing **closed reactive loops** between imagined sound and simulated movement. Because inhibitory gating is weak, the loop persists—experienced as *involuntary yet coherent music*, analogous to a physical stim occurring entirely in neural space.
 
 ### Background Problem-Solving and Spontaneous Insight
 
@@ -647,9 +647,6 @@ The same principle applies to abstract cognition. When associative networks main
 
 When loops form in circuits with strong emotional or sensory content, re-entrance may become intrusive rather than generative. An unpleasant sound, phrase, or image can replay involuntarily because its branch overlaps with highly excitable or weakly gated regions. In DPM terms, the attractor is too shallow: easy to enter, hard to exit. The distinction between productive flow and perseverative replay lies in the *depth* and *stability* of these reactive basins.
 
-### Oscillatory Entrainment (phenomenology only)
-
-Each autonomous loop functions as an oscillator. Repetitive inputs (music, chanting, patterned motion) **may be experienced as calming by some individuals**, but this document does **not** model or claim a mechanistic stabilization function; it simply notes that oscillatory patterns can arise from reactive re-entry. When multiple unsynchronized loops coexist, interference rises, producing internal noise or fragmented attention.
 
 ### Adaptive and Creative Implications
 

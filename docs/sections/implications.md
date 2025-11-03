@@ -82,13 +82,13 @@ title: Applied Implications
 
     <p>Early neurodevelopment offers critical periods when inhibitory circuit maturation and synaptic pruning are most plastic. Interventions during these windows may shape active:reactive ratios and inhibitory precision more effectively than later interventions. However, such approaches must preserve representational richness—the goal is improving gating precision, not reducing branching density.</p>
 
-    <p>Potential early interventions include: enriched sensory-motor environments promoting inhibitory circuit development, pharmacological support for PV+ interneuron maturation, oscillatory entrainment protocols enhancing gamma coherence, and structured predictability reducing sustained high prediction error during critical periods. Research in this domain must carefully balance optimization with preservation of architectural strengths.</p>
+    <p>Potential early interventions include: enriched sensory-motor environments promoting inhibitory circuit development, pharmacological support for PV+ interneuron maturation, and structured predictability reducing sustained high prediction error during critical periods. Research in this domain must carefully balance optimization with preservation of architectural strengths.</p>
 
     <h3>Future Research Directions</h3>
 
     <p>DPM generates testable predictions across multiple levels. Neuroimaging studies integrating structural connectivity (DTI), functional connectivity (resting-state fMRI), oscillatory dynamics (MEG, EEG), and metabolic activity (¹³C-MRS, PET) can empirically map individual active:reactive ratios across brain regions. Task-based paradigms measuring concurrent load limits, prediction error propagation, and energetic thresholds could identify vulnerability profiles.</p>
 
-    <p>Pharmacological research should investigate compounds enhancing inhibitory timing without reducing excitatory branching—GABAergic modulators, mGluR5 antagonists, compounds supporting PV+ function. Neuromodulation research should explore targeted enhancement of regional inhibitory control. Behavioral research should systematically test predictions regarding rhythmic entrainment, prediction error costs, task decomposition benefits, and deep focus optimization.</p>
+    <p>Pharmacological research should investigate compounds enhancing inhibitory timing without reducing excitatory branching—GABAergic modulators, mGluR5 antagonists, compounds supporting PV+ function. Neuromodulation research should explore targeted enhancement of regional inhibitory control. Behavioral research should systematically test predictions regarding prediction error costs, task decomposition benefits, and deep focus optimization.</p>
 
     <p>Longitudinal studies tracking active:reactive ratio changes across development, interventions, and life contexts would clarify plasticity windows and identify effective support strategies. Integration of subjective phenomenology (lived experience) with objective measures (connectivity, oscillations, metabolism) would validate the framework's explanatory power and guide personalized intervention.</p>
 
@@ -201,7 +201,6 @@ title: Applied Implications
       <li>mGluR5 antagonists reducing glutamatergic drive</li>
       <li>Compounds supporting inhibitory circuit maturation</li>
       <li>Neuromodulation (TMS, tDCS) enhancing regional inhibitory function</li>
-      <li>Oscillatory entrainment protocols improving gamma coherence</li>
     </ul>
 
     <p>Such interventions must be carefully titrated—the goal is improving gating precision while preserving the branching that enables high-resolution processing, not eliminating distributed architecture.</p>
@@ -212,7 +211,6 @@ title: Applied Implications
     <ul>
       <li>Empirical mapping of active:reactive ratios across brain regions using multimodal neuroimaging</li>
       <li>Identifying individual energy budgets and collapse thresholds</li>
-      <li>Testing rhythmic entrainment interventions</li>
       <li>Measuring prediction error costs and benefits of structured predictability</li>
       <li>Evaluating task decomposition and external scaffolding effectiveness</li>
       <li>Longitudinal tracking of active:reactive ratio changes across development</li>
@@ -463,18 +461,6 @@ title: Applied Implications
       <li>Framing challenges as willpower failures (ignores neural architecture)</li>
     </ul>
 
-    <h3>Music and Rhythm as Tools</h3>
-
-    <p>Music, repetitive movement, and rhythmic activities aren't just enjoyable—they can be regulatory tools for distributed processing:</p>
-
-    <ul>
-      <li>Provide external temporal structure that helps synchronize distributed circuits</li>
-      <li>Create predictable patterns (low prediction error)</li>
-      <li>Allow passive entrainment (brain aligns to the rhythm)</li>
-      <li>Can reduce the energy needed to maintain coordination</li>
-    </ul>
-
-    <p>This is why many autistic people find specific music calming or use rhythmic activities (walking, rocking, listening to the same song repeatedly) to regulate. It's not quirky preference—it's using rhythm as a stabilization tool.</p>
 
     <h3>The Future: Research and New Approaches</h3>
 
@@ -487,7 +473,6 @@ title: Applied Implications
     <p><strong>New interventions:</strong> Research into supporting distributed architecture might include:</p>
     <ul>
       <li>Medications that improve the brain's "brake system" (inhibitory function) without reducing high-resolution processing</li>
-      <li>Rhythmic entrainment protocols</li>
       <li>Energy management strategies</li>
       <li>Environmental design optimized for distributed processing</li>
     </ul>
