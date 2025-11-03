@@ -253,5 +253,5 @@ You now understand the Higher-Resolution Hypothesis:
 </div>
 
 <div class="final-message">
-  <p><em>Thank you for taking this journey. Whether you're autistic, a family member, a researcher, or simply curious—we hope this framework provides valuable perspective on autism as an alternative computational architecture with intrinsic trade-offs.</em></p>
+  <p><em>Thank you for taking this journey. Whether you're autistic, a family member, a researcher, or simply curious — I hope this framework provides valuable perspective on autism as an alternative computational architecture with intrinsic trade-offs.</em></p>
 </div>

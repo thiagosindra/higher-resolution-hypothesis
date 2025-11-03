@@ -17,7 +17,7 @@ November 2025
 
 ## Abstract
 
-Autism spectrum conditions present a paradox: exceptional perceptual abilities and detail-focused processing coexist with challenges in generalization, flexibility, and sensory overload. We propose the **Higher-Resolution Hypothesis (HRH)** and its mechanistic implementation via the **Distributed Pathway Model (DPM)** as a unifying architectural explanation. Rather than viewing autism as a collection of deficits or isolated enhancements, we reframe autistic cognition as operating in a fundamentally different computational mode—one that achieves higher-resolution neural representation through distributed, overlapping pathways rather than streamlined, efficient circuits.
+Autism spectrum conditions present a paradox: exceptional perceptual abilities and detail-focused processing coexist with challenges in generalization, flexibility, and sensory overload. I propose the **Higher-Resolution Hypothesis (HRH)** and its mechanistic implementation via the **Distributed Pathway Model (DPM)** as a unifying architectural explanation. Rather than viewing autism as a collection of deficits or isolated enhancements, I reframe autistic cognition as operating in a fundamentally different computational mode—one that achieves higher-resolution neural representation through distributed, overlapping pathways rather than streamlined, efficient circuits.
 
 The DPM posits that autistic neural architecture relies on 3-5× more neurons processing equivalent sensory and cognitive information, with extensive circuit overlap creating higher-dimensional representational spaces. This architecture directly explains enhanced discrimination ability, detail sensitivity, and precise pattern recognition. However, distributed processing creates two orthogonal constraints that produce the broader autistic phenotype:
 
@@ -27,7 +27,7 @@ The DPM posits that autistic neural architecture relies on 3-5× more neurons pr
 
 These dual constraints interact non-linearly: inhibitory efficacy itself depends on energy availability, creating regime transitions from effective competition (high energy, strong inhibition) to diffuse, ineffective processing (low energy, weakened inhibition). The autistic brain under sustained cognitive load operates in a metabolically-constrained regime where both mechanisms fail simultaneously—explaining the progression from focused competence to overload collapse.
 
-We demonstrate how this framework integrates and extends existing theories (Enhanced Perceptual Functioning, Intense World Theory, Predictive Coding accounts) as special cases, provides mechanistic specificity for clinical phenomena (sensory sensitivity, executive dysfunction, meltdowns), and generates testable predictions across scales from molecular energetics to systems-level neuroimaging. The model explains autism heterogeneity through individual variation in pathway distribution, metabolic buffering capacity, and compensatory strategy development, while maintaining a single core architectural principle.
+I demonstrate how this framework integrates and extends existing theories (Enhanced Perceptual Functioning, Intense World Theory, Predictive Coding accounts) as special cases, provides mechanistic specificity for clinical phenomena (sensory sensitivity, executive dysfunction, meltdowns), and generates testable predictions across scales from molecular energetics to systems-level neuroimaging. The model explains autism heterogeneity through individual variation in pathway distribution, metabolic buffering capacity, and compensatory strategy development, while maintaining a single core architectural principle.
 
 The Higher-Resolution Hypothesis reframes autism not as disordered cognition requiring correction, but as an alternative computational architecture with intrinsic trade-offs: exceptional local precision at the cost of global flexibility, achieved through neural systems operating at capacity limits where both active (inhibition) and passive (energetics) constraints shape cognitive function. This perspective opens therapeutic avenues focused on resource management rather than pathway normalization, and suggests that autistic cognitive strengths and challenges emerge from the same underlying architecture—higher resolution through distributed processing, limited by inhibition and energy.
 
@@ -330,7 +330,7 @@ Recovery occurs over seconds as ATP delivery catches up with demand and buffers 
 
 ### 2.3.4 Mathematical Framework
 
-We formalize this as an energy-constrained activation model. Let a cortical microregion r have energy availability E_r(t) governed by:
+I formalize this as an energy-constrained activation model. Let a cortical microregion r have energy availability E_r(t) governed by:
 
 **dE_r/dt = Supply_r(t) − ∑_i Consumption_i(t) − Baseline_r**
 

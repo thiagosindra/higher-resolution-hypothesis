@@ -2,7 +2,7 @@
 
 **Author:** Thiago Sindra  
 **Affiliation:** Independent Researcher  
-**Date:** October 2025  
+**Date:** November 2025  
 **License:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
