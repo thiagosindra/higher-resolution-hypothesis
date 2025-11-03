@@ -29,7 +29,7 @@ title: Stimming & Reactive Loops
 
     <h2>Stimming and Reactive Motor Loops</h2>
 
-    <p>Stimming—self-stimulatory repetitive movements such as hand-flapping, rocking, finger-tapping, pacing, or object manipulation—has historically been framed as maladaptive behavior requiring suppression. The Distributed Pathway Model offers a mechanistic alternative: stimming originates as a reactive motor cascade when distributed activation exceeds inhibitory containment and spills into motor regions, then secondarily entrains sensory and interoceptive circuits into stabilizing feedback loops that reduce systemic entropy through rhythmic coherence.</p>
+    <p>Stimming—self-stimulatory repetitive movements such as hand-flapping, rocking, finger-tapping, pacing, or object manipulation—has historically been framed as maladaptive behavior requiring suppression. The Distributed Pathway Model offers a mechanistic alternative: stimming originates as a reactive motor cascade when distributed activation exceeds inhibitory containment and spills into motor regions. In this framework, stimming is modeled as reactive output—an involuntary consequence of distributed propagation—rather than as an instrument of regulation.</p>
 
     <h3>Reactive Motor Cascade</h3>
 
@@ -39,13 +39,13 @@ title: Stimming & Reactive Loops
 
     <p>Empirical support includes neuroimaging evidence of heightened motor cortex excitability in autism and EEG studies showing altered sensorimotor oscillations. Stimming frequency and intensity correlate with measures of cognitive load, arousal, and sensory overload, consistent with the hypothesis that stimming serves as an outlet for distributed activation that cannot be internally gated.</p>
 
-    <h3>Regulatory Entrainment</h3>
+    <h3>Suppression Costs and Phenomenological Effects</h3>
 
-    <p>Once initiated, stimming produces a secondary regulatory effect through sensory-motor entrainment. The rhythmic, predictable nature of repetitive movement generates structured feedback that synchronizes distributed oscillations. In DPM terms, the system converts diffuse, temporally variable activation across many asynchronous pathways into coherent, periodic activity centered on the motor-sensory loop. This reduces informational entropy: instead of dozens of unsynchronized neural populations competing for coherence, a dominant oscillatory pattern emerges that entrains related circuits.</p>
+    <p>Some individuals report that stimming feels subjectively calming or helps restore focus. However, these reports are phenomenological—subjective experiences that may co-occur with stimming—and mechanistic regulation is out of scope in this model. The DPM does not model stimming as producing stabilization or entrainment effects; rather, stimming emerges when distributed activity spills into motor circuits (reactive cascade).</p>
 
-    <p>This mechanism is supported by research on rhythmic sensory stimulation and neural entrainment. Rhythmic input—auditory, tactile, or motor—can synchronize cortical oscillations and reduce measures of neural noise. Stimming essentially generates endogenous rhythmic stimulation, providing the distributed system with a temporal anchor that facilitates coherence. Subjectively, this manifests as calming, focus restoration, or reduction in sensory overload—reflecting genuine neurophysiological stabilization rather than psychological coping.</p>
+    <p>What the model does predict is that forcibly suppressing reactive motor cascades imposes significant costs. Top-down suppression of emergent movement recruits additional control networks (prefrontal cortex) and inhibitory drive (amygdala-mediated suppression under social threat), raising local energy demand and potentially destabilizing processing. When cascades are suppressed, activation that would have manifested as movement remains distributed across internal circuits, compounding inhibitory and energetic load (see <a href="../intro/4-dual-constraints">Dual-Constraint section</a> and <a href="energetic-collapse">Energetic Constraints</a>).</p>
 
-    <p>Critically, this effect depends on the movement being self-generated and predictable. Externally imposed movement or interruption disrupts the feedback loop, removing its regulatory function. This explains why forced suppression of stimming often increases distress rather than reducing it: the system loses access to a primary mechanism for managing distributed overload.</p>
+    <p>This explains why forced suppression of stimming often increases distress rather than reducing it: the system recruits costly control mechanisms while retaining the distributed activation that triggered the cascade in the first place. The energetic and inhibitory costs of suppression may worsen dysregulation by engaging additional networks under already-high load conditions.</p>
 
     <h3>Complex Outputs from Reactive Pathways</h3>
 
@@ -57,15 +57,15 @@ title: Stimming & Reactive Loops
 
     <h3>Functional Role in Distributed Architecture</h3>
 
-    <p>Stimming and reactive loops should be understood as intrinsic features of distributed architecture under load, not as dysfunctions to be eliminated. In a system prone to cascade activation due to weak inhibitory gating, mechanisms that offload excess activation or synchronize distributed oscillations serve essential regulatory roles. Suppressing these mechanisms without providing alternative routes for stabilization forces the system to manage overload through pathways more likely to lead to collapse: sustained executive suppression (metabolically expensive), emotional dysregulation (when affective circuits remain unsynchronized), or shutdown (when no stabilization route remains available).</p>
+    <p>Stimming and reactive loops should be understood as intrinsic features of distributed architecture under load, not as dysfunctions to be eliminated. When distributed activation exceeds inhibitory containment, reactive cascades emerge through the path of least resistance—often motor circuits. Suppressing these cascades without addressing the underlying distributed activation forces the system to manage overload through pathways more likely to lead to collapse: sustained executive suppression (metabolically expensive and recruiting PFC control networks), amygdala-mediated fear/suppression (when social threat drives inhibition of natural output), or shutdown (when no outlet remains and energy reserves deplete).</p>
 
-    <p>Understanding stimming as reactive motor cascade with secondary regulatory function reframes intervention. The goal is not suppression but accommodation: recognizing that stimming serves neurophysiological stabilization, providing environments where it can occur without social penalty, and developing alternative stabilization strategies (rhythmic sensory input, structured breaks, reduced concurrent demands) that work with the architecture rather than against it.</p>
+    <p>Understanding stimming as reactive motor cascade—rather than as a regulatory mechanism—reframes intervention. The goal is not suppression but accommodation: recognizing that stimming is a consequence of distributed propagation under load, providing environments where it can occur without social penalty, and reducing the sources of overload (sensory input, concurrent demands, prediction errors) that trigger cascades in the first place. Suppression increases costs without addressing causes.</p>
   </div>
 
   <div id="tab-std" class="tab-panel">
-    <h2>How Stimming Emerges and Why It Helps</h2>
+    <h2>How Stimming Emerges as Reactive Cascade</h2>
 
-    <p>Stimming—repetitive self-stimulatory movements like hand-flapping, rocking, or pacing—emerges through a specific mechanism in distributed architecture and serves an important regulatory function that is often misunderstood.</p>
+    <p>Stimming—repetitive self-stimulatory movements like hand-flapping, rocking, or pacing—emerges through a specific mechanism in distributed architecture. In this framework, stimming is treated as a reactive motor cascade—an involuntary output of distributed propagation—rather than a regulatory mechanism.</p>
 
     <h3>Reactive Motor Cascade: Overflow Into Movement</h3>
 
@@ -75,13 +75,13 @@ title: Stimming & Reactive Loops
 
     <p>Research shows stimming frequency and intensity correlate with measures of cognitive load, arousal, and sensory overload, consistent with stimming serving as an outlet for distributed activation that cannot be internally gated.</p>
 
-    <h3>Regulatory Entrainment: Restoring Coherence</h3>
+    <h3>Suppression Costs and Subjective Experience</h3>
 
-    <p>Once initiated, stimming produces a secondary regulatory effect through sensory-motor entrainment. The rhythmic, predictable nature of repetitive movement generates structured feedback that synchronizes distributed oscillations. The system converts diffuse, temporally variable activation across many asynchronous pathways into coherent, periodic activity centered on the motor-sensory loop. This reduces informational entropy—instead of dozens of unsynchronized neural populations competing for coherence, a dominant oscillatory pattern emerges that entrains related circuits.</p>
+    <p>Some individuals report that stimming feels subjectively calming, helps restore focus, or reduces sensory overload. These phenomenological reports are valid experiences but fall outside the scope of the mechanistic model. Mechanistic regulation is not modeled here; stimming emerges when distributed activity spills into motor circuits (reactive cascade).</p>
 
-    <p>Research on rhythmic sensory stimulation supports this mechanism: rhythmic input (auditory, tactile, or motor) can synchronize cortical oscillations and reduce neural noise. Stimming essentially generates endogenous rhythmic stimulation, providing the distributed system with a temporal anchor that facilitates coherence. Subjectively, this manifests as calming, focus restoration, or reduction in sensory overload—genuine neurophysiological stabilization rather than psychological coping.</p>
+    <p>What the model does predict is that forcibly suppressing reactive motor cascades recruits additional control networks and inhibitory drive, raising energetic load. Top-down suppression (PFC-driven control) and amygdala-mediated suppression under social threat both increase metabolic demand and potentially worsen dysregulation by recruiting more networks and energy while leaving the underlying distributed activation unaddressed (see <a href="../intro/4-dual-constraints">Dual-Constraint section</a> and <a href="energetic-collapse">Energetic Constraints</a>).</p>
 
-    <p>Critically, this effect depends on the movement being self-generated and predictable. Externally imposed movement or interruption disrupts the feedback loop, removing its regulatory function. This explains why forced suppression of stimming often increases distress: the system loses access to a primary mechanism for managing distributed overload.</p>
+    <p>This explains why forced suppression of stimming often increases distress: the system recruits costly control mechanisms while retaining the distributed activation that triggered the cascade. Suppression imposes energetic and inhibitory costs that may compound existing overload.</p>
 
     <h3>Internal Reactive Loops</h3>
 
@@ -91,17 +91,17 @@ title: Stimming & Reactive Loops
 
     <p>In favorable cases, these loops support exceptional abilities: mental music composition, mathematical problem-solving occurring autonomously, creative pattern recognition emerging from persistent background processing. The same mechanism that produces intrusive loops can generate genuine insight when engaging content-rich associative pathways that remain open to external modulation. Conversely, rigid loops engaging circuits with negative valence manifest as rumination, obsessive patterns, or perseveration.</p>
 
-    <h3>Functional Role: Accommodation, Not Suppression</h3>
+    <h3>Accommodation, Not Suppression</h3>
 
-    <p>Stimming and reactive loops are intrinsic features of distributed architecture under load, not dysfunctions to eliminate. In systems prone to cascade activation due to weak inhibitory gating, mechanisms that offload excess activation or synchronize distributed oscillations serve essential regulatory roles. Suppressing these mechanisms without providing alternatives forces the system to manage overload through pathways more likely to lead to collapse: sustained executive suppression (metabolically expensive), emotional dysregulation (when affective circuits remain unsynchronized), or shutdown.</p>
+    <p>Stimming and reactive loops are intrinsic features of distributed architecture under load, not dysfunctions to eliminate. When distributed activation exceeds inhibitory containment, reactive cascades emerge through the path of least resistance—often motor circuits. Suppressing these cascades without addressing underlying activation forces the system to manage overload through pathways more likely to lead to collapse: sustained executive suppression (metabolically expensive, recruiting PFC control), amygdala-mediated suppression (when social threat drives inhibition), or shutdown (when no outlet remains).</p>
 
-    <p>Understanding stimming as reactive motor cascade with regulatory function reframes intervention. The goal is accommodation: recognizing that stimming serves neurophysiological stabilization, providing environments where it can occur without social penalty, and developing alternative stabilization strategies (rhythmic sensory input, structured breaks, reduced concurrent demands) that work with the architecture rather than against it.</p>
+    <p>Understanding stimming as reactive motor cascade—not as a regulatory mechanism—reframes intervention. The goal is accommodation: recognizing that stimming is a consequence of distributed propagation under load, providing environments where it can occur without social penalty, and reducing the sources of overload (sensory input, concurrent demands, prediction errors) that trigger cascades. Suppression increases costs without addressing causes.</p>
   </div>
 
   <div id="tab-gen" class="tab-panel">
-    <h2>Why Stimming Happens and Why It Helps</h2>
+    <h2>Why Stimming Happens</h2>
 
-    <p>Stimming—repetitive movements like hand-flapping, rocking, finger-tapping, pacing, or fidgeting with objects—is one of the most visible features of autism. It's often viewed as something that needs to be stopped or hidden, but understanding why it happens reveals that stimming serves an important function for the autistic brain.</p>
+    <p>Stimming—repetitive movements like hand-flapping, rocking, finger-tapping, pacing, or fidgeting with objects—is one of the most visible features of autism. It's often viewed as something that needs to be stopped or hidden, but understanding why it happens reveals that stimming is a natural consequence of how the autistic brain processes information under load.</p>
 
     <h3>When the Brain Overflows Into Movement</h3>
 
@@ -119,29 +119,22 @@ title: Stimming & Reactive Loops
 
     <p>The movements aren't consciously chosen—they emerge naturally when your brain has more activation than it can internally manage. This is why trying to consciously stop stimming feels effortful and why it often returns as soon as attention shifts elsewhere.</p>
 
-    <h3>How Rhythm Calms the System</h3>
+    <h3>Why Some People Feel Calmer When Stimming</h3>
 
-    <p>Once stimming starts, something interesting happens: the repetitive, rhythmic movement actually helps calm and organize brain activity. Think of it like this:</p>
+    <p>Many people report that stimming feels calming, helps them focus, or makes overwhelming situations more manageable. These are real, valid experiences. However, from the model's perspective, these are phenomenological—things people experience and feel—rather than mechanistic functions the model explains.</p>
 
-    <p><strong>Without stimming:</strong> Your brain has dozens of neural patterns all running at different rhythms, like an orchestra where every musician is playing their own tempo. It's chaotic and exhausting to maintain.</p>
+    <p>What the model does explain is what happens when stimming is suppressed:</p>
 
-    <p><strong>With stimming:</strong> The repetitive movement creates a steady beat—like a drummer establishing tempo. Other neural patterns start synchronizing to this rhythm, bringing order to the chaos. Instead of dozens of competing rhythms, there's one dominant pattern that helps everything else organize.</p>
+    <p><strong>When stimming is allowed:</strong> The overflow of activation finds an outlet through movement. The brain isn't trying to manage that activation internally anymore—it's expressing it.</p>
 
-    <p>This is why stimming often feels:</p>
+    <p><strong>When stimming is suppressed:</strong> That same activation is still there, but now you have to actively work to keep it from becoming movement. This requires:</p>
     <ul>
-      <li><strong>Calming:</strong> It reduces the internal chaos of unsynchronized neural activity</li>
-      <li><strong>Focus-restoring:</strong> The rhythmic pattern helps attention stabilize instead of scattering</li>
-      <li><strong>Regulating:</strong> It provides a predictable sensory-motor loop when other inputs feel overwhelming</li>
+      <li><strong>More brain resources:</strong> Your prefrontal cortex (control center) has to constantly monitor and suppress the movement urge</li>
+      <li><strong>More energy:</strong> Suppression burns additional metabolic fuel on top of the already-high processing load</li>
+      <li><strong>More stress:</strong> When suppression is driven by social fear ("I'll be judged if I stim"), your amygdala activates, adding emotional load</li>
     </ul>
 
-    <p>Importantly, this calming effect only works when the movement is self-generated and predictable. If someone else moves your hands, or if you're forced to stop mid-rhythm, the regulatory loop breaks and the calming effect disappears. This is why:</p>
-    <ul>
-      <li>Being told "stop doing that" feels immediately distressing</li>
-      <li>Forced suppression of stimming often increases anxiety rather than reducing it</li>
-      <li>You might stim more intensely after being prevented from stimming earlier</li>
-    </ul>
-
-    <p>Suppressing stimming is like taking away the drummer when the orchestra is already chaotic—it makes the problem worse, not better.</p>
+    <p>This is why being told "stop doing that" feels immediately distressing, why forced suppression often increases anxiety, and why people often stim more intensely after being prevented from stimming—the activation builds up with nowhere to go, and suppressing it adds costs rather than solving the underlying overflow.</p>
 
     <h3>Songs Stuck in Your Head and Thought Loops</h3>
 
@@ -163,16 +156,16 @@ title: Stimming & Reactive Loops
 
     <h3>Why Stopping Stimming Makes Things Worse</h3>
 
-    <p>When autistic people are told to "stop stimming," "sit still," or "keep your hands quiet," it removes a primary mechanism the brain uses to manage overload. Without that outlet, the excess activation has nowhere to go, which means:</p>
+    <p>When autistic people are told to "stop stimming," "sit still," or "keep your hands quiet," it forces the brain to suppress a natural reactive output. This suppression itself has costs, and the underlying activation that triggered the cascade remains. Combined, this means:</p>
 
     <ul>
-      <li><strong>Internal distress increases:</strong> The activation that would have gone into movement stays internal, increasing cognitive and emotional load</li>
-      <li><strong>Focus becomes harder:</strong> Without the rhythmic organizing pattern, attention scatters more easily</li>
-      <li><strong>Overload happens faster:</strong> The brain reaches its limits sooner because one stabilization route is blocked</li>
-      <li><strong>Shutdown or meltdown becomes more likely:</strong> Without stimming as a pressure release, the system moves faster toward collapse</li>
+      <li><strong>Internal distress increases:</strong> The activation that would have overflowed into movement is still there, plus you're now spending resources suppressing the urge to move</li>
+      <li><strong>Focus becomes harder:</strong> You're now allocating attention and control resources to movement suppression instead of the task at hand</li>
+      <li><strong>Overload happens faster:</strong> The brain reaches its limits sooner because suppression adds costs (PFC control, amygdala activation under social threat) on top of existing load</li>
+      <li><strong>Shutdown or meltdown becomes more likely:</strong> The combined energetic and inhibitory costs of suppression plus retained activation accelerate collapse</li>
     </ul>
 
-    <p>This is why many autistic adults report that being allowed to stim freely dramatically improves their functioning. It's not that stimming itself accomplishes tasks—it's that stimming prevents the brain from becoming so overloaded that tasks become impossible.</p>
+    <p>This is why many autistic adults report that being allowed to stim freely dramatically improves their functioning. It's not that stimming itself accomplishes tasks—it's that not suppressing stimming avoids the additional costs (control networks, energy, stress) that make overload worse and tasks impossible.</p>
 
     <h3>The Core Understanding</h3>
 
@@ -187,19 +180,19 @@ title: Stimming & Reactive Loops
     <p>Stimming is:</p>
     <ul>
       <li>The brain's natural response to activation overflow</li>
-      <li>A regulatory mechanism that helps organize neural activity</li>
-      <li>A pressure release that prevents system overload</li>
-      <li>An intrinsic feature of how distributed architecture manages high information load</li>
+      <li>A reactive motor cascade—involuntary output when distributed activation exceeds containment</li>
+      <li>An outlet for activation that has nowhere else to go</li>
+      <li>An intrinsic feature of how distributed architecture responds to high information load</li>
     </ul>
 
-    <p>Understanding this reframes how we think about stimming. Instead of trying to suppress it (which increases distress and cognitive load), effective support means:</p>
+    <p>Understanding this reframes how we think about stimming. Instead of trying to suppress it (which increases distress and cognitive load by recruiting additional control networks and energy), effective support means:</p>
     <ul>
       <li>Allowing stimming to happen without social penalty</li>
       <li>Providing environments where stimming is accepted</li>
       <li>Recognizing increased stimming as a sign of high cognitive load (not misbehavior)</li>
-      <li>Offering alternative stabilization strategies alongside stimming, not instead of it (like rhythmic sensory input, movement breaks, reduced concurrent demands)</li>
+      <li>Reducing the sources of overload (sensory input, concurrent demands, unpredictability) that trigger cascades in the first place</li>
     </ul>
 
-    <p>When autistic people feel safe to stim freely, they often function better in every other domain—because the brain has access to its natural regulatory mechanisms instead of spending resources suppressing them.</p>
+    <p>When autistic people feel safe to stim freely, they often function better in every other domain—not because stimming provides regulation, but because they're not burning additional resources suppressing natural reactive outputs while simultaneously managing the overload that triggered them.</p>
   </div>
 </div>

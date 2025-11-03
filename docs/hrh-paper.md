@@ -73,13 +73,17 @@ Branching introduces both spatial and temporal flexibility. A neuron such as **B
 
 This may explain the intense perceptual richness and variability in autistic experience: multiple microcircuits partially engaged in parallel, encoding the same event from different angles, frequencies, or associative contexts.
 
-### Network Cascade Susceptibility
+### Network Cascade Susceptibility and Seizure-Like Activity
+
+*Note: This section discusses elevated susceptibility to seizure-like neural events based on architectural mechanisms. This is theoretical mechanistic discussion, not clinical guidance. Seizure evaluation and management require medical expertise and are outside the scope of this paper.*
 
 Because each neuron is connected to more branches, each spike recruits a larger set of followers. When inhibition is strong and well-timed, this increases information flow without runaway activity. When inhibition is weak or asynchronous—as seen in many autism-linked genetic disruptions—the result is positive feedback and uncontrolled propagation.
 
 This helps explain why autistic individuals have a higher incidence of **epilepsy and subclinical seizure-like activity**. The same architecture that enhances resolution also predisposes the brain to excitatory cascades: one neuron activates two, two activate four, and so on, leading to reverberating waves of excitation.
 
-At a systems level, this also explains why stress, fatigue, or sensory saturation can trigger overload or shutdown: too many distributed pathways activate simultaneously, consuming metabolic resources and collapsing coherence.
+**Energy depletion exacerbates this susceptibility.** As distributed activation depletes local ATP reserves, inhibitory interneurons—which require sustained energy to maintain ionic gradients and high-frequency firing—weaken in their suppressive efficacy. This creates a critical vulnerability window: the same branching architecture that recruited more neurons now faces diminished inhibitory containment, widening the temporal window during which cascades can propagate. Under conditions of sustained load or metabolic stress, this can produce **runaway spread**—brief paroxysmal events ranging from subclinical hypersynchronous bursts to clinically diagnosable seizure activity in susceptible individuals. This is not determinism but elevated architectural susceptibility contingent on the dual constraint of branching factor and energetic state.
+
+At a systems level, this also explains why stress, fatigue, or sensory saturation can trigger overload or shutdown: too many distributed pathways activate simultaneously, consuming metabolic resources and collapsing coherence. The energy → inhibition weakening → cascade spread chain links informational overload to biophysical instability.
 
 ### From Micro to Macro
 
@@ -605,7 +609,7 @@ Memory in the autistic brain reflects the same principles as perception and cogn
 
 Within the Distributed Pathway Model, stimming—or self-stimulatory movement—arises as a **reactive motor cascade**, not as a consciously selected or learned coping strategy. When distributed propagation exceeds inhibitory containment, concurrent activation spreads from emotional and sensory circuits into motor regions through shared or weakly gated branches. The result is a spontaneous discharge of accumulated neural activity into patterned movement.
 
-These movements are *reactive*, in that they originate from internal propagation rather than deliberate volition. What appears as an intentional or regulatory act is often the brain's intrinsic way of offloading excess activation through its most accessible output channels—the motor system. This explains why stimming can emerge suddenly during heightened emotional or sensory states: overlapping networks reach a point of cascade where excitation naturally extends into motor pathways.
+These movements are *reactive*, in that they originate from internal propagation rather than deliberate volition. What appears as an intentional or regulatory act is actually excess activation finding its path of least resistance—motor circuits with weakly gated connections. This explains why stimming can emerge suddenly during heightened emotional or sensory states: overlapping networks reach a point of cascade where excitation naturally extends into motor pathways.
 
 Once the movement begins, repetition can continue as long as reactive propagation remains above threshold. In this document, stimming is treated strictly as a **reactive motor cascade**—an output of cross-domain spillover into motor pathways. Any secondary effects (e.g., a person reporting that it "feels calming") are **outside the scope** of this paper and are **not** asserted here as mechanistic stabilization.
 
@@ -760,10 +764,11 @@ These trade-offs are not value judgments—they are natural consequences of dist
 
 1. **Structural Prediction** — Autistic cortical tissue will exhibit higher dendritic branching and local spine density, measurable through advanced microscopy or diffusion imaging.
 2. **Functional Prediction** — Electrophysiological recordings will show broader co-activation fields and delayed inhibitory rebound following stimulation.
-3. **Developmental Prediction** — Critical periods of pruning and inhibitory maturation will occur later or remain incomplete.
-4. **Behavioral Prediction** — Tasks requiring broad parallel monitoring will favor autistic participants, whereas rapid contextual switching will disadvantage them.
-5. **Therapeutic Direction** — Interventions should target temporal gating and inhibitory precision, not reduction of connectivity.
-6. **Energetic Prediction** — Metabolic imaging may reveal higher resting energy consumption in associative cortices and more rapid depletion during cognitive load, consistent with distributed propagation cost.
+3. **Cascade Susceptibility Prediction** — Electrophysiology during energetic load (sustained activation or metabolic stress) should reveal broader co-activation fields, delayed inhibitory rebound, and higher incidence of paroxysmal events (brief hypersynchronous bursts) compared to neurotypical controls. The dual mechanism—distributed branching recruiting larger populations + energy-dependent weakening of inhibition—predicts increased seizure-like activity risk under conditions that deplete local ATP while activation persists.
+4. **Developmental Prediction** — Critical periods of pruning and inhibitory maturation will occur later or remain incomplete.
+5. **Behavioral Prediction** — Tasks requiring broad parallel monitoring will favor autistic participants, whereas rapid contextual switching will disadvantage them.
+6. **Therapeutic Direction** — Interventions should target temporal gating and inhibitory precision, not reduction of connectivity.
+7. **Energetic Prediction** — Metabolic imaging may reveal higher resting energy consumption in associative cortices and more rapid depletion during cognitive load, consistent with distributed propagation cost.
 
 ---
 

@@ -100,8 +100,8 @@ Let's bring it all together:
   </div>
 
   <div class="feature-card">
-    <h3>8. Stimming & Self-Regulation</h3>
-    <p>Repetitive movements provide rich, predictable proprioceptive input (engaging distributed processing beneficially) using energy-efficient motor programs. Stimming serves energy regulation, sensory satisfaction, and controlled engagement.</p>
+    <h3>8. Stimming & Reactive Loops</h3>
+    <p>Repetitive movements emerge as reactive motor cascades—when distributed activation exceeds inhibitory containment, it spills into motor circuits via weakly gated pathways. Suppressing these cascades recruits additional control networks, raising energetic load without addressing the underlying activation overflow.</p>
     <a href="{{ site.baseurl }}/sections/stimming-reactive-loops" class="learn-more">Learn more: Motor Systems →</a>
   </div>
 

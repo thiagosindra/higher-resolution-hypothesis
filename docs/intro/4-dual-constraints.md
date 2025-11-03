@@ -171,6 +171,10 @@ This creates a regime transition:
   <p><strong>The Progression to Meltdown/Shutdown:</strong> Autistic cognition under load moves from optimal → effortful → overload. This isn't emotional dysregulation—it's the neural system hitting capacity limits where both processing and control fail simultaneously.</p>
 </div>
 
+<div class="callout danger">
+  <p><strong>Cascade Susceptibility:</strong> When energy depletes, inhibitory interneurons weaken (they too require ATP for sustained firing). This widens the temporal window for runaway cascades—distributed branching recruiting more neurons while inhibition fails to contain spread. This explains elevated susceptibility to seizure-like activity in autism: architecture + energy state = cascade risk.</p>
+</div>
+
 ---
 
 ## Explaining Major Features
@@ -195,7 +199,7 @@ These dual constraints, working together, explain:
 
   <div class="feature-item">
     <strong>Stimming</strong>
-    <p>Energy-efficient motor engagement that provides regulatory feedback</p>
+    <p>Reactive motor cascade—overflow of distributed activation into motor circuits</p>
   </div>
 
   <div class="feature-item">

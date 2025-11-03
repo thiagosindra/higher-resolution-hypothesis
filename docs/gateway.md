@@ -96,7 +96,7 @@ title: "Explore the Framework"
 
   <div class="section-card">
     <h3><a href="{{ site.baseurl }}/sections/stimming-reactive-loops">Stimming & Reactive Motor Loops</a></h3>
-    <p class="card-description">Stimming as reactive motor cascade, regulatory entrainment, autonomous oscillators, and the emergence of complex patterns from distributed architecture.</p>
+    <p class="card-description">Stimming as reactive motor cascade, suppression costs, autonomous oscillators, and the emergence of complex patterns from distributed architecture.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 6 min read</span>
       <span class="level-indicator">3 levels available</span>

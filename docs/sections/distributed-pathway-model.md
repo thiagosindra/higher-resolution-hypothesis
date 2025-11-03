@@ -207,7 +207,7 @@ title: Distributed Pathway Model
       <li>Why tasks feel more complex (decompose into more steps through distributed processing)</li>
       <li>Why social situations are overwhelming (too many signals processed simultaneously)</li>
       <li>Why energy runs out (higher metabolic cost of distributed activation)</li>
-      <li>Why stimming helps (regulating distributed activation through rhythmic feedback)</li>
+      <li>Why stimming occurs (reactive motor cascade when distributed activation spills into motor circuits)</li>
     </ul>
 
     <p>Understanding your brain through this lens isn't about fixing what's broken—it's about understanding how your neural architecture works so you can work with it rather than against it.</p>

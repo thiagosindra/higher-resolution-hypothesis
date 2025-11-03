@@ -42,11 +42,11 @@ title: Applied Implications
 
     <p>Neuromodulatory approaches (transcranial magnetic stimulation, transcranial direct current stimulation) targeting specific cortical regions could potentially enhance local inhibitory function, improving active:reactive ratios in domains with particularly weak gating. However, such interventions must be carefully titrated—excessive inhibition would eliminate the distributed processing that enables exceptional capabilities.</p>
 
-    <h3>Rhythmic Entrainment and Oscillatory Stabilization</h3>
+    <h3>Stimming as Reactive Motor Cascade and Suppression Costs</h3>
 
-    <p>Distributed pathways operating asynchronously create coordination challenges and increase energetic cost. Rhythmic sensory input—music, repetitive movement, patterned visual or tactile stimulation—may provide external temporal scaffolding that helps synchronize distributed circuits. In oscillatory terms, rhythmic input imposes a dominant frequency that competing pathways can entrain to, reducing phase dispersion and improving temporal coordination.</p>
+    <p>Stimming arises as a reactive motor cascade when distributed activation exceeds inhibitory containment and spills into motor circuits. This document does not model stimming as producing regulatory or stabilization effects; rather, stimming emerges when distributed activity finds its path of least resistance—motor pathways with weakly gated connections (see <a href="stimming-reactive-loops">Stimming & Reactive Loops</a>).</p>
 
-    <p>This explains the regulatory function of stimming: self-generated rhythmic motor activity creates proprioceptive and interoceptive feedback that entrains distributed motor and sensory circuits to a coherent oscillatory pattern. Suppressing stimming removes this stabilization mechanism, forcing the system to expend additional energy maintaining coordination through purely internal mechanisms. Therapeutic approaches should incorporate rather than suppress rhythmic self-regulation.</p>
+    <p>What the model does predict is that forcibly suppressing reactive motor cascades imposes significant costs. Top-down suppression recruits additional control networks (prefrontal cortex) and inhibitory drive (amygdala-mediated suppression under social threat), raising local energy demand and potentially destabilizing processing. When cascades are suppressed, activation that would have manifested as movement remains distributed across internal circuits, compounding inhibitory and energetic load. Therapeutic approaches should accommodate rather than suppress stimming, recognizing suppression as costly without addressing the underlying distributed activation that triggered the cascade.</p>
 
     <h3>Predictability and Prediction Error Minimization</h3>
 
@@ -106,9 +106,9 @@ title: Applied Implications
 
     <h3>Clinical Reconceptualization</h3>
 
-    <p>Meltdowns, shutdowns, and stimming are not behavioral problems requiring suppression but common outcomes within distributed architecture. Meltdowns represent excitatory cascade exceeding inhibitory capacity; shutdowns represent metabolic collapse when energy demand exceeds supply; stimming represents reactive motor cascade emerging from cross-domain propagation.</p>
+    <p>Meltdowns, shutdowns, and stimming are not behavioral problems requiring suppression but common outcomes within distributed architecture. Meltdowns represent excitatory cascade exceeding inhibitory capacity; shutdowns represent metabolic collapse when energy demand exceeds supply; stimming represents reactive motor cascade—involuntary output when distributed activation spills into motor circuits.</p>
 
-    <p>Clinical intervention should focus on identifying individual energy budgets, recognizing early warning signs of approaching collapse (increased stimming, reduced speech, cognitive slowdown), and reducing load before thresholds are reached. Recovery from collapse requires genuine metabolic restoration—hours to days—not behavioral redirection. Attempting to function during recovery reinitates energy depletion and prolongs or deepens the collapse state.</p>
+    <p>Clinical intervention should focus on identifying individual energy budgets, recognizing early warning signs of approaching collapse (increased stimming as a sign of rising distributed activation, reduced speech, cognitive slowdown), and reducing load before thresholds are reached. Recovery from collapse requires genuine metabolic restoration—hours to days—not behavioral redirection. Attempting to function during recovery reinitates energy depletion and prolongs or deepens the collapse state.</p>
 
     <p>Assessment should measure internal processing demands rather than only external task difficulty. Two individuals performing identical tasks may experience vastly different internal loads depending on their specific distributed architecture and active:reactive ratios.</p>
 
@@ -173,11 +173,11 @@ title: Applied Implications
 
     <p>This reframing reduces inappropriate guilt and builds practical coping strategies based on accurate understanding of how distributed processing works.</p>
 
-    <h3>Rhythmic Regulation and Stimming</h3>
+    <h3>Stimming as Reactive Cascade and Suppression Costs</h3>
 
-    <p>Rhythmic activities—music, repetitive movement, patterned sensory input—provide external temporal scaffolding that helps synchronize distributed circuits. Stimming (self-generated rhythmic motor activity) serves a crucial regulatory function: it creates proprioceptive feedback that entrains distributed motor and sensory circuits to coherent oscillatory patterns.</p>
+    <p>Stimming emerges as a reactive motor cascade when distributed activation exceeds inhibitory containment and spills into motor circuits. Some individuals report subjective experiences of calm or focus associated with stimming; however, these phenomenological reports fall outside the scope of mechanistic modeling. This framework does not model stimming as producing stabilization—only as reactive output from distributed propagation (see <a href="stimming-reactive-loops">Stimming & Reactive Loops</a>).</p>
 
-    <p>Suppressing stimming removes this stabilization mechanism, forcing the system to expend additional energy maintaining coordination through purely internal means. Therapeutic and educational approaches should accommodate and incorporate rhythmic self-regulation rather than attempting to eliminate it.</p>
+    <p>Suppressing stimming recruits additional control networks and inhibitory drive, raising energetic load. Top-down suppression (PFC-driven) and amygdala-mediated suppression under social threat both increase metabolic demand while leaving the underlying distributed activation unaddressed. This compounds existing overload. Therapeutic and educational approaches should accommodate stimming rather than suppress it, recognizing that suppression adds costs without addressing the distributed activation that triggered the cascade.</p>
 
     <h3>Predictability as Energy Management</h3>
 
@@ -364,28 +364,28 @@ title: Applied Implications
       <li>Clear policies and procedures rather than implicit social rules</li>
     </ul>
 
-    <h3>Stimming: Your Brain's Stabilization System</h3>
+    <h3>Stimming: Reactive Overflow and Why Suppression Makes Things Worse</h3>
 
-    <p>Think of stimming like this: Your distributed pathways are like dozens of musicians all playing their own rhythms. It's chaotic and energy-intensive to keep them coordinated. When you stim—rock, hand-flap, spin, repeat movements—you're creating a steady beat that all those pathways can synchronize to, like a drummer establishing tempo for the orchestra.</p>
+    <p>Stimming happens when your brain has more activation than it can contain internally. Think of it like water overflowing from a full bucket—when distributed activation exceeds what your inhibitory systems can manage, it spills into the most accessible outlet: motor circuits. The movement isn't planned or chosen; it emerges naturally when internal activation has nowhere else to go.</p>
 
-    <p><strong>What happens when you stim:</strong></p>
+    <p><strong>What stimming represents:</strong></p>
     <ul>
-      <li>Creates rhythmic sensory feedback</li>
-      <li>Helps synchronize asynchronous neural pathways</li>
-      <li>Reduces the energy needed to maintain coordination</li>
-      <li>Regulates overall activation levels</li>
-      <li>Provides predictable sensory input (low prediction error)</li>
+      <li>Overflow of distributed activation into motor pathways</li>
+      <li>Natural consequence of high internal processing load</li>
+      <li>Reactive output—not a regulatory tool</li>
+      <li>Sign that your brain is managing a lot internally</li>
     </ul>
 
     <p><strong>What happens when stimming is suppressed:</strong></p>
     <ul>
-      <li>Lose primary stabilization mechanism</li>
-      <li>Must spend extra energy maintaining coordination internally</li>
-      <li>Faster path to energy depletion and collapse</li>
-      <li>Increased distress and difficulty functioning</li>
+      <li>The overflow activation is still there—you just can't express it through movement</li>
+      <li>Now you have to actively work to keep it from becoming movement (recruiting control centers)</li>
+      <li>This takes extra brain resources and energy on top of the existing load</li>
+      <li>If suppression is fear-driven ("I'll be judged"), your stress systems activate, adding more load</li>
+      <li>Combined result: faster path to energy depletion and collapse</li>
     </ul>
 
-    <p><strong>The shift:</strong> Don't view stimming as something to eliminate. Recognize it as a crucial regulatory tool. Accommodations should allow stimming, not suppress it.</p>
+    <p><strong>The shift:</strong> Don't view stimming as something to eliminate. It's a visible sign of invisible internal processing. Suppressing it doesn't reduce the load—it adds to it. Accommodations should allow stimming, recognizing that preventing the outlet increases distress without addressing what triggered the overflow.</p>
 
     <h3>Routines and Predictability: Not Rigidity, Energy Management</h3>
 
@@ -459,7 +459,7 @@ title: Applied Implications
       <li>"Just push through it" (ignores metabolic limits)</li>
       <li>"Learn to be more flexible" (ignores structural costs of unpredictability)</li>
       <li>"Practice eye contact" (increases cognitive load without addressing underlying architecture)</li>
-      <li>"Stop stimming" (removes crucial regulatory mechanism)</li>
+      <li>"Stop stimming" (forces costly suppression of reactive motor cascades without addressing overflow)</li>
       <li>Framing challenges as willpower failures (ignores neural architecture)</li>
     </ul>
 
