@@ -238,18 +238,17 @@ Rather than asserting results, the DPM framework generates specific, falsifiable
 **1. Human organoid and assembloid systems:**
 
 If cortical organoids derived from autism-linked iPSCs (CHD8, SCN2A, POGZ, SYNGAP1) exhibit distributed architecture:
-- Dendritic branch density should be 1.5–2.5× higher than NT controls (measurable via MAP2 staining and morphological reconstruction)
-- Calcium wave propagation following glutamate uncaging should spread 2–4× broader spatially
-- Multi-electrode array recordings should show elevated τ (300–600 ms vs. 100–200 ms NT)
+- Dendritic branch density should be higher than NT controls
+- Calcium wave propagation following glutamate uncaging should spread broader spatially
+- Multi-electrode array recordings should show elevated τ
 - PV interneuron migration distance should be reduced, with delayed functional integration into circuits
 
 **2. High-density electrophysiology in animal models:**
 
-Neuropixels or multi-electrode recordings in Shank3, Cntnap2, or Scn2a mouse models during sensory stimulation should reveal:
-- Broader spatial co-activation (2–3× recruitment radius from stimulation site)
-- Delayed inhibitory rebound (30–50 ms vs. 15–20 ms in wild-type)
+Multi-electrode recordings in mouse models during sensory stimulation should reveal:
+- Broader spatial co-activation (wider recruitment radius from stimulation site)
+- Delayed inhibitory rebound
 - Secondary activation peaks 200–400 ms post-stimulus (reactive reentry signature)
-- If these patterns are not observed, the temporal dynamics proposed by DPM would require revision
 
 **3. Human neuroimaging:**
 
@@ -264,7 +263,7 @@ Ultra-high-field fMRI (7T) with laminar resolution during simple sensory tasks c
 Spiking neural network simulations varying *B*, *I*, and τ should be able to reproduce:
 - Higher representational density with increased *B*
 - Cascade susceptibility and runaway activation with low *I*
-- Spontaneous oscillatory attractors (potentially matching stimming behaviors or internal music) when τ is elevated
+- Spontaneous oscillatory attractors (potentially matching stimming behaviors or internal loops, e.g.: internal music) when τ is elevated
 - If these computational relationships fail to hold, the parameter framework would need modification
 
 **5. Therapeutic intervention predictions:**
