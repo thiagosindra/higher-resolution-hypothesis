@@ -1,5 +1,5 @@
 ---
-title: "The Higher-Resolution Hypothesis"
+title: "The Higher-Resolution Hypothesis: The Higher-Resolution Hypothesis: A Distributed Pathway Model of Autism"
 author: "Thiago Sindra"
 affiliation: "Independent Researcher"
 date: "November 2025"
@@ -7,7 +7,7 @@ license: "CC BY-NC-SA 4.0"
 description: "Autism as a distributed neural architecture producing higher-resolution cognition through overlapping network activation."
 ---
 
-# The Higher-Resolution Hypothesis
+# The Higher-Resolution Hypothesis: A Distributed Pathway Model of Autism
 
 Thiago Sindra
 

@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-# About the Higher-Resolution Hypothesis
+# About The Higher-Resolution Hypothesis: A Distributed Pathway Model of Autism
 
 **Author:** Thiago Sindra, Independent Researcher
 
@@ -15,11 +15,13 @@ This is not a formal publication in a peer-reviewed venue. It is an evolving hyp
 
 ## About the Author
 
-I'm **Thiago Sindra**, a Software Engineer based in California, with years of experience turning ideas into systems. My journey began with a formal engineering background and a fascination for how complex systems—both human and digital—behave under changing conditions. Over time, I became deeply interested in cognitive neuroscience and found myself observing how my own thinking and behavior aligned (or didn't) with what the brain sciences suggest.
+I’m **Thiago Sindra**, a software engineer in California who enjoys turning ideas into systems. Over time, curiosity pulled me toward cognitive neuroscience, and I started comparing my own thinking and behavior with what research predicts—where they align, and where they clearly don’t.
 
-In addition to my engineering work, I once hosted a podcast called **What am I? – Challenge your perception of reality.**, where I invited guests to explore neuroscience, perception and how our inner mental lives shape our reality. That experience deepened my introspective habit—coupled with my analytical background in architecture and complexity—and led me to reflect on questions such as: Why do some people process sensory input differently? What happens when internal cognition feels both clearer and more chaotic than we expect?
+In addition to my engineering work, I once hosted a podcast called **What am I? – Challenge your perception of reality.**, where I invited guests to explore neuroscience, perception and how our inner mental lives shape what we call "real."
 
-That mix of technical thinking, introspection, and inquiry into the mechanisms of mind has shaped how I reflect on cognition, complexity, and human experience: with exploration grounded in observation, connection-making and genuine curiosity. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/thiagosindra/).
+Professionally, much of my work has involved **designing and operating distributed systems and large-scale networks**. That habit of thinking in architectures and trade-offs naturally informs how I frame the **Higher-Resolution Hypothesis**—as a distributed organization of the brain where branching, gating, and energy budgets shape what we perceive and how we think.
+
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/thiagosindra/).
 
 ---
 

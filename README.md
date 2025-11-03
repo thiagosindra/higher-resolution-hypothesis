@@ -1,4 +1,4 @@
-# The Higher-Resolution Hypothesis
+# The Higher-Resolution Hypothesis: A Distributed Pathway Model of Autism
 
 **Author:** Thiago Sindra  
 **Affiliation:** Independent Researcher  

@@ -6,7 +6,7 @@ title: Overview
 <link rel="stylesheet" href="./assets/css/tabs.css">
 <link rel="stylesheet" href="./assets/css/gateway.css">
 
-# The Higher-Resolution Hypothesis
+# The Higher-Resolution Hypothesis: A Distributed Pathway Model of Autism
 
 ## What This Hypothesis Proposes
 
@@ -57,7 +57,10 @@ My goal is to bridge subjective and biological perspectives and to make the clai
 - 📄 [Read online (Markdown)](./hrh-paper) — Full academic text with references
 - 🖨️ [Download PDF](./hrh-paper.pdf) — For printing or offline reading
 
-> For academic citations, please reference the canonical paper linked above.
+**Citing this work:**
+
+> **Sindra, T. (2025).** *The Higher-Resolution Hypothesis: A Distributed Pathway Model of Autism.*  
+> GitHub Repository. https://github.com/thiagosindra/higher-resolution-hypothesis
 
 
 ---
