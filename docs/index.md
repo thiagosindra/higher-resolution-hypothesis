@@ -29,14 +29,14 @@ By explaining how these levels relate through a single topological framework, th
 
 <div class="two-path-entry">
   <div class="path-card path-intro">
-    <h2>Get Up to Speed</h2>
+    <h2>Start Here</h2>
     <p>Start with an introduction that explains the core concepts in accessible language.</p>
     <a href="./intro/1-the-paradox" class="btn btn-primary btn-large">Introduction →</a>
     <p class="time-estimate">⏱ 15-20 minute read</p>
   </div>
 
   <div class="path-card path-technical">
-    <h2>Summary of Individual Sections</h2>
+    <h2>Individual Sections</h2>
     <p>Each section offers a summary of individual sections of the paper with three reading levels from general to in-depth technical.</p>
     <a href="./gateway" class="btn btn-secondary btn-large">Browse Sections →</a>
     <p class="time-estimate">Or <a href="./hrh-paper">read the full paper</a></p>
