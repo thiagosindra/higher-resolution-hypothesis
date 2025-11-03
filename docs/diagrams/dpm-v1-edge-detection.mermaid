@@ -1,0 +1,49 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'fontFamily': 'Inter, system-ui, sans-serif',
+    'fontSize': '12px',
+    'lineColor': '#94a3b8',
+    'edgeLabelBackground': '#eff6ff',
+    'clusterBkg': '#fafafa',
+    'clusterBorder': '#cbd5e1',
+    'nodeSpacing': 60,
+    'rankSpacing': 70
+  }
+}}%%
+graph TB
+    Photo[Photoreceptors] --> LGN[LGN<br/>Relay]
+    
+    subgraph V1["Primary Visual Cortex (V1)"]
+        LGN --> Simple[Layer 4<br/>Simple Cells]
+        Simple -->|delayed<br/>inhibition| Complex[Layer 2/3<br/>Complex Cells]
+        Simple -.->|spillover| Orient[Adjacent<br/>Orientation<br/>Columns]
+        Simple -.->|spillover| Color[Color<br/>Processing<br/>Streams]
+        Simple -.->|spillover| Motion[Motion<br/>Detection<br/>Areas]
+    end
+    
+    subgraph Output["Enhanced Representation"]
+        Complex --> Out[V2<br/>Edge Signal]
+        Orient --> Rich[+Texture<br/>Detail]
+        Color --> Rich
+        Motion --> Rich
+        Rich --> Out
+    end
+    
+    style V1 fill:#eff6ff,stroke:#3b82f6,stroke-width:2px
+    style Output fill:#fef3c7,stroke:#f59e0b,stroke-width:2px
+    
+    style Photo fill:#f0fdf4,stroke:#22c55e,stroke-width:2px
+    style LGN fill:#dcfce7,stroke:#16a34a,stroke-width:2px
+    style Simple fill:#dbeafe,stroke:#0284c7,stroke-width:2px
+    style Complex fill:#bfdbfe,stroke:#1d4ed8,stroke-width:2px
+    style Orient fill:#fef08a,stroke:#ca8a04,stroke-width:2px
+    style Color fill:#fef08a,stroke:#ca8a04,stroke-width:2px
+    style Motion fill:#fef08a,stroke:#ca8a04,stroke-width:2px
+    style Out fill:#fed7aa,stroke:#ea580c,stroke-width:2px
+    style Rich fill:#fed7aa,stroke:#ea580c,stroke-width:2px
+    
+    linkStyle default stroke:#64748b,stroke-width:2px
+    linkStyle 2 stroke:#f59e0b,stroke-width:1.5px,stroke-dasharray: 6 3
+    linkStyle 3 stroke:#f59e0b,stroke-width:1.5px,stroke-dasharray: 6 3
+    linkStyle 4 stroke:#f59e0b,stroke-width:1.5px,stroke-dasharray: 6 3

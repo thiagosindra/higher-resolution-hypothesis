@@ -1,0 +1,46 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'fontFamily': 'Inter, system-ui, sans-serif',
+    'fontSize': '15px',
+    'lineColor': '#94a3b8',
+    'edgeLabelBackground': '#ffffff',
+    'clusterBkg': '#fafafa',
+    'clusterBorder': '#e2e8f0',
+    'nodeSpacing': 80,
+    'rankSpacing': 80
+  }
+}}%%
+graph LR
+    subgraph NT["Neurotypical Processing"]
+        direction LR
+        A1((A)) -->|fast| B1((B)) -->|gated| C1((C))
+    end
+    
+    subgraph DPM["Distributed Pathways"]
+        direction TB
+        A2((A)) --> B2((B))
+        A2 --> D2((D))
+        B2 --> C2((C))
+        B2 -.-> Y2((Y))
+        D2 --> F2((F))
+        F2 --> C2
+        Y2 -.-> Z2((Z))
+    end
+    
+    style NT fill:#f8fafc,stroke:#cbd5e1,stroke-width:2px
+    style DPM fill:#fefce8,stroke:#d4d4d8,stroke-width:2px
+    
+    style A1 fill:#dcfce7,stroke:#22c55e,stroke-width:2.5px
+    style A2 fill:#dcfce7,stroke:#22c55e,stroke-width:2.5px
+    style C1 fill:#fee2e2,stroke:#ef4444,stroke-width:2.5px
+    style C2 fill:#fee2e2,stroke:#ef4444,stroke-width:2.5px
+    style Z2 fill:#fee2e2,stroke:#ef4444,stroke-width:2.5px
+    
+    style B1 fill:#e0f2fe,stroke:#0ea5e9,stroke-width:2px
+    style B2 fill:#e0f2fe,stroke:#0ea5e9,stroke-width:2px
+    style D2 fill:#e0f2fe,stroke:#0ea5e9,stroke-width:2px
+    style F2 fill:#ddd6fe,stroke:#8b5cf6,stroke-width:2px
+    style Y2 fill:#ddd6fe,stroke:#8b5cf6,stroke-width:2px
+    
+    linkStyle default stroke:#94a3b8,stroke-width:2px
