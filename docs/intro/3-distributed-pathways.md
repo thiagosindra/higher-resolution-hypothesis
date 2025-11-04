@@ -24,6 +24,11 @@ What's actually different about autistic neural circuits, and how does this diff
 
 ## The Fundamental Architectural Difference
 
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:500px; width:50%; height:auto;">
+  <p style="margin-top: 1rem;"><em><strong>A different kind of brain architecture.</strong> The same information that would flow through a single pathway instead engages multiple parallel routes—creating both the extraordinary detail and the overwhelming complexity characteristic of autistic experience.</em></p>
+</div>
+
 Here's what makes autistic neural processing distinct:
 
 <div class="architecture-comparison">

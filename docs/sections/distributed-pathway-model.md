@@ -28,13 +28,13 @@ title: Distributed Pathway Model
 
     <h2>The Distributed Pathway Model: Mechanistic Foundation</h2>
 
-    <p>The Distributed Pathway Model (DPM) provides the mechanistic substrate for the Higher-Resolution Hypothesis, describing how measurable shifts in neural topology—increased axonal and dendritic branching, reduced synaptic pruning, and weakened inhibitory gating—transform signal propagation from streamlined hierarchical pathways into distributed cascades. This architectural reconfiguration produces higher-resolution information processing: more neurons encode finer distinctions per stimulus, yielding exceptional perceptual and cognitive capabilities alongside increased energetic cost, temporal variability, and vulnerability to cascade activation.</p>
+    <p>The Distributed Pathway Model (DPM) provides the mechanistic substrate for the Higher-Resolution Hypothesis, describing how measurable shifts in neural topology—increased axonal and dendritic branching, reduced synaptic pruning, and weakened inhibitory gating—transform signal propagation from streamlined isolated networks into cross-network cascades. This architectural reconfiguration produces higher-resolution information processing: more neurons across multiple functional systems encode finer distinctions per stimulus, yielding exceptional perceptual and cognitive capabilities alongside increased energetic cost, temporal variability, and vulnerability to cascade activation across functional boundaries.</p>
 
     <h3>Topological Foundation: Branching and Pruning</h3>
 
     <p>During typical neurodevelopment, initial exuberant synaptogenesis is followed by extensive synaptic pruning that eliminates redundant or weakly-activated connections, streamlining neural pathways. In autism, this pruning is less aggressive—empirical evidence includes higher spine density in cortical pyramidal neurons post-mortem, increased gray matter volume in childhood persisting into adolescence, and elevated synaptic protein expression. The result is preservation of additional collateral branches at neural junctions, creating a topology where a single presynaptic input can activate multiple partially-overlapping postsynaptic ensembles rather than converging on a single dominant pathway.</p>
 
-    <p>This branching creates representational redundancy: the same stimulus activates multiple partially distinct neural populations, each encoding slightly different features or contextual associations. At the circuit level, this manifests as local hyperconnectivity—denser short-range connections within local modules—coexisting with long-range hypoconnectivity due to reduced hierarchical integration across distant regions. fMRI and DTI studies confirm this pattern: increased short-range correlations and decreased long-range functional connectivity in autism.</p>
+    <p>This branching creates representational redundancy and cross-network connections: the same stimulus activates multiple partially distinct neural populations spanning different functional systems, each encoding slightly different features or contextual associations. At the circuit level, this manifests as local hyperconnectivity—denser short-range connections within local modules—coexisting with aberrant cross-network connections that allow signals to bleed between systems that should remain isolated. fMRI and DTI studies confirm this pattern: increased short-range correlations, decreased long-range functional connectivity, and evidence of atypical cross-domain activation in autism.</p>
 
     <h3>Inhibitory Gating: Timing and Strength</h3>
 
@@ -60,11 +60,16 @@ title: Distributed Pathway Model
 
     <p>From these topological and physiological foundations emerge the cognitive and perceptual features characteristic of autism: exceptional detail perception (more neurons per stimulus), sensory overload (insufficient filtering), task-switching difficulty (persistent prior activation), decision paralysis (competing activations), enhanced pattern recognition (redundant encoding), predictability preference (minimizing prediction error across distributed pathways), special interests (stability zones), stimming (reactive motor cascade), and energetic collapse (ATP demand exceeding supply).</p>
 
-    <p>Critically, DPM is not a deficit model. It describes a different neural architecture with distinct computational properties. The same distributed topology that produces challenges under high load enables exceptional capabilities under optimal conditions. Understanding autism through DPM reframes intervention: the goal is accommodating distributed processing rather than forcing hierarchical compression.</p>
+    <p>Critically, DPM is not a deficit model. It describes a different neural architecture with distinct computational properties—one where functional boundaries between processing systems are more permeable. The same cross-network topology that produces challenges (multi-domain interference, sensory cross-talk) under high load enables exceptional capabilities (integrative insights, synesthetic richness) under optimal conditions. Understanding autism through DPM reframes intervention: the goal is accommodating cross-network processing rather than forcing functional isolation.</p></invoke>
   </div>
 
   <div id="tab-std" class="tab-panel">
     <h2>How Neural Architecture Shapes Information Processing</h2>
+
+    <div style="text-align:center; margin: 2rem 0;">
+      <img src="../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:500px; width:50%; height:auto;">
+      <p style="margin-top: 1rem;"><em><strong>Figure. The distributed pathway model.</strong> A single input (A) activates multiple parallel pathways through branch point B, creating higher representational density—more neurons encode each stimulus—yielding exceptional detail perception alongside increased processing demands.</em></p>
+    </div>
 
     <p>The Distributed Pathway Model (DPM) describes the fundamental neural architecture underlying autistic cognition. It proposes that autism arises from measurable shifts in how neural circuits develop and operate: more branching connections preserved during development, less aggressive pruning of redundant pathways, and weaker inhibitory control that allows signals to spread more broadly.</p>
 
@@ -108,6 +113,11 @@ title: Distributed Pathway Model
   <div id="tab-gen" class="tab-panel">
     <h2>The Core Difference: How Your Brain Is Wired</h2>
 
+    <div style="text-align:center; margin: 2rem 0;">
+      <img src="../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:500px; width:50%; height:auto;">
+      <p style="margin-top: 1rem;"><em><strong>The distributed pathway model.</strong> Information follows multiple parallel routes instead of a single main path. This creates richer detail but requires more energy and coordination.</em></p>
+    </div>
+
     <p>The Distributed Pathway Model explains the fundamental way the autistic brain is structured differently from neurotypical brains—and why this creates both exceptional abilities and genuine challenges.</p>
 
     <h3>Pruning: Keeping More Pathways</h3>
@@ -120,9 +130,15 @@ title: Distributed Pathway Model
 
     <p><strong>Example:</strong> A sound enters your ear. In a neurotypical brain, the signal might follow one primary pathway to be processed and categorized. In your brain, that same sound might activate multiple pathways simultaneously—one analyzing its pitch, another its timbre, another its emotional associations, another comparing it to similar sounds you've heard before, all happening at once through preserved neural connections.</p>
 
+    <h3>Cross-Network Spillover: The Key Insight</h3>
+
+    <p>Think of your brain as having many specialized departments: visual processing, sound processing, movement planning, emotional responses. In most brains, these departments work independently—a signal in the visual department stays in the visual department. In autistic brains, the connections between departments weren't pruned as aggressively during development. Now when the visual department activates, signals can spill over into the sound department, the emotion department, or the movement department. This explains why a bright light (visual) might trigger sound sensitivity, emotional reactions, or the urge to move (stimming). It's not that each system is broken—it's that the boundaries between systems are more permeable.</p>
+
+    <p>This cross-network architecture explains autism's multi-domain presentation: activation in one functional system (e.g., visual processing) can inadvertently recruit circuits in another (e.g., emotional processing, motor planning, or auditory encoding). These aren't separate symptoms—they're unified by the same underlying topology of cross-network spillover.</p>
+
     <h3>Why This Creates "Higher Resolution"</h3>
 
-    <p>Because more neurons are activated by the same input, your brain is capturing more information—more detail, more nuance, more dimensions of the stimulus. It's like the difference between a standard photo and a high-resolution photo:</p>
+    <p>Because more neurons across multiple systems are activated by the same input, your brain is capturing more information—more detail, more nuance, more dimensions of the stimulus, often spanning functional domains that would remain separate in neurotypical brains. It's like the difference between a standard photo and a high-resolution photo:</p>
 
     <p><strong>Standard photo (8 megapixels):</strong> Captures the main image clearly, good enough for most purposes, processes quickly<br>
     <strong>High-resolution photo (40 megapixels):</strong> Captures extraordinary detail invisible in the standard photo, but creates much larger file sizes, takes longer to process, requires more storage and computing power</p>

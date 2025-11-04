@@ -51,11 +51,16 @@ The higher resolution is not an abstract metaphor. It emerges from measurable di
 
 In neurotypical development, circuits are optimized for efficiency. Neurons connect into relatively linear or convergent chains, each with a constrained set of possible outputs. Pruning removes redundant branches, and inhibition gates the flow of activity to minimize cross-talk. This creates networks that are streamlined, energy-efficient, and selective.
 
-In the autistic brain, multiple converging findings suggest that this balance is shifted. Branching during development is more extensive, pruning is less aggressive, and inhibitory gating is weaker or slower to mature. The result is an architecture where a single input may activate multiple possible downstream pathways—a **distributed propagation** of information.
+In the autistic brain, multiple converging findings suggest that this balance is shifted. Branching during development is more extensive, pruning is less aggressive, and inhibitory gating is weaker or slower to mature. The result is an architecture where signals meant for one processing stream can bleed into functionally distinct networks—what I call **cross-network spillover**.
 
-Instead of a single route such as **A → B → C**, autistic circuits may follow **A → B → C** *and* **A → B → Y → Z**, with B acting as a branch point. This means that one activation can produce more than one outcome, depending on timing, inhibitory tone, and local feedback.
+To illustrate this architecture, consider two independent neural circuits: **A → B → C** and **X → Y → Z**, which in neurotypical brains operate in isolation—each input (A or X) triggers only its corresponding output (C or Z). In autistic neural topology, neuron **B** may also project to **Y**, creating a cross-network connection. Now activation of **A** can produce **C** (within its original network), **Y → Z** (spillover into the second network), or both, depending on timing and inhibitory tone. This cross-branch architecture explains how signals meant for one processing stream can bleed into functionally distinct networks.
 
-This is not merely "hyperconnectivity." It is a qualitative difference in **branching topology**—a more distributed network where neurons participate in multiple, sometimes overlapping, pathways. This architecture naturally increases representational richness: the same stimulus engages a larger and more diverse population of neurons. However, it also introduces instability, as these distributed activations are harder to predict and contain.
+This is not merely "hyperconnectivity." It is a qualitative difference in **branching topology**—a more distributed network where neurons participate in multiple, sometimes overlapping, pathways *across functional boundaries*. This architecture naturally increases representational richness: the same stimulus engages a larger and more diverse population of neurons spanning multiple processing systems. However, it also introduces instability, as these distributed activations cross boundaries between networks that should remain isolated.
+
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="diagrams/dpm-comparison-side-by-side.svg" alt="Neurotypical versus distributed pathway architecture" style="max-width:500px; width:50%; height:auto;">
+  <p style="margin-top: 1rem;"><em><strong>Figure 1. Neurotypical versus distributed pathway architecture.</strong> In neurotypical processing, input A flows through a single streamlined route (A→B→C). In the Distributed Pathway Model, the same input activates its primary pathway (A→B→C) but also spills into functionally distinct networks through cross-network branches (B→Y→Z), enabling multi-domain activation from single inputs.</em></p>
+</div>
 
 ### Mechanistic Summary
 
@@ -69,9 +74,11 @@ Together, these yield higher representational density but also greater temporal 
 
 ### Branching and Conditional Routing
 
-Branching introduces both spatial and temporal flexibility. A neuron such as **B** may project to **C** and **Y**. Depending on membrane potential, local field effects, or inhibitory gating, it may activate one route, both, or oscillate between them. This context-dependent routing provides adaptive potential—it can represent subtle variations in input—but it also produces unpredictability and internal noise.
+Branching introduces both spatial and temporal flexibility. A neuron such as **B** may project to **C** (within its own network) and **Y** (in a functionally distinct network). Depending on membrane potential, local field effects, or inhibitory gating, it may activate one route, both, or oscillate between them. This context-dependent routing provides adaptive potential—it can represent subtle variations in input—but it also produces unpredictability and internal noise.
 
-This may explain the intense perceptual richness and variability in autistic experience: multiple microcircuits partially engaged in parallel, encoding the same event from different angles, frequencies, or associative contexts.
+This cross-network connectivity helps explain autism's multi-domain presentation: spillover between networks that should remain isolated means that activation in one functional system (e.g., visual processing) can inadvertently recruit circuits in another (e.g., emotional processing, motor planning, or auditory encoding). This is not merely increased activity within a single stream—it is *interference between independent processing channels*.
+
+This may explain the intense perceptual richness and variability in autistic experience: multiple microcircuits partially engaged in parallel, encoding the same event from different angles, frequencies, or associative contexts—often spanning functional domains that would remain separate in neurotypical processing.
 
 ### Network Cascade Susceptibility and Seizure-Like Activity
 
@@ -113,6 +120,11 @@ These parameters could be estimated through:
 - **I**: Inhibitory amplitude and timing measures (PV/SST interneuron activity, IPSC latencies)
 - **τ**: Decay constants in electrophysiological recordings or calcium imaging
 - **E**: Metabolic indicators such as ATP turnover, glucose utilization (FDG-PET), or lactate accumulation
+
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="diagrams/dpm-parameters.svg" alt="DPM with illustrative parameter values" style="max-width:700px; width:100%; height:auto;">
+  <p style="margin-top: 1rem;"><em><strong>Figure 2. DPM with illustrative parameter values.</strong> The distributed model (bottom) shows increased branching factor (B ≈ 2.4 vs 1.3), reduced inhibition (I ≈ 0.45 vs 0.8), and extended persistence (τ ≈ 450ms vs 80ms). Parameters are illustrative for conceptual framework, not empirical measurements.</em></p>
+</div>
 
 Two heuristic relationships capture their qualitative interactions:
 
@@ -169,18 +181,27 @@ Fast feedforward inhibition (15–20 ms latency) suppresses non-vertical-tuned n
 - Relative energy cost: baseline
 
 **Distributed processing (B ≈ 2.4, I ≈ 0.45, τ ≈ 450 ms):**
-> *A* → *B* → *C*  
-> *A* → *B* → *Y* → *Z*  
-> *A* → *D* → *F* → *C*
+> *A* → *B* → *C* (within-network: primary edge detection pathway)
+> *A* → *B* → *Y* → *Z* (cross-network spillover: B projects to Y in color/motion network)
 
-Weaker inhibition (delayed to 35–50 ms, reduced to 45% of NT strength) allows spillover into orientation-adjacent columns, color-processing streams, and motion-sensitive areas. Reactive recruitment continues well beyond stimulus offset.
+Weaker inhibition (delayed to 35–50 ms, reduced to 45% of NT strength) allows spillover across functional boundaries. The cross-network connection (*B* → *Y*) means edge detection in one network can now recruit color-processing or motion-sensitive circuits (*Y* → *Z*) from functionally distinct systems that should remain isolated. Reactive recruitment continues well beyond stimulus offset, engaging networks meant for different sensory dimensions and creating multi-domain activation from a single input.
 
 **Hypothetical outcomes:**
 - Neurons recruited: ~350 (including ~280 via reactive pathways)
 - Activity duration: ~500 ms
 - Relative energy cost: 7–8× baseline
 
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="diagrams/dpm-three-pathways.svg" alt="Cross-network spillover in distributed architecture" style="max-width:400px; width:100%; height:auto;">
+  <p style="margin-top: 1rem;"><em><strong>Figure 3. Cross-network spillover in distributed architecture.</strong> In distributed processing, two independent networks (A→B→C in blue, X→Y→Z in green) that should remain isolated become connected through cross-network branches (red dashed B→Y). This allows input A to activate not only its own network (C) but also spill into functionally distinct systems (Y→Z), explaining multi-domain symptom presentation.</em></p>
+</div>
+
 **Predicted phenomenology:** If this model is correct, the edge would be detected with additional texture granularity, possible color associations, and motion aftereffects—producing richer visual detail but at significant metabolic cost. This would explain why "just seeing" can be exhausting in autism, transforming a prediction of the model into a testable hypothesis about subjective experience.
+
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="diagrams/dpm-v1-edge-detection.svg" alt="Distributed processing in V1 edge detection" style="max-width:600px; width:100%; height:auto;">
+  <p style="margin-top: 1rem;"><em><strong>Figure 4. Distributed processing in V1 edge detection.</strong> Spillover from V1 simple cells engages adjacent orientation columns, color processing streams, and motion detection areas, recruiting ~350 neurons versus ~80 in neurotypical processing. This produces exceptional detail perception at 7-8× metabolic cost.</em></p>
+</div>
 
 ### 5. Temporal Dynamics: Proposed Cascade Propagation
 
@@ -194,6 +215,11 @@ The distributed topology could create characteristic temporal signatures, testab
 
 **Testable prediction:** If DPM is correct, calcium imaging should show broader spatial activation (2–3× more neurons responding to identical stimulus), longer response duration (τ elevated by factor of 3–6), and secondary activation peaks 200–400 ms post-stimulus reflecting reactive loop reentry.
 
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="diagrams/dpm-temporal-cascade.svg" alt="Temporal cascade dynamics" style="max-width:300px; width:100%; height:auto;">
+  <p style="margin-top: 1rem;"><em><strong>Figure 5. Temporal cascade dynamics.</strong> Feedforward phase (0-100ms) shows initial branching activation. Reactive phase (100-500ms) demonstrates spillover into adjacent circuits with weak inhibition. Decay phase (500-1200ms) shows extended persistence (τ ≈ 450ms) creating vulnerability to interference from new stimuli.</em></p>
+</div>
+
 ### 6. Inhibitory Timing and Control Mechanisms
 
 The DPM does not propose absence of inhibition—rather, it hypothesizes altered timing and recruitment patterns of specific interneuron subtypes. These are proposed as candidate mechanisms to be tested:
@@ -205,6 +231,11 @@ The DPM does not propose absence of inhibition—rather, it hypothesizes altered
 **VIP interneurons** disinhibit principal cells by suppressing SST interneurons. Altered VIP timing might paradoxically increase reactive spread by removing the brake on dendritic integration.
 
 **Testable hypothesis:** Optogenetic manipulation in autism-linked organoid systems (SCN2A, POGZ, CHD8) should reveal whether restoring PV timing to NT ranges reduces *B* and increases A:R ratio, and whether enhancing SST dendritic inhibition reduces τ and limits reactive persistence. These experiments would directly test the proposed inhibitory mechanisms.
+
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="diagrams/dpm-inhibitory-control.svg" alt="Inhibitory control in DPM architecture" style="max-width:500px; width:100%; height:auto;">
+  <p style="margin-top: 1rem;"><em><strong>Figure 6. Inhibitory control in DPM architecture.</strong> Reduced inhibitory strength (I ≈ 0.45 vs 0.8) and delayed timing (35-50ms vs 15-20ms) allow spillover from primary pathways (B) into reactive circuits (Y), creating persistent activation patterns that enable both enhanced resolution and energetic vulnerability.</em></p>
+</div>
 
 ### 7. Energetic Accounting and Metabolic Predictions
 
@@ -866,15 +897,17 @@ My goal is not to claim certainty but to spark inquiry—to provide a lens that 
 
 ## Appendix: Conceptual Model Summary
 
-To visualize the Distributed Pathway Model in simple terms, imagine two small chains of neurons.
+To visualize the Distributed Pathway Model in simple terms, imagine two small chains of neurons representing functionally distinct processing systems.
 
-In a typical network, **A → B → C** and **X → Y → Z** operate independently. Each input (A or X) triggers a single predictable output (C or Z).
+In a typical network, **A → B → C** and **X → Y → Z** operate independently. Each input (A or X) triggers a single predictable output (C or Z). These networks remain isolated—visual processing doesn't activate auditory circuits, motor planning doesn't trigger emotional responses.
 
-In a Distributed Pathway configuration, neuron **B** also connects to **Y**, forming a cross-branch. Now activation of **A** can lead to **C**, **Z**, or both, depending on timing, inhibition, and input strength. This small structural change multiplies the potential outcomes exponentially.
+In a Distributed Pathway configuration, neuron **B** also connects to **Y**, forming a cross-network branch. Now activation of **A** can lead to **C** (within-network processing), **Z** (cross-network spillover), or both, depending on timing, inhibition, and input strength. This small structural change multiplies the potential outcomes exponentially and, critically, allows signals to cross functional boundaries.
 
-At a large scale, this same principle applies across cortical columns: distributed branching means each activation spreads across multiple potential routes. This produces both **higher-resolution representations** (because more neurons contribute to encoding the same input) and **greater instability** (because inhibition must manage more potential feedback loops).
+This cross-network architecture is fundamental to understanding why autism presents across multiple functional domains simultaneously. The same structural principle—reduced pruning of inter-network connections—manifests as sensory hypersensitivity, emotional reactivity, motor coordination challenges, and cognitive processing differences. These are not separate symptoms requiring separate explanations; they are unified by the same underlying topology of cross-network spillover.
 
-This is the fundamental logic of the Higher-Resolution Hypothesis: a brain that perceives more, connects more, and sometimes, overwhelms itself by doing so.
+At a large scale, this same principle applies across cortical columns and functional systems: distributed branching means each activation can spread across multiple networks that should remain isolated. This produces both **higher-resolution representations** (because more neurons across multiple systems contribute to encoding the same input) and **greater instability** (because inhibition must manage cross-network interference and potential cascade propagation across functional boundaries).
+
+This is the fundamental logic of the Higher-Resolution Hypothesis: a brain that perceives more by engaging multiple processing systems simultaneously, connects more across functional domains, and sometimes, overwhelms itself by doing so.
 
 ### Model Visualization and Mathematical Schema (Placeholder)
 

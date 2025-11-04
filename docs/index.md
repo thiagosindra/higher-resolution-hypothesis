@@ -14,6 +14,11 @@ The **Higher-Resolution Hypothesis (HRH)** offers a unified framework for unders
 
 This architectural difference produces what can be understood as higher-resolution information processing: the autistic brain engages more neurons per stimulus, encodes finer distinctions within sensory and cognitive domains, and maintains richer representational detail. This yields both exceptional capabilities—pattern detection, sensory acuity, deep expertise, associative thinking—and significant challenges—sensory overload, decision paralysis, energetic exhaustion, and vulnerability to cascade activation.
 
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="diagrams/dpm-comparison-side-by-side.svg" alt="Distributed pathway architecture" style="max-width:500px; width:50%; height:auto;">
+  <p style="margin-top: 1rem;"><em><strong>Distributed pathway architecture.</strong> Autistic neural topology routes single inputs through multiple parallel pathways, yielding both exceptional capabilities and distinct challenges.</em></p>
+</div>
+
 ## Why This Matters
 
 The Distributed Pathway Model provides a mechanistic bridge between:

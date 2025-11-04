@@ -1,0 +1,37 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'fontFamily': 'Inter, system-ui, sans-serif',
+    'fontSize': '16px',
+    'lineColor': '#cbd5e1',
+    'nodeSpacing': 100,
+    'rankSpacing': 100
+  }
+}}%%
+graph LR
+    A((A)) --> B((B))
+    B --> C((C))
+    A --> B
+    B --> C
+    B --> Y((Y))
+    Y --> Z((Z))
+    X((X)) --> Y
+    Y --> Z
+
+    
+    style A fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
+    style B fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
+    style C fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
+    style X fill:#44eeaa,stroke:#338866,stroke-width:3px,color:#338866
+    style Y fill:#44eeaa,stroke:#338866,stroke-width:3px,color:#338866
+    style Z fill:#44eeaa,stroke:#338866,stroke-width:3px,color:#338866
+    
+    linkStyle default stroke:#444444,stroke-width:3px
+    linkStyle 0 stroke:#2563eb
+    linkStyle 1 stroke:#2563eb
+    linkStyle 2 stroke:#dc2626,stroke-dasharray: 8 4
+    linkStyle 3 stroke:#dc2626,stroke-dasharray: 8 4
+    linkStyle 4 stroke:#dc2626,stroke-dasharray: 8 4
+    linkStyle 5 stroke:#dc2626,stroke-dasharray: 8 4
+    linkStyle 6 stroke:#338866
+    linkStyle 7 stroke:#338866
