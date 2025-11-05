@@ -9,7 +9,7 @@ title: Applied Implications
 <div class="navline">
   <a data-nav href="{{ site.baseurl }}/sections/energetic-collapse">← Prev</a>
   <a data-nav href="{{ site.baseurl }}/">Overview</a>
-  <a data-nav href="{{ site.baseurl }}/sections/distributed-pathway-model">Next →</a>
+  <a data-nav href="{{ site.baseurl }}/gateway">Browse sections ↑</a>
 </div>
 
 # Applied Implications
@@ -533,4 +533,10 @@ title: Applied Implications
 
     <p>Understanding autism through DPM means recognizing autistic cognition as valid, coherent, and explicable—a different way of processing information with its own logic, strengths, and requirements. The path forward isn't normalization. It's creating a world where distributed processing can thrive.</p>
   </div>
+</div>
+
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/sections/energetic-collapse">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/gateway">Browse sections ↑</a>
 </div>

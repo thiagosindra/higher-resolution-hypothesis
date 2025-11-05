@@ -196,3 +196,10 @@ title: Stimming & Reactive Loops
     <p>When autistic people feel safe to stim freely, they often function better in every other domain—not because stimming provides regulation, but because they're not burning additional resources suppressing natural reactive outputs while simultaneously managing the overload that triggered them.</p>
   </div>
 </div>
+
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/sections/social-communication">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/executive-and-attention">Next →</a>
+</div>
+

@@ -184,3 +184,9 @@ title: Genetic and Molecular Foundations
     <p>Understanding this genetic convergence shifts how we think about autism—not as multiple different conditions that happen to look similar, but as a consistent architectural outcome that can be reached through multiple developmental pathways.</p>
   </div>
 </div>
+
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/sections/distributed-pathway-model">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/individual-variability">Next →</a>
+</div>

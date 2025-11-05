@@ -14,6 +14,12 @@ intro_page: 4
   <p class="progress-text">Page 4 of 5: Dual Constraints</p>
 </div>
 
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/intro/3-distributed-pathways">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">Intro Overview</a>
+  <a data-nav href="{{ site.baseurl }}/intro/5-complete-picture">Next →</a>
+</div>
+
 # The Dual Constraints
 
 <p class="subtitle">How inhibition and energy competition create the full autism phenotype</p>
@@ -225,11 +231,12 @@ Now you understand the complete framework:
 
 Ready to see how this explains everything from sensory sensitivity to memory, from motor coordination to social processing?
 
-<div class="nav-buttons">
-  <a href="{{ site.baseurl }}/intro/3-distributed-pathways" class="btn btn-secondary">← Previous: Distributed Pathways</a>
-  <a href="{{ site.baseurl }}/intro/5-complete-picture" class="btn btn-primary">See The Complete Picture →</a>
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/intro/3-distributed-pathways">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">Intro Overview</a>
+  <a data-nav href="{{ site.baseurl }}/intro/5-complete-picture">Next →</a>
 </div>
 
 <div class="skip-link">
-  <a href="{{ site.baseurl }}/gateway">Skip intro, go to sections →</a>
+  <a href="{{ site.baseurl }}/gateway">Skip intro, explore sections →</a>
 </div>

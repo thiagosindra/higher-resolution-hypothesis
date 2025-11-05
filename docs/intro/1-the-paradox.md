@@ -14,6 +14,12 @@ intro_page: 1
   <p class="progress-text">Page 1 of 5: The Paradox</p>
 </div>
 
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/">← Home</a>
+  <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">Intro Overview</a>
+  <a data-nav href="{{ site.baseurl }}/intro/2-higher-resolution">Next →</a>
+</div>
+
 # The Autism Paradox
 
 <p class="subtitle">Why do exceptional abilities and overwhelming challenges coexist in the same brain?</p>
@@ -118,11 +124,12 @@ Over the next four pages, we'll unpack:
 
 The key to understanding this paradox lies in recognizing that brains, like cameras or sensors, can be optimized for different goals. Let's explore what that means.
 
-<div class="nav-buttons">
-  <a href="{{ site.baseurl }}/" class="btn btn-secondary">← Back to Home</a>
-  <a href="{{ site.baseurl }}/intro/2-higher-resolution" class="btn btn-primary">Understand Higher Resolution →</a>
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/">← Home</a>
+  <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">Intro Overview</a>
+  <a data-nav href="{{ site.baseurl }}/intro/2-higher-resolution">Next →</a>
 </div>
 
 <div class="skip-link">
-  <a href="{{ site.baseurl }}/gateway">Skip intro, go to sections →</a>
+  <a href="{{ site.baseurl }}/gateway">Skip intro, explore sections →</a>
 </div>

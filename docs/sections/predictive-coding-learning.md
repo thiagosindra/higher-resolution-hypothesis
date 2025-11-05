@@ -240,3 +240,9 @@ title: Predictive Coding & Learning
     <p>When the environment accommodates these needs, the brain can use its exceptional pattern recognition abilities without constant energy drain from prediction management.</p>
   </div>
 </div>
+
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/sections/executive-and-attention">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/energetic-collapse">Next →</a>
+</div>

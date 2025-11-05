@@ -14,6 +14,12 @@ intro_page: 2
   <p class="progress-text">Page 2 of 5: Higher Resolution</p>
 </div>
 
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">Intro Overview</a>
+  <a data-nav href="{{ site.baseurl }}/intro/3-distributed-pathways">Next →</a>
+</div>
+
 # Higher Resolution, Higher Cost
 
 <p class="subtitle">How autistic brains achieve exceptional discrimination—and why it comes with trade-offs</p>
@@ -133,11 +139,12 @@ But how does a brain actually create higher resolution? What's different at the 
 
 The answer lies in how autistic brains distribute information processing across neurons—using more of them, in overlapping patterns, creating a fundamentally different computational architecture.
 
-<div class="nav-buttons">
-  <a href="{{ site.baseurl }}/intro/1-the-paradox" class="btn btn-secondary">← Previous: The Paradox</a>
-  <a href="{{ site.baseurl }}/intro/3-distributed-pathways" class="btn btn-primary">See the Neural Architecture →</a>
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">Intro Overview</a>
+  <a data-nav href="{{ site.baseurl }}/intro/3-distributed-pathways">Next →</a>
 </div>
 
 <div class="skip-link">
-  <a href="{{ site.baseurl }}/gateway">Skip intro, go to sections →</a>
+  <a href="{{ site.baseurl }}/gateway">Skip intro, explore sections →</a>
 </div>

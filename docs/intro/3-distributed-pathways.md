@@ -14,6 +14,12 @@ intro_page: 3
   <p class="progress-text">Page 3 of 5: Distributed Pathways</p>
 </div>
 
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/intro/2-higher-resolution">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">Intro Overview</a>
+  <a data-nav href="{{ site.baseurl }}/intro/4-dual-constraints">Next →</a>
+</div>
+
 # Distributed Pathways
 
 <p class="subtitle">The neural architecture that creates higher resolution—and why it changes everything</p>
@@ -25,7 +31,7 @@ What's actually different about autistic neural circuits, and how does this diff
 ## The Fundamental Architectural Difference
 
 <div style="text-align:center; margin: 2rem 0;">
-  <img src="../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:500px; width:50%; height:auto;">
+  <img src="../../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:500px; width:50%; height:auto;">
   <p style="margin-top: 1rem;"><em><strong>A different kind of brain architecture.</strong> The same information that would flow through a single pathway instead engages multiple parallel routes—creating both the extraordinary detail and the overwhelming complexity characteristic of autistic experience.</em></p>
 </div>
 
@@ -144,11 +150,12 @@ Now we understand the architecture: distributed pathways using 3-5× more neuron
 
 But it also creates two unavoidable constraints: enhanced inhibition and energy competition. Understanding how these constraints work—and interact—is the key to understanding autism.
 
-<div class="nav-buttons">
-  <a href="{{ site.baseurl }}/intro/2-higher-resolution" class="btn btn-secondary">← Previous: Higher Resolution</a>
-  <a href="{{ site.baseurl }}/intro/4-dual-constraints" class="btn btn-primary">Explore the Dual Constraints →</a>
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/intro/2-higher-resolution">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">Intro Overview</a>
+  <a data-nav href="{{ site.baseurl }}/intro/4-dual-constraints">Next →</a>
 </div>
 
 <div class="skip-link">
-  <a href="{{ site.baseurl }}/gateway">Skip intro, go to sections →</a>
+  <a href="{{ site.baseurl }}/gateway">Skip intro, explore sections →</a>
 </div>

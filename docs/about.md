@@ -17,9 +17,9 @@ This is not a formal publication in a peer-reviewed venue. It is an evolving hyp
 
 I’m **Thiago Sindra**, a software engineer in California who enjoys turning ideas into systems. Over time, curiosity pulled me toward cognitive neuroscience, and I started comparing my own thinking and behavior with what research predicts—where they align, and where they clearly don’t.
 
-In addition to my engineering work, I once hosted a podcast called **What am I? – Challenge your perception of reality.**, where I invited guests to explore neuroscience, perception and how our inner mental lives shape what we call "real."
+Professionally, much of my work has involved **designing and operating distributed systems and large-scale networks**.
 
-Professionally, much of my work has involved **designing and operating distributed systems and large-scale networks**. That habit of thinking in architectures and trade-offs naturally informs how I frame the **Higher-Resolution Hypothesis**—as a distributed organization of the brain where branching, gating, and energy budgets shape what we perceive and how we think.
+In addition to my engineering work, I once hosted a podcast called **What am I? – Challenge your perception of reality.**, where I invited guests to explore neuroscience, perception and how our inner mental lives shape what we call "real." That habit of thinking in architectures and trade-offs, and the constant urge to make "subjective" and "objective" to clash, naturally informs how I frame the **Higher-Resolution Hypothesis**—as a distributed organization of the brain where branching, gating, and energy budgets shape what we perceive and how we think.
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/thiagosindra/).
 

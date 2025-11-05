@@ -208,3 +208,10 @@ title: Memory and Task Encoding
     <p>Effective support means recognizing this mismatch—reducing the number of concurrent demands, providing extended time for task decomposition and completion, allowing for non-linear recall in conversation, and understanding that what looks simple externally may require substantial cognitive resources internally.</p>
   </div>
 </div>
+
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/sections/sensory-cognition">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/social-communication">Next →</a>
+</div>
+

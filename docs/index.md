@@ -6,7 +6,9 @@ title: Overview
 <link rel="stylesheet" href="./assets/css/tabs.css">
 <link rel="stylesheet" href="./assets/css/gateway.css">
 
-# The Higher-Resolution Hypothesis: A Distributed Pathway Model of Autism
+# The Higher-Resolution Hypothesis: *A Distributed Pathway Model of Autism*
+
+<p style="font-size: 0.85em; color: #777; margin-top: -0.5rem; margin-bottom: 2rem;">Thiago Sindra &nbsp;•&nbsp; November 2025</p>
 
 ## What This Hypothesis Proposes
 

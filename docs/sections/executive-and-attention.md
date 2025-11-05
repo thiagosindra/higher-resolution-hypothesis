@@ -188,3 +188,9 @@ title: Executive Function & Attention
     <p>Understanding this helps explain why strategies that work for neurotypical people often fail for autistic individuals. "Just focus" doesn't work when focus requires constant effortful suppression. "Just switch tasks" doesn't work when switching requires fully deactivating persistent neural patterns. "Just push through" doesn't work when the brain is operating at metabolic limits. Effective support means reducing load before collapse, not demanding continued function despite exhaustion.</p>
   </div>
 </div>
+
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/sections/stimming-reactive-loops">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/predictive-coding-learning">Next →</a>
+</div>

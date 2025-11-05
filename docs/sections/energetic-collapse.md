@@ -229,3 +229,9 @@ title: Energetic Collapse States
     <p>Effective support means respecting these metabolic limits—reducing load before collapse, recognizing that energy budgets are real, allowing genuine recovery time, and understanding that what looks manageable externally may be exhausting internally. When environments accommodate these needs, the energy that would go toward preventing collapse can go toward actually functioning and thriving.</p>
   </div>
 </div>
+
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/sections/predictive-coding-learning">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/existing-theories">Next →</a>
+</div>

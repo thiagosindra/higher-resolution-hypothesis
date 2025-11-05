@@ -356,3 +356,9 @@ title: Relationship to Existing Theories
     <p>All these theories are describing your brain from different perspectives. DPM shows how they fit together into one coherent picture.</p>
   </div>
 </div>
+
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/sections/energetic-collapse">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/implications">Next →</a>
+</div>

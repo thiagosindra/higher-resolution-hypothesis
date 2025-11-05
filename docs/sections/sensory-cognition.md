@@ -131,3 +131,9 @@ title: Sensory & Cognitive Effects
   <a data-nav href="{{ site.baseurl }}/sections/individual-variability">← Prev: Individual Variability</a>
   <a data-nav href="{{ site.baseurl }}/sections/memory-task-encoding">Next: Memory & Task Encoding →</a>
 </div>
+
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/sections/individual-variability">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/memory-task-encoding">Next →</a>
+</div>

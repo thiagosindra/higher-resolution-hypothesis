@@ -214,3 +214,9 @@ title: Individual Variability and Network Expression
     <p>Understanding your specific pattern—where your brakes are stronger versus weaker, which regions have more reactive spread—helps explain your unique combination of strengths and challenges. It also helps identify what support strategies will be most effective for your specific version of distributed architecture.</p>
   </div>
 </div>
+
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/sections/genetic-molecular">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/sensory-cognition">Next →</a>
+</div>

@@ -14,6 +14,12 @@ intro_page: 5
   <p class="progress-text">Page 5 of 5: Complete Picture</p>
 </div>
 
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/intro/4-dual-constraints">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">Intro Overview</a>
+  <a data-nav href="{{ site.baseurl }}/gateway">Sections →</a>
+</div>
+
 # The Complete Picture
 
 <p class="subtitle">How one architectural principle explains the full autism phenotype—and what this means</p>
@@ -247,9 +253,10 @@ You now understand the Higher-Resolution Hypothesis:
 
 **Explore the detailed sections to see the evidence, predictions, and implications of this framework.**
 
-<div class="nav-buttons">
-  <a href="{{ site.baseurl }}/intro/4-dual-constraints" class="btn btn-secondary">← Previous: Dual Constraints</a>
-  <a href="{{ site.baseurl }}/gateway" class="btn btn-primary">Browse All Sections →</a>
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/intro/4-dual-constraints">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">Intro Overview</a>
+  <a data-nav href="{{ site.baseurl }}/gateway">Sections →</a>
 </div>
 
 <div class="final-message">

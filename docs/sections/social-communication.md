@@ -230,3 +230,9 @@ title: Social and Communication Processing
     <p>Understanding this reframes social support: instead of teaching autistic people to "act more normal" (which demands exhausting masking), effective support means creating communication contexts where distributed processing is accepted—clearer communication, explicit statements instead of implications, tolerance for processing time, and recognition that what looks like social difficulty externally reflects information overload internally.</p>
   </div>
 </div>
+
+<div class="navline">
+  <a data-nav href="{{ site.baseurl }}/sections/memory-task-encoding">← Prev</a>
+  <a data-nav href="{{ site.baseurl }}/">Overview</a>
+  <a data-nav href="{{ site.baseurl }}/sections/stimming-reactive-loops">Next →</a>
+</div>
