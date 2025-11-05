@@ -28,7 +28,7 @@ title: Genetic and Molecular Foundations
 
     <h2>Genetic and Molecular Convergence on Distributed Architecture</h2>
 
-    <p>Autism exhibits remarkable genetic heterogeneity: dozens of risk genes identified through GWAS, de novo sequencing, and linkage studies affect diverse molecular processes—synaptic scaffolding, chromatin remodeling, ion channel function, interneuron migration, and protein homeostasis. Rather than viewing these as separate pathological mechanisms, the Distributed Pathway Model interprets them as convergent contributors to a shared architectural outcome: increased local branching, reduced synaptic pruning, and weakened inhibitory containment. Each genetic variant modifies the developmental probability that neurons will form, maintain, or suppress collateral connections, ultimately shifting circuit topology toward distributed propagation.</p>
+    <p>Autism exhibits remarkable genetic heterogeneity: dozens of risk genes identified through GWAS, de novo sequencing, and linkage studies affect diverse molecular processes—synaptic scaffolding, chromatin remodeling, ion channel function, interneuron migration, and protein homeostasis. Rather than viewing these as separate pathological mechanisms, the Distributed Pathway Model interprets them as convergent contributors to a shared architectural outcome: increased local branching (through reduced synaptic pruning combined with ongoing collateral formation and atypical stabilization throughout life) and weakened inhibitory containment. Each genetic variant modifies the developmental probability that neurons will form, maintain, stabilize, or suppress collateral connections, ultimately shifting circuit topology toward distributed propagation.</p>
 
     <h3>Functional Convergence Categories</h3>
 
@@ -69,13 +69,13 @@ title: Genetic and Molecular Foundations
       </tbody>
     </table>
 
-    <h3>Synaptic Formation and Pruning</h3>
+    <h3>Synaptic Formation, Stabilization, and Pruning</h3>
 
-    <p>Genes encoding synaptic scaffolding proteins (SHANK3, SYNGAP1, NLGN3/4X) regulate postsynaptic density organization and excitatory synapse maturation. Loss-of-function mutations reduce the selectivity of synapse stabilization, allowing more synapses to persist beyond critical periods when pruning normally occurs. This increases local connectivity density and creates redundant pathways. Neuroligins (NLGN3/4X) mediate trans-synaptic adhesion; their disruption affects excitatory-inhibitory balance, often favoring excitation through reduced inhibitory synapse formation.</p>
+    <p>Genes encoding synaptic scaffolding proteins (SHANK3, SYNGAP1, NLGN3/4X) regulate postsynaptic density organization and excitatory synapse maturation. Loss-of-function mutations reduce the selectivity of synapse stabilization, allowing more synapses to persist beyond critical periods when pruning normally occurs. Importantly, these genes also affect ongoing synaptogenesis and the stabilization of newly formed connections throughout life, not just during early developmental pruning windows. This increases local connectivity density through both reduced elimination and continued formation of redundant pathways. Neuroligins (NLGN3/4X) mediate trans-synaptic adhesion; their disruption affects excitatory-inhibitory balance, often favoring excitation through reduced inhibitory synapse formation.</p>
 
     <h3>Chromatin Regulation and Developmental Timing</h3>
 
-    <p>Chromatin remodeling genes (CHD8, ARID1B, ADNP) control transcriptional programs governing neural progenitor proliferation, differentiation timing, and synaptic gene expression. CHD8 haploinsufficiency, one of the most penetrant autism risk factors, extends neural proliferation windows and delays differentiation, resulting in larger brain volumes and altered cortical layering. These timing shifts affect when pruning machinery is expressed, effectively weakening or delaying synaptic elimination. The result is preservation of developmental exuberance into later stages, increasing branching density.</p>
+    <p>Chromatin remodeling genes (CHD8, ARID1B, ADNP) control transcriptional programs governing neural progenitor proliferation, differentiation timing, and synaptic gene expression. CHD8 haploinsufficiency, one of the most penetrant autism risk factors, extends neural proliferation windows and delays differentiation, resulting in larger brain volumes and altered cortical layering. These timing shifts affect when pruning machinery is expressed, effectively weakening or delaying synaptic elimination. Additionally, these genes influence lifelong plasticity mechanisms, potentially supporting continued collateral formation and atypical stabilization of new synapses beyond early developmental periods. The result is both preservation of developmental exuberance and ongoing generation of distributed connections throughout life.</p>
 
     <h3>Inhibitory Circuit Development</h3>
 

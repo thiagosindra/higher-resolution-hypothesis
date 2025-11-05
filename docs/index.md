@@ -10,7 +10,7 @@ title: Overview
 
 ## What This Hypothesis Proposes
 
-The **Higher-Resolution Hypothesis (HRH)** offers a unified framework for understanding autism as a distinct mode of neural organization rather than a collection of deficits or dysfunctions. At its core, the hypothesis proposes that autistic cognition arises from a **Distributed Pathway Model (DPM)** of neural connectivity—an architecture characterized by increased local branching, reduced synaptic pruning, and weaker inhibitory gating during development.
+The **Higher-Resolution Hypothesis (HRH)** offers a unified framework for understanding autism as a distinct mode of neural organization rather than a collection of deficits or dysfunctions. At its core, the hypothesis proposes that autistic cognition arises from a **Distributed Pathway Model (DPM)** of neural connectivity—an architecture characterized by increased local branching (arising from reduced synaptic pruning combined with ongoing collateral formation and atypical stabilization throughout life) and weaker inhibitory gating during development.
 
 This architectural difference produces what can be understood as higher-resolution information processing: the autistic brain engages more neurons per stimulus, encodes finer distinctions within sensory and cognitive domains, and maintains richer representational detail. This yields both exceptional capabilities—pattern detection, sensory acuity, deep expertise, associative thinking—and significant challenges—sensory overload, decision paralysis, energetic exhaustion, and vulnerability to cascade activation.
 
@@ -23,7 +23,7 @@ This architectural difference produces what can be understood as higher-resoluti
 
 The Distributed Pathway Model provides a mechanistic bridge between:
 
-- **Molecular findings** — dozens of autism-associated genes converging on synaptic formation, pruning, and inhibition
+- **Molecular findings** — dozens of autism-associated genes converging on synaptic formation, ongoing collateral development, pruning, and inhibition
 - **Circuit-level observations** — local hyperconnectivity, long-range hypoconnectivity, altered oscillatory dynamics
 - **Cognitive phenomenology** — sensory sensitivity, intense interests, executive challenges, social processing differences
 - **Energetic phenomena** — shutdowns, meltdowns, and the metabolic cost of high-resolution processing

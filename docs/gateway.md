@@ -32,7 +32,7 @@ title: "Explore the Framework"
 
   <div class="section-card">
     <h3><a href="{{ site.baseurl }}/sections/genetic-molecular">Genetic & Molecular Foundations</a></h3>
-    <p class="card-description">How diverse autism-related genes converge on synaptic formation, pruning, and inhibition—creating the distributed architecture through developmental mechanisms.</p>
+    <p class="card-description">How diverse autism-related genes converge on synaptic formation, ongoing collateral development, pruning, and inhibition—creating the distributed architecture through developmental and lifelong mechanisms.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 7 min read</span>
       <span class="level-indicator">3 levels available</span>

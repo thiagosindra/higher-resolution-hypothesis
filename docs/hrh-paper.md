@@ -51,7 +51,7 @@ The higher resolution is not an abstract metaphor. It emerges from measurable di
 
 In neurotypical development, circuits are optimized for efficiency. Neurons connect into relatively linear or convergent chains, each with a constrained set of possible outputs. Pruning removes redundant branches, and inhibition gates the flow of activity to minimize cross-talk. This creates networks that are streamlined, energy-efficient, and selective.
 
-In the autistic brain, multiple converging findings suggest that this balance is shifted. Branching during development is more extensive, pruning is less aggressive, and inhibitory gating is weaker or slower to mature. The result is an architecture where signals meant for one processing stream can bleed into functionally distinct networks—what I call **cross-network spillover**.
+In the autistic brain, multiple converging findings suggest that this balance is shifted. Branching during development is more extensive, and pruning only partially accounts for the resulting density. Evidence also suggests ongoing collateral formation and atypical stabilization of new synapses throughout life, extending distributed propagation beyond early development. Additionally, inhibitory gating is weaker or slower to mature. The result is an architecture where signals meant for one processing stream can bleed into functionally distinct networks—what I call **cross-network spillover**.
 
 To illustrate this architecture, consider two independent neural circuits: **A → B → C** and **X → Y → Z**, which in neurotypical brains operate in isolation—each input (A or X) triggers only its corresponding output (C or Z). In autistic neural topology, neuron **B** may also project to **Y**, creating a cross-network connection. Now activation of **A** can produce **C** (within its original network), **Y → Z** (spillover into the second network), or both, depending on timing and inhibitory tone. This cross-branch architecture explains how signals meant for one processing stream can bleed into functionally distinct networks.
 
@@ -259,6 +259,8 @@ Each neuron consumes approximately 4.7 billion ATP molecules per second at rest.
 The distributed topology could arise through known developmental processes, which this model treats as candidate mechanisms rather than verified causes:
 
 **Dendritic pruning:** In NT development, ~40–50% of initial dendritic branches are removed by adolescence. If autism-linked variants (CHD8, ARID1B, PTEN) extend critical periods and reduce pruning thresholds, 60–80% of branches might remain intact—directly increasing *B*. This is measurable through dendritic reconstruction in post-mortem tissue or organoid models.
+
+Importantly, the DPM does not attribute higher synaptic density solely to reduced pruning. Lifelong formation of collateral branches and atypical retention of newly formed synapses may further increase branching after the developmental pruning phase. This continual remodeling aligns with reports of heightened plasticity and extended critical-period dynamics in autism.
 
 **Axonal collateralization:** If pyramidal neurons form 2–4 stable collaterals (vs. 1–2 NT), each reaching different downstream populations, this would physically instantiate increased *B*. Tract-tracing studies could test this prediction.
 
@@ -511,7 +513,7 @@ This framework makes the strong prediction that interventions targeting either m
 
 ## Genetic and Molecular Foundations
 
-Dozens of genes associated with autism converge on synaptic formation, pruning, inhibition, and excitation balance. I interpret these not as separate mechanisms but as contributors to the same distributed architecture. Each modifies the probability that neurons will form, maintain, or suppress collateral connections.
+Dozens of genes associated with autism converge on synaptic formation, ongoing collateral development, pruning, inhibition, and excitation balance. I interpret these not as separate mechanisms but as contributors to the same distributed architecture. Each modifies the probability that neurons will form, maintain, stabilize, or suppress collateral connections throughout development and beyond.
 
 | Functional Role | Example Genes | Circuit Effect |
 | --- | --- | --- |
@@ -542,7 +544,7 @@ The convergence of these findings suggests that DPM captures an underlying princ
 
 ### Synaptic Density and Individual Variability
 
-Post-mortem and imaging studies frequently report increased local synaptic density or spine counts in portions of autistic cortex. Within the DPM, this density is interpreted not as uniform excess but as **region-specific retention of microbranches**—areas where pruning remained incomplete. These locally dense fields supply the substrate for higher-resolution encoding: more receptive elements sampling finer differences within the same sensory or cognitive domain.
+Post-mortem and imaging studies frequently report increased local synaptic density or spine counts in portions of autistic cortex. Within the DPM, this density is interpreted not as uniform excess but as **region-specific persistence and collateral proliferation**—areas where pruning remained incomplete or where new synapses continued to stabilize beyond early development. These locally dense fields supply the substrate for higher-resolution encoding: more receptive elements sampling finer differences within the same sensory or cognitive domain.
 
 However, this is **not an all-or-none trait**. Some autistic individuals show pronounced density in temporal or sensory cortices; others display near-typical profiles or even reduced density in association regions. Such variability mirrors the heterogeneity of autistic perception itself—some experience visual hypersharpening, others auditory or interoceptive amplification. The DPM predicts exactly this pattern: each person's branching topology defines where higher resolution emerges and where efficiency is preserved.
 
@@ -873,9 +875,9 @@ Granularity maps directly to representational density in DPM: more micro-feature
 
 ### Minicolumn and Pruning Accounts
 
-Findings of narrower minicolumns, altered inhibitory surrounds, and reduced pruning map to DPM's branch retention and weakened lateral gating, giving a histological anchor to the architecture.
+Findings of narrower minicolumns, altered inhibitory surrounds, and reduced pruning map to DPM's branch retention and weakened lateral gating, giving a histological anchor to the architecture. However, ongoing collateral formation and atypical stabilization of synapses throughout life also contribute to the distributed topology, extending these structural features beyond early developmental periods.
 
-In short, DPM is not a rival to these accounts; it is a structural bridge. It explains how differences in pruning, inhibition, and channel dynamics manifest as distributed pathway behavior, from which the phenomenology (higher resolution, overload, creativity, replay) follows naturally.
+In short, DPM is not a rival to these accounts; it is a structural bridge. It explains how differences in pruning, ongoing synaptogenesis, inhibition, and channel dynamics manifest as distributed pathway behavior, from which the phenomenology (higher resolution, overload, creativity, replay) follows naturally.
 
 ---
 
@@ -903,7 +905,7 @@ In a typical network, **A → B → C** and **X → Y → Z** operate independen
 
 In a Distributed Pathway configuration, neuron **B** also connects to **Y**, forming a cross-network branch. Now activation of **A** can lead to **C** (within-network processing), **Z** (cross-network spillover), or both, depending on timing, inhibition, and input strength. This small structural change multiplies the potential outcomes exponentially and, critically, allows signals to cross functional boundaries.
 
-This cross-network architecture is fundamental to understanding why autism presents across multiple functional domains simultaneously. The same structural principle—reduced pruning of inter-network connections—manifests as sensory hypersensitivity, emotional reactivity, motor coordination challenges, and cognitive processing differences. These are not separate symptoms requiring separate explanations; they are unified by the same underlying topology of cross-network spillover.
+This cross-network architecture is fundamental to understanding why autism presents across multiple functional domains simultaneously. The same structural principle—reduced pruning combined with ongoing collateral formation across inter-network connections—manifests as sensory hypersensitivity, emotional reactivity, motor coordination challenges, and cognitive processing differences. These are not separate symptoms requiring separate explanations; they are unified by the same underlying topology of cross-network spillover.
 
 At a large scale, this same principle applies across cortical columns and functional systems: distributed branching means each activation can spread across multiple networks that should remain isolated. This produces both **higher-resolution representations** (because more neurons across multiple systems contribute to encoding the same input) and **greater instability** (because inhibition must manage cross-network interference and potential cascade propagation across functional boundaries).
 

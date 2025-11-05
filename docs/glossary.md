@@ -66,7 +66,7 @@ See also: [Stimming & Reactive Loops]({{ site.baseurl }}/sections/stimming-react
 
 ## Reactive Overlap
 
-**Reactive overlap** is the spillover activation from primary sensory or associative pathways into affective, interoceptive, or memory circuits due to **branching** and **delayed inhibition**. In the Distributed Pathway Model, collateral connections preserved through reduced synaptic pruning create architectural opportunities for activation to spread beyond task-relevant regions. When inhibitory gating is weak or asynchronous, this overlap becomes more likely and persists longer, creating cross-domain effects such as affective amplification, interoceptive overbinding, and memory intrusions. Reactive overlap is not volitional—it emerges from the topology and timing properties of distributed networks.
+**Reactive overlap** is the spillover activation from primary sensory or associative pathways into affective, interoceptive, or memory circuits due to **branching** and **delayed inhibition**. In the Distributed Pathway Model, collateral connections—both preserved through reduced synaptic pruning and continuously formed throughout life—create architectural opportunities for activation to spread beyond task-relevant regions. When inhibitory gating is weak or asynchronous, this overlap becomes more likely and persists longer, creating cross-domain effects such as affective amplification, interoceptive overbinding, and memory intrusions. Reactive overlap is not volitional—it emerges from the topology and timing properties of distributed networks.
 
 See also: [Affective Amplification](#affective-amplification), [Distributed Pathway Model]({{ site.baseurl }}/sections/distributed-pathway-model)
 

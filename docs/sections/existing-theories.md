@@ -70,9 +70,9 @@ title: Relationship to Existing Theories
 
     <h3>Minicolumn Hypotheses and Synaptic Pruning Accounts</h3>
 
-    <p>Post-mortem histological studies have identified structural alterations in autistic cortex: narrower minicolumns with reduced spacing, altered inhibitory surrounds, reduced dendritic branching complexity in some regions, and elevated synaptic spine density indicating reduced pruning. These anatomical findings provide histological grounding for DPM's topological predictions.</p>
+    <p>Post-mortem histological studies have identified structural alterations in autistic cortex: narrower minicolumns with reduced spacing, altered inhibitory surrounds, reduced dendritic branching complexity in some regions, and elevated synaptic spine density indicating multiple mechanisms including reduced pruning and ongoing collateral formation. These anatomical findings provide histological grounding for DPM's topological predictions.</p>
 
-    <p>Narrower minicolumns with reduced inhibitory surrounds decrease lateral inhibition between adjacent processing units, facilitating crosstalk and distributed propagation. Elevated spine density directly reflects reduced synaptic pruning, preserving collateral branches that would normally be eliminated. Altered GABAergic interneuron distribution (particularly PV+ basket cells surrounding minicolumns) maps onto DPM's prediction of weakened inhibitory gating.</p>
+    <p>Narrower minicolumns with reduced inhibitory surrounds decrease lateral inhibition between adjacent processing units, facilitating crosstalk and distributed propagation. Elevated spine density reflects both reduced synaptic pruning and ongoing collateral formation throughout life, preserving and generating additional collateral branches that would normally be eliminated or never formed. Altered GABAergic interneuron distribution (particularly PV+ basket cells surrounding minicolumns) maps onto DPM's prediction of weakened inhibitory gating.</p>
 
     <p>These structural findings anchor DPM in measurable cortical cytoarchitecture, linking molecular and genetic alterations (pruning regulators, interneuron migration factors) to circuit topology (branching, inhibition) to phenomenology (high resolution, overload, intensity).</p>
 
@@ -94,7 +94,7 @@ title: Relationship to Existing Theories
 
     <p>Within DPM, E/I balance functions as the control parameter governing distributed propagation. Inhibitory neurons—the brain's brakes—normally constrain how far signals spread (spatially) and how long they last (temporally). When inhibition is reduced or delayed, the preserved collateral branches identified by DPM become functionally active pathways rather than dormant anatomical structures. E/I imbalance thus determines the active:reactive ratio: stronger inhibition favors goal-directed processing with limited spillover, while weaker inhibition allows reactive pathways to dominate.</p>
 
-    <p>E/I imbalance is not a separate dysfunction from distributed architecture—it's the gating dynamic that allows distributed topology to express itself functionally. The branches exist anatomically due to reduced pruning; E/I balance determines whether signals actually propagate through them.</p>
+    <p>E/I imbalance is not a separate dysfunction from distributed architecture—it's the gating dynamic that allows distributed topology to express itself functionally. The branches exist anatomically due to both reduced pruning and ongoing collateral formation; E/I balance determines whether signals actually propagate through them.</p>
 
     <h3>Intense World Theory: The Phenomenology of Distributed Processing</h3>
 
@@ -134,9 +134,9 @@ title: Relationship to Existing Theories
 
     <h3>Minicolumn and Pruning Hypotheses: Anatomical Evidence</h3>
 
-    <p><strong>Minicolumn hypotheses</strong> describe structural brain differences observed in post-mortem autism studies: narrower cortical minicolumns, altered inhibitory surrounds, and elevated synaptic spine density indicating reduced pruning. These anatomical findings provide physical evidence for DPM's topological predictions.</p>
+    <p><strong>Minicolumn hypotheses</strong> describe structural brain differences observed in post-mortem autism studies: narrower cortical minicolumns, altered inhibitory surrounds, and elevated synaptic spine density reflecting multiple mechanisms including reduced pruning and ongoing collateral formation. These anatomical findings provide physical evidence for DPM's topological predictions.</p>
 
-    <p>Narrower minicolumns with reduced inhibitory surrounds facilitate crosstalk between adjacent processing modules, promoting distributed propagation. Elevated spine density directly reflects reduced synaptic pruning—the collateral branches that DPM proposes are being preserved rather than eliminated during development. Altered distribution of inhibitory interneurons aligns with DPM's prediction of weakened inhibitory gating.</p>
+    <p>Narrower minicolumns with reduced inhibitory surrounds facilitate crosstalk between adjacent processing modules, promoting distributed propagation. Elevated spine density reflects both reduced synaptic pruning and continued collateral formation throughout life—the collateral branches that DPM proposes are being preserved and continuously generated beyond early developmental periods. Altered distribution of inhibitory interneurons aligns with DPM's prediction of weakened inhibitory gating.</p>
 
     <p>These structural findings anchor DPM in measurable brain anatomy, linking molecular causes (genes affecting pruning and inhibition) to circuit topology (branching patterns) to cognitive outcomes (high resolution, intensity, overload).</p>
 
@@ -145,7 +145,7 @@ title: Relationship to Existing Theories
     <p>DPM functions as a structural bridge connecting different levels of analysis:</p>
 
     <ul>
-      <li><strong>Molecular level:</strong> Genes affecting pruning, synapse formation, inhibitory development</li>
+      <li><strong>Molecular level:</strong> Genes affecting pruning, ongoing synapse formation and stabilization, inhibitory development</li>
       <li><strong>Circuit level:</strong> Distributed branching, weak inhibitory gating, altered oscillations</li>
       <li><strong>Computational level:</strong> Precision-weighting, granularity, local-global trade-offs</li>
       <li><strong>Phenomenological level:</strong> Intensity, sensory acuity, detail focus, overload, predictability preference</li>
@@ -269,9 +269,9 @@ title: Relationship to Existing Theories
     <p><strong>How DPM connects them:</strong> These anatomical findings provide physical evidence for what DPM proposes:</p>
 
     <ul>
-      <li><strong>Higher spine density</strong> = the preserved extra connections that DPM describes</li>
+      <li><strong>Higher spine density</strong> = the preserved and continuously generated extra connections that DPM describes</li>
       <li><strong>Narrower minicolumns with altered inhibition</strong> = the weaker "brake system" between processing units</li>
-      <li><strong>Reduced pruning</strong> = the mechanism that preserves the extra pathways</li>
+      <li><strong>Reduced pruning plus ongoing collateral formation</strong> = the mechanisms that both preserve and continuously generate the extra pathways throughout life</li>
     </ul>
 
     <p>These are the anatomical structures—the physical wiring—that create distributed architecture. You can see them under a microscope in brain tissue.</p>
