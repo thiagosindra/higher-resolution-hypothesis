@@ -28,7 +28,7 @@ title: Distributed Pathway Model
 
     <h2>The Distributed Pathway Model: Mechanistic Foundation</h2>
 
-    <p>The Distributed Pathway Model (DPM) provides the mechanistic substrate for the Higher-Resolution Hypothesis, describing how measurable shifts in neural topology—increased axonal and dendritic branching (through reduced synaptic pruning combined with ongoing collateral formation and atypical stabilization), and weakened inhibitory gating—transform signal propagation from streamlined isolated networks into cross-network cascades. This architectural reconfiguration produces higher-resolution information processing: more neurons across multiple functional systems encode finer distinctions per stimulus, yielding exceptional perceptual and cognitive capabilities alongside increased energetic cost, temporal variability, and vulnerability to cascade activation across functional boundaries.</p>
+    <p>The Distributed Pathway Model (DPM) provides the mechanistic substrate for the Higher-Resolution Hypothesis, describing how measurable shifts in neural topology—increased axonal and dendritic branching, and weakened inhibitory gating—transform signal propagation from streamlined isolated networks into cross-network cascades. This architectural reconfiguration produces higher-resolution information processing: more neurons across multiple functional systems encode finer distinctions per stimulus, yielding exceptional perceptual and cognitive capabilities alongside increased energetic cost, temporal variability, and vulnerability to cascade activation across functional boundaries.</p>
 
     <h3>Topological Foundation: Branching, Pruning, and Lifelong Collateral Formation</h3>
 
@@ -114,7 +114,7 @@ title: Distributed Pathway Model
     <h2>The Core Difference: How Your Brain Is Wired</h2>
 
     <div style="text-align:center; margin: 2rem 0;">
-      <img src="../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:500px; width:50%; height:auto;">
+      <img src="diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:500px; width:50%; height:auto;">
       <p style="margin-top: 1rem;"><em><strong>The distributed pathway model.</strong> Information follows multiple parallel routes instead of a single main path. This creates richer detail but requires more energy and coordination.</em></p>
     </div>
 
