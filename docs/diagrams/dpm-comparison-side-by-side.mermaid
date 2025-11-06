@@ -1,66 +1,98 @@
 %%{init: {
   'theme': 'base',
+  'flowchart': {
+    'curve': 'basis',
+    'wrappingWidth': 20,
+    'useMaxWidth': true
+  },
   'themeVariables': {
-    'fontFamily': 'Inter, system-ui, sans-serif',
-    'fontSize': '15px',
-    'lineColor': '#94a3b8',
-    'clusterBkg': '#fafafa',
-    'clusterBorder': '#e2e8f0',
-    'edgeLabelBackground': '#fafafa',
+    'fontFamily': 'arial',
+    'fontSize': '12px',
+    'edgeLabelBackground': '#ffffff',
     'nodeSpacing': 80,
     'rankSpacing': 80
   }
 }}%%
-graph TB
-    subgraph DPM["Distributed Pathways"]
+graph
+    subgraph DPM["<br>Distributed Pathways"]
         direction TB
-        A2((A)) --> B2((B))
-        B2 --> C2((C))
-        X2((X)) --> Y2((Y))
-        Y2 --> Z2((Z))
-        B2 -.-> Y2
+        I1A2(( ))
+        I3A2(( ))
+        I2X2(( ))
+        A2((A))
+        B2((B))
+        C2((C))
+        X2((X))
+        Y2((Y))
+        Z2((Z))
+        I1A2 --> |INPUT 1| A2
+        I3A2 --> |INPUT 3| A2
+        A2 --> |Pathway 1| B2
+        A2 --> |Pathway 3| B2
+        I2X2 --> |INPUT 2| X2
+        B2 --> |Pathway 1| C2
+        B2 --> |Pathway 3| Y2
+        B2 --> |Pathway 3| C2
+        X2 --> |Pathway 2| Y2
+        Y2 --> |Pathway 3| Z2
+        Y2 --> |Pathway 2| Z2
     end
 
-    subgraph NT["Neurotypical Processing"]
+    subgraph NT["<br>Neurotypical Processing"]
         direction TB
-        A1((A)) --> B1((B))
-        B1 --> C1((C))
-        X1((X)) --> Y1((Y))
-        Y1 --> Z1((Z))
+        IA1(( )) --> |INPUT 1| A1((A))
+        IX1(( )) --> |INPUT 2| X1((X))
+        A1 --> |Pathway 1| B1((B))
+        B1 --> |Pathway 1| C1((C))
+        X1 --> |Pathway 2| Y1((Y))
+        Y1 --> |Pathway 2| Z1((Z))
     end
 
-    style NT fill:#f8fafc,stroke:#cbd5e1,stroke-width:2px
-    style DPM fill:#fefce8,stroke:#d4d4d8,stroke-width:2px
+    style NT fill:none,stroke:#cbd5e1,stroke-width:0.5px;
+    style DPM fill:none,stroke:#d4d4d8,stroke-width:0.5px
 
     %% NT side - Blue network (A→B→C)
+    style IA1 fill:none,stroke:none
     style A1 fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
     style B1 fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
     style C1 fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
 
     %% NT side - Green network (X→Y→Z)
+    style IX1 fill:none,stroke:none
     style X1 fill:#bbf7d0,stroke:#16a34a,stroke-width:2.5px,color:#15803d
     style Y1 fill:#bbf7d0,stroke:#16a34a,stroke-width:2.5px,color:#15803d
     style Z1 fill:#bbf7d0,stroke:#16a34a,stroke-width:2.5px,color:#15803d
 
     %% DPM side - Blue network (A→B→C)
+    style I1A2 fill:none,stroke:none
+    style I3A2 fill:none,stroke:none
     style A2 fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
     style B2 fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
     style C2 fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
 
     %% DPM side - Green network (X→Y→Z)
+    style I2X2 fill:none,stroke:none
     style X2 fill:#bbf7d0,stroke:#16a34a,stroke-width:2.5px,color:#15803d
     style Y2 fill:#bbf7d0,stroke:#16a34a,stroke-width:2.5px,color:#15803d
     style Z2 fill:#bbf7d0,stroke:#16a34a,stroke-width:2.5px,color:#15803d
 
     %% NT side - solid within-network links
-    linkStyle 5 stroke:#2563eb,stroke-width:2.5px
-    linkStyle 6 stroke:#2563eb,stroke-width:2.5px
-    linkStyle 7 stroke:#16a34a,stroke-width:2.5px
-    linkStyle 8 stroke:#16a34a,stroke-width:2.5px
+    linkStyle 11 stroke:#2563eb,stroke-width:5.5px,color:#2563eb
+    linkStyle 12 stroke:#16a34a,stroke-width:5.5px,color:#16a34a
+    linkStyle 13 stroke:#2563eb,stroke-width:2.5px,color:#2563eb
+    linkStyle 14 stroke:#2563eb,stroke-width:2.5px,color:#2563eb
+    linkStyle 15 stroke:#16a34a,stroke-width:2.5px,color:#16a34a
+    linkStyle 16 stroke:#16a34a,stroke-width:2.5px,color:#16a34a
 
     %% DPM side - solid within-network links + dashed cross-network link
-    linkStyle 0 stroke:#2563eb,stroke-width:2.5px
-    linkStyle 1 stroke:#2563eb,stroke-width:2.5px
-    linkStyle 2 stroke:#16a34a,stroke-width:2.5px
-    linkStyle 3 stroke:#16a34a,stroke-width:2.5px
-    linkStyle 4 stroke:#dc2626,stroke-width:2.5px,stroke-dasharray: 6 3
+    linkStyle 0 stroke:#2563eb,stroke-width:5.5px,color:#2563eb
+    linkStyle 1 stroke:#dc2626,stroke-width:5.5px,color:#dc2626,stroke-dasharray: 4 3
+    linkStyle 2 stroke:#2563eb,stroke-width:2.5px,color:#2563eb
+    linkStyle 3 stroke:#dc2626,stroke-width:2.5px,color:#dc2626,stroke-dasharray: 6 3
+    linkStyle 4 stroke:#16a34a,stroke-width:5.5px,color:#16a34a
+    linkStyle 5 stroke:#2563eb,stroke-width:2.5px,color:#2563eb
+    linkStyle 6 stroke:#dc2626,stroke-width:2.5px,color:#dc2626,stroke-dasharray: 6 3
+    linkStyle 7 stroke:#dc2626,stroke-width:2.5px,color:#dc2626,stroke-dasharray: 6 3
+    linkStyle 8 stroke:#16a34a,stroke-width:2.5px,color:#16a34a
+    linkStyle 9 stroke:#dc2626,stroke-width:2.5px,color:#dc2626,stroke-dasharray: 6 3
+    linkStyle 10 stroke:#16a34a,stroke-width:2.5px,color:#16a34a
