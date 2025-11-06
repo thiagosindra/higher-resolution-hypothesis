@@ -58,7 +58,7 @@ To illustrate this architecture, consider two independent neural circuits: **A �
 This is not merely "hyperconnectivity." It is a qualitative difference in **branching topology**—a more distributed network where neurons participate in multiple, sometimes overlapping, pathways *across functional boundaries*. This architecture naturally increases representational richness: the same stimulus engages a larger and more diverse population of neurons spanning multiple processing systems. However, it also introduces instability, as these distributed activations cross boundaries between networks that should remain isolated.
 
 <div style="text-align:center; margin: 2rem 0;">
-  <img src="diagrams/dpm-comparison-side-by-side.svg" alt="Neurotypical versus distributed pathway architecture" style="max-width:500px; width:50%; height:auto;">
+  <img src="diagrams/dpm-comparison-side-by-side.svg" alt="Neurotypical versus distributed pathway architecture" style="max-width:600px; width:100%; height:auto;">
   <p style="margin-top: 1rem;"><em><strong>Figure 1. Neurotypical versus distributed pathway architecture.</strong> In neurotypical processing, input A flows through a single streamlined route (A→B→C). In the Distributed Pathway Model, the same input activates its primary pathway (A→B→C) but also spills into functionally distinct networks through cross-network branches (B→Y→Z), enabling multi-domain activation from single inputs.</em></p>
 </div>
 

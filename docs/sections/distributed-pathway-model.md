@@ -67,7 +67,7 @@ title: Distributed Pathway Model
     <h2>How Neural Architecture Shapes Information Processing</h2>
 
     <div style="text-align:center; margin: 2rem 0;">
-      <img src="../../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:500px; width:50%; height:auto;">
+      <img src="../../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:600px; width:80%; height:auto;">
       <p style="margin-top: 1rem;"><em><strong>Figure. The distributed pathway model.</strong> A single input (A) activates multiple parallel pathways through branch point B, creating higher representational density—more neurons encode each stimulus—yielding exceptional detail perception alongside increased processing demands.</em></p>
     </div>
 
@@ -114,7 +114,7 @@ title: Distributed Pathway Model
     <h2>The Core Difference: How Your Brain Is Wired</h2>
 
     <div style="text-align:center; margin: 2rem 0;">
-      <img src="../../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:500px; width:50%; height:auto;">
+      <img src="../../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:600px; width:80%; height:auto;">
       <p style="margin-top: 1rem;"><em><strong>The distributed pathway model.</strong> Information follows multiple parallel routes instead of a single main path. This creates richer detail but requires more energy and coordination.</em></p>
     </div>
 
