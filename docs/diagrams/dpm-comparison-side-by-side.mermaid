@@ -40,25 +40,35 @@ graph
 
     subgraph NT["<br>Neurotypical Processing"]
         direction TB
-        IA1(( )) --> |INPUT 1| A1((A))
-        IX1(( )) --> |INPUT 2| X1((X))
-        A1 --> |Pathway 1| B1((B))
-        B1 --> |Pathway 1| C1((C))
-        X1 --> |Pathway 2| Y1((Y))
-        Y1 --> |Pathway 2| Z1((Z))
+        I1A1(( ))
+        I3A1(( ))
+        I2X1(( ))
+        B1((B))
+        C1((C))
+        Y1((Y))
+        Z1((Z))
+
+        I1A1 --> |INPUT 1| A1
+        I3A1 --> |INPUT 3| A1
+        I2X1 --> |INPUT 2| X1
+        A1 --> |Pathway 1| B1
+        B1 --> |Pathway 1| C1
+        X1 --> |Pathway 2| Y1
+        Y1 --> |Pathway 2| Z1
     end
 
     style NT fill:none,stroke:#cbd5e1,stroke-width:0.5px;
     style DPM fill:none,stroke:#d4d4d8,stroke-width:0.5px
 
     %% NT side - Blue network (A→B→C)
-    style IA1 fill:none,stroke:none
+    style I1A1 fill:none,stroke:none
+    style I3A1 fill:none,stroke:none
     style A1 fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
     style B1 fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
     style C1 fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
 
     %% NT side - Green network (X→Y→Z)
-    style IX1 fill:none,stroke:none
+    style I2X1 fill:none,stroke:none
     style X1 fill:#bbf7d0,stroke:#16a34a,stroke-width:2.5px,color:#15803d
     style Y1 fill:#bbf7d0,stroke:#16a34a,stroke-width:2.5px,color:#15803d
     style Z1 fill:#bbf7d0,stroke:#16a34a,stroke-width:2.5px,color:#15803d
@@ -78,15 +88,16 @@ graph
 
     %% NT side - solid within-network links
     linkStyle 11 stroke:#2563eb,stroke-width:5.5px,color:#2563eb
-    linkStyle 12 stroke:#16a34a,stroke-width:5.5px,color:#16a34a
-    linkStyle 13 stroke:#2563eb,stroke-width:2.5px,color:#2563eb
+    linkStyle 12 stroke:#dc2626,stroke-width:5.5px,color:#dc2626,stroke-dasharray: 2 4
+    linkStyle 13 stroke:#16a34a,stroke-width:5.5px,color:#16a34a
     linkStyle 14 stroke:#2563eb,stroke-width:2.5px,color:#2563eb
-    linkStyle 15 stroke:#16a34a,stroke-width:2.5px,color:#16a34a
+    linkStyle 15 stroke:#2563eb,stroke-width:2.5px,color:#2563eb
     linkStyle 16 stroke:#16a34a,stroke-width:2.5px,color:#16a34a
+    linkStyle 17 stroke:#16a34a,stroke-width:2.5px,color:#16a34a
 
     %% DPM side - solid within-network links + dashed cross-network link
     linkStyle 0 stroke:#2563eb,stroke-width:5.5px,color:#2563eb
-    linkStyle 1 stroke:#dc2626,stroke-width:5.5px,color:#dc2626,stroke-dasharray: 4 3
+    linkStyle 1 stroke:#dc2626,stroke-width:5.5px,color:#dc2626,stroke-dasharray: 2 4
     linkStyle 2 stroke:#2563eb,stroke-width:2.5px,color:#2563eb
     linkStyle 3 stroke:#dc2626,stroke-width:2.5px,color:#dc2626,stroke-dasharray: 6 3
     linkStyle 4 stroke:#16a34a,stroke-width:5.5px,color:#16a34a
