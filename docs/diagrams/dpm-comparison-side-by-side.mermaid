@@ -1,29 +1,46 @@
 %% NT vs DPM side-by-side (ensembles + conditional collaterals)
-flowchart LR
-  subgraph NT["Neurotypical Processing (ensembles)"]
-    I1[Input 1]:::in
-    I2[Input 2]:::in
-    A((A)):::p1 --> B((B)):::p1 --> C((C)):::p1
-    X((X)):::p2 --> Y((Y)):::p2 --> Z((Z)):::p2
-    I1 -.-> A
-    I2 -.-> X
-  end
-
-  subgraph DPM["Distributed Pathways (ensembles + conditional routes)"]
-    I1d[Input 1]:::in
-    I2d[Input 2]:::in
-    I3d[Input 3]:::in
+%%{init: {
+  'theme': 'base',
+  'flowchart': {
+    'curve': 'basis',
+    'useMaxWidth': true
+  },
+  'themeVariables': {
+    'fontFamily': 'arial',
+    'fontSize': '12px',
+    'edgeLabelBackground': '#ffffff',
+    'nodeSpacing': 80,
+    'rankSpacing': 80
+  }
+}}%%
+flowchart BT
+  subgraph DPM["<br/>Distributed Pathways<br/>(ensembles + conditional routes)"]
+    I1d[<br/><br/>]:::in
+    I2d[<br/><br/>]:::in
+    I3d[<br/><br/>]:::in
     Ad((A)):::p1 --> Bd((B)):::p1 --> Cd((C)):::p1
     Xd((X)):::p2 --> Yd((Y)):::p2 --> Zd((Z)):::p2
     %% Conditional collaterals (gated)
     Bd -. gated .-> Yd:::cond
     %% Inputs may converge on same entry points
-    I1d -.-> Ad
-    I3d -.-> Ad
-    I2d -.-> Xd
+    I1d -.-> |Input 1| Ad
+    I3d -.-> |Input 3| Ad
+    I2d -.-> |Input 2| Xd
   end
 
-  classDef p1 fill:#e6f0ff,stroke:#6b8cff,stroke-width:1.4px,color:#0b1b5e;
-  classDef p2 fill:#e7f8ee,stroke:#29a36a,stroke-width:1.4px,color:#0b3b23;
-  classDef cond stroke:#e11d48,stroke-dasharray:5 4,stroke-width:1.6px,color:#7f1d1d,fill:#fff7f7;
-  classDef in fill:#f5f5f5,stroke:#9aa0a6,color:#202124;
+  subgraph NT["<br/>Neurotypical Processing<br/>(ensembles)"]
+    I1[<br/><br/>]:::in
+    I2[<br/><br/>]:::in
+    A((A)):::p1 --> B((B)):::p1 --> C((C)):::p1
+    X((X)):::p2 --> Y((Y)):::p2 --> Z((Z)):::p2
+    I1 -.-> |Input 1| A
+    I2 -.-> |Input 2| X
+  end
+
+  style NT fill:#ffffff,stroke:#cbd5e1,stroke-width:0.5px;
+  style DPM fill:#ffffff,stroke:#d4d4d8,stroke-width:0.5px
+  
+  classDef p1 fill:#e6f0ff,stroke:#6b8cff,stroke-width:2.5px,color:#6b8ccc,font-weight:bold;
+  classDef p2 fill:#e7f8ee,stroke:#29a36a,stroke-width:2.5px,color:#29a36a,font-weight:bold;
+  classDef cond stroke:#e11d48,stroke-dasharray:5 4,stroke-width:2.5px,color:#7f1d1d,fill:#fff7f7;
+  classDef in fill:none,stroke:none,color:#202124,font-weight:bold;

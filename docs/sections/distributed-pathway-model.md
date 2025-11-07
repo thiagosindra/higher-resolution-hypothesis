@@ -69,7 +69,7 @@ title: Distributed Pathway Model
     <h2>How Neural Architecture Shapes Information Processing</h2>
 
     <div style="text-align:center; margin: 2rem 0;">
-      <img src="../../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:600px; width:80%; height:auto;">
+      <img src="../../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:500px; width:80%; height:auto;">
       <p style="margin-top: 1rem;"><em><strong>Figure. Neurotypical vs Distributed Pathway processing (ensembles).</strong> Nodes (A–Z) denote **ensembles** (transient coalitions of neurons). Solid blue/green edges show stable within-network routes; dashed red edges are **conditional collaterals** that can activate depending on input strength/phase/context. In DPM, these latent routes expand **ensemble permutations**, increasing perceptual granularity without implying constant cross-activation.</em></p>
     </div>
 
@@ -116,7 +116,7 @@ title: Distributed Pathway Model
     <h2>The Core Difference: How Your Brain Is Wired</h2>
 
     <div style="text-align:center; margin: 2rem 0;">
-      <img src="../../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:600px; width:80%; height:auto;">
+      <img src="../../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:500px; width:80%; height:auto;">
       <p style="margin-top: 1rem;"><em><strong>The distributed pathway model.</strong> Information can flow through multiple possible combinations of neuron groups (ensembles) depending on signal strength. This creates many more possible processing patterns—richer detail—but requires more energy and coordination.</em></p>
     </div>
 

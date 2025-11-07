@@ -697,7 +697,7 @@ Within the Distributed Pathway Model, memory is not a static record but a dynami
 Within the ensemble framework, perception and memory rely on the same distributed substrate.  When sensory input drives an ensemble from the bottom up, we experience perception; when internal cues reactivate that ensemble from the top down, we experience recall or imagery (Crane & Goddard 2008; D'Angiulli & Haskell 2013).  Both depend on the same conditional pathways that permit ensembles to re-enter one another.  The distinction lies not in the neurons used but in the **direction and degree of activation**, which explains why some autistic individuals describe memory as "reliving" rather than recalling—the same sensory ensembles are briefly re-ignited.
 
 <div style="text-align:center; margin: 2rem 0;">
-  <img src="diagrams/dpm-perception-memory-shared.svg" alt="Perception and memory as modes of the same ensembles" style="max-width:600px; width:100%; height:auto;">
+  <img src="diagrams/dpm-perception-memory-shared.svg" alt="Perception and memory as modes of the same ensembles" style="max-width:500px; width:100%; height:auto;">
   <p style="margin-top: 1rem;"><em><!-- NEW: Perception-memory shared substrate figure (Batch 4, supporting) -->
 <strong>Figure 7 (supporting). Perception and memory as modes of the same ensembles.</strong> Bottom-up input and top-down cues can recruit overlapping ensembles. In DPM, weaker gating increases **overlap**, explaining vivid recall/imagery without reframing them as core outcomes.</em></p>
 </div>
