@@ -179,7 +179,7 @@ These parameters could be estimated through:
 - **E**: Metabolic indicators such as ATP turnover, glucose utilization (FDG-PET), or lactate accumulation
 
 <div style="text-align:center; margin: 2rem 0;">
-  <img src="diagrams/dpm-parameters.svg" alt="DPM with illustrative parameter values" style="max-width:700px; width:100%; height:auto;">
+  <img src="diagrams/dpm-parameters.svg" alt="DPM with illustrative parameter values" style="max-width:350px; width:100%; height:auto;">
   <p style="margin-top: 1rem;"><em><!-- UPDATED: Parameters figure caption (Batch 4) -->
 <strong>Figure 2. Parameter summary.</strong> In DPM, **B↑, I↓, τ↑** expand **P** (the ensemble **permutation space**), increasing granularity and conditional cross-activation at a metabolic cost **E**.</em></p>
 </div>
@@ -258,7 +258,7 @@ Weaker inhibition (delayed to 35–50 ms, reduced to 45% of NT strength) allows 
 **Predicted phenomenology:** If this model is correct, the edge would be detected with additional texture granularity, possible color associations, and motion aftereffects—producing richer visual detail but at significant metabolic cost. This would explain why "just seeing" can be exhausting in autism, transforming a prediction of the model into a testable hypothesis about subjective experience.
 
 <div style="text-align:center; margin: 2rem 0;">
-  <img src="diagrams/dpm-v1-edge-detection.svg" alt="Distributed processing in V1 edge detection" style="max-width:600px; width:100%; height:auto;">
+  <img src="diagrams/dpm-v1-edge-detection.svg" alt="Distributed processing in V1 edge detection" style="max-width:500px; width:100%; height:auto;">
   <p style="margin-top: 1rem;"><em><strong>Figure 4. Distributed processing in V1 edge detection.</strong> Spillover from V1 simple cells engages adjacent orientation columns, color processing streams, and motion detection areas, recruiting ~350 neurons versus ~80 in neurotypical processing. This produces exceptional detail perception at 7-8× metabolic cost.</em></p>
 </div>
 
