@@ -29,7 +29,8 @@ These dual constraints interact non-linearly: inhibitory efficacy itself depends
 
 I demonstrate how this framework integrates and extends existing theories (Enhanced Perceptual Functioning, Intense World Theory, Predictive Coding accounts) as special cases, provides mechanistic specificity for clinical phenomena (sensory sensitivity, executive dysfunction, meltdowns), and generates testable predictions across scales from molecular energetics to systems-level neuroimaging. The model explains autism heterogeneity through individual variation in pathway distribution, metabolic buffering capacity, and compensatory strategy development, while maintaining a single core architectural principle.
 
-The Higher-Resolution Hypothesis reframes autism not as disordered cognition requiring correction, but as an alternative computational architecture with intrinsic trade-offs: exceptional local precision at the cost of global flexibility, achieved through neural systems operating at capacity limits where both active (inhibition) and passive (energetics) constraints shape cognitive function. This perspective opens therapeutic avenues focused on resource management rather than pathway normalization, and suggests that autistic cognitive strengths and challenges emerge from the same underlying architecture—higher resolution through distributed processing, limited by inhibition and energy.
+<!-- UPDATED: abstract final sentences -->
+Rather than implying that autistic perception arises simply from greater numbers of neurons per signal, the model frames higher resolution as emerging from a richer **space of ensemble permutations**—that is, more possible combinations of neurons that can represent each micro-feature.  This architectural difference expands representational granularity while preserving the paper's original focus on distributed propagation and energy-efficiency trade-offs.
 
 **Keywords:** autism spectrum, distributed connectivity, higher-resolution processing, excitation/inhibition balance, energy competition, metabolic constraints, predictive coding, sensory integration, neurodevelopment, neural branching, heterogeneity.
 
@@ -55,11 +56,19 @@ In the autistic brain, multiple converging findings suggest that this balance is
 
 To illustrate this architecture, consider two independent neural circuits: **A → B → C** and **X → Y → Z**, which in neurotypical brains operate in isolation—each input (A or X) triggers only its corresponding output (C or Z). In autistic neural topology, neuron **B** may also project to **Y**, creating a cross-network connection. Now activation of **A** can produce **C** (within its original network), **Y → Z** (spillover into the second network), or both, depending on timing and inhibitory tone. This cross-branch architecture explains how signals meant for one processing stream can bleed into functionally distinct networks.
 
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="diagrams/dpm-overview-two-pathways.svg" alt="DPM overview with conditional cross-route" style="max-width:500px; width:100%; height:auto;">
+  <p style="margin-top: 1rem;"><em><!-- NEW: Overview diagram (Batch 4) -->
+<strong>Figure 0. DPM overview with conditional cross-route.</strong> The B→Y collateral is **gated**, creating *potential* cross-activation. Whether it participates depends on input conditions (strength, synchrony, context), matching the **conditional pathway** logic in the Core Mechanism.</em></p>
+</div>
+
 This is not merely "hyperconnectivity." It is a qualitative difference in **branching topology**—a more distributed network where neurons participate in multiple, sometimes overlapping, pathways *across functional boundaries*. This architecture naturally increases representational richness: the same stimulus engages a larger and more diverse population of neurons spanning multiple processing systems. However, it also introduces instability, as these distributed activations cross boundaries between networks that should remain isolated.
 
 <div style="text-align:center; margin: 2rem 0;">
   <img src="diagrams/dpm-comparison-side-by-side.svg" alt="Neurotypical versus distributed pathway architecture" style="max-width:600px; width:100%; height:auto;">
-  <p style="margin-top: 1rem;"><em><strong>Figure 1. Neurotypical versus distributed pathway architecture.</strong> In neurotypical processing, input A flows through a single streamlined route (A→B→C). In the Distributed Pathway Model, the same input activates its primary pathway (A→B→C) but also spills into functionally distinct networks through cross-network branches (B→Y→Z), enabling multi-domain activation from single inputs.</em></p>
+  <p style="margin-top: 1rem;"><em><!-- UPDATED: NT vs DPM figure caption (Batch 4) -->
+<strong>Figure 1. Neurotypical vs Distributed Pathway processing (ensembles).</strong>
+Nodes (A–Z) denote **ensembles**. Solid blue/green edges show stable within-network routes; dashed red edges are **conditional collaterals** that can activate depending on input strength/phase/context. In DPM, these latent routes expand **ensemble permutations**, increasing perceptual granularity without implying constant cross-activation.</em></p>
 </div>
 
 ### Mechanistic Summary
@@ -71,6 +80,51 @@ The DPM describes three interdependent properties of autistic neural organizatio
 3. **Variable inhibition** — reduced or delayed inhibitory control that allows overlapping activations to persist or echo.
 
 Together, these yield higher representational density but also greater temporal variability, energetic cost, and sensitivity to interference.
+
+#### Core Mechanism
+
+<!-- UPDATED: DPM Core Mechanism opening -->
+The Distributed Pathway Model (DPM) proposes that in autism, local circuits possess slightly weaker inhibitory gating (↓ I) and longer temporal persistence (↑ τ), allowing more **conditional pathways** to remain available for activation.  Each pathway consists not of isolated neurons but of **ensembles**—transient coalitions of neurons that jointly represent a perceptual or cognitive micro-feature.  The distinguishing property of the DPM is therefore not simply that more neurons respond to a given input, but that the same input can recruit **different overlapping ensembles** depending on signal strength, phase, and context.  This increases representational diversity without requiring continual hyper-activation.
+
+<!-- NEW: DPM gating analogy -->
+In this architecture, gating functions much like a **dike in a branching river**: low-energy inputs remain confined to the primary channel, while stronger or prolonged signals can overflow into neighboring routes.  These latent collaterals—normally pruned or inhibited in neurotypical development—introduce *potential* cross-activation without guaranteeing it.  Consequently, a single upstream event can propagate along slightly different trajectories on different occasions, yielding fine-grained discrimination of similar stimuli through variation in ensemble recruitment.
+
+<!-- NEW subsection: Mechanistic Example -->
+#### Mechanistic Example: Conditional Pathway Activation
+
+To illustrate the role of gating and ensemble overlap, consider a simplified chain:
+
+```
+→ |Input| A
+A → B
+B → |Synapse 1| C
+B → |Synapse 2| Y   *(present only in DPM networks)*
+Y → Z
+```
+
+Here the "Input" represents any upstream activation — sensory, mnemonic, or predictive.
+In neurotypical (NT) networks, *Synapse 2* (B→Y) is absent, so increasing input strength merely amplifies the existing A→B→C ensemble.
+In the DPM, *Synapse 2* exists but is **gated**, so its participation depends on input intensity and context:
+
+| Input Level | NT Activation | DPM Activation | Ensembles Formed |
+|--------------|---------------|----------------|------------------|
+| Low | A subthreshold | A subthreshold | — |
+| Medium | A→B→C | A→B→C ( B→Y gated off ) | *C* |
+| High | A→B→C | A→B→C  +  B→Y→Z | *C + Z (overlapping)* |
+
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="diagrams/dpm-mechanistic-example-conditional.svg" alt="Mechanistic example with gated collateral" style="max-width:500px; width:100%; height:auto;">
+  <p style="margin-top: 1rem;"><em><!-- NEW: Mechanistic example figure (Batch 4) -->
+<strong>Figure 1a. Mechanistic example with a gated collateral.</strong> Low/medium inputs recruit A→B→C; high inputs can push the **B→Y** gate open, recruiting Y→Z as an additional ensemble. Resolution emerges from **ensemble permutations**, not raw neuron count.</em></p>
+</div>
+
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="diagrams/dpm-input-strength-cases.svg" alt="Input strength modulates ensemble recruitment" style="max-width:600px; width:100%; height:auto;">
+  <p style="margin-top: 1rem;"><em><!-- NEW: Input strength cases figure (Batch 4) -->
+<strong>Figure 1b. Input strength modulates ensemble recruitment.</strong> NT remains on a single route (C). DPM adds a **conditional route** (Y→Z) at high inputs, yielding *C* and *Z* ensembles with **overlap**, i.e., a larger **permutation space**.</em></p>
+</div>
+
+Because the DPM configuration allows multiple potential routes, the same region B can participate in **different ensemble combinations** depending on excitation level.  Resolution therefore arises from the *number of ensemble permutations* available, not merely the population size of active neurons.
 
 ### Branching and Conditional Routing
 
@@ -95,6 +149,9 @@ At a systems level, this also explains why stress, fatigue, or sensory saturatio
 ### From Micro to Macro
 
 At the micro level, DPM describes changes in dendritic arborization, axonal collateralization, and interneuron recruitment. At the meso level, it predicts increased local functional connectivity and reduced long-range coordination—patterns repeatedly observed in fMRI and MEG studies of autism. At the macro level, it manifests as cognitive features: extraordinary perceptual detail, difficulty filtering noise, associative depth, and vulnerability to overload.
+
+<!-- NEW: permutation principle addition -->
+This relationship can be restated as a **permutation principle**: what appears as high resolution or nuanced sensitivity at the behavioral level reflects the brain's ability to select among a larger set of partially overlapping ensembles.  Each percept or idea corresponds to one configuration within that space.  The expansion of possible configurations increases discrimination capacity but also metabolic cost, as maintaining and resolving these overlapping patterns demands additional energy and inhibitory control.
 
 Thus, DPM is not a pathology model but a topology model: it describes how information flows differently in the autistic brain, resulting in both abilities and challenges.
 
@@ -123,7 +180,8 @@ These parameters could be estimated through:
 
 <div style="text-align:center; margin: 2rem 0;">
   <img src="diagrams/dpm-parameters.svg" alt="DPM with illustrative parameter values" style="max-width:700px; width:100%; height:auto;">
-  <p style="margin-top: 1rem;"><em><strong>Figure 2. DPM with illustrative parameter values.</strong> The distributed model (bottom) shows increased branching factor (B ≈ 2.4 vs 1.3), reduced inhibition (I ≈ 0.45 vs 0.8), and extended persistence (τ ≈ 450ms vs 80ms). Parameters are illustrative for conceptual framework, not empirical measurements.</em></p>
+  <p style="margin-top: 1rem;"><em><!-- UPDATED: Parameters figure caption (Batch 4) -->
+<strong>Figure 2. Parameter summary.</strong> In DPM, **B↑, I↓, τ↑** expand **P** (the ensemble **permutation space**), increasing granularity and conditional cross-activation at a metabolic cost **E**.</em></p>
 </div>
 
 Two heuristic relationships capture their qualitative interactions:
@@ -193,7 +251,8 @@ Weaker inhibition (delayed to 35–50 ms, reduced to 45% of NT strength) allows 
 
 <div style="text-align:center; margin: 2rem 0;">
   <img src="diagrams/dpm-three-pathways.svg" alt="Cross-network spillover in distributed architecture" style="max-width:400px; width:100%; height:auto;">
-  <p style="margin-top: 1rem;"><em><strong>Figure 3. Cross-network spillover in distributed architecture.</strong> In distributed processing, two independent networks (A→B→C in blue, X→Y→Z in green) that should remain isolated become connected through cross-network branches (red dashed B→Y). This allows input A to activate not only its own network (C) but also spill into functionally distinct systems (Y→Z), explaining multi-domain symptom presentation.</em></p>
+  <p style="margin-top: 1rem;"><em><!-- UPDATED: Three pathways figure caption (Batch 4) -->
+<strong>Figure 3. Extended conditional routes.</strong> Multiple **gated collaterals** (B→Y, X→N) expand the **ensemble permutation space**, enabling finer discrimination across similar inputs without implying constant cross-talk.</em></p>
 </div>
 
 **Predicted phenomenology:** If this model is correct, the edge would be detected with additional texture granularity, possible color associations, and motion aftereffects—producing richer visual detail but at significant metabolic cost. This would explain why "just seeing" can be exhausting in autism, transforming a prediction of the model into a testable hypothesis about subjective experience.
@@ -217,7 +276,8 @@ The distributed topology could create characteristic temporal signatures, testab
 
 <div style="text-align:center; margin: 2rem 0;">
   <img src="diagrams/dpm-temporal-cascade.svg" alt="Temporal cascade dynamics" style="max-width:300px; width:100%; height:auto;">
-  <p style="margin-top: 1rem;"><em><strong>Figure 5. Temporal cascade dynamics.</strong> Feedforward phase (0-100ms) shows initial branching activation. Reactive phase (100-500ms) demonstrates spillover into adjacent circuits with weak inhibition. Decay phase (500-1200ms) shows extended persistence (τ ≈ 450ms) creating vulnerability to interference from new stimuli.</em></p>
+  <p style="margin-top: 1rem;"><em><!-- UPDATED: Temporal cascade figure caption (Batch 4) -->
+<strong>Figure 5. Temporal persistence (τ) and delayed recruitment.</strong> Longer **τ** maintains residual activation so that **B→Y** can cross threshold slightly later, adding a second ensemble (Y→Z) without sustained external drive.</em></p>
 </div>
 
 ### 6. Inhibitory Timing and Control Mechanisms
@@ -234,7 +294,8 @@ The DPM does not propose absence of inhibition—rather, it hypothesizes altered
 
 <div style="text-align:center; margin: 2rem 0;">
   <img src="diagrams/dpm-inhibitory-control.svg" alt="Inhibitory control in DPM architecture" style="max-width:500px; width:100%; height:auto;">
-  <p style="margin-top: 1rem;"><em><strong>Figure 6. Inhibitory control in DPM architecture.</strong> Reduced inhibitory strength (I ≈ 0.45 vs 0.8) and delayed timing (35-50ms vs 15-20ms) allow spillover from primary pathways (B) into reactive circuits (Y), creating persistent activation patterns that enable both enhanced resolution and energetic vulnerability.</em></p>
+  <p style="margin-top: 1rem;"><em><!-- UPDATED: Inhibitory control figure caption (Batch 4) -->
+<strong>Figure 6. Gating as a "dike."</strong> Low energy stays in the primary channel (A→B→C). With higher/longer input, the **gate (dike)** opens, allowing overflow into the collateral channel (B→Y→Z). This models **conditional** cross-activation in DPM.</em></p>
 </div>
 
 ### 7. Energetic Accounting and Metabolic Predictions
@@ -397,6 +458,15 @@ When a neurotypical brain processes sensory input via streamlined pathways, it a
 Critically, this multiplication occurs **within the same cortical volume**. The autistic brain is not larger in proportion to its increased neural engagement; rather, it concentrates more concurrent activity into the same spatial domains. This creates localized energy demand that exceeds what neurotypical processing would require, rendering the autistic system vulnerable to metabolic bottlenecks that neurotypical systems avoid through efficiency.
 
 The consequence is a trade-off inherent to the architecture: **higher-resolution processing via distributed pathways provides enhanced discrimination capacity, but consumes limited local metabolic resources, transiently starving competing pathways that would have been viable under lower energy demand**.
+
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="diagrams/dpm-energy-comparison.svg" alt="Energetic trade-offs" style="max-width:600px; width:100%; height:auto;">
+  <p style="margin-top: 1rem;"><em><!-- NEW: Energy comparison figure (Batch 4) -->
+<strong>Figure 6a. Energetic trade-offs.</strong> Parallel ensemble recruitment increases instantaneous metabolic demand. DPM's higher **ensemble density** trades efficiency for representational richness.</em></p>
+</div>
+
+<!-- NEW: link ensemble density to energy use -->
+Each additional ensemble engaged in parallel adds to energetic demand, even when the activation is internally generated, such as during imagery or dreaming (Attwell & Laughlin 2001; Lennie 2003).  These off-line activations illustrate the same principle: finer representational resolution trades efficiency for richness, occasionally pushing the system toward fatigue or overload.
 
 ### 2.3.6 Empirical Support and Open Questions
 
@@ -576,6 +646,9 @@ With broader recruitment of neurons comes a reduction in selectivity. Irrelevant
 
 Electrophysiological studies have shown altered gamma and beta oscillations in autism, reflecting disrupted synchronization in sensory areas. I interpret these findings as signatures of distributed propagation: local hyper-synchrony where branches reinforce one another, and interregional desynchrony where inhibitory coordination fails.
 
+<!-- NEW: short vivid-memory/dream note -->
+Another manifestation of this ensemble persistence is the **vividness of internally generated scenes**—whether in voluntary imagination, spontaneous recall, or dreaming (Markram, Rinaldi, & Markram 2007; Stickgold et al. 2001; Nir & Tononi 2010).  Reports of highly realistic dreams or difficulty distinguishing dream recall from real events can be interpreted as transient large-scale reactivation of overlapping ensembles under weak gating, a predictable consequence of the same distributed topology that enhances perceptual granularity.
+
 ---
 
 ## Cognitive and Decision-Making Consequences
@@ -619,6 +692,18 @@ In this context, heightened reactivity is not purely psychological but systemic:
 ## Memory and Task Encoding
 
 Within the Distributed Pathway Model, memory is not a static record but a dynamic pattern of overlapping activations. Each event or task engages multiple microcircuits whose boundaries blur through local branching and collateral spread. The result is a memory trace that is **dense, multidimensional, and self-reactivating**—a structural corollary of higher-resolution cognition.
+
+<!-- NEW: ensemble overlap explanation -->
+Within the ensemble framework, perception and memory rely on the same distributed substrate.  When sensory input drives an ensemble from the bottom up, we experience perception; when internal cues reactivate that ensemble from the top down, we experience recall or imagery (Crane & Goddard 2008; D'Angiulli & Haskell 2013).  Both depend on the same conditional pathways that permit ensembles to re-enter one another.  The distinction lies not in the neurons used but in the **direction and degree of activation**, which explains why some autistic individuals describe memory as "reliving" rather than recalling—the same sensory ensembles are briefly re-ignited.
+
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="diagrams/dpm-perception-memory-shared.svg" alt="Perception and memory as modes of the same ensembles" style="max-width:600px; width:100%; height:auto;">
+  <p style="margin-top: 1rem;"><em><!-- NEW: Perception-memory shared substrate figure (Batch 4, supporting) -->
+<strong>Figure 7 (supporting). Perception and memory as modes of the same ensembles.</strong> Bottom-up input and top-down cues can recruit overlapping ensembles. In DPM, weaker gating increases **overlap**, explaining vivid recall/imagery without reframing them as core outcomes.</em></p>
+</div>
+
+<!-- NEW: brief bridge to phenomenology -->
+This overlap also clarifies why vivid imagery and exceptional detail in autobiographical memory are common traits (Lind & Bowler 2010; Bon et al. 2022).  In DPM-type architectures, reduced inhibition allows greater overlap between perceptual and mnemonic ensembles, making internally generated imagery feel more perceptual and externally driven perception more memorable.  The mechanism remains secondary to the core model but offers a consistent explanation for these experiential reports.
 
 ### Dense and Redundant Encoding
 
@@ -887,6 +972,9 @@ In essence, autism reflects a brain wired for distributed propagation rather tha
 
 I do not see this as a pathology to correct but as an alternative computational mode—one that biology produced, that evolution tolerated, and that society can better understand through models like DPM.
 
+<!-- NEW: concise wrap-up -->
+Together, these ensemble-based mechanisms unify perceptual detail, associative memory, and occasional vivid internal imagery under one architectural principle without altering the model's central focus on distributed propagation and inhibitory balance.
+
 ---
 
 ## Invitation for Further Research
@@ -965,3 +1053,11 @@ Although this document is written in scientific language, much of its insight or
 38. Markram, H., Rinaldi, T., & Markram, K. (2007). The intense world syndrome—an alternative hypothesis for autism. *Frontiers in Neuroscience, 1*(1), 77—96.
 39. Stam, C. J., et al. (2013). Brain connectivity and network architecture in autism. *Frontiers in Human Neuroscience, 7*, 15.
 40. Uddin, L. Q., et al. (2013). Reconceptualizing functional brain connectivity in autism. *Frontiers in Human Neuroscience, 7*, 458.
+41. Crane, L., & Goddard, L. (2008). Episodic and semantic autobiographical memory in adults with autism spectrum disorders. *Journal of Autism and Developmental Disorders, 38*(3), 498—506.
+42. Lind, S. E., & Bowler, D. M. (2010). Episodic memory and episodic future thinking in adults with ASD. *Journal of Abnormal Psychology, 119*(4), 896—905.
+43. Bon, M., et al. (2022). Vividness of mental imagery and its neural correlates in autism spectrum disorder. *NeuroImage: Clinical, 36*, 103203.
+44. D'Angiulli, A., & Haskell, T. R. (2013). Cortical sensory reactivation during visual imagery and memory recall. *Frontiers in Human Neuroscience, 7*, 675.
+45. Stickgold, R., et al. (2001). Sleep, learning, and dreams: Off-line memory reprocessing. *Science, 294*(5544), 1052—1057.
+46. Nir, Y., & Tononi, G. (2010). Dreaming and the brain: From phenomenology to neurophysiology. *Trends in Cognitive Sciences, 14*(2), 88—100.
+47. Attwell, D., & Laughlin, S. B. (2001). An energy budget for signaling in the grey matter of the brain. *Journal of Cerebral Blood Flow and Metabolism, 21*(10), 1133—1145.
+48. Lennie, P. (2003). The cost of cortical computation. *Current Biology, 13*(6), 493—497.

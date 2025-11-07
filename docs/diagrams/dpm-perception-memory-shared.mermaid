@@ -1,0 +1,31 @@
+%% Perception vs Memory: shared ensembles (supporting diagram)
+flowchart TD
+  subgraph EX["External Drive (bottom-up)"]
+    R[Receptors/Thalamus]
+  end
+  subgraph INT["Internal Cue (top-down)"]
+    H[Hippocampal cue]
+    P[PFC cue]
+  end
+  subgraph NET["Distributed Cortical Ensembles"]
+    E1((Ensemble A)):::p1
+    E2((Ensemble B)):::p2
+    E3((Ensemble C)):::p3
+    E1 --- E2
+    E2 --- E3
+  end
+  subgraph EXP["Experience"]
+    PER["Perception"]
+    MEM["Recall/Imagery"]
+  end
+
+  R --> E1
+  H --> E2
+  P --> E2
+  E1 --> PER
+  E2 --> MEM
+  E3 -. conditional re-entry .-> PER
+
+  classDef p1 fill:#eef4ff,stroke:#6b8cff,color:#0b1b5e;
+  classDef p2 fill:#eefcf3,stroke:#29a36a,color:#0b3b23;
+  classDef p3 fill:#fff6e6,stroke:#f59e0b,color:#7a3a00;

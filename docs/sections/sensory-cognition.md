@@ -46,6 +46,9 @@ title: Sensory & Cognitive Effects
     <h3>Oscillatory Evidence</h3>
     <p>Electrophysiological studies have shown altered gamma and beta oscillations in autism, reflecting disrupted synchronization in sensory areas. These findings serve as signatures of distributed propagation: local hyper-synchrony where branches reinforce one another, and interregional desynchrony where inhibitory coordination fails.</p>
 
+    <h3>Vividness of Internally Generated Scenes</h3>
+    <p>Another manifestation of ensemble persistence is the **vividness of internally generated scenes**—whether in voluntary imagination, spontaneous recall, or dreaming. Reports of highly realistic dreams or difficulty distinguishing dream recall from real events can be interpreted as transient large-scale reactivation of overlapping ensembles under weak gating, a predictable consequence of the same distributed topology that enhances perceptual granularity. Because perception and memory share the same neural substrate in distributed architecture, internally generated imagery (dreams, imagination, recall) can feel as perceptual as external sensory input.</p>
+
     <h2>Cognitive and Decision-Making Consequences</h2>
 
     <p>The DPM does not end at perception—it reshapes cognition itself. If each sensory input generates multiple concurrent representations, the cognitive system must integrate far more possibilities before converging on a single decision. This distributed processing architecture can explain both autistic strengths and difficulties in reasoning, attention, and adaptive control.</p>
@@ -86,6 +89,9 @@ title: Sensory & Cognitive Effects
     <h3>Emotional Intensity and Persistence</h3>
     <p>Emotional responses similarly amplify through distributed limbic-prefrontal spread, contributing to intensity and persistence of affective states. An emotional trigger doesn't just activate a single emotional circuit—it spreads through multiple associative pathways, creating strong resonance that's difficult to disengage from. This isn't emotional dysregulation in the traditional sense; it's the natural consequence of emotional processing distributed across numerous interconnected circuits.</p>
 
+    <h3>Vividness of Internal Imagery and Dreams</h3>
+    <p>Ensemble persistence also explains the **vividness of internally generated scenes**—voluntary imagination, spontaneous recall, and especially dreaming. Some autistic individuals report dreams that feel exceptionally realistic or difficulty distinguishing dream memories from actual events. In DPM terms, this occurs when internal cues (from hippocampus or default mode network) reactivate sensory ensembles under weak inhibitory gating, producing large-scale coordinated activity across the same distributed pathways that process external perception. The same topology that enhances perceptual granularity makes internally generated imagery feel perceptual rather than abstract.</p>
+
     <h3>Affective Amplification and Valence Bias</h3>
     <p>In distributed architecture with weakened inhibitory gating, sensory or cognitive processing can spill into circuits monitoring emotion and internal body states. <strong>Reactive overlap</strong> causes neutral cues to inherit emotional weight when collateral pathways recruit amygdala, vmPFC, insula, or hippocampal ensembles. When inhibition is delayed and τ is high, these branches linger and re-enter, creating "sticky" positivity (intense fascination, pleasure) or "sticky" negativity (frustration, aversion) depending on which network dominates. This architectural susceptibility explains why some stimuli feel unexpectedly pleasant while others trigger disproportionate aversion—not through differences in motivation, but through topology and timing. Once affective branches engage, local metabolic use increases while inhibitory efficacy declines, prolonging amplified states until energy buffers refill.</p>
   </div>
@@ -118,6 +124,13 @@ title: Sensory & Cognitive Effects
 
     <h3>Emotions Feel Stronger and Last Longer</h3>
     <p>Emotional experiences are similarly amplified, as emotional signals propagate through broader brain networks, producing greater intensity and longer persistence of emotional states. Once an emotion triggers, it spreads through many thought pathways, creating strong feelings that are difficult to set aside. This isn't being "too sensitive"—it's the natural result of emotions activating more of the brain at once and staying active longer.</p>
+
+    <h3>Why Dreams and Imagination Can Feel So Real</h3>
+    <p>Many autistic people report extremely vivid dreams—so realistic they can be hard to distinguish from memories of real events. Some also experience mental imagery (imagining something) that feels almost as clear as actually seeing it.</p>
+
+    <p>This happens because the brain uses the same pathways for both external perception and internal imagination/memory. When you see something, certain groups of neurons activate. When you imagine or dream about something, those same groups can reactivate with similar intensity. Because autistic brains have weaker "brakes" on neural activity, internally generated imagery can activate sensory areas almost as strongly as actual sensory input.</p>
+
+    <p>This isn't psychosis or losing touch with reality—it's the same high-resolution processing applied to internal mental content. You know the difference between dreams and reality, but the **felt experience** can be equally vivid because the brain patterns are similar.</p>
 
     <h3>When Neutral Things Feel Extra-Strong</h3>
     <p>Sometimes the brain routes a simple sight or sound into <strong>emotion and body-state circuits</strong>. That spillover can make neutral things feel <strong>extra delightful</strong> or <strong>extra irritating</strong>, and the feeling can <strong>stick around</strong> a bit longer. This happens because of how the brain's pathways overlap—sensory signals can accidentally activate emotion areas, making ordinary things feel much more intense than expected. It's not about being dramatic or overreacting; it's the brain architecture creating stronger feelings from everyday experiences.</p>

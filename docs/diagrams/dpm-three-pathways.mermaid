@@ -1,37 +1,16 @@
-%%{init: {
-  'theme': 'base',
-  'themeVariables': {
-    'fontFamily': 'Inter, system-ui, sans-serif',
-    'fontSize': '16px',
-    'lineColor': '#cbd5e1',
-    'nodeSpacing': 100,
-    'rankSpacing': 100
-  }
-}}%%
-graph LR
-    A((A)) --> B((B))
-    B --> C((C))
-    A --> B
-    B --> C
-    B --> Y((Y))
-    Y --> Z((Z))
-    X((X)) --> Y
-    Y --> Z
+%% Three pathways with two gated collaterals
+flowchart LR
+  Inp[Input]:::in --> A((A)):::p1 --> B((B)):::p1 --> C((C)):::p1
+  A --> X((X)):::p2 --> Y((Y)):::p2 --> Z((Z)):::p2
+  %% Additional branch
+  A --> M((M)):::p3 --> N((N)):::p3
 
-    
-    style A fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
-    style B fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
-    style C fill:#bfdbfe,stroke:#2563eb,stroke-width:2.5px,color:#1e40af
-    style X fill:#44eeaa,stroke:#338866,stroke-width:3px,color:#338866
-    style Y fill:#44eeaa,stroke:#338866,stroke-width:3px,color:#338866
-    style Z fill:#44eeaa,stroke:#338866,stroke-width:3px,color:#338866
-    
-    linkStyle default stroke:#444444,stroke-width:3px
-    linkStyle 0 stroke:#2563eb
-    linkStyle 1 stroke:#2563eb
-    linkStyle 2 stroke:#dc2626,stroke-dasharray: 8 4
-    linkStyle 3 stroke:#dc2626,stroke-dasharray: 8 4
-    linkStyle 4 stroke:#dc2626,stroke-dasharray: 8 4
-    linkStyle 5 stroke:#dc2626,stroke-dasharray: 8 4
-    linkStyle 6 stroke:#338866
-    linkStyle 7 stroke:#338866
+  %% Conditional collaterals
+  B -. gated .-> Y:::cond
+  X -. gated .-> N:::cond
+
+  classDef p1 fill:#e6f0ff,stroke:#6b8cff,color:#0b1b5e;
+  classDef p2 fill:#e7f8ee,stroke:#29a36a,color:#0b3b23;
+  classDef p3 fill:#fff6e6,stroke:#f59e0b,color:#7a3a00;
+  classDef cond stroke:#e11d48,stroke-dasharray:5 4,stroke-width:1.6px,color:#7f1d1d,fill:#fff7f7;
+  classDef in fill:#f5f5f5,stroke:#9aa0a6,color:#202124;

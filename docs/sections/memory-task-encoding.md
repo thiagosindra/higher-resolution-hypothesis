@@ -30,6 +30,12 @@ title: Memory and Task Encoding
 
     <p>Within the Distributed Pathway Model, memory is not a static record but a dynamic pattern of overlapping activations. Each event or task engages multiple microcircuits whose boundaries blur through local branching and collateral spread. The result is a memory trace that is dense, multidimensional, and self-reactivating—a structural corollary of higher-resolution cognition. This section examines how distributed topology shapes encoding, retrieval, temporal binding, task decomposition, and the functional limits of working memory.</p>
 
+    <h3>Perception and Memory: Shared Ensemble Substrate</h3>
+
+    <p>Within the ensemble framework, perception and memory rely on the same distributed substrate. When sensory input drives an ensemble from the bottom up, we experience perception; when internal cues reactivate that ensemble from the top down, we experience recall or imagery. Both depend on the same conditional pathways that permit ensembles to re-enter one another. The distinction lies not in the neurons used but in the **direction and degree of activation**, which explains why some autistic individuals describe memory as "reliving" rather than recalling—the same sensory ensembles are briefly re-ignited.</p>
+
+    <p>This overlap also clarifies why vivid imagery and exceptional detail in autobiographical memory are common traits. In DPM-type architectures, reduced inhibition allows greater overlap between perceptual and mnemonic ensembles, making internally generated imagery feel more perceptual and externally driven perception more memorable. The mechanism remains secondary to the core model but offers a consistent explanation for these experiential reports.</p>
+
     <h3>Dense and Redundant Encoding</h3>
 
     <p>A single experience in a distributed system activates numerous partially redundant pathways. Instead of one compact representation localized to a specific ensemble, multiple versions coexist across neighboring circuits. This redundancy preserves nuance: tone, timing, emotional context, spatial detail, sensory qualities—all retained as parallel encodings distributed across overlapping microcircuits. The benefit is exceptional fidelity: autistic memory can reproduce episodic details with photographic-like accuracy, including subtle contextual elements that compressed encoding would discard.</p>
@@ -80,6 +86,10 @@ title: Memory and Task Encoding
 
     <p>Memory in distributed architecture forms through multiple overlapping pathways rather than single compact representations. This produces memories that are extraordinarily detailed and multidimensional, but also creates unique challenges with temporal sequencing, task management, and working memory capacity.</p>
 
+    <h3>Perception and Memory: Shared Processing Substrate</h3>
+
+    <p>Perception and memory use the same neural pathways in distributed architecture. When sensory input activates a group of neurons from external signals (bottom-up), you experience perception. When internal cues from hippocampus or prefrontal cortex reactivate that same group from memory (top-down), you experience recall or mental imagery. In autistic brains, weaker inhibitory gating allows greater overlap between these processes, making recalled memories feel more like reliving the original perception and making current perceptions more memorable. This explains both vivid autobiographical memory and unusually detailed mental imagery—they're using the same high-resolution neural ensembles.</p>
+
     <h3>Dense Encoding and Vivid Retrieval</h3>
 
     <p>When an event occurs, distributed branching causes numerous partially redundant pathways to encode different aspects—sensory details, emotional context, spatial relationships, and temporal sequence. This redundancy preserves nuance that compressed encoding would discard, enabling autistic individuals to recall episodic details with exceptional accuracy, including subtle contextual elements that others forget.</p>
@@ -122,13 +132,19 @@ title: Memory and Task Encoding
 
     <p>Autistic individuals often describe memories as exceptionally vivid and detailed, while also finding that simple tasks feel unexpectedly complex. Both experiences stem from how the autistic brain encodes information—using many interconnected pathways to capture every detail, rather than compressing experiences into simplified summaries.</p>
 
+    <h3>Why Memories Feel Like Reliving (Not Just Remembering)</h3>
+
+    <p>In the autistic brain, perception and memory use the same neural pathways. When you originally experienced an event, certain groups of neurons (ensembles) activated. When you recall that memory, those same groups reactivate—not in some abstract "memory storage area," but in the same sensory processing areas that experienced it originally.</p>
+
+    <p>This is why autistic individuals often describe memory as **reliving** rather than remembering. You're not just accessing stored facts—you're briefly re-igniting the same sensory brain patterns, making the memory feel perceptual again. The same high-resolution processing that made the original experience vivid makes the memory vivid.</p>
+
     <h3>Memory Like High-Definition Recording</h3>
 
     <p>Imagine two people recording the same event. One uses a standard camera that automatically selects key moments and compresses the video to save space. The other uses a professional multi-camera setup that captures everything from multiple angles with no compression—every sound, lighting change, background detail, and subtle expression preserved in full resolution.</p>
 
     <p>Autistic memory works like that professional setup. When something happens, many neural pathways record different aspects: what you saw, heard, smelled, felt emotionally, physical sensations, what people said, their tone, background details, and the exact sequence of events. Nothing gets automatically compressed or filtered out.</p>
 
-    <p><strong>The advantage:</strong> You can recall events with extraordinary accuracy. Details that others forget remain crystal clear—the pattern on someone's shirt, exact phrases from a conversation, subtle changes in someone's expression, ambient sounds in the background.</p>
+    <p><strong>The advantage:</strong> You can recall events with extraordinary accuracy. Details that others forget remain crystal clear—the pattern on someone's shirt, exact phrases from a conversation, subtle changes in someone's expression, ambient sounds in the background. Your mental imagery can feel almost as vivid as actually seeing something.</p>
 
     <p><strong>The challenge:</strong> Small reminders can trigger the entire recording to play back. A particular smell, a phrase similar to one someone said, or an ambient sound can reactivate the whole memory field, making you re-experience the event vividly, including all the emotions attached to it. This explains why certain memories feel impossible to "let go"—the brain retrieves too much of the original experience, not just the relevant parts.</p>
 

@@ -28,7 +28,7 @@ title: Distributed Pathway Model
 
     <h2>The Distributed Pathway Model: Mechanistic Foundation</h2>
 
-    <p>The Distributed Pathway Model (DPM) provides the mechanistic substrate for the Higher-Resolution Hypothesis, describing how measurable shifts in neural topology—increased axonal and dendritic branching, and weakened inhibitory gating—transform signal propagation from streamlined isolated networks into cross-network cascades. This architectural reconfiguration produces higher-resolution information processing: more neurons across multiple functional systems encode finer distinctions per stimulus, yielding exceptional perceptual and cognitive capabilities alongside increased energetic cost, temporal variability, and vulnerability to cascade activation across functional boundaries.</p>
+    <p>The Distributed Pathway Model (DPM) provides the mechanistic substrate for the Higher-Resolution Hypothesis, describing how measurable shifts in neural topology—increased axonal and dendritic branching, and weakened inhibitory gating—transform signal propagation from streamlined isolated networks into cross-network cascades. This architectural reconfiguration produces higher-resolution information processing through **ensemble permutations**: the same stimulus can recruit different overlapping ensembles (transient coalitions of neurons) depending on signal strength, phase, and context. Rather than simply activating more neurons, the DPM expands the **space of possible ensemble combinations**, yielding exceptional perceptual and cognitive capabilities alongside increased energetic cost, temporal variability, and vulnerability to cascade activation across functional boundaries.</p>
 
     <h3>Topological Foundation: Branching, Pruning, and Lifelong Collateral Formation</h3>
 
@@ -39,6 +39,8 @@ title: Distributed Pathway Model
     <h3>Inhibitory Gating: Timing and Strength</h3>
 
     <p>Distributed propagation is further amplified by altered inhibitory control. GABAergic interneurons, particularly parvalbumin-positive (PV+) and somatostatin-positive (SST+) populations, normally provide feedforward and feedback inhibition that constrains signal spread. In autism, multiple lines of evidence suggest E/I imbalance toward excitation: reduced GABAergic signaling markers, altered GABA receptor expression, delayed maturation of inhibitory circuits, and increased excitatory:inhibitory neuron ratios in some cortical regions.</p>
+
+    <p>Gating functions much like a **dike in a branching river**: low-energy inputs remain confined to the primary channel, while stronger or prolonged signals can overflow into neighboring routes. These latent collaterals—normally pruned or inhibited in neurotypical development—introduce *potential* cross-activation without guaranteeing it. This **conditional** architecture means that signals can activate one route, both routes, or oscillate between them depending on membrane potential, local field effects, or inhibitory timing.</p>
 
     <p>Critically, even modest reductions in inhibitory strength or delays in inhibitory timing allow distributed activation to persist longer. Signals that would normally be suppressed within tens of milliseconds continue propagating for hundreds of milliseconds, engaging additional downstream circuits before termination. This creates temporal spreading: activation windows expand, making it difficult to segregate sequential inputs and reducing the system's temporal resolution despite increased spatial and featural resolution.</p>
 
@@ -68,7 +70,7 @@ title: Distributed Pathway Model
 
     <div style="text-align:center; margin: 2rem 0;">
       <img src="../../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:600px; width:80%; height:auto;">
-      <p style="margin-top: 1rem;"><em><strong>Figure. The distributed pathway model.</strong> A single input (A) activates multiple parallel pathways through branch point B, creating higher representational density—more neurons encode each stimulus—yielding exceptional detail perception alongside increased processing demands.</em></p>
+      <p style="margin-top: 1rem;"><em><strong>Figure. Neurotypical vs Distributed Pathway processing (ensembles).</strong> Nodes (A–Z) denote **ensembles** (transient coalitions of neurons). Solid blue/green edges show stable within-network routes; dashed red edges are **conditional collaterals** that can activate depending on input strength/phase/context. In DPM, these latent routes expand **ensemble permutations**, increasing perceptual granularity without implying constant cross-activation.</em></p>
     </div>
 
     <p>The Distributed Pathway Model (DPM) describes the fundamental neural architecture underlying autistic cognition. It proposes that autism arises from measurable shifts in how neural circuits develop and operate: more branching connections, and weaker inhibitory control that allows signals to spread more broadly.</p>
@@ -87,9 +89,9 @@ title: Distributed Pathway Model
 
     <p>Even modest reductions in inhibitory strength allow distributed activation to persist longer. Signals that would normally be suppressed within tens of milliseconds continue propagating for hundreds of milliseconds, engaging additional downstream circuits before termination. This creates temporal spreading—activation windows expand, making it difficult to segregate sequential inputs despite increased spatial resolution.</p>
 
-    <h3>Higher Resolution, Higher Cost</h3>
+    <h3>Higher Resolution Through Ensemble Permutations</h3>
 
-    <p>This distributed architecture increases representational density: more neurons encode finer distinctions per stimulus, yielding higher-resolution perception and cognition. Autistic individuals often detect subtle patterns, sensory distinctions, and informational details that compressed processing would miss.</p>
+    <p>This distributed architecture increases representational density not just by engaging more neurons, but by expanding the **space of possible ensemble combinations**. The same stimulus can recruit different overlapping groups of neurons (ensembles) depending on input strength, creating finer distinctions. This is why autistic individuals often detect subtle patterns, sensory distinctions, and informational details that compressed processing would miss—the brain has access to more possible representational states.</p>
 
     <p>However, this resolution comes with costs:</p>
     <ul>
@@ -115,7 +117,7 @@ title: Distributed Pathway Model
 
     <div style="text-align:center; margin: 2rem 0;">
       <img src="../../diagrams/dpm-comparison-side-by-side.svg" alt="The Distributed Pathway Model" style="max-width:600px; width:80%; height:auto;">
-      <p style="margin-top: 1rem;"><em><strong>The distributed pathway model.</strong> Information follows multiple parallel routes instead of a single main path. This creates richer detail but requires more energy and coordination.</em></p>
+      <p style="margin-top: 1rem;"><em><strong>The distributed pathway model.</strong> Information can flow through multiple possible combinations of neuron groups (ensembles) depending on signal strength. This creates many more possible processing patterns—richer detail—but requires more energy and coordination.</em></p>
     </div>
 
     <p>The Distributed Pathway Model explains the fundamental way the autistic brain is structured differently from neurotypical brains—and why this creates both exceptional abilities and genuine challenges.</p>
@@ -138,12 +140,14 @@ title: Distributed Pathway Model
 
     <h3>Why This Creates "Higher Resolution"</h3>
 
-    <p>Because more neurons across multiple systems are activated by the same input, your brain is capturing more information—more detail, more nuance, more dimensions of the stimulus, often spanning functional domains that would remain separate in neurotypical brains. It's like the difference between a standard photo and a high-resolution photo:</p>
+    <p>Because your brain can activate different **combinations** of neuron groups (ensembles) depending on signal strength, you're not just capturing more raw data—you're accessing more possible **representational states**. Think of it like having more settings on a camera: the same scene can be captured in more different ways, revealing details that a simpler camera with fewer settings would miss.</p>
+
+    <p>It's like the difference between a standard photo and a high-resolution photo:</p>
 
     <p><strong>Standard photo (8 megapixels):</strong> Captures the main image clearly, good enough for most purposes, processes quickly<br>
     <strong>High-resolution photo (40 megapixels):</strong> Captures extraordinary detail invisible in the standard photo, but creates much larger file sizes, takes longer to process, requires more storage and computing power</p>
 
-    <p>Your brain is the high-resolution camera. You notice details others miss—subtle patterns, minute changes, fine distinctions—because you're genuinely capturing more information.</p>
+    <p>Your brain is the high-resolution camera with more possible combinations of active neuron groups. You notice details others miss—subtle patterns, minute changes, fine distinctions—because you have access to more possible ways of representing the same information.</p>
 
     <h3>The Brake System: Inhibitory Control</h3>
 

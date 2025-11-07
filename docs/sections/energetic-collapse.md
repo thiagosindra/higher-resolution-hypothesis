@@ -34,6 +34,8 @@ title: Energetic Collapse States
 
     <p>Neural activity requires continuous ATP supply for maintaining ionic gradients (via Na+/K+-ATPase), neurotransmitter recycling, synaptic vesicle trafficking, and action potential generation. In distributed architecture, each cognitive or perceptual event engages 3-5× more neurons and synaptic connections than in typical architectures, proportionally increasing ATP consumption. When multiple processes operate concurrently—sensory processing, executive control, prediction updating, emotional regulation—energy demand scales nonlinearly because partially overlapping pathways must maintain simultaneous activation.</p>
 
+    <p>Critically, **each additional ensemble engaged in parallel adds to energetic demand**, even when the activation is internally generated, such as during imagery, recall, or dreaming. These off-line activations illustrate the same principle: finer representational resolution trades efficiency for richness, occasionally pushing the system toward fatigue or overload. This explains why intense mental activity—detailed planning, vivid imagination, or rumination—can be as exhausting as external sensory processing.</p>
+
     <p>Mitochondrial ATP production and glial metabolic support (lactate shuttle, ion homeostasis, glutamate-glutamine cycling) have fixed upper limits determined by mitochondrial density, respiratory chain efficiency, and glial buffering capacity. Under typical conditions, these systems maintain adequate supply. Under sustained high demand—prolonged cognitive load, sensory overload, executive strain, predictive interference—local energy deficits accumulate in affected cortical microcircuits as consumption persistently exceeds replenishment.</p>
 
     <h3>Shutdowns: Functional Cessation from ATP Depletion</h3>
@@ -72,6 +74,8 @@ title: Energetic Collapse States
 
     <p>Distributed propagation not only taxes inhibitory control but also depletes metabolic resources. Each branching cascade engages more neurons and synapses per unit of experience, increasing ATP consumption and glial support demand. When distributed pathways compete concurrently—during predictive overload, sensory saturation, or prolonged executive strain—energy demand scales nonlinearly. Partially overlapping pathways must maintain simultaneous activation, multiplying resource requirements.</p>
 
+    <p>Importantly, **each ensemble activated in parallel consumes energy**, whether driven by external stimuli or internal processes. This means that intense mental activity—detailed planning, vivid imagination, rumination, or even dreaming—can drain energy reserves just as effectively as external sensory processing. The brain doesn't distinguish between "external" and "internal" work when allocating metabolic resources; both engage the same high-resolution neural ensembles at similar energetic cost.</p>
+
     <p>Mitochondrial ATP production and glial buffering (lactate shuttle, ion homeostasis) have fixed upper limits. Under typical conditions, these systems maintain adequate supply. Under sustained high demand, consumption persistently exceeds replenishment, and local energy deficits accumulate in affected cortical microcircuits. When these deficits reach critical thresholds, transient functional collapse occurs.</p>
 
     <h3>Shutdowns: Forced Functional Cessation</h3>
@@ -103,6 +107,8 @@ title: Energetic Collapse States
     <p>Think of your brain like a city's electrical grid. A typical brain-city has efficient power distribution—most buildings run on low power most of the time, with surges handled by the system. An autistic brain-city has many more buildings running at higher power simultaneously. Every sensory input, every thought, every emotion activates more neural "buildings" that all need power at once.</p>
 
     <p>Your brain's fuel is called ATP—it's what keeps neurons firing. In distributed architecture, you're using 3-5 times more neurons for the same task, which means you're consuming ATP much faster. When you're doing multiple things at once (processing sensory input + thinking + managing emotions + predicting what happens next), the energy demand multiplies rapidly.</p>
+
+    <p><strong>Internal mental work drains energy too:</strong> Intense thinking, detailed planning, vivid imagination, worry, or even realistic dreams all activate the same high-resolution brain patterns as processing external information. This is why mental exhaustion can happen even when you're "just thinking" or why you might feel tired after a vivid dream—your brain was doing real metabolic work activating multiple neural pathways.</p>
 
     <p>Your brain can only produce ATP at a certain rate—it's like the power plant has a maximum output. When you're demanding more power than it can supply for extended periods, you start running a deficit. The power reserves drain, and eventually, the system can't keep running.</p>
 

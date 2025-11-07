@@ -1,58 +1,14 @@
-%%{init: {
-  'theme': 'base',
-  'themeVariables': {
-    'fontFamily': 'Inter, system-ui, sans-serif',
-    'fontSize': '13px',
-    'lineColor': '#94a3b8',
-    'clusterBkg': '#fafafa',
-    'clusterBorder': '#cbd5e1',
-    'nodeSpacing': 60,
-    'rankSpacing': 80
-  }
-}}%%
-graph TD
-    Start[Stimulus<br/>t = 0ms] --> Phase1
-    
-    subgraph Phase1["Feedforward Phase: 0-100ms"]
-        direction LR
-        A[A] --> B[B]
-        A --> D[D]
-    end
-    
-    subgraph Phase2["Reactive Phase: 100-500ms"]
-        direction TB
-        B --> C[C]
-        B -.-> Y[Y]
-        D --> F[F]
-        F --> C
-    end
-    
-    subgraph Phase3["Decay Phase: 500-1200ms"]
-        direction LR
-        Y -.-> Z[Z]
-        C --> P1[Sustained<br/>Activity]
-        Z -.-> P2[Memory<br/>Traces]
-    end
-    
-    Phase1 --> Phase2
-    Phase2 --> Phase3
-    
-    style Start fill:#f1f5f9,stroke:#64748b,stroke-width:2px
-    style Phase1 fill:#eff6ff,stroke:#3b82f6,stroke-width:2px
-    style Phase2 fill:#fef3c7,stroke:#f59e0b,stroke-width:2px
-    style Phase3 fill:#fce7f3,stroke:#ec4899,stroke-width:2px
-    
-    style A fill:#dbeafe,stroke:#0284c7,stroke-width:2px
-    style B fill:#dbeafe,stroke:#0284c7,stroke-width:2px
-    style D fill:#dbeafe,stroke:#0284c7,stroke-width:2px
-    style C fill:#fef08a,stroke:#ca8a04,stroke-width:2px
-    style F fill:#fef08a,stroke:#ca8a04,stroke-width:2px
-    style Y fill:#fef08a,stroke:#ca8a04,stroke-width:2px
-    style Z fill:#fbcfe8,stroke:#db2777,stroke-width:2px
-    style P1 fill:#fbcfe8,stroke:#db2777,stroke-width:2px
-    style P2 fill:#fbcfe8,stroke:#db2777,stroke-width:2px
-    
-    linkStyle default stroke:#94a3b8,stroke-width:2px
-    linkStyle 3 stroke:#fbbf24,stroke-width:1.5px,stroke-dasharray: 6 3
-    linkStyle 7 stroke:#f472b6,stroke-width:1.5px,stroke-dasharray: 6 3
-    linkStyle 9 stroke:#f472b6,stroke-width:1.5px,stroke-dasharray: 6 3
+%% Temporal persistence (tau) and delayed collateral recruitment
+sequenceDiagram
+  participant t0 as t0
+  participant t1 as t1
+  participant t2 as t2
+  participant t3 as t3
+
+  Note over t0,t3: A→B→C is active at t0. In DPM, activity decays more slowly (↑τ)
+
+  t0->>t1: C remains active (slow decay)
+  t1->>t2: Residual at B crosses collateral threshold → B→Y
+  t2->>t3: Y→Z recruited (additional ensemble)
+
+  Note over t0,t3: In NT, faster decay prevents delayed collateral recruitment.

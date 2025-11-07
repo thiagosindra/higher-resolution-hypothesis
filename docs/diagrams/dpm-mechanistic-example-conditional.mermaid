@@ -1,0 +1,9 @@
+%% Mechanistic Example (single network view; edge is gated not constant)
+flowchart LR
+  Inp[Input]:::in --> A((A)):::p1 --> B((B)):::p1 --> C((C)):::p1
+  B -. gated (thresholded) .-> Y((Y)):::p2 --> Z((Z)):::p2
+
+  classDef p1 fill:#eef4ff,stroke:#6b8cff,stroke-width:1.4px,color:#132a7a;
+  classDef p2 fill:#eefcf3,stroke:#29a36a,stroke-width:1.4px,color:#0b3b23;
+  classDef in fill:#f5f5f5,stroke:#9aa0a6,color:#202124;
+  linkStyle 1 stroke:#e11d48,stroke-dasharray:6 4,stroke-width:1.8px;

@@ -1,0 +1,19 @@
+%% Input strength cases: NT vs DPM outcomes
+flowchart TB
+  subgraph LOW["Input: LOW"]
+    LNT["NT: A subthreshold → no ensemble"]:::nt
+    LDPM["DPM: A subthreshold → no ensemble"]:::dpm
+  end
+
+  subgraph MED["Input: MEDIUM"]
+    MNT["NT: A→B→C → Ensemble C"]:::nt
+    MDPM["DPM: A→B→C (B→Y gated off) → Ensemble C"]:::dpm
+  end
+
+  subgraph HIGH["Input: HIGH"]
+    HNT["NT: A→B→C → Ensemble C (saturated)"]:::nt
+    HDPM["DPM: A→B→C + B→Y→Z → Ensembles C + Z (overlap)"]:::dpm
+  end
+
+  classDef nt fill:#e6f0ff,stroke:#6b8cff,color:#0b1b5e;
+  classDef dpm fill:#e7f8ee,stroke:#29a36a,color:#0b3b23;

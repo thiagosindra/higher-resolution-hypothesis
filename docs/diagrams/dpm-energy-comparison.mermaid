@@ -1,50 +1,12 @@
-%%{init: {
-  'theme': 'base',
-  'themeVariables': {
-    'fontFamily': 'Inter, system-ui, sans-serif',
-    'fontSize': '14px',
-    'lineColor': '#94a3b8',
-    'edgeLabelBackground': '#ffffff',
-    'clusterBkg': '#fafafa',
-    'clusterBorder': '#cbd5e1',
-    'nodeSpacing': 70,
-    'rankSpacing': 70
-  }
-}}%%
-graph LR
-    subgraph NT["Neurotypical"]
-        %% ~100 neurons • ~60ms • * 1× energy
-        direction LR
-        A1[A] -->|fast gating| B1[B] -->|strong inhibition| C1[C]
-    end
-    
-    subgraph DPM["Distributed Model"]
-        %% ~350 neurons • ~500ms • ***** 7-8× energy
-        direction TB
-        A2[A] --> B2[B]
-        A2 --> D2[D]
-        B2 --> C2[C]
-        B2 -.->|spillover| Y2[Y]
-        D2 --> F2[F]
-        F2 --> C2
-        Y2 -.-> Z2[Z]
-    end
-    
-    style NT fill:#ecfdf5,stroke:#059669,stroke-width:2.5px
-    style DPM fill:#fff7ed,stroke:#ea580c,stroke-width:2.5px
-    
-    style A1 fill:#d1fae5,stroke:#059669,stroke-width:2px
-    style B1 fill:#a7f3d0,stroke:#059669,stroke-width:2px
-    style C1 fill:#6ee7b7,stroke:#047857,stroke-width:2px
-    
-    style A2 fill:#fed7aa,stroke:#ea580c,stroke-width:2px
-    style B2 fill:#fed7aa,stroke:#ea580c,stroke-width:2px
-    style D2 fill:#fed7aa,stroke:#ea580c,stroke-width:2px
-    style C2 fill:#fb923c,stroke:#c2410c,stroke-width:2px
-    style Z2 fill:#fb923c,stroke:#c2410c,stroke-width:2px
-    style F2 fill:#fdba74,stroke:#ea580c,stroke-width:2px
-    style Y2 fill:#fdba74,stroke:#ea580c,stroke-width:2px
-    
-    linkStyle default stroke:#64748b,stroke-width:2px
-    linkStyle 4 stroke:#fb923c,stroke-width:1.5px,stroke-dasharray: 6 3
-    linkStyle 7 stroke:#fb923c,stroke-width:1.5px,stroke-dasharray: 6 3
+%% Energy comparison schematic
+flowchart TB
+  subgraph NT["Neurotypical"]
+    NTN["Single dominant ensemble\n(A→B→C)"]:::nt --> NTE["Lower concurrent demand"]:::nt --> NTC["Lower ATP cost"]:::nt
+  end
+
+  subgraph DPM["Distributed Pathways"]
+    DPMN["Multiple overlapping ensembles\n(A→B→C + B→Y→Z)"]:::dpm --> DPME["Higher concurrent demand"]:::dpm --> DPMC["Higher ATP cost (resolution trade-off)"]:::dpm
+  end
+
+  classDef nt fill:#eef4ff,stroke:#6b8cff,color:#0b1b5e;
+  classDef dpm fill:#eefcf3,stroke:#29a36a,color:#0b3b23;
