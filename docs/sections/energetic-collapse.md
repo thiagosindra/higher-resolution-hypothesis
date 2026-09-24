@@ -32,7 +32,7 @@ title: Energetic Collapse States
 
     <h3>Metabolic Demands of Distributed Architecture</h3>
 
-    <p>Neural activity requires continuous ATP supply for maintaining ionic gradients (via Na+/K+-ATPase), neurotransmitter recycling, synaptic vesicle trafficking, and action potential generation. In distributed architecture, each cognitive or perceptual event engages 3-5× more neurons and synaptic connections than in typical architectures, proportionally increasing ATP consumption. When multiple processes operate concurrently—sensory processing, executive control, prediction updating, emotional regulation—energy demand scales nonlinearly because partially overlapping pathways must maintain simultaneous activation.</p>
+    <p>Neural activity requires continuous ATP supply for maintaining ionic gradients (via Na+/K+-ATPase), neurotransmitter recycling, synaptic vesicle trafficking, and action potential generation. In distributed architecture, each cognitive or perceptual event may engage more neurons and synaptic connections than in typical architectures, increasing ATP consumption. When multiple processes operate concurrently—sensory processing, executive control, prediction updating, emotional regulation—energy demand scales nonlinearly because partially overlapping pathways must maintain simultaneous activation.</p>
 
     <p>Critically, **each additional ensemble engaged in parallel adds to energetic demand**, even when the activation is internally generated, such as during imagery, recall, or dreaming. These off-line activations illustrate the same principle: finer representational resolution trades efficiency for richness, occasionally pushing the system toward fatigue or overload. This explains why intense mental activity—detailed planning, vivid imagination, or rumination—can be as exhausting as external sensory processing.</p>
 
@@ -106,7 +106,7 @@ title: Energetic Collapse States
 
     <p>Think of your brain like a city's electrical grid. A typical brain-city has efficient power distribution—most buildings run on low power most of the time, with surges handled by the system. An autistic brain-city has many more buildings running at higher power simultaneously. Every sensory input, every thought, every emotion activates more neural "buildings" that all need power at once.</p>
 
-    <p>Your brain's fuel is called ATP—it's what keeps neurons firing. In distributed architecture, you're using 3-5 times more neurons for the same task, which means you're consuming ATP much faster. When you're doing multiple things at once (processing sensory input + thinking + managing emotions + predicting what happens next), the energy demand multiplies rapidly.</p>
+    <p>Your brain's fuel is called ATP—it's what keeps neurons firing. In distributed architecture, you may be using more neurons for the same task, which means you're consuming ATP much faster. When you're doing multiple things at once (processing sensory input + thinking + managing emotions + predicting what happens next), the energy demand multiplies rapidly.</p>
 
     <p><strong>Internal mental work drains energy too:</strong> Intense thinking, detailed planning, vivid imagination, worry, or even realistic dreams all activate the same high-resolution brain patterns as processing external information. This is why mental exhaustion can happen even when you're "just thinking" or why you might feel tired after a vivid dream—your brain was doing real metabolic work activating multiple neural pathways.</p>
 

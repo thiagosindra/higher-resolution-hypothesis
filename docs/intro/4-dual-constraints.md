@@ -43,7 +43,7 @@ These aren't flaws—they're inevitable consequences of the architecture. And th
 
 ### The Mechanism
 
-When distributed pathways activate 3-5× more neurons, the brain faces a problem: How do you maintain signal clarity when more neurons are firing?
+When distributed pathways activate more neurons, the brain faces a problem: How do you maintain signal clarity when more neurons are firing?
 
 **The answer:** recruit proportionally stronger inhibition.
 
@@ -83,7 +83,7 @@ Think of it like volume control in a noisy room. If more people are talking (mor
 
 ### The Mechanism
 
-Neural processing requires energy (ATP). Neurons share local energy supplies from nearby blood vessels. When distributed pathways engage 3-5× more neurons within a local brain region (like a cortical column), they consume 3-5× more energy from that shared pool.
+Neural processing requires energy (ATP). Neurons share local energy supplies from nearby blood vessels. When distributed pathways engage more neurons within a local brain region (like a cortical column), they consume more energy from that shared pool.
 
 Energy delivery can't instantly match demand spikes. When a distributed pathway exhausts local ATP reserves, other circuits in the same region face insufficient energy to activate—even if they're receiving strong input signals.
 

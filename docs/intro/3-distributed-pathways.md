@@ -56,13 +56,13 @@ Here's what makes autistic neural processing distinct:
       <li>Sensory input → Many overlapping groups → Comprehensive analysis → Output</li>
       <li>Multiple parallel paths processing the same information</li>
       <li>Extensive overlap: Groups share members</li>
-      <li>Thorough but resource-intensive: 3-5× more neurons involved</li>
+      <li>Thorough but resource-intensive: many more neurons involved</li>
     </ul>
   </div>
 </div>
 
 <div class="callout primary">
-  <p><strong>The Distributed Pathway Model:</strong> Autistic brains engage 3-5 times more neurons to process the same information, creating overlapping circuits that collectively provide higher-resolution representation.</p>
+  <p><strong>The Distributed Pathway Model:</strong> Autistic brains may engage more neurons to process the same information, creating overlapping circuits that collectively provide higher-resolution representation.</p>
 </div>
 
 ## Why More Neurons = Higher Resolution
@@ -83,7 +83,7 @@ When you engage more neurons to represent a sound:
 - Neurons 5-10 respond to combinations of these
 - ...and so on
 
-**Each neuron adds a dimension to the representation.** With 3-5× more neurons, you capture 3-5× more dimensions of the sound. This creates a high-dimensional representation space where subtle differences become distinguishable—differences that lower-dimensional representations collapse into "close enough."
+**Each neuron adds a dimension to the representation.** With more neurons, you capture more dimensions of the sound. This creates a high-dimensional representation space where subtle differences become distinguishable—differences that lower-dimensional representations collapse into "close enough."
 
 This is why autistic individuals can:
 - Detect pitch differences of fractions of a semitone
@@ -114,7 +114,7 @@ This overlap creates two crucial consequences:
 
 ## The Costs of Distributed Architecture
 
-Using 3-5× more neurons in overlapping patterns creates higher resolution. But it also creates two fundamental constraints that shape everything about autistic cognition:
+Using more neurons in overlapping patterns creates higher resolution. But it also creates two fundamental constraints that shape everything about autistic cognition:
 
 <div class="constraints-preview">
   <div class="constraint-box">
@@ -130,7 +130,7 @@ Using 3-5× more neurons in overlapping patterns creates higher resolution. But 
 
   <div class="constraint-box">
     <h3>Constraint 2: Energy Competition</h3>
-    <p>3-5× more neurons require 3-5× more energy (ATP). When circuits overlap in space, they're drawing from the same local energy supplies.</p>
+    <p>More neurons require more energy (ATP). When circuits overlap in space, they're drawing from the same local energy supplies.</p>
     <p><strong>This creates:</strong></p>
     <ul>
       <li>✓ Rich, detailed processing when energy is available</li>
@@ -146,7 +146,7 @@ Using 3-5× more neurons in overlapping patterns creates higher resolution. But 
 
 ## What Comes Next
 
-Now we understand the architecture: distributed pathways using 3-5× more neurons in overlapping circuits. This creates higher resolution by capturing more dimensions.
+Now we understand the architecture: distributed pathways using more neurons in overlapping circuits. This creates higher resolution by capturing more dimensions.
 
 But it also creates two unavoidable constraints: enhanced inhibition and energy competition. Understanding how these constraints work—and interact—is the key to understanding autism.
 

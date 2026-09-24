@@ -2,17 +2,17 @@
 
 **Author:** Thiago Sindra  
 **Affiliation:** Independent Researcher  
-**Date:** November 2025  
+**Date:** September 2026  
 **License:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
 
 ## Overview
 
-**The Higher-Resolution Hypothesis** proposes that autism arises not from isolated dysfunctions, but from a distinct *mode of neural organization*.
-It introduces the **Distributed Pathway Model (DPM)** — a mechanistic framework describing how increased local branching and distributed propagation of neural activity can produce *higher representational density* throughout the brain.
+**The Higher-Resolution Hypothesis** is an idea I have been working on to make sense of autistic experience — my own and what I have read. My working guess is that autism reflects a distinct *mode of neural organization* rather than a set of isolated dysfunctions.
+I describe one possible mechanism for it, the **Distributed Pathway Model (DPM)**: a sketch of how more available routes for the same input — collateral branches that stay available and are gated less precisely — could produce *finer-grained representation*.
 
-This distributed topology enriches perception, memory, and associative thinking — creating what can be called *higher-resolution cognition* — but also imposes **dual constraints**: enhanced inhibition (creating selectivity and inflexibility) and energy competition (creating context-dependent failures and progressive degradation). When energy depletes, weakened inhibition enables **cascade susceptibility**, elevating risk for runaway activation and seizure-like events. The model provides a structural bridge between molecular genetics, circuit-level physiology, and lived autistic experience.
+If that is right, the same architecture would enrich perception, memory, and associative thinking, but would also carry **two costs**: gating that limits flexible integration, and energy competition that could starve neighboring circuits and weaken inhibition under sustained load. I cannot currently test this, and I do not know how to separate it from existing excitation/inhibition and predictive-coding accounts; I am sharing it in the hope that people with the right tools can tell me where it is wrong.
 
 ---
 
@@ -28,10 +28,10 @@ All content remains © 2025 Thiago Sindra and may be updated as the framework de
 ## Abstract
 
 Autism may arise from distributed rather than streamlined neural architectures.
-The **Higher-Resolution Hypothesis** views autism as the emergent cognitive expression of a **Distributed Pathway Model (DPM)** of connectivity — in which increased local branching, variable inhibition, and overlapping network activation yield higher representational precision and richer perceptual detail.
+The **Higher-Resolution Hypothesis** suggests that autism may be the cognitive expression of a **Distributed Pathway Model (DPM)** of connectivity — in which increased local branching, variable inhibition, and overlapping network activation could yield higher representational precision and richer perceptual detail.
 
-This architecture unifies several prior frameworks — *excitation/inhibition imbalance*, *predictive coding*, *intense world theory*, and *weak central coherence* — under a single topological explanation of autistic cognition.
-It reframes autism as a *distributed computational mode* of the brain: capable of extraordinary sensitivity and depth, but also constrained by **dual limits** (enhanced inhibition creating selectivity, energy competition creating context-dependent failures) and susceptible to cascade activation when inhibition weakens under energetic load.
+I try to relate it to several prior frameworks — *excitation/inhibition imbalance*, *predictive coding*, *intense world theory*, and *weak central coherence* — with which it shares most of its predictions.
+My reading is that autism may be a *distributed computational mode* of the brain: capable of extraordinary sensitivity and depth, but possibly constrained by **two limits** (gating that creates selectivity, energy competition that creates context-dependent failures) and susceptible to cascade activation when inhibition weakens under energetic load. None of this is established; the paper says where I do not know how to test it.
 
 ---
 

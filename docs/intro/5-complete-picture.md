@@ -35,7 +35,7 @@ Let's bring it all together:
 <div class="framework-summary">
   <div class="framework-box foundation">
     <h3>Foundation</h3>
-    <p>Autistic brains use <strong>distributed pathways</strong>—3-5× more neurons processing information in overlapping circuits.</p>
+    <p>Autistic brains use <strong>distributed pathways</strong>—more neurons processing information in overlapping circuits.</p>
   </div>
 
   <div class="framework-box primary-effect">
@@ -65,7 +65,7 @@ Let's bring it all together:
 
   <div class="feature-card">
     <h3>1. Sensory Sensitivity</h3>
-    <p>Distributed pathways process sensory input with 3-5× more neurons, creating both enhanced discrimination AND greater total neural activity. Under energy depletion, inhibition weakens, creating sensory flooding. Same architecture creates hyper-sensitivity (engaged domain) and hypo-sensitivity (energy-starved competing domains).</p>
+    <p>Distributed pathways process sensory input with more neurons, creating both enhanced discrimination AND greater total neural activity. Under energy depletion, inhibition weakens, creating sensory flooding. Same architecture creates hyper-sensitivity (engaged domain) and hypo-sensitivity (energy-starved competing domains).</p>
     <a href="{{ site.baseurl }}/sections/sensory-cognition" class="learn-more">Learn more: Sensory Processing →</a>
   </div>
 
@@ -247,7 +247,7 @@ You now understand the Higher-Resolution Hypothesis:
 
 1. **The Paradox:** Exceptional abilities and overwhelming challenges coexist
 2. **Higher Resolution:** More neurons capture more dimensions = finer discrimination
-3. **Distributed Pathways:** 3-5× more neurons in overlapping circuits create this resolution
+3. **Distributed Pathways:** more neurons in overlapping circuits create this resolution
 4. **Dual Constraints:** Enhanced inhibition + energy competition shape the phenotype
 5. **Complete Picture:** One architecture explains strengths, challenges, and heterogeneity
 

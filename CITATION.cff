@@ -6,12 +6,16 @@ authors:
     given-names: "Thiago"
     affiliation: "Independent Researcher"
 abstract: >
-  The Higher-Resolution Hypothesis proposes that autism arises from a distributed neural
-  architecture that produces higher-resolution cognition through overlapping network activation.
-  It introduces the Distributed Pathway Model (DPM) as a mechanistic framework linking genetic,
-  circuit-level, and cognitive evidence. The hypothesis reframes autism as an alternative
-  computational mode of the brain—capable of extraordinary sensitivity and precision, but also
-  vulnerable to overload and instability.
+  Autism presents a paradox: exceptional perceptual detail and pattern sensitivity sit alongside
+  sensory overload, difficulty generalizing, and difficulty switching. This document describes an
+  idea I have been working on to make sense of that paradox, the Higher-Resolution Hypothesis
+  (HRH), and one possible mechanism for it, the Distributed Pathway Model (DPM). My working guess
+  is that autistic cortex makes more routes available for the same input: not more neurons per
+  signal so much as more possible combinations of ensembles that can represent it, because
+  collateral connections that would normally be pruned or tightly gated remain available and open
+  under stronger or more sustained input. If that is true, the same stimulus would be represented
+  with finer granularity. I am publishing it as a hypothesis I cannot currently test, in the hope
+  that people with the right tools can tell me where it is wrong.
 keywords:
   - autism spectrum
   - distributed pathway model
@@ -21,7 +25,7 @@ keywords:
   - neurodevelopment
 license: "CC-BY-NC-SA-4.0"
 repository-code: "https://github.com/thiagosindra/higher-resolution-hypothesis"
-version: "1.0"
+version: "1.1"
 date-released: "2025-10-20"
 doi: "10.5281/zenodo.pending"
 url: "https://thiagosindra.github.io/higher-resolution-hypothesis/"

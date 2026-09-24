@@ -42,7 +42,7 @@ title: Relationship to Existing Theories
 
     <p>Intense World Theory, developed from valproate rodent models, emphasizes hyper-reactivity, hyper-plasticity, and hyper-memory formation in autism. The theory proposes that autistic individuals experience the world with heightened intensity—sensory inputs produce stronger neural responses, memories are formed more readily and persist longer, and emotional reactions are amplified. DPM provides the circuit-level topology underlying this intensity.</p>
 
-    <p>Dense local branching and distributed propagation naturally amplify input: the same sensory stimulus recruits 3-5× more neurons through collateral pathways compared to streamlined hierarchical processing. This yields higher representational density—more neurons encoding finer distinctions—which manifests phenomenologically as intensity. Hyper-plasticity follows from sustained activation across distributed ensembles: when multiple partially overlapping populations encode the same event, synaptic strengthening occurs simultaneously across these pathways, producing redundant encoding that resists forgetting. Hyper-reactivity reflects weak inhibitory gating allowing excitatory spread to dominate.</p>
+    <p>Dense local branching and distributed propagation naturally amplify input: the same sensory stimulus recruits more neurons through collateral pathways compared to streamlined hierarchical processing. This yields higher representational density—more neurons encoding finer distinctions—which manifests phenomenologically as intensity. Hyper-plasticity follows from sustained activation across distributed ensembles: when multiple partially overlapping populations encode the same event, synaptic strengthening occurs simultaneously across these pathways, producing redundant encoding that resists forgetting. Hyper-reactivity reflects weak inhibitory gating allowing excitatory spread to dominate.</p>
 
     <p>Intense World Theory describes the phenomenology—what autism feels like from the inside—while DPM describes the wiring diagram that generates that phenomenology. The two frameworks are complementary: intensity is the subjective correlate of distributed, high-resolution encoding.</p>
 
@@ -100,7 +100,7 @@ title: Relationship to Existing Theories
 
     <p><strong>Intense World Theory</strong> emphasizes that autistic individuals experience heightened intensity—stronger sensory responses, deeper emotional reactions, more persistent memories. This theory emerged from animal models showing hyper-reactivity and hyper-plasticity.</p>
 
-    <p>DPM provides the structural explanation for this intensity. Dense local branching means the same sensory input recruits more neurons through distributed pathways—perhaps 3-5 times more than in typical processing. This creates higher representational density: more neurons encoding finer distinctions, which manifests experientially as intensity. Hyper-plasticity follows naturally: when multiple partially overlapping neural populations encode the same event, synaptic strengthening occurs across all these pathways simultaneously, creating redundant, persistent memories.</p>
+    <p>DPM provides the structural explanation for this intensity. Dense local branching means the same sensory input may recruit more neurons through distributed pathways than in typical processing. This creates higher representational density: more neurons encoding finer distinctions, which manifests experientially as intensity. Hyper-plasticity follows naturally: when multiple partially overlapping neural populations encode the same event, synaptic strengthening occurs across all these pathways simultaneously, creating redundant, persistent memories.</p>
 
     <p>Intense World describes what autism feels like; DPM describes the neural wiring that produces that feeling. The two frameworks are complementary perspectives on the same underlying reality.</p>
 
@@ -181,7 +181,7 @@ title: Relationship to Existing Theories
 
     <p><strong>What the theory says:</strong> Intense World Theory proposes that autistic people experience everything more intensely—sensory input feels stronger, memories are more vivid and persistent, emotional reactions are more powerful. It's not that you're being "oversensitive"—the world genuinely registers more intensely in your brain.</p>
 
-    <p><strong>How DPM connects it:</strong> DPM explains <em>why</em> everything feels more intense. When distributed pathways activate 3-5 times more neurons for the same input, the resulting experience is naturally more vivid, detailed, and persistent.</p>
+    <p><strong>How DPM connects it:</strong> DPM explains <em>why</em> everything feels more intense. If distributed pathways activate more neurons for the same input, the resulting experience is naturally more vivid, detailed, and persistent.</p>
 
     <p>Imagine two people watching the same sunset:</p>
     <ul>

@@ -23,7 +23,7 @@ title: "Explore the Framework"
 
   <div class="section-card">
     <h3><a href="{{ site.baseurl }}/sections/distributed-pathway-model">Distributed Pathway Model</a></h3>
-    <p class="card-description">The mechanistic substrate: how branching topology and overlapping circuits create higher-resolution processing through 3-5× more neurons per representation.</p>
+    <p class="card-description">The mechanistic substrate: how branching topology and overlapping circuits create higher-resolution processing through more overlapping routes for the same input.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 8 min read</span>
       <span class="level-indicator">3 levels available</span>

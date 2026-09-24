@@ -27,7 +27,7 @@ See also: [Dual Constraints]({{ site.baseurl }}/intro/4-dual-constraints), [Ener
 
 ## Distributed Pathway Model (DPM)
 
-The core mechanistic framework proposing that autistic cognition emerges from neural circuits with 3-5× more neurons processing each representation, organized through branching pathways rather than streamlined routes. This architecture creates higher resolution processing but also imposes dual constraints: enhanced inhibition (to maintain signal clarity) and energy competition (from increased metabolic demand).
+The core mechanistic framework proposing that autistic cognition emerges from neural circuits in which more overlapping routes are available for each representation, organized through branching pathways rather than streamlined routes. This architecture creates higher resolution processing but also imposes dual constraints: enhanced inhibition (to maintain signal clarity) and energy competition (from increased metabolic demand).
 
 See also: [Distributed Pathway Model]({{ site.baseurl }}/sections/distributed-pathway-model)
 
