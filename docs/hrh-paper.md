@@ -159,38 +159,27 @@ Thus, DPM is not a pathology model but a topology model: it describes how inform
 
 ## Mechanistic Deep Dive: The Distributed Pathway Model in Action
 
-The Distributed Pathway Model (DPM) can be expressed quantitatively, but the following section should be understood as a conceptual formulation rather than an empirical measurement. The framework introduces illustrative parameters to describe how changes in branching, inhibition, persistence, and energetic cost might interact to produce the distributed activation patterns proposed by the Higher-Resolution Hypothesis (HRH). The goal is to outline one possible way to formalize these ideas so they can be tested, refined, or falsified by future research—not to assert definitive or observed numerical values.
+<!-- REVISED: less-authoritative pass -->
+This section is where I try to say concretely what the DPM would mean at the circuit level. I want to be clear about its status: none of what follows is measured, modeled, or fitted. It is my attempt to name the moving parts so that someone who *can* measure them knows what I am pointing at. Earlier drafts of this section carried illustrative numbers and equations; I have removed them because they gave the text a precision it never had.
 
-### 1. Core Mechanistic Parameters (Illustrative Framework)
+### 1. Four things that would have to be different
 
-At the microcircuit level, the DPM can be parameterized by four interacting variables. These parameters are conceptual placeholders for measurable properties, not established constants:
+<!-- REVISED: less-authoritative pass -->
+If the DPM is right, I think four properties of a microcircuit would differ from typical, and everything else in this document is downstream of them:
 
-| Symbol | Parameter                | Conceptual Role                                                                                     | Approximate Range (illustrative) |
-| ------ | ------------------------ | --------------------------------------------------------------------------------------------------- | -------------------------------- |
-| **B**  | *Branching Factor*       | Average number of downstream targets per neuron (reflecting axonal and dendritic arborization).     | NT ≈ 1.2–1.5 → DPM ≈ 2.0–3.5     |
-| **I**  | *Inhibition Coefficient* | Strength and temporal precision of inhibitory control relative to excitation.                       | NT ≈ 0.7–0.9 → DPM ≈ 0.3–0.6     |
-| **τ**  | *Persistence Constant*   | Duration of post-activation reverberation within local circuits (milliseconds).                     | NT ≈ 50–150 ms → DPM ≈ 200–800 ms |
-| **E**  | *Energetic Cost*         | Relative metabolic demand for sustaining distributed activation.                                    | Scales as *E* ∝ *B*^α / *I*, α ≈ 1.5–2.0 |
+- **Branching (B)** — how many downstream targets a neuron effectively reaches, via axonal collaterals and dendritic arborization. I imagine this is higher.
+- **Inhibitory gating (I)** — how strongly and, especially, how *precisely in time* inhibition closes off alternative routes. I imagine this is less precise, though as I discuss later I am not sure whether it is weaker overall or stronger in some places and weaker in others.
+- **Persistence (τ)** — how long activity reverberates locally after the input stops. I imagine this is longer.
+- **Energetic cost (E)** — the metabolic price of running more routes for longer. I assume this rises with branching and persistence and falls with gating, but I have no basis for saying how steeply.
 
-These parameters could be estimated through:
-- **B**: Anatomical reconstruction, synaptic-density metrics, dendritic spine counts
-- **I**: Inhibitory amplitude and timing measures (PV/SST interneuron activity, IPSC latencies)
-- **τ**: Decay constants in electrophysiological recordings or calcium imaging
-- **E**: Metabolic indicators such as ATP turnover, glucose utilization (FDG-PET), or lactate accumulation
+I use these four letters throughout as shorthand for "the thing that would have to be different," not as parameters of a model. I do not know their typical values, their autistic values, or whether they can be measured independently of one another in a living human.
 
 <div style="text-align:center; margin: 2rem 0;">
-  <img src="diagrams/dpm-parameters.svg" alt="DPM with illustrative parameter values" style="max-width:350px; width:100%; height:auto;">
+  <img src="diagrams/dpm-parameters.svg" alt="The four moving parts of the DPM" style="max-width:350px; width:100%; height:auto;">
   <p style="margin-top: 1rem;"><em><!-- UPDATED: Parameters figure caption (Batch 4) -->
-<strong>Figure 2. Parameter summary.</strong> In DPM, **B↑, I↓, τ↑** expand **P** (the ensemble **permutation space**), increasing granularity and conditional cross-activation at a metabolic cost **E**.</em></p>
+<!-- REVISED: less-authoritative pass -->
+<strong>Figure 2. The four moving parts.</strong> In the DPM, more branching, less precise gating, and longer persistence would enlarge the space of ensemble combinations (**P**) at a metabolic cost (**E**). No values are implied.</em></p>
 </div>
-
-Two heuristic relationships capture their qualitative interactions:
-
-*R* ∝ (*B* · τ) / *I*,  and  *E* ∝ *B*^1.7 · (τ / *I*)
-
-where *R* represents information density. These are illustrative equations—intended to convey proportional relationships and generate testable predictions, not to claim quantitative precision.
-
-**Note on terminology:** The parameters *B*, *I*, τ, and *E* are introduced as a minimal modeling vocabulary for discussion and testing. They summarize known biological features—branching, inhibition, persistence, and metabolism—in a simplified form. Researchers are encouraged to reinterpret, refine, or disprove these relationships through direct measurement, modeling, or comparative analysis.
 
 ### 2. Active and Reactive Pathways
 
@@ -199,55 +188,24 @@ The DPM distinguishes between two proposed classes of pathway activation:
 - **Active pathways** are those directly driven by external input or task demands (the intended signal flow).
 - **Reactive pathways** are collateral activations that emerge when excitatory propagation exceeds inhibitory containment (spillover recruitment).
 
-The **active:reactive ratio (A:R)** is proposed as a conceptual tool to describe system balance:
+<!-- REVISED: less-authoritative pass -->
+I find it useful to think about the *balance* between these two — how much of what happens in a circuit is on-path versus spillover. I would expect that balance to sit further toward the reactive side in autistic cortex, and to differ from person to person and from domain to domain within the same person, which is one way I make sense of "spiky" ability profiles. I have no idea what the ratio actually is in anyone.
 
-A:R = *N*_active / *N*_reactive ≈ *I* / (*B* · τ)
+### 3. Circuit Walkthrough: Hypothetical Sensory Encoding Example
 
-**Hypothetical ranges:**
-- **Neurotypical processing**: A:R ≈ 3:1 to 5:1 (most activity remains on-path)
-- **Distributed processing**: A:R ≈ 1:1 to 1:3 (reactive spread matches or exceeds active processing)
+To demonstrate how this framework could be operationalized, consider a simplified model of edge detection in **primary visual cortex (V1)**. This is a thought experiment about what the difference might look like in one concrete circuit. Nothing here is measured.
 
-These figures are not measured constants, but rather a hypothesis illustrating how changes in branching, inhibition, or persistence could influence circuit stability. They define a direction for empirical testing rather than a statement of fact. Individual variability in these ratios across domains (sensory, motor, linguistic) could predict "spiky" ability profiles characteristic of autism.
-
-### 3. Representational Density: A Worked Example
-
-To illustrate how these parameters might translate into measurable outcomes, consider representational density (ρ)—the number of distinct neural microstates encoding a single stimulus. A simplified heuristic model:
-
-ρ ≈ *N*_input × *B*^*d* × (1 + τ/τ_ref) / *I*
-
-where *N*_input is the initial activated population, *d* is circuit depth (number of synaptic steps), and τ_ref is a reference time constant.
-
-**For a hypothetical two-layer sensory circuit with 50 initial neurons:**
-- **Neurotypical scenario**: ρ_NT = 50 × (1.3)² × 1.5 / 0.8 ≈ **126 microstates**
-- **Distributed scenario**: ρ_DPM = 50 × (2.4)² × 5.0 / 0.45 ≈ **1,422 microstates**
-
-This ~11× increase in representational density would explain "higher resolution" phenomenology—but would also predict 11× more potential interference, prediction error, and energetic demand. This calculation is illustrative, but it generates a testable prediction: if the DPM parameters can be measured empirically, representational density should scale according to this relationship. Individual differences in *B*, *I*, and τ would produce different ρ profiles, potentially explaining phenotypic heterogeneity in autism.
-
-### 4. Circuit Walkthrough: Hypothetical Sensory Encoding Example
-
-To demonstrate how this framework could be operationalized, consider a simplified model of edge detection in **primary visual cortex (V1)**. The values below are not measurements, but illustrative contrasts showing how varying the DPM parameters might qualitatively affect signal propagation and energy demand.
-
-**Neurotypical processing (B ≈ 1.3, I ≈ 0.8, τ ≈ 80 ms):**
+**Typical processing:**
 > Photoreceptor → LGN relay → V1 layer 4 simple cells → layer 2/3 complex cells → V2  
 > (*A* → *B* → *C*)
 
-Fast feedforward inhibition (15–20 ms latency) suppresses non-vertical-tuned neighbors. The edge signal propagates cleanly to V2 with minimal cross-talk to color or motion pathways.
+Fast feedforward inhibition suppresses non-vertical-tuned neighbors. The edge signal propagates cleanly to V2 with minimal cross-talk to color or motion pathways.
 
-**Hypothetical outcomes:**
-- Neurons recruited: ~80
-- Activity duration: ~100 ms
-- Relative energy cost: baseline
-
-**Distributed processing (B ≈ 2.4, I ≈ 0.45, τ ≈ 450 ms):**
+**Distributed processing (what I imagine instead):**
 > *A* → *B* → *C* (within-network: primary edge detection pathway)
 > *A* → *B* → *Y* → *Z* (cross-network spillover: B projects to Y in color/motion network)
 
-Weaker inhibition (delayed to 35–50 ms, reduced to 45% of NT strength) allows spillover across functional boundaries. The cross-network connection (*B* → *Y*) means edge detection in one network can now recruit color-processing or motion-sensitive circuits (*Y* → *Z*) from functionally distinct systems that should remain isolated. Reactive recruitment continues well beyond stimulus offset, engaging networks meant for different sensory dimensions and creating multi-domain activation from a single input.
-
-**Hypothetical outcomes:**
-- Neurons recruited: ~350 (including ~280 via reactive pathways)
-- Activity duration: ~500 ms
-- Relative energy cost: 7–8× baseline
+Less precise inhibition allows spillover across functional boundaries. The cross-network connection (*B* → *Y*) means edge detection in one network can now recruit color-processing or motion-sensitive circuits (*Y* → *Z*) from functionally distinct systems that should remain isolated. Reactive recruitment continues well beyond stimulus offset, engaging networks meant for different sensory dimensions and creating multi-domain activation from a single input.
 
 <div style="text-align:center; margin: 2rem 0;">
   <img src="diagrams/dpm-three-pathways.svg" alt="Cross-network spillover in distributed architecture" style="max-width:400px; width:100%; height:auto;">
@@ -255,24 +213,27 @@ Weaker inhibition (delayed to 35–50 ms, reduced to 45% of NT strength) allows 
 <strong>Figure 3. Extended conditional routes.</strong> Multiple **gated collaterals** (B→Y, X→N) expand the **ensemble permutation space**, enabling finer discrimination across similar inputs without implying constant cross-talk.</em></p>
 </div>
 
-**Predicted phenomenology:** If this model is correct, the edge would be detected with additional texture granularity, possible color associations, and motion aftereffects—producing richer visual detail but at significant metabolic cost. This would explain why "just seeing" can be exhausting in autism, transforming a prediction of the model into a testable hypothesis about subjective experience.
+<!-- REVISED: less-authoritative pass -->
+**Predicted phenomenology:** If something like this happens, I would expect the edge to be experienced with additional texture granularity, possible color associations, and motion aftereffects—producing richer visual detail but at significant metabolic cost. This matches my own experience of why 'just seeing' can be tiring, though I recognize that is not evidence.
 
 <div style="text-align:center; margin: 2rem 0;">
   <img src="diagrams/dpm-v1-edge-detection.svg" alt="Distributed processing in V1 edge detection" style="max-width:500px; width:100%; height:auto;">
-  <p style="margin-top: 1rem;"><em><strong>Figure 4. Distributed processing in V1 edge detection.</strong> Spillover from V1 simple cells engages adjacent orientation columns, color processing streams, and motion detection areas, recruiting ~350 neurons versus ~80 in neurotypical processing. This produces exceptional detail perception at 7-8× metabolic cost.</em></p>
+  <p style="margin-top: 1rem;"><em><!-- REVISED: less-authoritative pass -->
+<strong>Figure 4. Distributed processing in V1 edge detection (thought experiment).</strong> Spillover from V1 simple cells could engage adjacent orientation columns and color- and motion-processing streams, producing richer detail at higher metabolic cost. No quantities are implied.</em></p>
 </div>
 
-### 5. Temporal Dynamics: Proposed Cascade Propagation
+### 4. Temporal Dynamics: Proposed Cascade Propagation
 
 The distributed topology could create characteristic temporal signatures, testable through electrophysiology or calcium imaging:
 
-**Feedforward phase (0–100 ms):** Initial activation spreads through branching architecture. In NT circuits, inhibition gates this quickly. In DPM, weaker *I* might allow continued propagation into secondary branches.
+**Feedforward phase:** Initial activation spreads through branching architecture. In NT circuits, inhibition gates this quickly. In DPM, weaker *I* might allow continued propagation into secondary branches.
 
-**Reactive phase (100–500 ms):** Spillover activity could reach reactive pathways. If these loop back onto active regions (recurrent connectivity), they might create local reverberation. The persistence constant τ would govern duration.
+**Reactive phase:** Spillover activity could reach reactive pathways. If these loop back onto active regions (recurrent connectivity), they might create local reverberation. The persistence constant τ would govern duration.
 
-**Decay phase (500–1200 ms):** Inhibition eventually quenches reactive activity, but longer τ would mean substantial "tail" activation. New stimuli during this period might interact with lingering reactive signals, producing interference or facilitation.
+**Decay phase:** Inhibition eventually quenches reactive activity, but longer τ would mean substantial "tail" activation. New stimuli during this period might interact with lingering reactive signals, producing interference or facilitation.
 
-**Testable prediction:** If DPM is correct, calcium imaging should show broader spatial activation (2–3× more neurons responding to identical stimulus), longer response duration (τ elevated by factor of 3–6), and secondary activation peaks 200–400 ms post-stimulus reflecting reactive loop reentry.
+<!-- REVISED: less-authoritative pass -->
+**What I would look for:** if this is right, imaging of a local population responding to a simple stimulus would show a wider spread of activation, a longer tail, and possibly a second bump after the first response as spillover re-enters the active region. I do not know how large any of these would be, and each of them is also predicted by simpler E/I-imbalance accounts.
 
 <div style="text-align:center; margin: 2rem 0;">
   <img src="diagrams/dpm-temporal-cascade.svg" alt="Temporal cascade dynamics" style="max-width:300px; width:100%; height:auto;">
@@ -280,17 +241,18 @@ The distributed topology could create characteristic temporal signatures, testab
 <strong>Figure 5. Temporal persistence (τ) and delayed recruitment.</strong> Longer **τ** maintains residual activation so that **B→Y** can cross threshold slightly later, adding a second ensemble (Y→Z) without sustained external drive.</em></p>
 </div>
 
-### 6. Inhibitory Timing and Control Mechanisms
+### 5. Inhibitory Timing and Control Mechanisms
 
 The DPM does not propose absence of inhibition—rather, it hypothesizes altered timing and recruitment patterns of specific interneuron subtypes. These are proposed as candidate mechanisms to be tested:
 
-**Parvalbumin (PV) interneurons** provide fast feedforward inhibition (typically 10–20 ms latency in NT circuits). If PV recruitment were delayed (25–45 ms) or reduced in strength, this would widen the temporal window for branching propagation.
+**Parvalbumin (PV) interneurons** provide fast feedforward inhibition. If PV recruitment were delayed or reduced in strength, this would widen the temporal window for branching propagation.
 
 **Somatostatin (SST) interneurons** provide dendritic inhibition modulating input integration. Reduced SST function could permit more dendritic branches to reach spike threshold simultaneously, increasing *B*.
 
 **VIP interneurons** disinhibit principal cells by suppressing SST interneurons. Altered VIP timing might paradoxically increase reactive spread by removing the brake on dendritic integration.
 
-**Testable hypothesis:** Optogenetic manipulation in autism-linked organoid systems (SCN2A, POGZ, CHD8) should reveal whether restoring PV timing to NT ranges reduces *B* and increases A:R ratio, and whether enhancing SST dendritic inhibition reduces τ and limits reactive persistence. These experiments would directly test the proposed inhibitory mechanisms.
+<!-- REVISED: less-authoritative pass -->
+**How this might be probed:** Optogenetic manipulation in autism-linked organoid systems (SCN2A, POGZ, CHD8) could ask whether changing PV timing changes how far activity spreads, and whether changing SST dendritic inhibition changes how long it persists. I am not in a position to run these and I do not know whether existing organoid systems have the temporal resolution to answer them.
 
 <div style="text-align:center; margin: 2rem 0;">
   <img src="diagrams/dpm-inhibitory-control.svg" alt="Inhibitory control in DPM architecture" style="max-width:500px; width:100%; height:auto;">
@@ -298,38 +260,33 @@ The DPM does not propose absence of inhibition—rather, it hypothesizes altered
 <strong>Figure 6. Gating as a "dike."</strong> Low energy stays in the primary channel (A→B→C). With higher/longer input, the **gate (dike)** opens, allowing overflow into the collateral channel (B→Y→Z). This models **conditional** cross-activation in DPM.</em></p>
 </div>
 
-### 7. Energetic Accounting and Metabolic Predictions
+### 6. Energetic cost
 
-If distributed architecture operates as proposed, energetic costs should scale predictably with the parameters:
+<!-- REVISED: less-authoritative pass -->
+The brain's energy budget is dominated by signaling — maintaining ionic gradients, firing, and synaptic transmission (Attwell & Laughlin 2001; Lennie 2003). Any architecture that recruits more neurons per input, keeps them active for longer, and runs more routes in parallel will cost more, and that cost is paid locally, in the tissue where the extra activity happens.
 
-Each neuron consumes approximately 4.7 billion ATP molecules per second at rest. Action potentials add ~10⁸ ATP per spike. In a distributed architecture:
+I do not know how much more. Earlier drafts of this section multiplied assumed branching factors and persistence times into multipliers on energy consumption; I have removed those because they were arithmetic on invented inputs.
 
-**Spatial cost:** *B* = 2.5 would mean each spike recruits 2.5× more downstream neurons.  
-**Temporal cost:** τ = 450 ms would mean each recruitment event consumes energy for 3–6× longer duration.  
-**Nonlinear interaction:** If reactive pathways re-excite active pathways (creating loops), energy scaling might follow *E* ∝ *B*^1.7 × (τ / *I*).
+What I would expect, qualitatively, is higher resting consumption in heavily used associative cortex, faster local depletion under sustained load, and more demand on glial support. Whether any of that is measurable at the spatial scale where I think it matters is discussed in section 8.
 
-**Predicted consequence:** Sustained cognitive tasks could consume 5–10× more energy per unit time than NT processing. This would predict:
-- Faster depletion of glucose/oxygen in associative cortices (measurable via fMRI or PET)
-- Greater glial metabolic support demand (testable via astrocyte calcium imaging)
-- Lower threshold for energetic collapse (shutdown) under sustained load
+**One thing this framing does for me:** the exhaustion many autistic people report from apparently passive activities — being in a busy room, following a conversation — would be genuine metabolic depletion rather than a psychological failing. I cannot show that, but it is the reading I find most consistent with my own experience.
 
-**Clinical observation alignment:** If this model is correct, the exhaustion autistic individuals report from apparently "passive" activities (being in busy environments, following conversation) would reflect genuine metabolic depletion rather than psychological factors—a distinction that could be empirically tested through metabolic imaging.
-
-### 8. Synaptic-Level Mechanisms: Developmental Substrate
+### 7. Synaptic-Level Mechanisms: Developmental Substrate
 
 The distributed topology could arise through known developmental processes, which this model treats as candidate mechanisms rather than verified causes:
 
-**Dendritic pruning:** In NT development, ~40–50% of initial dendritic branches are removed by adolescence. If autism-linked variants (CHD8, ARID1B, PTEN) extend critical periods and reduce pruning thresholds, 60–80% of branches might remain intact—directly increasing *B*. This is measurable through dendritic reconstruction in post-mortem tissue or organoid models.
+<!-- REVISED: less-authoritative pass -->
+**Dendritic pruning:** Typical development removes a large fraction of initial dendritic branches by adolescence. If autism-linked variants (CHD8, ARID1B, PTEN) extend critical periods or raise the threshold for pruning, more branches would remain — which is one route to higher B. This is in principle measurable in post-mortem tissue or organoids, though I am not aware of a study that has framed it this way.
 
 Importantly, the DPM does not attribute higher synaptic density solely to reduced pruning. Lifelong formation of collateral branches and atypical retention of newly formed synapses may further increase branching after the developmental pruning phase. This continual remodeling aligns with reports of heightened plasticity and extended critical-period dynamics in autism.
 
-**Axonal collateralization:** If pyramidal neurons form 2–4 stable collaterals (vs. 1–2 NT), each reaching different downstream populations, this would physically instantiate increased *B*. Tract-tracing studies could test this prediction.
+**Axonal collateralization:** If pyramidal neurons keep more stable collaterals than typical, each reaching a different downstream population, that would physically instantiate higher B.
 
-**Spine density:** Post-mortem studies report 15–30% higher spine density on pyramidal dendrites in autistic cortex. If accurate, each additional spine represents a potential branch point for signal integration, contributing to increased *B*.
+**Spine density:** Some post-mortem work has reported higher spine density on pyramidal dendrites in parts of autistic cortex (e.g., Hutsler & Zhang 2010). If accurate, each additional spine represents a potential branch point for signal integration, contributing to increased *B*.
 
-These phenomena are empirically documented in autism research, but their precise contribution to a distributed network mode remains to be experimentally confirmed through causally controlled studies.
+Each of these has some support in the literature. None of it was gathered to test the DPM, and I do not know how to get from any of them to the claim that the resulting network behaves the way I describe.
 
-### 9. Falsification Tests: Specific Experimental Predictions
+### 8. Falsification Tests: Specific Experimental Predictions
 
 Rather than asserting results, the DPM framework generates specific, falsifiable predictions. If the model captures meaningful biological relationships, the following outcomes would be expected and would serve as tests of the hypothesis:
 
@@ -374,86 +331,67 @@ If the model is correct, pharmacological or optogenetic enhancement of PV intern
 
 Each prediction provides a pathway for falsification—a necessary condition for transforming this framework into a validated model.
 
-### 10. Integration with Established Phenomenological Patterns
+### 9. Integration with Established Phenomenological Patterns
 
-If the mechanistic parameters proposed above operate as described, they could provide a common substrate for diverse autistic experiences detailed elsewhere in this document:
+If something like the above is going on, here is how I would read several patterns described elsewhere in this document:
 
 **Stimming as reactive motor cascade:** Reactive spillover from distributed propagation into motor circuits can produce patterned movement. This document does not model such movements as regulatory or stabilizing—only as architectural outputs of cross-domain propagation.
 
-**Memory encoding differences:** Higher ρ during initial encoding would store more microstates per episodic event, potentially producing richer recall but also more interference between similar memories. Elevated τ could explain why memories loop or intrude—reactive reentry keeps reactivating stored patterns. Memory paradigms comparing detail retention and interference susceptibility could test this.
+**Memory encoding differences:** Denser representation during initial encoding would store more microstates per episodic event, potentially producing richer recall but also more interference between similar memories. Elevated τ could explain why memories loop or intrude—reactive reentry keeps reactivating stored patterns.
 
-**Interoceptive intensity:** If visceral signals propagate through distributed brainstem-cortical pathways, recruiting broader insular and cingulate territories, and if low *I* amplifies this spread, this would explain amplified interoceptive awareness. Combined with low *I*, internal states (hunger, pain, emotion) could dominate consciousness and trigger cascade activation—testable through interoceptive attention tasks with concurrent imaging.
+**Interoceptive intensity:** If visceral signals propagate through distributed brainstem-cortical pathways, recruiting broader insular and cingulate territories, and if low *I* amplifies this spread, this would explain amplified interoceptive awareness. Combined with low *I*, internal states (hunger, pain, emotion) could dominate consciousness and trigger cascade activation.
 
-**Special interests as predictive stability:** Repeated activation of the same domain could stabilize distributed branches through reinforcement, creating "islands of coherence" where prediction error is minimal. Mastery would reduce entropy in a high-τ, low-*I* system. The dopaminergic reward response to predictable domains could be measured directly.
+**Special interests as predictive stability:** Repeated activation of the same domain could stabilize distributed branches through reinforcement, creating "islands of coherence" where prediction error is minimal. Mastery would reduce entropy in a high-τ, low-*I* system.
 
-**Autonomic dysregulation:** If distributed propagation in autonomic circuits produces broad, sustained sympathetic or parasympathetic activation, and if elevated τ prevents quick resetting, this would explain prolonged stress responses and difficulty with transitions. Heart rate variability and autonomic recovery time could be correlated with estimated circuit parameters.
+**Autonomic dysregulation:** If distributed propagation in autonomic circuits produces broad, sustained sympathetic or parasympathetic activation, and if elevated τ prevents quick resetting, this would explain prolonged stress responses and difficulty with transitions.
 
-Each of these represents not a confirmed relationship but a hypothesis derived from the parameter framework—an opportunity for targeted empirical investigation.
+None of these is a finding. They are the readings that make the most sense to me if the architecture is as I describe.
 
-### 11. Summary and Invitation
+### 10. Summary and Invitation
 
-This mechanistic outline offers a working vocabulary for exploring how distributed architectures might operate. The parameters *B*, *I*, τ, and *E* are not endpoints but tools for connecting structural features to measurable outcomes. The equations and numerical examples are illustrative—designed to generate testable predictions rather than assert definitive values.
+<!-- REVISED: less-authoritative pass -->
+This section has tried to name the moving parts of the DPM concretely enough that someone could disagree with a specific one. I have deliberately removed the equations and worked numbers that earlier versions carried: they made the idea look more developed than it is.
 
-The DPM reframes autism as a biophysical mode of neural organization that can be described, modeled, and empirically tested. It proposes that increased representational density and temporal persistence yield higher-resolution experience at the cost of metabolic strain and cascade susceptibility. This framework does not claim certainty but offers explicit relationships that can be quantified, modeled, or disproven.
-
-The Higher-Resolution Hypothesis and its mechanistic substrate, the DPM, are thus presented as an open framework—an evolving invitation for interdisciplinary investigation across anatomy, electrophysiology, computation, metabolic imaging, and lived cognition. Researchers are encouraged to test these relationships, refine the parameters, or demonstrate where the model fails. Through such engagement, we can move from conceptual synthesis toward validated understanding of autism as an alternative neural architecture.
+What I am left with is a sketch — more branching, less precise gating, longer persistence, higher local cost — and a set of readings of autistic experience that follow from it if it is right. I do not know how to establish that it is right. If anyone reading this does, I would like to hear from them, and I would equally like to hear where it is wrong.
 
 ---
 
-## 2.3 Energetic Constraints on Parallel Processing
+## Energetic Constraints on Parallel Processing
 
-### 2.3.1 The Metabolic Cost of Distributed Architecture
+### The Metabolic Cost of Distributed Architecture
 
-Neural computation is inherently energy-intensive, with the brain consuming approximately 20% of the body's metabolic resources despite comprising only 2% of body mass. This energy demand is not uniformly distributed: it scales directly with the number of active neurons, synaptic transmission frequency, and the spatial extent of engaged circuits. The Distributed Pathway Model (DPM) proposes that autistic neural architecture relies on 3-5× more neurons to process equivalent information compared to streamlined neurotypical pathways. This architectural difference creates a fundamental metabolic consequence: **distributed pathways consume proportionally more energy within localized cortical regions**.
+Neural computation is inherently energy-intensive, with the brain consuming approximately 20% of the body's metabolic resources despite comprising only 2% of body mass. This energy demand is not uniformly distributed: it scales directly with the number of active neurons, synaptic transmission frequency, and the spatial extent of engaged circuits. The DPM suggests that autistic cortex may run more overlapping routes for the same input than a typical brain does. This architectural difference creates a fundamental metabolic consequence: **distributed pathways consume proportionally more energy within localized cortical regions**.
 
-Consider a simple sensory discrimination task. A streamlined pathway might engage N neurons within a cortical column to extract relevant features and suppress irrelevant ones. A distributed pathway performing the same task engages 3-5N neurons across overlapping circuits, each contributing partially redundant information that collectively achieves higher-resolution representation. While this architecture enables enhanced perceptual precision, it creates a localized energy demand that can exceed the metabolic capacity of the microregion—not because individual neurons are more expensive, but because **more neurons are simultaneously active in the same spatial domain**.
+Consider a simple sensory discrimination task. A streamlined pathway might engage N neurons within a cortical column to extract relevant features and suppress irrelevant ones. A distributed pathway performing the same task engages more neurons across overlapping circuits, each contributing partially redundant information that collectively achieves higher-resolution representation. While this architecture enables enhanced perceptual precision, it creates a localized energy demand that can exceed the metabolic capacity of the microregion—not because individual neurons are more expensive, but because **more neurons are simultaneously active in the same spatial domain**.
 
-### 2.3.2 Spatial Scales of Energy Competition
+### Spatial Scales of Energy Competition
 
-Neural energy metabolism operates across multiple spatial scales, but competition becomes critical at the level of **cortical columns** (300-600 μm diameter). These functional units share local capillary beds and ATP delivery systems, creating an "energy domain" within which neurons compete for limited metabolic resources. When distributed pathways span multiple overlapping columns, they create sustained high demand within these shared energy domains.
+Neural energy metabolism operates across multiple spatial scales, but competition becomes critical at the level of **cortical columns**. These functional units share local capillary beds and ATP delivery systems, creating an "energy domain" within which neurons compete for limited metabolic resources. When distributed pathways span multiple overlapping columns, they create sustained high demand within these shared energy domains.
 
-The critical insight is that energy competition occurs not at the whole-brain level (where total metabolic capacity is sufficient) but at the **microregional level** where local ATP delivery cannot keep pace with spike-driven demand. A cortical column can sustain baseline activity across all its neurons, but when a distributed pathway transiently hyperactivates 3-5× the typical number of neurons within that column, local ATP stores deplete faster than capillary delivery can replenish them. This creates a **metabolic bottleneck window**—typically lasting hundreds of milliseconds to several seconds—during which other pathways competing for the same energy pool face insufficient resources to activate.
+The critical insight is that energy competition occurs not at the whole-brain level (where total metabolic capacity is sufficient) but at the **microregional level** where local ATP delivery cannot keep pace with spike-driven demand. A cortical column can sustain baseline activity across all its neurons, but when a distributed pathway transiently hyperactivates more than the typical number of neurons within that column, local ATP stores deplete faster than capillary delivery can replenish them. This creates a **metabolic bottleneck window**—typically lasting hundreds of milliseconds to several seconds—during which other pathways competing for the same energy pool face insufficient resources to activate.
 
-### 2.3.3 Timescale Dynamics: ATP Buffering and Demand Spikes
+I want to flag that I am asserting a spatial scale here that I cannot measure. It is where the idea makes sense to me, not where I have seen it.
 
-The temporal dynamics of neural energetics reveal why distributed pathways create selective processing failures. ATP turnover operates on 1-10 second timescales, while neural firing occurs on 1-10 millisecond timescales. This mismatch creates vulnerability to **demand spikes**: brief periods (100-500 ms) of intense co-activation can transiently deplete local ATP faster than delivery mechanisms can compensate.
+### Timescale Dynamics: ATP Buffering and Demand Spikes
+
+The mismatch between metabolic and electrical timescales is, I think, the reason distributed pathways would create selective failures rather than uniform slowdown. ATP turnover operates on 1-10 second timescales, while neural firing occurs on 1-10 millisecond timescales. This mismatch creates vulnerability to **demand spikes**: brief periods (100-500 ms) of intense co-activation can transiently deplete local ATP faster than delivery mechanisms can compensate.
 
 Neural tissue maintains ATP buffering capacity—a reserve pool that enables transient high-frequency firing without immediate metabolic collapse. However, this buffer is finite and regionally limited. When a distributed pathway engages, it draws heavily from this local buffer. If a second pathway attempts to activate in the same microregion during this depletion window, it encounters insufficient energy to cross activation threshold, despite receiving adequate input drive. The pathway fails to engage—not because it lacks input signal, not because it is actively inhibited, but because **the local metabolic substrate is exhausted**.
 
 Recovery occurs over seconds as ATP delivery catches up with demand and buffers refill. This creates **metabolic refractory periods**: intervals during which a microregion is less responsive to new inputs, regardless of their strength or salience. These refractory periods are distinct from neural refractory periods (milliseconds) and represent a fundamentally energy-limited constraint on parallel processing.
 
-### 2.3.4 Mathematical Framework
+### What a model might look like
 
-I formalize this as an energy-constrained activation model. Let a cortical microregion r have energy availability E_r(t) governed by:
+<!-- REVISED: less-authoritative pass -->
+I have not built a model of this, and I am not confident I would build the right one. If I were to try, the shape I have in mind is: each local patch of cortex has an energy reserve that is refilled by blood flow on a timescale of seconds and drained by whatever is active in it; a candidate pathway's ability to activate depends on both its input and on that reserve; and inhibition in the same patch depends on the same reserve. The interesting behavior would come from the last point — when the reserve drops, activation *and* suppression weaken together, so the system does not become disinhibited so much as blurred, with the currently active pathway holding on because it has already claimed the energy rather than because it is winning a competition.
 
-**dE_r/dt = Supply_r(t) − ∑_i Consumption_i(t) − Baseline_r**
+Earlier drafts wrote this out in equations with sigmoid thresholds and named constants. I have removed them because they were prose in symbols; nothing was fitted to anything. If someone with modeling experience thinks the idea is worth formalizing, I would be glad to help specify it.
 
-where:
-- Supply_r(t) represents ATP delivery via local blood flow (timescale ~5-10 seconds)
-- Consumption_i(t) ∝ firing_rate_i · duration_i for each active pathway i
-- Baseline_r is the resting metabolic cost
+### Why Distributed Pathways Create Differential Energy Demand
 
-A candidate pathway j with input drive D_j receives energy-dependent amplification and faces energy-dependent inhibition. Its effective drive is:
+The key question is: why would autistic brains be uniquely vulnerable to this constraint? Neurotypical brains also consume energy, yet do not exhibit the same profile of selective processing failures. My answer is that the extra cost is concentrated in the same tissue rather than spread out.
 
-**EffectiveDrive_j(r,t) = D_j(r,t) · f(E_r(t)) − g(I_r(t), E_r(t))**
-
-Activation occurs when: **EffectiveDrive_j ≥ θ_j**
-
-The energy modulation function f(E_r) exhibits threshold behavior:
-
-**f(E_r) = 1 / (1 + exp(−k(E_r − E_critical)))**
-
-Below E_critical, pathways struggle to activate regardless of input strength. The inhibitory term g(I_r, E_r) shows that inhibition itself is energy-dependent:
-
-**g(I_r, E_r) = I_r · h(E_r)** where h(E_r) decreases as energy depletes
-
-This creates non-intuitive dynamics: when energy drops, both pathway activation AND inhibitory suppression weaken simultaneously. The result is not disinhibited chaos, but rather a state where winner-take-all competition transitions to **winner-starves-all**: the currently active distributed pathway maintains activity by depleting shared resources, passively blocking competitors that would normally be viable.
-
-### 2.3.5 Why Distributed Pathways Create Differential Energy Demand
-
-The key question is: why would autistic brains be uniquely vulnerable to this constraint? Neurotypical brains also consume energy, yet do not exhibit the same profile of selective processing failures. The answer lies in the **architectural multiplication factor**.
-
-When a neurotypical brain processes sensory input via streamlined pathways, it activates the minimal set of neurons necessary to extract task-relevant features. Energy consumption is proportional to N neurons over duration T. When an autistic brain processes the same input via distributed pathways, it activates 3-5N neurons over the same duration T, resulting in 3-5× local energy consumption.
+When a neurotypical brain processes sensory input via streamlined pathways, it activates the minimal set of neurons necessary to extract task-relevant features. Energy consumption is proportional to N neurons over duration T. When an autistic brain processes the same input via distributed pathways, it activates more neurons over the same duration, and pays for that locally.
 
 Critically, this multiplication occurs **within the same cortical volume**. The autistic brain is not larger in proportion to its increased neural engagement; rather, it concentrates more concurrent activity into the same spatial domains. This creates localized energy demand that exceeds what neurotypical processing would require, rendering the autistic system vulnerable to metabolic bottlenecks that neurotypical systems avoid through efficiency.
 
@@ -468,25 +406,23 @@ The consequence is a trade-off inherent to the architecture: **higher-resolution
 <!-- NEW: link ensemble density to energy use -->
 Each additional ensemble engaged in parallel adds to energetic demand, even when the activation is internally generated, such as during imagery or dreaming (Attwell & Laughlin 2001; Lennie 2003).  These off-line activations illustrate the same principle: finer representational resolution trades efficiency for richness, occasionally pushing the system toward fatigue or overload.
 
-### 2.3.6 Empirical Support and Open Questions
+### What I have read, and what I haven't found
 
-While direct measurement of ATP dynamics at cortical column resolution during active cognitive tasks remains technically challenging, several lines of evidence support energy competition as a mechanistic constraint:
+<!-- REVISED: less-authoritative pass -->
+I want to be careful here, because an earlier version of this section presented the following as "empirical support," and on reflection none of it was gathered to test this hypothesis.
 
-1. **Metabolic imaging studies** show elevated lactate accumulation in sensory cortices of autistic individuals during sustained processing tasks, suggesting higher glycolytic demand and potential exhaustion of oxidative capacity.
+- Some MRS work has reported elevated lactate in a subset of autistic adults at rest. I have not found a study showing task-locked lactate accumulation in sensory cortex, which is what the hypothesis would actually predict.
+- Mitochondrial differences are reported in autism genetics and in some post-mortem and organoid work. That is consistent with an energy-limited account but does not distinguish it from many others.
+- Reduced long-range functional connectivity alongside preserved or elevated local connectivity is a common finding. I read it as consistent with energy-limited parallel processing, but it is also consistent with several accounts that make no reference to energy.
+- The behavioral pattern of strong single-domain performance and difficulty with multi-domain integration is widely described. It is the pattern I would expect, but a pattern being expected is not evidence for the mechanism.
 
-2. **Mitochondrial dysfunction** is consistently implicated in autism genetics and neuropathology, with evidence of reduced ATP synthesis efficiency in post-mortem tissue and organoid models.
-
-3. **Functional connectivity studies** reveal that autistic brains show reduced capacity for simultaneous activation of spatially distributed networks, consistent with energy-limited parallel processing.
-
-4. **Behavioral observations** of autistic individuals frequently note exceptional performance in focused, single-domain tasks alongside marked difficulty with multi-domain integration—precisely the pattern expected from energy competition between co-localized circuits.
-
-Outstanding questions include: What is the spatial resolution of energy competition (single columns vs. multi-column domains)? How quickly do metabolic buffers recover after depletion? Do compensatory mechanisms develop (increased capillary density, enhanced mitochondrial function) in response to chronic high demand? Can metabolic support (ketogenic metabolism, creatine supplementation) alleviate energy-limited processing failures? These questions define a research program linking molecular energetics to systems-level cognitive architecture.
+Outstanding questions include: What is the spatial resolution of energy competition (single columns vs. multi-column domains)? How quickly do metabolic buffers recover after depletion? Do compensatory mechanisms develop (increased capillary density, enhanced mitochondrial function) in response to chronic high demand? Can metabolic support (ketogenic metabolism, creatine supplementation) alleviate energy-limited processing failures? I do not know how to answer any of these, and I am not sure the tools exist yet.
 
 ---
 
-## 2.4 Dual-Constraint Framework: Inhibition × Energy
+## Dual-Constraint Framework: Inhibition × Energy
 
-### 2.4.1 Two Orthogonal Mechanisms
+### Two Orthogonal Mechanisms
 
 The Distributed Pathway Model generates processing constraints through two distinct, complementary mechanisms:
 
@@ -494,23 +430,21 @@ The Distributed Pathway Model generates processing constraints through two disti
 
 2. **Energy competition**: Distributed pathways consume greater local metabolic resources, passively starving competing circuits by depleting shared ATP pools.
 
-These mechanisms are **orthogonal** in their operation: inhibition is an active, synaptic process operating on millisecond timescales, while energy competition is a passive, metabolic constraint operating on sub-second to second timescales. Neither alone fully explains the phenomenology of autistic cognition; their interaction creates the complete picture.
+These mechanisms are **orthogonal** in their operation: inhibition is an active, synaptic process operating on millisecond timescales, while energy competition is a passive, metabolic constraint operating on sub-second to second timescales. Neither alone accounts for what I am trying to describe; what I find useful is their interaction.
 
 Consider a competing pathway receiving input: If it faces only inhibition, sufficient drive can overcome suppression (inhibition is modulable). If it faces only energy depletion, given enough time the metabolic buffer will recover (energy competition is transient). But when both constraints operate simultaneously, the pathway faces a **double barrier**: even strong drive cannot overcome inhibition while energy is insufficient to power the circuit, and by the time energy recovers, inhibition may have shifted the competitive balance to other circuits.
 
-### 2.4.2 Energy-Dependent Inhibition
+### Energy-Dependent Inhibition
 
 A critical interaction arises because **inhibitory efficacy itself requires energy**. Interneurons must maintain ionic gradients, sustain high-frequency firing, and engage extensive axonal arborizations to suppress target circuits. When local energy availability drops, inhibitory neurons draw from the same depleted ATP pool as excitatory neurons, weakening their suppressive capability.
 
-This creates a non-linear relationship between inhibition strength and energy availability:
-
-**InhibitionEfficacy ∝ Strength_0 · h(E_r)** where h(E_r) → 0 as E_r → E_critical
+So I would expect inhibitory efficacy to fall as local energy falls — not linearly, and not in a way I can quantify.
 
 At high energy availability, inhibition operates at full strength, creating sharp winner-take-all dynamics. At low energy availability, inhibition weakens even while excitatory drive also weakens, creating a regime where **neither activation nor suppression operate effectively**. The system enters a state of blurred competition where boundaries between pathways become indistinct—not through disinhibited hyperactivity, but through diffuse, weak activation across multiple circuits none of which have sufficient resources to dominate.
 
 Critically, this means that distributed pathway hyperactivation creates a paradox: **The same energy consumption that starves competitors also weakens the inhibition that would suppress them**. The result is not clean switching between pathways, but rather sluggish, incomplete transitions where residual activity persists in supposedly-suppressed circuits while target circuits struggle to fully engage.
 
-### 2.4.3 Phase Space Analysis
+### Four regimes
 
 We can visualize the dual-constraint framework as a phase space with axes representing energy availability and inhibition strength:
 
@@ -541,43 +475,42 @@ We can visualize the dual-constraint framework as a phase space with axes repres
 - System degrades gracefully: slower but still effective
 - Metabolic recovery restores normal function quickly
 
-The key insight: **Autistic cognition under load occupies the Low Energy/Weakened Inhibition regime**, where both mechanisms fail simultaneously. This creates qualitatively different processing breakdown compared to neurotypical fatigue, which maintains inhibitory boundaries even as energy depletes.
+My guess is that autistic cognition under load ends up in the low-energy / weakened-inhibition regime, where both mechanisms fail together. If so, autistic overload would be qualitatively different compared to neurotypical fatigue, which maintains inhibitory boundaries even as energy depletes.
 
-### 2.4.4 Winner-Take-All → Winner-Starves-All Transition
+### Winner-Take-All → Winner-Starves-All Transition
 
 In typical neural competition, winner-take-all dynamics ensure that the strongest input dominates while suppressing alternatives. This requires sufficient energy to both activate the winner AND power the inhibition that suppresses losers. When energy is abundant, this operates efficiently.
 
-Distributed pathways alter this dynamic. By engaging 3-5× more neurons, they consume local energy faster than neurotypical competition. This creates a transition to **winner-starves-all**: the currently active pathway maintains dominance not primarily through inhibition, but through **metabolic monopolization**. Competing pathways receive inputs, attempt to activate, but encounter depleted energy reserves before they can cross threshold.
+Distributed pathways alter this dynamic. By engaging more neurons in the same tissue, they would consume local energy faster than typical competition. This creates a transition to **winner-starves-all**: the currently active pathway maintains dominance not primarily through inhibition, but through **metabolic monopolization**. Competing pathways receive inputs, attempt to activate, but encounter depleted energy reserves before they can cross threshold.
 
 Crucially, this happens even when those competing pathways would be behaviorally relevant. Unlike inhibition (which can be modulated by top-down control or strong input), energy competition is not cognitively controllable—you cannot "will" ATP into existence. The result is involuntary selectivity: the brain becomes locked into whatever processing mode currently dominates the energy budget, unable to flexibly reallocate resources to newly relevant stimuli.
 
-This explains a core autistic experience: **knowing** that attention should shift to a new input (auditory name-call while focused on visual task), **attempting** to shift attention, yet finding the circuit non-responsive—not ignored, but metabolically unavailable.
+This matches an experience I recognize: **knowing** that attention should shift to a new input (auditory name-call while focused on visual task), **attempting** to shift attention, yet finding the circuit non-responsive—not ignored, but metabolically unavailable.
 
-### 2.4.5 Timescale Separation and Sequential Effects
+### Timescale Separation and Sequential Effects
 
 The dual mechanisms operate on different timescales, creating sequential effects:
 
-**Milliseconds (0-10 ms):** Synaptic inhibition rapidly suppresses competitors upon distributed pathway activation. This is the fast, initial response that shapes immediate processing.
+**Milliseconds:** Synaptic inhibition rapidly suppresses competitors upon distributed pathway activation. This is the fast, initial response that shapes immediate processing.
 
-**Hundreds of milliseconds (100-500 ms):** Energy consumption from sustained distributed activity begins depleting local ATP buffers. Competitors face both inhibition AND emerging energy constraints.
+**Hundreds of milliseconds:** Energy consumption from sustained distributed activity begins depleting local ATP buffers. Competitors face both inhibition AND emerging energy constraints.
 
-**Seconds (1-10 s):** Local energy reserves significantly depleted. Inhibition weakens as interneurons draw from exhausted pools. System enters metabolic refractory period where new inputs struggle to engage regardless of strength.
+**Seconds:** Local energy reserves significantly depleted. Inhibition weakens as interneurons draw from exhausted pools. System enters metabolic refractory period where new inputs struggle to engage regardless of strength.
 
-**Tens of seconds (10-60 s):** ATP delivery catches up with demand. Buffers refill. Inhibition regains strength. System recovers capacity for new activations.
+**Tens of seconds:** ATP delivery catches up with demand. Buffers refill. Inhibition regains strength. System recovers capacity for new activations.
 
-This temporal structure explains the progressive degradation observed in autistic cognitive performance: initial competence (inhibition-dominant), gradual loss of flexibility (energy competition emerges), eventual collapse (both mechanisms fail), and slow recovery (metabolic restoration).
+This is how I would account for the progression I and many others describe: initial competence (inhibition-dominant), gradual loss of flexibility (energy competition emerges), eventual collapse (both mechanisms fail), and slow recovery (metabolic restoration).
 
-Importantly, these timescales suggest **intervention windows**: Strategies that reduce energy demand during the early phases (100-500 ms) could prevent the later cascade into full metabolic exhaustion. This creates a theoretical foundation for understanding why brief breaks, reduced sensory load, or task modifications can disproportionately improve performance—they interrupt the energy depletion cycle before reaching the crisis regime.
+<!-- REVISED: less-authoritative pass -->
+If this is right, it would also suggest why brief breaks and reduced sensory load seem to help out of proportion to their size: they interrupt the depletion cycle early. I offer that as an observation that fits, not as clinical guidance.
 
-### 2.4.6 Synthesis: A Complete Picture
+### Putting the two together
 
-Neither inhibition nor energy competition alone suffices to explain autistic neural processing. Inhibition explains why distributed pathways actively exclude competitors but cannot explain why those pathways sometimes fail to activate despite receiving strong inputs. Energy competition explains why circuits become unavailable but cannot explain why some information is sharply excluded even when energy is abundant.
+Neither inhibition nor energy competition alone gets me to the picture I am trying to describe. Inhibition explains why distributed pathways actively exclude competitors but cannot explain why those pathways sometimes fail to activate despite receiving strong inputs. Energy competition explains why circuits become unavailable but cannot explain why some information is sharply excluded even when energy is abundant.
 
-The dual-constraint framework provides the complete picture: **Distributed architecture creates both enhanced inhibition (active suppression) and elevated energy demand (passive constraint), and these mechanisms interact non-linearly through energy-dependent inhibitory efficacy**. The result is a cognitive system that achieves exceptional precision within focused domains at the cost of flexible parallel processing—not through computational inability, but through architectural trade-offs inherent to higher-resolution neural representation.
+Taken together, the two constraints give me this: **Distributed architecture creates both enhanced inhibition (active suppression) and elevated energy demand (passive constraint), and these mechanisms interact non-linearly through energy-dependent inhibitory efficacy**. The result is a cognitive system that achieves exceptional precision within focused domains at the cost of flexible parallel processing—not through computational inability, but through architectural trade-offs inherent to higher-resolution neural representation.
 
 Once affective branches engage, **local metabolic use** increases while inhibitory efficacy declines, **extending the window** for amplified feeling to persist. The same dual constraint that limits flexible switching also **prolongs** valence-loaded states until energy buffers refill. Thus, affective amplification is not merely informational—it is **energetically sustained**. This creates a path-dependent trajectory where the first engaged affective route shapes what follows.
-
-This framework makes the strong prediction that interventions targeting either mechanism alone (e.g., GABA modulation without metabolic support, or metabolic support without addressing inhibitory imbalance) will show limited efficacy. Effective interventions must address both the active inhibitory constraints and the passive metabolic constraints simultaneously.
 
 ---
 
