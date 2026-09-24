@@ -32,9 +32,11 @@ I do not know how large any of these effects would be, whether they are measurab
 
 ## Introduction
 
-Autism, as I understand it, is not a collection of behavioral traits or social deficits—it is a fundamentally different mode of neural organization. In this document, I propose that the autistic brain encodes and processes information at a higher level of granularity, a difference that I call the **Higher-Resolution Hypothesis**.
+<!-- REVISED: less-authoritative pass -->
+Autism, as I understand it, is not a collection of behavioral traits or social deficits. My sense is that it reflects a different mode of neural organization, and in this document I try to describe what I think that mode might be. The idea at the center of it is that the autistic brain encodes and processes information at a higher level of granularity — a difference I call the **Higher-Resolution Hypothesis**.
 
-This higher resolution of experience means that perception, cognition, and internal states are composed of more micro-signals per unit of experience. Autistic individuals may perceive and represent more of the world at once—more nuance, more detail, more overlapping meaning—but this comes with a cost: increased computational demand, energetic load, and susceptibility to overload or runaway activation.
+<!-- REVISED: less-authoritative pass -->
+By higher resolution I mean something like this: perception, cognition, and internal states seem to be composed of more micro-signals per unit of experience. Autistic individuals may perceive and represent more of the world at once—more nuance, more detail, more overlapping meaning—but this comes with a cost: increased computational demand, energetic load, and susceptibility to overload or runaway activation.
 
 <!-- REVISED: less-authoritative pass -->
 I do not mean "higher resolution" as a metaphor. I suspect it reflects real differences in how cortical and subcortical circuits are wired and gated, though I cannot point to a measurement that establishes this. The mechanism I have in mind is what I call the **Distributed Pathway Model (DPM)** — a sketch of how a neuron's local structure and a circuit's branching behavior could produce richer but less filtered propagation of activity.
@@ -195,7 +197,8 @@ I find it useful to think about the *balance* between these two — how much of 
 
 ### 3. Circuit Walkthrough: Hypothetical Sensory Encoding Example
 
-To demonstrate how this framework could be operationalized, consider a simplified model of edge detection in **primary visual cortex (V1)**. This is a thought experiment about what the difference might look like in one concrete circuit. Nothing here is measured.
+<!-- REVISED: less-authoritative pass -->
+To make this concrete, consider a simplified picture of edge detection in **primary visual cortex (V1)**. This is a thought experiment about what the difference might look like in one concrete circuit. Nothing here is measured.
 
 **Typical processing:**
 > Photoreceptor → LGN relay → V1 layer 4 simple cells → layer 2/3 complex cells → V2  
@@ -905,12 +908,6 @@ If this is right, it would be one way to understand why autism shows up across s
 At a large scale, this same principle applies across cortical columns and functional systems: distributed branching means each activation can spread across multiple networks that should remain isolated. This produces both **higher-resolution representations** (because more neurons across multiple systems contribute to encoding the same input) and **greater instability** (because inhibition must manage cross-network interference and potential cascade propagation across functional boundaries).
 
 This is the fundamental logic of the Higher-Resolution Hypothesis: a brain that perceives more by engaging multiple processing systems simultaneously, connects more across functional domains, and sometimes, overwhelms itself by doing so.
-
----
-
-## Acknowledgment of Lived Experience Integration
-
-This section now appears near the start of the document, directly after the Introduction.
 
 ---
 
