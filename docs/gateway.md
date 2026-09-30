@@ -23,7 +23,7 @@ title: "Explore the Framework"
 
   <div class="section-card">
     <h3><a href="{{ site.baseurl }}/sections/distributed-pathway-model">Distributed Pathway Model</a></h3>
-    <p class="card-description">The mechanistic substrate: how branching topology and overlapping circuits create higher-resolution processing through more overlapping routes for the same input.</p>
+    <p class="card-description">The mechanistic substrate: how branching topology and overlapping circuits could produce higher-resolution processing through more overlapping routes for the same input.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 8 min read</span>
       <span class="level-indicator">3 levels available</span>
@@ -32,7 +32,7 @@ title: "Explore the Framework"
 
   <div class="section-card">
     <h3><a href="{{ site.baseurl }}/sections/genetic-molecular">Genetic & Molecular Foundations</a></h3>
-    <p class="card-description">How diverse autism-related genes converge on synaptic formation, ongoing collateral development, pruning, and inhibition—creating the distributed architecture through developmental and lifelong mechanisms.</p>
+    <p class="card-description">How diverse autism-related genes converge on synaptic formation, ongoing collateral development, pruning, and inhibition—and how that might produce a distributed architecture through developmental and lifelong mechanisms.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 7 min read</span>
       <span class="level-indicator">3 levels available</span>
@@ -41,7 +41,7 @@ title: "Explore the Framework"
 
   <div class="section-card">
     <h3><a href="{{ site.baseurl }}/sections/individual-variability">Individual Differences & Heterogeneity</a></h3>
-    <p class="card-description">Why autism manifests differently across individuals: active:reactive ratios, domain-specific expression, and the spectrum of branching patterns.</p>
+    <p class="card-description">Why autism may manifest differently across individuals: the balance of active and reactive pathways, domain-specific expression, and the spectrum of branching patterns.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 7 min read</span>
       <span class="level-indicator">3 levels available</span>
@@ -143,7 +143,7 @@ title: "Explore the Framework"
 
   <div class="section-card">
     <h3><a href="{{ site.baseurl }}/sections/existing-theories">Integration with Existing Theories</a></h3>
-    <p class="card-description">How the Distributed Pathway Model unifies E/I imbalance, Intense World Theory, predictive coding accounts, weak central coherence, enhanced perceptual functioning, and minicolumn research.</p>
+    <p class="card-description">How the Distributed Pathway Model relates to E/I imbalance, Intense World Theory, predictive coding accounts, weak central coherence, enhanced perceptual functioning, and minicolumn research.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 10 min read</span>
       <span class="level-indicator">3 levels available</span>
@@ -162,7 +162,7 @@ title: "Explore the Framework"
 
   <div class="section-card">
     <h3><a href="{{ site.baseurl }}/sections/implications">Applied Implications</a></h3>
-    <p class="card-description">Clinical approaches, environmental design, educational accommodations, and therapeutic strategies informed by understanding distributed processing and dual constraints.</p>
+    <p class="card-description">What I would try if the model were right—environmental design, educational accommodations, and approaches to support. None of it has been evaluated.</p>
     <div class="card-meta">
       <span class="reading-time">⏱ 7 min read</span>
       <span class="level-indicator">3 levels available</span>
@@ -177,7 +177,7 @@ title: "Explore the Framework"
 
 <div class="paper-card">
   <h3>The Higher-Resolution Hypothesis: Full Technical Paper</h3>
-  <p>Read the complete academic paper with full technical detail, mathematical formalization, empirical grounding, experimental predictions, and comprehensive references.</p>
+  <p>Read the complete paper with full technical detail, how it relates to the existing literature, what would change my mind and what I don't know how to test, and comprehensive references.</p>
   <div class="paper-links">
     <a href="{{ site.baseurl }}/hrh-paper" class="btn btn-primary">Read Online (HTML)</a>
     <a href="{{ site.baseurl }}/hrh-paper.pdf" class="btn btn-secondary">Download PDF</a>
@@ -193,7 +193,7 @@ Each section page offers three reading levels accessible via tabs:
 <div class="levels-explanation">
   <div class="level-box">
     <h4>In-Depth Technical</h4>
-    <p>For researchers and clinicians. Includes detailed mechanisms, quantitative predictions, citations, and technical terminology. Closely follows the academic paper.</p>
+    <p>For researchers and clinicians. Includes detailed mechanisms, citations, and technical terminology. Closely follows the academic paper.</p>
   </div>
 
   <div class="level-box">
