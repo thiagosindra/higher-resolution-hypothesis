@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Higher Resolution, Higher Cost"
-subtitle: "How autistic brains achieve exceptional discrimination—and why it comes with trade-offs"
+subtitle: "How autistic brains might achieve exceptional discrimination—and why that could come with trade-offs"
 intro_page: 2
 ---
 
@@ -22,7 +22,7 @@ intro_page: 2
 
 # Higher Resolution, Higher Cost
 
-<p class="subtitle">How autistic brains achieve exceptional discrimination—and why it comes with trade-offs</p>
+<p class="subtitle">How autistic brains might achieve exceptional discrimination—and why that could come with trade-offs</p>
 
 ## The Core Question
 
@@ -34,7 +34,7 @@ Consider two cameras photographing the same scene:
 
 <div class="comparison-grid">
   <div class="comparison-item">
-    <h3>Standard Camera (8 megapixels)</h3>
+    <h3>Standard Camera</h3>
     <ul>
       <li>✓ Captures clear image, good enough for most purposes</li>
       <li>✓ Fast processing: Ready for next shot immediately</li>
@@ -45,7 +45,7 @@ Consider two cameras photographing the same scene:
   </div>
 
   <div class="comparison-item">
-    <h3>Professional Camera (40 megapixels)</h3>
+    <h3>High-Resolution Professional Camera</h3>
     <ul>
       <li>★ Captures extraordinary detail invisible to standard camera</li>
       <li>⚠ Slower processing: Needs time between shots</li>
@@ -58,7 +58,7 @@ Consider two cameras photographing the same scene:
 
 Neither camera is 'better.' They're optimized for different purposes. The professional camera achieves higher resolution at the cost of higher resource demands.
 
-**Autistic brains work on a similar principle—but the 'resolution' is neural, not visual.**
+**My sense is that autistic brains may work on a similar principle—but the 'resolution' is neural, not visual.**
 
 ## What Neural Resolution Means
 
@@ -67,13 +67,13 @@ In the brain, 'resolution' means how many dimensions of information are captured
 ### Lower Resolution (Streamlined) Processing
 - Captures essential features: 'This is a face'
 - Fast categorization: Friend or stranger?
-- Efficient: Uses minimal neurons
+- Efficient: Uses a lean set of routes
 - Good enough for most social situations
 
 ### Higher Resolution (Distributed) Processing
-- Captures extensive features: 'This face has subtle asymmetry in the eyebrows, a 3-degree leftward cant, microexpressions suggesting...'
+- Captures extensive features: 'This face has subtle asymmetry in the eyebrows, a slight leftward cant, microexpressions suggesting...'
 - Precise discrimination: Detects subtle differences others miss
-- Comprehensive: Uses many more neurons
+- Comprehensive: Draws on more overlapping routes and combinations of neurons
 - Enables exceptional pattern recognition
 
 **This isn't about intelligence or capability—it's about different computational strategies.** One optimizes for speed and efficiency ('good enough, quickly'). The other optimizes for precision and completeness ('capture everything, accurately').
@@ -82,27 +82,27 @@ Neither is objectively better. A face-recognition system at an airport needs hig
 
 ## Why Higher Resolution Creates Constraints
 
-Here's the critical insight: **Higher resolution processing requires more resources.**
+Here's the part I think matters most: **higher-resolution processing would require more resources.**
 
-Just as the 40-megapixel camera needs:
+Just as the high-resolution camera needs:
 - More light (or longer exposure)
 - More processing time
 - More battery power
 - More storage space
 
-Higher resolution neural processing requires:
+Higher-resolution neural processing would require:
 - More neurons active simultaneously
 - More processing time
 - More metabolic energy (ATP)
 - More memory capacity
 
 <div class="callout">
-<p><strong>The Trade-off:</strong> A camera has the option to switch resolutions—use high resolution when needed, standard when not. But neural architecture is relatively fixed. If your brain is built for high-resolution processing, it's always operating in that mode, even when efficiency would be more adaptive.</p>
+<p><strong>The Trade-off:</strong> A camera has the option to switch resolutions—use high resolution when needed, standard when not. Neural architecture is much less flexible. If the model is right, a brain built for high-resolution processing would tend to stay in that mode, even when efficiency would be more adaptive.</p>
 </div>
 
 ## The Consequences
 
-This means:
+If this is right, it would mean:
 
 <div class="tradeoffs-grid">
   <div class="advantage">
@@ -137,7 +137,7 @@ This means:
 
 But how does a brain actually create higher resolution? What's different at the neural circuit level?
 
-The answer lies in how autistic brains distribute information processing across neurons—using more of them, in overlapping patterns, creating a fundamentally different computational architecture.
+My answer, and it is still a hypothesis, has to do with how autistic brains might distribute information processing—with more overlapping routes available for the same input, creating a different computational architecture.
 
 <div class="navline">
   <a data-nav href="{{ site.baseurl }}/intro/1-the-paradox">← Prev</a>
