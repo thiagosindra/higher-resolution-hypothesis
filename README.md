@@ -55,7 +55,7 @@ The repository is organized as a GitHub Pages site with a canonical paper, intro
     1-the-paradox.md                      → The autism paradox
     2-higher-resolution.md                → Higher resolution processing
     3-distributed-pathways.md             → Distributed pathway architecture
-    4-dual-constraints.md                 → Enhanced inhibition + energy competition
+    4-dual-constraints.md                 → Gating + energy competition
     5-complete-picture.md                 → Complete framework summary
 
   /sections/                              → In-depth topic pages with 3 reading levels
@@ -92,7 +92,7 @@ Each section page offers three reading levels:
 
 If you reference or discuss this work, please cite it as:
 
-> **Sindra, T. (2025).** *The Higher-Resolution Hypothesis: A Distributed Pathway Model of Autism.*  
+> **Sindra, T. (2026).** *The Higher-Resolution Hypothesis: A Distributed Pathway Model of Autism.*  
 > GitHub Repository. https://github.com/thiagosindra/higher-resolution-hypothesis
 
 ---
@@ -106,5 +106,5 @@ For correspondence or collaboration inquiries:
 
 ## Acknowledgment
 
-This work integrates lived experience with empirical research, aiming to bridge phenomenology and neuroscience.  
-It is offered as an open framework for dialogue, critique, and experimental validation within the scientific community.
+This work draws on my own experience alongside the research I have read; that experience is where the idea comes from, not evidence for it.  
+It is offered as an open framework for dialogue and critique, in the hope that people with the right tools can tell me where it is wrong.

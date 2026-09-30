@@ -7,9 +7,9 @@ title: About
 
 **Author:** Thiago Sindra, Independent Researcher
 
-This framework represents an open theoretical model intended to invite interdisciplinary critique, empirical testing, and collaborative refinement. The Higher-Resolution Hypothesis emerged from integrating lived experience with systems neuroscience, seeking to explain autistic cognition not as a collection of deficits but as an alternative neural architecture with measurable topological and metabolic properties. The scope spans genetics (synaptic scaffolding, ongoing collateral formation, pruning, inhibition) through circuits (local branching, distributed propagation) to cognition (higher-resolution perception, predictive processing) and lived experience (sensory richness, energetic collapse, regulatory strategies).
+This framework is an open theoretical sketch intended to invite interdisciplinary critique. The Higher-Resolution Hypothesis emerged from trying to make sense of my own experience alongside what I have read in systems neuroscience. My working guess is that autistic cognition reflects not a collection of deficits but an alternative neural architecture, with topological and metabolic properties I cannot currently measure. The scope spans genetics (synaptic scaffolding, ongoing collateral formation, pruning, inhibition) through circuits (local branching, distributed propagation) to cognition (higher-resolution perception, predictive processing) and lived experience (sensory richness, energetic collapse, regulatory strategies).
 
-This is not a formal publication in a peer-reviewed venue. It is an evolving hypothesis offered as a starting point for scientific dialogue. The framework is designed to be testable through neuroimaging, electrophysiology, organoid models, and behavioral prediction. If you find errors, contradictions, or opportunities for empirical validation, I encourage you to engage critically.
+This is not a formal publication in a peer-reviewed venue. It is an evolving hypothesis offered as a starting point for scientific dialogue. I am not a bench scientist and I do not have a clean experimental design for it; the paper lists what would make me more or less confident and the parts I do not know how to test at all. If you find errors, contradictions, or ways it could be tested, I would like to hear from you.
 
 ---
 
@@ -29,4 +29,4 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/thiagosin
 - GitHub repository: [higher-resolution-hypothesis](https://github.com/thiagosindra/higher-resolution-hypothesis)
 - Email: [hrh@emailaccount.cc](mailto:hrh@emailaccount.cc)
 
-**Acknowledgment:** This work integrates direct observation of internal cognitive and sensory processes with neuroscientific research. It represents both a personal investigation and a scientific proposition—an attempt to model from within what is typically only measured from without.
+**Acknowledgment:** This work draws on direct observation of my own cognitive and sensory processes alongside the neuroscience I have read. My own experience is where the idea comes from, not evidence for it.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "The Dual Constraints"
-subtitle: "How inhibition and energy competition create the full autism phenotype"
+subtitle: "How inhibition and energy competition might together shape autistic strengths and challenges"
 intro_page: 4
 ---
 
@@ -22,20 +22,20 @@ intro_page: 4
 
 # The Dual Constraints
 
-<p class="subtitle">How inhibition and energy competition create the full autism phenotype</p>
+<p class="subtitle">How inhibition and energy competition might together shape autistic strengths and challenges</p>
 
 ## The Core Question
 
-How do the consequences of distributed processing—enhanced inhibition and energy competition—work together to create both autistic strengths and challenges?
+How do the consequences of distributed processing—enhanced inhibition and energy competition—work together to produce both autistic strengths and challenges?
 
 ## Two Forces, One Architecture
 
-Distributed pathways create higher resolution. But they also create two constraints that shape every aspect of autistic cognition:
+If the model is right, distributed pathways create higher resolution. But I think they would also create two constraints that shape much of autistic cognition:
 
-1. **Enhanced Inhibition:** More active neurons recruit stronger suppression of competing circuits
-2. **Energy Competition:** More neurons consume more metabolic resources, starving competing processes
+1. **Enhanced Inhibition:** More active neurons would recruit stronger suppression of competing circuits
+2. **Energy Competition:** More neurons would consume more metabolic resources, starving competing processes
 
-These aren't flaws—they're inevitable consequences of the architecture. And they don't operate independently. They interact, creating dynamics that explain everything from sensory sensitivity to meltdowns to the need for predictability.
+These aren't flaws—if the architecture is as I describe, they're consequences of it. And they wouldn't operate independently. Their interaction is how I would try to account for experiences ranging from sensory sensitivity to meltdowns to the need for predictability.
 
 ---
 
@@ -45,9 +45,9 @@ These aren't flaws—they're inevitable consequences of the architecture. And th
 
 When distributed pathways activate more neurons, the brain faces a problem: How do you maintain signal clarity when more neurons are firing?
 
-**The answer:** recruit proportionally stronger inhibition.
+**My guess:** recruit stronger inhibition.
 
-Think of it like volume control in a noisy room. If more people are talking (more neurons active), you need stronger 'shush' signals (inhibition) to hear any conversation clearly. Distributed pathways automatically engage broader inhibitory networks to maintain signal-to-noise ratios.
+Think of it like volume control in a noisy room. If more people are talking (more neurons active), you need stronger 'shush' signals (inhibition) to hear any conversation clearly. I suspect distributed pathways engage broader inhibitory networks to keep signals clear. I'm not sure whether that gating ends up stronger overall or stronger in some places and less precise in others—my best guess is the latter.
 
 ### What This Creates
 
@@ -59,7 +59,7 @@ Think of it like volume control in a noisy room. If more people are talking (mor
 
   <div class="effect negative">
     <strong>✗ Difficulty Switching</strong>
-    <p>That same inhibition suppresses competing pathways—even when you WANT to switch attention. The new task's circuits are actively inhibited. You know you should switch, you try to switch, but the circuits won't respond.</p>
+    <p>That same inhibition suppresses competing pathways—even when you WANT to switch attention. On this reading, the new task's circuits are being actively inhibited. You know you should switch, you try to switch, but the circuits won't respond.</p>
   </div>
 
   <div class="effect negative">
@@ -74,7 +74,7 @@ Think of it like volume control in a noisy room. If more people are talking (mor
 </div>
 
 <div class="callout">
-  <p>This explains the 'monotropic' attention style—not preference or stubbornness, but architectural consequence. Strong inhibition creates commitment to current processing mode.</p>
+  <p>This is how I would account for the 'monotropic' attention style—not as preference or stubbornness, but as a possible architectural consequence. Strong inhibition would create commitment to the current processing mode.</p>
 </div>
 
 ---
@@ -83,9 +83,9 @@ Think of it like volume control in a noisy room. If more people are talking (mor
 
 ### The Mechanism
 
-Neural processing requires energy (ATP). Neurons share local energy supplies from nearby blood vessels. When distributed pathways engage more neurons within a local brain region (like a cortical column), they consume more energy from that shared pool.
+Neural processing requires energy (ATP). Neurons share local energy supplies from nearby blood vessels. When distributed pathways engage more neurons within a local brain region (like a cortical column), they would consume more energy from that shared pool. (I'm asserting a spatial scale here that I can't measure; the cortical column is where the idea makes sense to me, not where I have seen it.)
 
-Energy delivery can't instantly match demand spikes. When a distributed pathway exhausts local ATP reserves, other circuits in the same region face insufficient energy to activate—even if they're receiving strong input signals.
+Energy delivery can't instantly match demand spikes. When a distributed pathway exhausts local ATP reserves, other circuits in the same region would face insufficient energy to activate—even if they're receiving strong input signals.
 
 ### What This Creates
 
@@ -97,7 +97,7 @@ Energy delivery can't instantly match demand spikes. When a distributed pathway 
 
   <div class="effect negative">
     <strong>✗ Selective Processing Failures</strong>
-    <p>Under sustained or multi-domain demands, some circuits literally cannot activate despite receiving input. You miss the auditory input not because you weren't paying attention, but because auditory circuits couldn't power up—visual circuits had consumed the available energy.</p>
+    <p>Under sustained or multi-domain demands, some circuits may be unable to activate despite receiving input. On this view, you might miss the auditory input not because you weren't paying attention, but because auditory circuits couldn't power up—visual circuits had consumed the available energy.</p>
   </div>
 
   <div class="effect negative">
@@ -112,7 +112,7 @@ Energy delivery can't instantly match demand spikes. When a distributed pathway 
 </div>
 
 <div class="callout">
-  <p>This explains the characteristic pattern of autistic performance: <strong>initial competence → gradual struggle → eventual overwhelm</strong>—all from the same task, just different energy states.</p>
+  <p>This would account for a pattern many autistic people describe: <strong>initial competence → gradual struggle → eventual overwhelm</strong>—all from the same task, just different energy states.</p>
 </div>
 
 ---
@@ -121,11 +121,11 @@ Energy delivery can't instantly match demand spikes. When a distributed pathway 
 
 Here's where it gets critical: **Inhibition itself requires energy.**
 
-When energy depletes, two things happen simultaneously:
+When energy depletes, I would expect two things to happen together:
 1. New circuits can't activate (insufficient energy)
 2. Inhibition weakens (interneurons also starve)
 
-This creates a regime transition:
+My guess is that this creates a shift between regimes:
 
 <div class="phase-space">
   <h3>Four Processing States</h3>
@@ -174,18 +174,18 @@ This creates a regime transition:
 </div>
 
 <div class="callout danger">
-  <p><strong>The Progression to Meltdown/Shutdown:</strong> Autistic cognition under load moves from optimal → effortful → overload. This isn't emotional dysregulation—it's the neural system hitting capacity limits where both processing and control fail simultaneously.</p>
+  <p><strong>The Progression to Meltdown/Shutdown:</strong> My guess is that autistic cognition under load moves from optimal → effortful → overload. If so, this isn't emotional dysregulation—it's the neural system hitting capacity limits where both processing and control fail together. That would make it qualitatively different from ordinary fatigue, which keeps inhibitory boundaries even as energy runs low.</p>
 </div>
 
 <div class="callout danger">
-  <p><strong>Cascade Susceptibility:</strong> When energy depletes, inhibitory interneurons weaken (they too require ATP for sustained firing). This widens the temporal window for runaway cascades—distributed branching recruiting more neurons while inhibition fails to contain spread. This explains elevated susceptibility to seizure-like activity in autism: architecture + energy state = cascade risk.</p>
+  <p><strong>Cascade Susceptibility:</strong> When energy depletes, inhibitory interneurons would weaken (they too require ATP for sustained firing). This could widen the temporal window for runaway cascades—distributed branching recruiting more neurons while inhibition fails to contain spread. Autism and epilepsy co-occur more often than chance, and there are many candidate explanations for that. If the DPM is right, this would be one contributing factor: architecture and energy state together raising cascade risk.</p>
 </div>
 
 ---
 
-## Explaining Major Features
+## How This Might Account for Major Features
 
-These dual constraints, working together, explain:
+Here is how I would read several major features through the two constraints working together:
 
 <div class="features-list">
   <div class="feature-item">
@@ -200,7 +200,7 @@ These dual constraints, working together, explain:
 
   <div class="feature-item">
     <strong>Need for predictability</strong>
-    <p>Reduces energy-expensive prediction errors</p>
+    <p>Would reduce energy-expensive prediction errors</p>
   </div>
 
   <div class="feature-item">
@@ -210,26 +210,28 @@ These dual constraints, working together, explain:
 
   <div class="feature-item">
     <strong>Special interests</strong>
-    <p>Leverages inhibitory focus with sustainable energy use</p>
+    <p>Would leverage inhibitory focus with sustainable energy use</p>
   </div>
 
   <div class="feature-item">
     <strong>Meltdowns</strong>
-    <p>Complete energy exhaustion + inhibitory failure</p>
+    <p>Energy exhaustion + inhibitory failure, on this reading</p>
   </div>
 </div>
+
+None of these readings is specific to the DPM. Simpler excitation/inhibition-imbalance and predictive-coding accounts would predict most of the same features, and I don't yet have a clean way to tell them apart.
 
 ---
 
 ## What Comes Next
 
-Now you understand the complete framework:
-- Distributed pathways create higher resolution
-- Enhanced inhibition creates selectivity and inflexibility
-- Energy competition creates context-dependent failures
-- Their interaction explains the progression from competence to overwhelm
+That's the framework in outline:
+- Distributed pathways would create higher resolution
+- Enhanced inhibition would create selectivity and inflexibility
+- Energy competition would create context-dependent failures
+- Their interaction may account for the progression from competence to overwhelm
 
-Ready to see how this explains everything from sensory sensitivity to memory, from motor coordination to social processing?
+Next: how this framework might bear on experiences from sensory sensitivity to memory, from motor coordination to social processing.
 
 <div class="navline">
   <a data-nav href="{{ site.baseurl }}/intro/3-distributed-pathways">← Prev</a>

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "The Complete Picture"
-subtitle: "How one architectural principle explains the full autism phenotype—and what this means"
+title: "Putting It Together"
+subtitle: "How one architectural idea might account for many autistic experiences—and what it could mean"
 intro_page: 5
 ---
 
@@ -11,7 +11,7 @@ intro_page: 5
   <div class="progress-bar">
     <div class="progress-fill" style="width: 100%"></div>
   </div>
-  <p class="progress-text">Page 5 of 5: Complete Picture</p>
+  <p class="progress-text">Page 5 of 5: Putting It Together</p>
 </div>
 
 <div class="navline">
@@ -20,13 +20,13 @@ intro_page: 5
   <a data-nav href="{{ site.baseurl }}/gateway">Sections →</a>
 </div>
 
-# The Complete Picture
+# Putting It Together
 
-<p class="subtitle">How one architectural principle explains the full autism phenotype—and what this means</p>
+<p class="subtitle">How one architectural idea might account for many autistic experiences—and what it could mean</p>
 
 ## The Core Question
 
-How does the Higher-Resolution Hypothesis with distributed pathways and dual constraints explain major autistic features, heterogeneity, and life outcomes?
+How might the Higher-Resolution Hypothesis, with distributed pathways and dual constraints, account for major autistic features, heterogeneity, and life outcomes?
 
 ## The Framework Summary
 
@@ -35,7 +35,7 @@ Let's bring it all together:
 <div class="framework-summary">
   <div class="framework-box foundation">
     <h3>Foundation</h3>
-    <p>Autistic brains use <strong>distributed pathways</strong>—more neurons processing information in overlapping circuits.</p>
+    <p>My working guess: autistic brains use <strong>distributed pathways</strong>—more overlapping routes and ensemble combinations available for the same input.</p>
   </div>
 
   <div class="framework-box primary-effect">
@@ -53,19 +53,19 @@ Let's bring it all together:
 
   <div class="framework-box result">
     <h3>Result</h3>
-    <p>Exceptional abilities within focused domains, challenges with flexibility and sustained multi-domain processing, progression to overload under resource exhaustion.</p>
+    <p>If that's right: exceptional abilities within focused domains, challenges with flexibility and sustained multi-domain processing, progression to overload under resource exhaustion.</p>
   </div>
 </div>
 
 ---
 
-## How This Explains Major Features
+## How This Might Account for Major Features
 
 <div class="features-explained">
 
   <div class="feature-card">
     <h3>1. Sensory Sensitivity</h3>
-    <p>Distributed pathways process sensory input with more neurons, creating both enhanced discrimination AND greater total neural activity. Under energy depletion, inhibition weakens, creating sensory flooding. Same architecture creates hyper-sensitivity (engaged domain) and hypo-sensitivity (energy-starved competing domains).</p>
+    <p>Distributed pathways process sensory input with more neurons, creating both enhanced discrimination AND greater total neural activity. Under energy depletion, inhibition would weaken, which could produce sensory flooding. The same architecture could create hyper-sensitivity (engaged domain) and hypo-sensitivity (energy-starved competing domains).</p>
     <a href="{{ site.baseurl }}/sections/sensory-cognition" class="learn-more">Learn more: Sensory Processing →</a>
   </div>
 
@@ -77,7 +77,7 @@ Let's bring it all together:
 
   <div class="feature-card">
     <h3>3. Executive Dysfunction</h3>
-    <p>Task-switching requires releasing inhibition from current task AND providing energy for new task. Enhanced inhibition creates switching lag; energy competition prevents new task activation. Result: knowing you should switch but circuits being unresponsive.</p>
+    <p>Task-switching requires releasing inhibition from current task AND providing energy for new task. Enhanced inhibition would create switching lag; energy competition would hold back new task activation. Result: knowing you should switch but circuits being unresponsive.</p>
     <a href="{{ site.baseurl }}/sections/executive-and-attention" class="learn-more">Learn more: Executive Function →</a>
   </div>
 
@@ -101,7 +101,7 @@ Let's bring it all together:
 
   <div class="feature-card">
     <h3>7. Meltdowns/Shutdowns</h3>
-    <p>Extended distributed processing depletes energy faster than restoration. Eventually both processing AND inhibitory control fail simultaneously—complete overwhelm. Requires hours of recovery for energy restoration and metabolic debt repayment.</p>
+    <p>Extended distributed processing would deplete energy faster than it can be restored. Eventually both processing AND inhibitory control would fail together—complete overwhelm. On this reading, recovery takes time because energy has to be restored before function returns.</p>
     <a href="{{ site.baseurl }}/sections/energetic-collapse" class="learn-more">Learn more: Overload & Recovery →</a>
   </div>
 
@@ -113,7 +113,7 @@ Let's bring it all together:
 
   <div class="feature-card">
     <h3>9. Stimming & Reactive Loops</h3>
-    <p>Repetitive movements emerge as reactive motor cascades—when distributed activation exceeds inhibitory containment, it spills into motor circuits via weakly gated pathways. Suppressing these cascades recruits additional control networks, raising energetic load without addressing the underlying activation overflow.</p>
+    <p>Repetitive movements emerge as reactive motor cascades—when distributed activation exceeds inhibitory containment, it spills into motor circuits via weakly gated pathways. Suppressing these cascades would recruit additional control networks, raising energetic load without addressing the underlying activation overflow.</p>
     <a href="{{ site.baseurl }}/sections/stimming-reactive-loops" class="learn-more">Learn more: Motor Systems →</a>
   </div>
 
@@ -123,7 +123,7 @@ Let's bring it all together:
 
 ## Why Is Autism So Variable?
 
-The framework explains heterogeneity through individual variation:
+The framework would account for heterogeneity through individual variation:
 
 <div class="heterogeneity-grid">
   <div class="variation-source">
@@ -133,12 +133,12 @@ The framework explains heterogeneity through individual variation:
 
   <div class="variation-source">
     <h4>Metabolic Capacity Varies</h4>
-    <p>Genetic differences in mitochondrial function create variation in energy availability—same architecture, different resource constraints.</p>
+    <p>Genetic differences in mitochondrial function may create variation in energy availability—same architecture, different resource constraints.</p>
   </div>
 
   <div class="variation-source">
     <h4>Inhibitory Strength Varies</h4>
-    <p>Genetic differences in inhibitory systems create variation in selectivity and flexibility.</p>
+    <p>Genetic differences in inhibitory systems may create variation in selectivity and flexibility.</p>
   </div>
 
   <div class="variation-source">
@@ -148,14 +148,14 @@ The framework explains heterogeneity through individual variation:
 </div>
 
 <div class="callout">
-  <p><strong>Result:</strong> Unified architecture + individual variation = spectrum diversity</p>
+  <p><strong>Result, if this holds:</strong> one architectural principle + individual variation = spectrum diversity</p>
 </div>
 
 ---
 
 ## What This Means
 
-The Higher-Resolution Hypothesis reframes autism:
+If the Higher-Resolution Hypothesis is right, it would reframe autism:
 
 <div class="reframing-grid">
   <div class="reframe-item">
@@ -184,14 +184,14 @@ The Higher-Resolution Hypothesis reframes autism:
 </div>
 
 <div class="callout primary">
-  <p><strong>Success isn't normalization—it's optimizing function within architectural constraints through environmental design, pacing strategies, and strength development.</strong></p>
+  <p><strong>If the model is right, I would look for success not in normalization but in working within architectural constraints—through environmental design, pacing, and building on strengths.</strong> That is what I would try if the model were right; none of it has been evaluated, and none of it is clinical advice.</p>
 </div>
 
 ---
 
 ## Ready to Go Deeper?
 
-Explore the detailed sections to see the evidence, predictions, and implications of this framework.
+Explore the detailed sections for the reasoning, the literature it draws on, and the open questions.
 
 <div class="sections-preview">
   <h3>Explore by Category:</h3>
@@ -206,7 +206,7 @@ Explore the detailed sections to see the evidence, predictions, and implications
   </div>
 
   <div class="category-box">
-    <h4>Phenomena Explained</h4>
+    <h4>Phenomena Through This Lens</h4>
     <ul>
       <li><a href="{{ site.baseurl }}/sections/sensory-cognition">Sensory & Cognitive Effects</a></li>
       <li><a href="{{ site.baseurl }}/sections/executive-and-attention">Executive Function & Attention</a></li>
@@ -217,7 +217,7 @@ Explore the detailed sections to see the evidence, predictions, and implications
   </div>
 
   <div class="category-box">
-    <h4>Evidence & Integration</h4>
+    <h4>Context & Integration</h4>
     <ul>
       <li><a href="{{ site.baseurl }}/sections/predictive-coding-learning">Predictive Processing</a></li>
       <li><a href="{{ site.baseurl }}/sections/energetic-collapse">Energetic Collapse States</a></li>
@@ -243,15 +243,17 @@ Explore the detailed sections to see the evidence, predictions, and implications
 
 ## Your Journey Recap
 
-You now understand the Higher-Resolution Hypothesis:
+That's the Higher-Resolution Hypothesis in brief:
 
 1. **The Paradox:** Exceptional abilities and overwhelming challenges coexist
-2. **Higher Resolution:** More neurons capture more dimensions = finer discrimination
-3. **Distributed Pathways:** more neurons in overlapping circuits create this resolution
-4. **Dual Constraints:** Enhanced inhibition + energy competition shape the phenotype
-5. **Complete Picture:** One architecture explains strengths, challenges, and heterogeneity
+2. **Higher Resolution:** Capturing more dimensions would allow finer discrimination
+3. **Distributed Pathways:** More overlapping routes for the same input may create this resolution
+4. **Dual Constraints:** Enhanced inhibition + energy competition would shape the phenotype
+5. **Putting It Together:** One architecture might account for strengths, challenges, and heterogeneity
 
-**Explore the detailed sections to see the evidence, predictions, and implications of this framework.**
+This is a hypothesis I can't currently test. I don't know how large any of these effects would be, and most of what it describes is also consistent with existing excitation/inhibition-balance and predictive-coding accounts. The full paper sets out what would change my mind and what I don't know how to test.
+
+**Explore the detailed sections for the reasoning, the literature it draws on, and the open questions.**
 
 <div class="navline">
   <a data-nav href="{{ site.baseurl }}/intro/4-dual-constraints">← Prev</a>
@@ -260,5 +262,5 @@ You now understand the Higher-Resolution Hypothesis:
 </div>
 
 <div class="final-message">
-  <p><em>Thank you for taking this journey. Whether you're autistic, a family member, a researcher, or simply curious — I hope this framework provides valuable perspective on autism as an alternative computational architecture with intrinsic trade-offs.</em></p>
+  <p><em>Thank you for taking this journey. Whether you're autistic, a family member, a researcher, or simply curious — I hope this framework offers a useful perspective on autism as an alternative computational architecture with intrinsic trade-offs—and if you can see where it's wrong, I would like to hear it.</em></p>
 </div>

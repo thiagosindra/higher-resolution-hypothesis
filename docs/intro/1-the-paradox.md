@@ -32,7 +32,7 @@ How can someone notice details others miss, yet struggle with everyday transitio
 
 An autistic engineer debugs complex code that stumped their entire team, then has a meltdown when the office lighting changes. An autistic child identifies every dinosaur species by subtle skeletal features, but cannot tolerate the texture of most foods.
 
-Traditional explanations fail to connect these dots. Deficit models can't explain the exceptional abilities. Difference models can't explain the genuine struggles.
+I have found it hard to connect these dots with the explanations I know. Deficit models struggle to account for the exceptional abilities. Difference models can understate the genuine struggles.
 
 ## The Pattern
 
@@ -106,23 +106,23 @@ Traditional explanations fail to connect these dots. Deficit models can't explai
 
 ## A Different Framework
 
-We need a framework that explains **BOTH** from the same underlying principle.
+What I have been looking for is a framework that could account for **BOTH** from the same underlying principle.
 
-What if autism isn't a collection of unrelated traits, but a fundamentally different way of building neural representations—one optimized for precision rather than efficiency?
+What if autism isn't a collection of unrelated traits, but a different way of building neural representations—one optimized for precision rather than efficiency?
 
 ## The Invitation
 
-This hypothesis proposes that autistic brains achieve higher-resolution processing through different neural architecture. Like a high-definition camera captures more detail but requires more light and processing power, autistic brains capture richer information but face resource constraints.
+This hypothesis suggests that autistic brains may achieve higher-resolution processing through a different neural architecture. Like a high-definition camera that captures more detail but requires more light and processing power, autistic brains would capture richer information but face resource constraints. It is an idea I have been working on to make sense of my own experience and the literature I have read, not an established result.
 
 Over the next four pages, we'll unpack:
 - What 'higher resolution' means in neural terms
-- How this architecture actually works
+- How I think this architecture might work
 - Why it creates both advantages and constraints
-- How this explains everything from sensory sensitivity to meltdowns
+- How it might account for experiences from sensory sensitivity to meltdowns
 
 ## What Comes Next
 
-The key to understanding this paradox lies in recognizing that brains, like cameras or sensors, can be optimized for different goals. Let's explore what that means.
+My starting point for this paradox is that brains, like cameras or sensors, might be optimized for different goals. Let's explore what that could mean.
 
 <div class="navline">
   <a data-nav href="{{ site.baseurl }}/">← Home</a>
